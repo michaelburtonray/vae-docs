@@ -1,0 +1,11 @@
+permalink: pretty
+cdn: false
+include:
+  - .htaccess
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+sass:
+  sass_dir: _scss
+  style: compressed
