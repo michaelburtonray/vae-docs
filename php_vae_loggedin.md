@@ -1,0 +1,19 @@
+# vae\_loggedin() {#php_vae_loggedin}
+
+Use the `vae_loggedin()` function to determine if the client is logged
+in to the Vae backstage.
+
+## Usage
+
+`vae_loggedin()`
+
+## Returns
+
+Returns `true` if user is logged in, `false` otherwise.
+
+## Sample Usage
+
+    <?php
+    // Only proceed if user is logged in
+    if (!vae_loggedin()) return vae_redirect("/");
+    ?>
