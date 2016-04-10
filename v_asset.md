@@ -3,7 +3,7 @@ layout: docs
 title: "<v:asset>"
 ---
 
-# `<v:asset>`{#v_asset}
+# `<v:asset>`
 
 Combines Javascript and/or stylesheet files into one compressed download
 and renders the appropriate `<link>` or `<script>` code for the combined

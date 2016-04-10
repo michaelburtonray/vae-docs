@@ -3,7 +3,7 @@ layout: docs
 title: "<v:facebook_like>"
 ---
 
-# `<v:facebook_like>`{#v_facebook_like}
+# `<v:facebook_like>`
 
 Renders a [Facebook Like
 Button](http://developers.facebook.com/docs/reference/plugins/like) and

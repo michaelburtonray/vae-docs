@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:if_digital_downloads>"
 ---
 
-# `<v:store:if_digital_downloads>`{#v_store_if_digital_downloads}
+# `<v:store:if_digital_downloads>`
 
 Renders its contents only if there are digital download items in the
 shopping cart.

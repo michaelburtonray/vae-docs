@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:if_recent_order_paypal>"
 ---
 
-# `<v:store:if_recent_order_paypal>`{#v_store_if_recent_order_paypal}
+# `<v:store:if_recent_order_paypal>`
 
 Renders its contents only if the payment method used for the most recent
 order was PayPal.

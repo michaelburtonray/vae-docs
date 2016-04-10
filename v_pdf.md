@@ -3,7 +3,7 @@ layout: docs
 title: "<v:pdf>"
 ---
 
-# `<v:pdf>`{#v_pdf}
+# `<v:pdf>`
 
 To render pages as a PDF, they should be named `.pdf.html`, `.pdf.haml`,
 `.pdf.html.php`, or `pdf.haml.php`. For more information, please see the

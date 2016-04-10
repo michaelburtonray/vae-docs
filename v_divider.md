@@ -3,7 +3,7 @@ layout: docs
 title: "<v:divider>"
 ---
 
-# `<v:divider>`{#v_divider}
+# `<v:divider>`
 
 This tag is used to insert HTML code between or around the individual
 entries in a tag that iterates over multiple entries (such as

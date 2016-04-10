@@ -3,7 +3,7 @@ layout: docs
 title: "<v:if>"
 ---
 
-# `<v:if>`{#v_if}
+# `<v:if>`
 
 Renders its contents only if a certain condition is met. These
 conditions can be:

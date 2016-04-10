@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:if_currency>"
 ---
 
-# `<v:store:if_currency>`{#v_store_if_currency}
+# `<v:store:if_currency>`
 
 Renders its contents only if the user has [elected to display the prices
 on the site in a different currency](#v_store_currency_select).

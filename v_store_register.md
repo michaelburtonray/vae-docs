@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:register>"
 ---
 
-# `<v:store:register>`{#v_store_register}
+# `<v:store:register>`
 
 Outputs an HTML form (`<form>` tag) that will save a customer's billing
 information, shipping information, and E-Mail address.

@@ -3,7 +3,7 @@ layout: docs
 title: "<v:gravatar>"
 ---
 
-# `<v:gravatar>`{#v_gravatar}
+# `<v:gravatar>`
 
 Renders a [Gravatar](http://gravatar.com/) image.
 

@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:recent_order>"
 ---
 
-# `<v:store:recent_order>`{#v_store_recent_order}
+# `<v:store:recent_order>`
 
 Iterates over all items purchased in the most recent order by this
 visitor.

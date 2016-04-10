@@ -3,7 +3,7 @@ layout: docs
 title: "<v:img>"
 ---
 
-# `<v:img>`{#v_img}
+# `<v:img>`
 
 Outputs an HTML `<img>` tag that will display the image uploaded to a
 Vae [Image structure](#structure.image).

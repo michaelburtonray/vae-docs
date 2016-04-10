@@ -3,7 +3,7 @@ layout: docs
 title: "<v:country_select>"
 ---
 
-# `<v:country_select>`{#v_country_select}
+# `<v:country_select>`
 
 Outputs an HTML select input field (`<select>` tag) prepopulated with a
 list of countries in the world as options.

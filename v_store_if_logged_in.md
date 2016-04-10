@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:if_logged_in>"
 ---
 
-# `<v:store:if_logged_in>`{#v_store_if_logged_in}
+# `<v:store:if_logged_in>`
 
 Renders its contents only if the user has logged in using their [store
 account](#backstage.customers).

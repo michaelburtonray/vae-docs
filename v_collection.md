@@ -3,7 +3,7 @@ layout: docs
 title: "<v:collection>"
 ---
 
-# `<v:collection>`{#v_collection}
+# `<v:collection>`
 
 Iterates over a Vae Collection and renders the text and tags inside once
 for every entry. This tag is very flexible: you can paginate, search,

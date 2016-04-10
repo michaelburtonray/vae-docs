@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:payment_methods_select>"
 ---
 
-# `<v:store:payment_methods_select>`{#v_store_payment_methods_select}
+# `<v:store:payment_methods_select>`
 
 Outputs an HTML select input field (`<select>` tag) prepopulated with a
 list of acceptable [payment methods](#ecommerce.merchant_account) as

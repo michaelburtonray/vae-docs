@@ -3,7 +3,7 @@ layout: docs
 title: "<v:else>"
 ---
 
-# `<v:else>`{#v_else}
+# `<v:else>`
 
 When a [`<v:if`](#v_if)&gt; tag or other tag that provides conditional
 branching contains a `<v:else>` tag, the content of the `<v:else>` will

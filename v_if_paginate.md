@@ -3,7 +3,7 @@ layout: docs
 title: "<v:if_paginate>"
 ---
 
-# `<v:if_paginate>`{#v_if_paginate}
+# `<v:if_paginate>`
 
 Renders its contents only if a specified collection contains more than a
 certain number of items (causing it to spill onto multiple pages).

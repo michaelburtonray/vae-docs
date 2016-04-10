@@ -3,7 +3,7 @@ layout: docs
 title: "<v:update>"
 ---
 
-# `<v:update>`{#v_update}
+# `<v:update>`
 
 Outputs an HTML form (`<form>` tag) that when submitted will update an
 entry stored in Vae. This is commonly used for building CMS

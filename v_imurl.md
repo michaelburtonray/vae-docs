@@ -3,7 +3,7 @@ layout: docs
 title: "<v:imurl>"
 ---
 
-# `<v:imurl>`{#v_imurl}
+# `<v:imurl>`
 
 Outputs the URL for an image uploaded to a Vae image structure. This tag
 is rarely used, but is useful if you need to provide a direct link or

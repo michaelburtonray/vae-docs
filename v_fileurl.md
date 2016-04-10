@@ -3,7 +3,7 @@ layout: docs
 title: "<v:fileurl>"
 ---
 
-# `<v:fileurl>`{#v_fileurl}
+# `<v:fileurl>`
 
 Outputs the URL for a file uploaded to a Vae file or image structure.
 This tag is rarely used, but is useful if you need to provide a direct

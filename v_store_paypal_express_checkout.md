@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:paypal_express_checkout>"
 ---
 
-# `<v:store:paypal_express_checkout>`{#v_store_paypal_express_checkout}
+# `<v:store:paypal_express_checkout>`
 
 Displays a button that when clicked will launch the PayPal Express
 Checkout flow. Usually displayed on the Shopping Cart page, below the

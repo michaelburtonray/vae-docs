@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:previous_orders>"
 ---
 
-# `<v:store:previous_orders>`{#v_store_previous_orders}
+# `<v:store:previous_orders>`
 
 Iterates over all orders previously made by the currently logged in user
 and renders the text inside once for every element.

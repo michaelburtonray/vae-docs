@@ -3,7 +3,7 @@ layout: docs
 title: "<v:pagination>"
 ---
 
-# `<v:pagination>`{#v_pagination}
+# `<v:pagination>`
 
 Renders a set of page links for a `<v:collection>` tag that is being
 paginated. The CSS class for the current page is set to `current`.

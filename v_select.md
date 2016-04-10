@@ -3,7 +3,7 @@ layout: docs
 title: "<v:select>"
 ---
 
-# `<v:select>`{#v_select}
+# `<v:select>`
 
 Outputs an HTML select input field (`<select>` tag). When used inside a
 `<v:collection>` tag or any other tag that iterates over a collection,

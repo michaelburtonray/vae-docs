@@ -3,7 +3,7 @@ layout: docs
 title: "<v:rss>"
 ---
 
-# `<v:rss>`{#v_rss}
+# `<v:rss>`
 
 Generates an RSS feed from one or more collections of data on Vae.
 Generally this tag would be put into a file by itself, perhaps called

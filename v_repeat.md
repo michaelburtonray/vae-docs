@@ -3,7 +3,7 @@ layout: docs
 title: "<v:repeat>"
 ---
 
-# `<v:repeat>`{#v_repeat}
+# `<v:repeat>`
 
 Renders the code inside multiple times. Useful for avoiding repeated
 blocks of code in your VaeML files.

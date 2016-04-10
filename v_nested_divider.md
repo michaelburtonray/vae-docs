@@ -3,7 +3,7 @@ layout: docs
 title: "<v:nested_divider>"
 ---
 
-# `<v:nested_divider>`{#v_nested_divider}
+# `<v:nested_divider>`
 
 This tag is used to insert HTML code between or around the hierarchy
 levels in the [`<v:nested_collection>`](#v_nested_collection) tag. There

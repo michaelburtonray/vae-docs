@@ -3,7 +3,7 @@ layout: docs
 title: "<v:set_default>"
 ---
 
-# `<v:set_default>`{#v_set_default}
+# `<v:set_default>`
 
 Sets a request parameter's default value – the value that will be used
 in all other VaeML tags where that request parameter is referred. If the

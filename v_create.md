@@ -3,7 +3,7 @@ layout: docs
 title: "<v:create>"
 ---
 
-# `<v:create>`{#v_create}
+# `<v:create>`
 
 Outputs an HTML form (`<form>` tag) that when submitted will add an
 entry to a Vae collection. This is commonly used for building CMS

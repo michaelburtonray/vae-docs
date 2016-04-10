@@ -3,7 +3,7 @@ layout: docs
 title: "<v:users:logout>"
 ---
 
-# `<v:users:logout>`{#v_users_logout}
+# `<v:users:logout>`
 
 Outputs an HTML link (`<a>` tag) that will log the user out when clicked
 on by the user.

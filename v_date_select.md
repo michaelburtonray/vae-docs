@@ -3,7 +3,7 @@ layout: docs
 title: "<v:date_select>"
 ---
 
-# `<v:date_select>`{#v_date_select}
+# `<v:date_select>`
 
 Outputs a three HTML select input fields (`<select>` tag) that represent
 the month, date, and year components of a date.

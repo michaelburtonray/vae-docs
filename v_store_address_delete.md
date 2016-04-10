@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:address_delete>"
 ---
 
-# `<v:store:address_delete>`{#v_store_address_delete}
+# `<v:store:address_delete>`
 
 Outputs an HTML link (`<a>` tag) that will delete the stored customer
 address in the currenct context when clicked on by the user.

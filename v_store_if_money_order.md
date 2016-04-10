@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:if_money_order>"
 ---
 
-# `<v:store:if_money_order>`{#v_store_if_money_order}
+# `<v:store:if_money_order>`
 
 Renders its contents only if currently selected payment method is Money
 Order.

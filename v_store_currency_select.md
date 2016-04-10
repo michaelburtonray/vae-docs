@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:currency_select>"
 ---
 
-# `<v:store:currency_select>`{#v_store_currency_select}
+# `<v:store:currency_select>`
 
 Outputs an HTML select input field (`<select>` tag) that when changed
 will set the display currency for your store. It is prepopulated with a

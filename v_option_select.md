@@ -3,7 +3,7 @@ layout: docs
 title: "<v:option_select>"
 ---
 
-# `<v:option_select>`{#v_option_select}
+# `<v:option_select>`
 
 Outputs a group of linked HTML select input fields (`<select>` tags)
 that will allow the user to select a specific entry by choosing its

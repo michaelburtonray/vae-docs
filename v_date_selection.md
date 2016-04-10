@@ -3,7 +3,7 @@ layout: docs
 title: "<v:date_selection>"
 ---
 
-# `<v:date_selection>`{#v_date_selection}
+# `<v:date_selection>`
 
 Renders a set of date links that represent the date range associated
 with a set of entries. This is commonly used to build archive sections

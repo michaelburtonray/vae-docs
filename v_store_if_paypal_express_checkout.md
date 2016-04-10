@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:if_paypal_express_checkout>"
 ---
 
-# `<v:store:if_paypal_express_checkout>`{#v_store_if_paypal_express_checkout}
+# `<v:store:if_paypal_express_checkout>`
 
 Renders its contents only if currently selected payment method is PayPal
 Express Checkout. This tag will not render its contents if the payment

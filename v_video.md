@@ -3,7 +3,7 @@ layout: docs
 title: "<v:video>"
 ---
 
-# `<v:video>`{#v_video}
+# `<v:video>`
 
 Outputs HTML that will display a video player that plays the video
 uploaded to a Vae [Video structure](#structure.video).

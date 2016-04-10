@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:cart:items>"
 ---
 
-# `<v:store:cart:items>`{#v_store_cart_items}
+# `<v:store:cart:items>`
 
 Iterates over all items in the current customer's shopping cart and
 renders the text and tags inside once for every cart item. You may nest

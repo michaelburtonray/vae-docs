@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:cart:total>"
 ---
 
-# `<v:store:cart:total>`{#v_store_cart_total}
+# `<v:store:cart:total>`
 
 Renders the total for the current shopping cart including shipping,
 discounts, and tax.

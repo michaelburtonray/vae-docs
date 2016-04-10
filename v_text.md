@@ -3,7 +3,7 @@ layout: docs
 title: "<v:text>"
 ---
 
-# `<v:text>`{#v_text}
+# `<v:text>`
 
 Outputs the text associated with a Vae [text
 structure](#structure.text), [text area structure](#structure.textarea),

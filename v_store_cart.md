@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:cart>"
 ---
 
-# `<v:store:cart>`{#v_store_cart}
+# `<v:store:cart>`
 
 Outputs an HTML form (`<form>` tag) that will process modifications to
 the customer's shopping cart.

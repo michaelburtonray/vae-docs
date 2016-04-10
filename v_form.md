@@ -3,7 +3,7 @@ layout: docs
 title: "<v:form>"
 ---
 
-# `<v:form>`{#v_form}
+# `<v:form>`
 
 Outputs an HTML form.
 

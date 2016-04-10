@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:paypal_checkout>"
 ---
 
-# `<v:store:paypal_checkout>`{#v_store_paypal_checkout}
+# `<v:store:paypal_checkout>`
 
 Displays a button that when clicked will launch the PayPal Website
 Payments Standard checkout flow without going through a registration and

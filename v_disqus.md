@@ -3,7 +3,7 @@ layout: docs
 title: "<v:disqus>"
 ---
 
-# `<v:disqus>`{#v_disqus}
+# `<v:disqus>`
 
 Renders a [Disqus](http://disqus.com/) discussion area. You must first
 [register your site with Disqus](http://disqus.com/comments/register/).

@@ -3,7 +3,7 @@ layout: docs
 title: "<v:debug>"
 ---
 
-# `<v:debug>`{#v_debug}
+# `<v:debug>`
 
 Helps you debug your code by outputting all data in the current context.
 If you put it at top-level, it will give you all of your data. Inside a

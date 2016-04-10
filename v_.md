@@ -3,7 +3,7 @@ layout: docs
 title: "<v:>"
 ---
 
-# `<v:>`{#v_}
+# `<v:>`
 
 ## Required Attributes
 

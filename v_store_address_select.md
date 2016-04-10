@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:address_select>"
 ---
 
-# `<v:store:address_select>`{#v_store_address_select}
+# `<v:store:address_select>`
 
 Outputs an HTML select input field (`<select>` tag) prepopulated with a
 list of the currently logged-in customer's stored addresses. When an

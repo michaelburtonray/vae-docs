@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:forgot>"
 ---
 
-# `<v:store:forgot>`{#v_store_forgot}
+# `<v:store:forgot>`
 
 Outputs an HTML form (`<form>` tag) that will operate as a forgot
 password form. The user may enter their E-Mail address and an E-Mail

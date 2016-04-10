@@ -3,7 +3,7 @@ layout: docs
 title: "<v:session_dump>"
 ---
 
-# `<v:session_dump>`{#v_session_dump}
+# `<v:session_dump>`
 
 Renders the contents of a PHP session variable. Useful in tandem with
 `<v:collection>`'s `store_in_session` attribute or custom PHP code.

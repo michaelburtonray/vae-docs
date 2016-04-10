@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:logout>"
 ---
 
-# `<v:store:logout>`{#v_store_logout}
+# `<v:store:logout>`
 
 Outputs an HTML link (`<a>` tag) that will log the customer out when
 clicked on by the user.

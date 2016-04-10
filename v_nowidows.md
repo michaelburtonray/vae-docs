@@ -3,7 +3,7 @@ layout: docs
 title: "<v:nowidows>"
 ---
 
-# `<v:nowidows>`{#v_nowidows}
+# `<v:nowidows>`
 
 Inserts a nonbreaking space before the last word in a block of text to
 prevent it from being displayed on a line by itself.

@@ -3,7 +3,7 @@ layout: docs
 title: "<v:cdn>"
 ---
 
-# `<v:cdn>`{#v_cdn}
+# `<v:cdn>`
 
 Outputs either the base CDN URL for your website (if called with no
 attributes) or the CDN URL for a specific asset on your website (if

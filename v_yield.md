@@ -3,7 +3,7 @@ layout: docs
 title: "<v:yield>"
 ---
 
-# `<v:yield>`{#v_yield}
+# `<v:yield>`
 
 Used in a template file to mark the part of the file that will be filled
 in by the original content page or page fragment. See the documentation

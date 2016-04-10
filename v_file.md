@@ -3,7 +3,7 @@ layout: docs
 title: "<v:file>"
 ---
 
-# `<v:file>`{#v_file}
+# `<v:file>`
 
 Outputs an HTML link (`<a>` tag) that will initiate a download of a file
 (stored in a [File](#structure.file) or [Image](#structure.image)

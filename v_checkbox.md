@@ -3,7 +3,7 @@ layout: docs
 title: "<v:checkbox>"
 ---
 
-# `<v:checkbox>`{#v_checkbox}
+# `<v:checkbox>`
 
 Outputs an HTML checkbox tag (`<input type="checkbox">` tag). When the
 `path` attribute is set and this tag is used inside a `<v:collection>`

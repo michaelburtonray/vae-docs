@@ -3,7 +3,7 @@ layout: docs
 title: "<v:captcha>"
 ---
 
-# `<v:captcha>`{#v_captcha}
+# `<v:captcha>`
 
 Renders a CAPTCHA using [reCAPTCHA](http://recaptcha.net/). Only useful
 inside an HTML form. In order for the HTML form containing the CAPTCHA

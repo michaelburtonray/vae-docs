@@ -3,7 +3,7 @@ layout: docs
 title: "<v:a>"
 ---
 
-# `<v:a>`{#v_a}
+# `<v:a>`
 
 Outputs an HTML link (`<a>` tag). The link can point to a URL that you
 specify, a URL stored in a Vae text field, or the

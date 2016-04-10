@@ -3,7 +3,7 @@ layout: docs
 title: "<v:nested_collection>"
 ---
 
-# `<v:nested_collection>`{#v_nested_collection}
+# `<v:nested_collection>`
 
 Iterates over a Vae Nested Collection and renders the text and tags
 inside once for every entry, including child entries.

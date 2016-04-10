@@ -3,7 +3,7 @@ layout: docs
 title: "<v:template>"
 ---
 
-# `<v:template>`{#v_template}
+# `<v:template>`
 
 Used to include a template file that will wrap the content of the
 current page. Useful for breaking repeated code segments, such as

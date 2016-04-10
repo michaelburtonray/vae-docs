@@ -3,7 +3,7 @@ layout: docs
 title: "<v:users:register>"
 ---
 
-# `<v:users:register>`{#v_users_register}
+# `<v:users:register>`
 
 Outputs an HTML form (`<form>` tag) that when submitted will register
 users for your website by adding their information to a Vae collection.

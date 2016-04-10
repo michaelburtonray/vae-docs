@@ -3,7 +3,7 @@ layout: docs
 title: "<v:fragment>"
 ---
 
-# `<v:fragment>`{#v_fragment}
+# `<v:fragment>`
 
 This tag has 2 uses.
 

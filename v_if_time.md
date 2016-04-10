@@ -3,7 +3,7 @@ layout: docs
 title: "<v:if_time>"
 ---
 
-# `<v:if_time>`{#v_if_time}
+# `<v:if_time>`
 
 Renders its contents only if the current time is either before or after
 a set time. Times are computed relative to the time zone associated with

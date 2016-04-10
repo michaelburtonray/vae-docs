@@ -3,7 +3,7 @@ layout: docs
 title: "<v:facebook_comments>"
 ---
 
-# `<v:facebook_comments>`{#v_facebook_comments}
+# `<v:facebook_comments>`
 
 Renders a [Facebook Comment
 Box](http://developers.facebook.com/docs/reference/plugins/comments)

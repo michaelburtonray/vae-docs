@@ -3,7 +3,7 @@ layout: docs
 title: "<v:text_field>"
 ---
 
-# `<v:text_field>`{#v_text_field}
+# `<v:text_field>`
 
 Outputs an HTML text input field (`<input type="text">` tag).
 

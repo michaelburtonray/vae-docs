@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:shipping_methods_select>"
 ---
 
-# `<v:store:shipping_methods_select>`{#v_store_shipping_methods_select}
+# `<v:store:shipping_methods_select>`
 
 Outputs an HTML select input field (`<select>` tag) prepopulated with a
 list of acceptable [shipping methods](#ecommerce.real_time_shipping) as

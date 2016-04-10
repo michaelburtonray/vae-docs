@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:user>"
 ---
 
-# `<v:store:user>`{#v_store_user}
+# `<v:store:user>`
 
 Renders the text and tags inside with the context set to the information
 collected about the current store customer.

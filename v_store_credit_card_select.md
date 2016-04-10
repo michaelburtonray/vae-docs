@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:credit_card_select>"
 ---
 
-# `<v:store:credit_card_select>`{#v_store_credit_card_select}
+# `<v:store:credit_card_select>`
 
 Outputs an HTML select input field (`<select>` tag) prepopulated with a
 list of acceptable credit card types as options.

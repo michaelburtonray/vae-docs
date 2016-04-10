@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:if_discount>"
 ---
 
-# `<v:store:if_discount>`{#v_store_if_discount}
+# `<v:store:if_discount>`
 
 Renders its contents only if the user has entered a valid discount code
 and is receiving a discount.

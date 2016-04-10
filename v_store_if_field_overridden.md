@@ -3,7 +3,7 @@ layout: docs
 title: "<v:store:if_field_overridden>"
 ---
 
-# `<v:store:if_field_overridden>`{#v_store_if_field_overridden}
+# `<v:store:if_field_overridden>`
 
 Renders its contents only if the specified structure in the item context
 is overridden in the context of its options.
