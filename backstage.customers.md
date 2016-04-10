@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Customers Tab
+title: Customers Tab
 ---
 
 # Customers Tab

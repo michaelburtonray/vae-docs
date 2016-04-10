@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_errors()
+title: vae\_errors()
 ---
 
 # vae\_errors()

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Password
+title: Password
 ---
 
 # Password

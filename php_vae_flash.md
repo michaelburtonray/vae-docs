@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_flash()
+title: vae\_flash()
 ---
 
 # vae\_flash()

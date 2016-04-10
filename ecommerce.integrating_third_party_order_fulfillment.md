@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Integrating With a Third-Party for Order Fulfillment
+title: Integrating With a Third-Party for Order Fulfillment
 ---
 
 # Integrating With a Third-Party for Order Fulfillment

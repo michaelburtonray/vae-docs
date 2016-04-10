@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Collection
+title: Collection
 ---
 
 # Collection

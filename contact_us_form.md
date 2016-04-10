@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # A 'Contact Us' Form
+title: A 'Contact Us' Form
 ---
 
 # A 'Contact Us' Form

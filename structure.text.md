@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Text
+title: Text
 ---
 
 # Text

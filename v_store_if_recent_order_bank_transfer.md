@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:store:if_recent_order_bank_transfer>`{#v_store_if_recent_order_bank_transfer}
+title: "<v:store:if_recent_order_bank_transfer>{#v_store_if_recent_order_bank_transfer}"
 ---
 
 # `<v:store:if_recent_order_bank_transfer>`{#v_store_if_recent_order_bank_transfer}

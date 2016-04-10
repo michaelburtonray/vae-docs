@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Text Area
+title: Text Area
 ---
 
 # Text Area

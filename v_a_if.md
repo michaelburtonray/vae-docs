@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:a_if>`{#v_a_if}
+title: "<v:a_if>{#v_a_if}"
 ---
 
 # `<v:a_if>`{#v_a_if}

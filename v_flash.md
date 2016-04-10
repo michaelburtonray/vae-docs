@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:flash>`{#v_flash}
+title: "<v:flash>{#v_flash}"
 ---
 
 # `<v:flash>`{#v_flash}

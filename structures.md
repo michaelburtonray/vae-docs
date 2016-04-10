@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Structures
+title: Structures
 ---
 
 # Structures

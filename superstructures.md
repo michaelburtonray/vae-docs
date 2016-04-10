@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Superstructures
+title: Superstructures
 ---
 
 # Superstructures

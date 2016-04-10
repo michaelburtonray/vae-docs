@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:update>`{#v_update}
+title: "<v:update>{#v_update}"
 ---
 
 # `<v:update>`{#v_update}

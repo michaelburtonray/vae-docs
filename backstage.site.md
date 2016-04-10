@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Site Tab
+title: Site Tab
 ---
 
 # Site Tab

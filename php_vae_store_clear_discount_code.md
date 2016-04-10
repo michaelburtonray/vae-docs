@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_clear\_discount\_code()
+title: vae\_store\_clear\_discount\_code()
 ---
 
 # vae\_store\_clear\_discount\_code()

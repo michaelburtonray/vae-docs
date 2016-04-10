@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_checkout()
+title: vae\_store\_checkout()
 ---
 
 # vae\_store\_checkout()

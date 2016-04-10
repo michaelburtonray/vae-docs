@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:divider>`{#v_divider}
+title: "<v:divider>{#v_divider}"
 ---
 
 # `<v:divider>`{#v_divider}

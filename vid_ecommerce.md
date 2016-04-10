@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Video Tutorial: eCommerce
+title: "Video Tutorial: eCommerce"
 ---
 
 # Video Tutorial: eCommerce

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Video
+title: Video
 ---
 
 # Video

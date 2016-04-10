@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_image() and vae\_sizedimage()
+title: vae\_image() and vae\_sizedimage()
 ---
 
 # vae\_image() and vae\_sizedimage()

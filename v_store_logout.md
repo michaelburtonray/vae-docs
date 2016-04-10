@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:store:logout>`{#v_store_logout}
+title: "<v:store:logout>{#v_store_logout}"
 ---
 
 # `<v:store:logout>`{#v_store_logout}

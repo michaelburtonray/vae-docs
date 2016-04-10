@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:disqus>`{#v_disqus}
+title: "<v:disqus>{#v_disqus}"
 ---
 
 # `<v:disqus>`{#v_disqus}

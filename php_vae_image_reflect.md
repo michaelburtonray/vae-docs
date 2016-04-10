@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_image\_reflect()
+title: vae\_image\_reflect()
 ---
 
 # vae\_image\_reflect()

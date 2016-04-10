@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:store:add_to_cart>`{#v_store_add_to_cart}
+title: "<v:store:add_to_cart>{#v_store_add_to_cart}"
 ---
 
 # `<v:store:add_to_cart>`{#v_store_add_to_cart}

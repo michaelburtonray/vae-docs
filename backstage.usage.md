@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Usage / Billing Tab
+title: Usage / Billing Tab
 ---
 
 # Usage / Billing Tab

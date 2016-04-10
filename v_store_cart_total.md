@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:store:cart:total>`{#v_store_cart_total}
+title: "<v:store:cart:total>{#v_store_cart_total}"
 ---
 
 # `<v:store:cart:total>`{#v_store_cart_total}

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_update\_cart\_item()
+title: vae\_store\_update\_cart\_item()
 ---
 
 # vae\_store\_update\_cart\_item()

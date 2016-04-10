@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Logging In To Retrieve Saved Information
+title: Logging In To Retrieve Saved Information
 ---
 
 # Logging In To Retrieve Saved Information

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_redirect()
+title: vae\_redirect()
 ---
 
 # vae\_redirect()

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Real-Time Shipping Calculations
+title: Real-Time Shipping Calculations
 ---
 
 # Real-Time Shipping Calculations

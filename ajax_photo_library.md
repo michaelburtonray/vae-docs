@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Making An AJAX Photo Gallery
+title: Making An AJAX Photo Gallery
 ---
 
 # Making An AJAX Photo Gallery

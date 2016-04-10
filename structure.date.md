@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Date
+title: Date
 ---
 
 # Date

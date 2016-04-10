@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_richtext()
+title: vae\_richtext()
 ---
 
 # vae\_richtext()

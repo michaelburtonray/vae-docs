@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_remove\_from\_cart()
+title: vae\_store\_remove\_from\_cart()
 ---
 
 # vae\_store\_remove\_from\_cart()

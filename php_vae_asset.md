@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_asset()
+title: vae\_asset()
 ---
 
 # vae\_asset()

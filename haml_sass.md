@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Haml and Sass
+title: Haml and Sass
 ---
 
 # Haml and Sass

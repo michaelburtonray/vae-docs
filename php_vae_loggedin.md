@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_loggedin()
+title: vae\_loggedin()
 ---
 
 # vae\_loggedin()

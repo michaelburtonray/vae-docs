@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:option_select>`{#v_option_select}
+title: "<v:option_select>{#v_option_select}"
 ---
 
 # `<v:option_select>`{#v_option_select}

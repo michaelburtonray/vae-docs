@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:collection>`{#v_collection}
+title: "<v:collection>{#v_collection}"
 ---
 
 # `<v:collection>`{#v_collection}

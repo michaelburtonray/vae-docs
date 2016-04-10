@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # PHP Integration
+title: PHP Integration
 ---
 
 # PHP Integration

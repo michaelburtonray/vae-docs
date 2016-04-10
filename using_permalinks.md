@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Permalinks
+title: Permalinks
 ---
 
 # Permalinks

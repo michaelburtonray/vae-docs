@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:rss>`{#v_rss}
+title: "<v:rss>{#v_rss}"
 ---
 
 # `<v:rss>`{#v_rss}

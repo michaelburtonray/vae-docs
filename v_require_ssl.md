@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:require_ssl>`{#v_require_ssl}
+title: "<v:require_ssl>{#v_require_ssl}"
 ---
 
 # `<v:require_ssl>`{#v_require_ssl}

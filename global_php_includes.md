@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Global PHP Includes
+title: Global PHP Includes
 ---
 
 # Global PHP Includes

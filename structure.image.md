@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Image
+title: Image
 ---
 
 # Image

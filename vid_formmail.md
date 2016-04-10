@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Video Tutorial: Formmail
+title: "Video Tutorial: Formmail"
 ---
 
 # Video Tutorial: Formmail

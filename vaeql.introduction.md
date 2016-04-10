@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # VaeQL
+title: VaeQL
 ---
 
 # VaeQL

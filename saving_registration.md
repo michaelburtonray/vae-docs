@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Saving Registration Data
+title: Saving Registration Data
 ---
 
 # Saving Registration Data

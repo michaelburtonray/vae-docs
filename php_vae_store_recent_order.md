@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_recent\_order()
+title: vae\_store\_recent\_order()
 ---
 
 # vae\_store\_recent\_order()

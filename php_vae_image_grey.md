@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_image\_grey()
+title: vae\_image\_grey()
 ---
 
 # vae\_image\_grey()

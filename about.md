@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # About Vae
+title: About Vae
 ---
 
 # About Vae

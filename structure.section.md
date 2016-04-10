@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Section
+title: Section
 ---
 
 # Section

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Video Tutorial: Image Sizes
+title: "Video Tutorial: Image Sizes"
 ---
 
 # Video Tutorial: Image Sizes

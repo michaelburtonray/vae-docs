@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:store:if_recent_order_digital>`{#v_store_if_recent_order_digital}
+title: "<v:store:if_recent_order_digital>{#v_store_if_recent_order_digital}"
 ---
 
 # `<v:store:if_recent_order_digital>`{#v_store_if_recent_order_digital}

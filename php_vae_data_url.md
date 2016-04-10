@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_data\_url()
+title: vae\_data\_url()
 ---
 
 # vae\_data\_url()

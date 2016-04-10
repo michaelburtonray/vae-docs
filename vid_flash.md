@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Video Tutorial: Flash & XML
+title: "Video Tutorial: Flash & XML"
 ---
 
 # Video Tutorial: Flash & XML

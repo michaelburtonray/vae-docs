@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Viewing Orders
+title: Viewing Orders
 ---
 
 # Viewing Orders

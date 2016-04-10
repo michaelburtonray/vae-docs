@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # The Website
+title: The Website
 ---
 
 # The Website

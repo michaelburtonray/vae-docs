@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Newsletter Tab
+title: Newsletter Tab
 ---
 
 # Newsletter Tab

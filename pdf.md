@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Generating PDFs
+title: Generating PDFs
 ---
 
 # Generating PDFs

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Video Tutorial: Newsletters
+title: "Video Tutorial: Newsletters"
 ---
 
 # Video Tutorial: Newsletters

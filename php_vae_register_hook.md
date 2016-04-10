@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_register\_hook()
+title: vae\_register\_hook()
 ---
 
 # vae\_register\_hook()

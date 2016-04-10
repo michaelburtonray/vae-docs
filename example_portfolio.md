@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Full Site Tutorial: Erin Smith Photography
+title: "Full Site Tutorial: Erin Smith Photography"
 ---
 
 # Full Site Tutorial: Erin Smith Photography

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # File
+title: File
 ---
 
 # File

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Coupon Codes
+title: Coupon Codes
 ---
 
 # Coupon Codes

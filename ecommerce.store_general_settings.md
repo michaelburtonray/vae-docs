@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Store General Settings
+title: Store General Settings
 ---
 
 # Store General Settings

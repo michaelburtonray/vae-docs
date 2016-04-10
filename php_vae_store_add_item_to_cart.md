@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_add\_item\_to\_cart()
+title: vae\_store\_add\_item\_to\_cart()
 ---
 
 # vae\_store\_add\_item\_to\_cart()

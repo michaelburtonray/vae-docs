@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_cdn\_url()
+title: vae\_cdn\_url()
 ---
 
 # vae\_cdn\_url()

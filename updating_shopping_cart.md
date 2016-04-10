@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Updating Quantities or Removing Products From Shopping Cart
+title: Updating Quantities or Removing Products From Shopping Cart
 ---
 
 # Updating Quantities or Removing Products From Shopping Cart

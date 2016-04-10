@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Hybrid Structures
+title: Hybrid Structures
 ---
 
 # Hybrid Structures

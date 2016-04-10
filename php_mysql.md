@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # PHP and MySQL
+title: PHP and MySQL
 ---
 
 # PHP and MySQL

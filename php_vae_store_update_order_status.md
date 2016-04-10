@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_update\_order\_status()
+title: vae\_store\_update\_order\_status()
 ---
 
 # vae\_store\_update\_order\_status()

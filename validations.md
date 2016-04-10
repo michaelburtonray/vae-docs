@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Validations
+title: Validations
 ---
 
 # Validations

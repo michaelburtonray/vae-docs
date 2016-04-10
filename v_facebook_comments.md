@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:facebook_comments>`{#v_facebook_comments}
+title: "<v:facebook_comments>{#v_facebook_comments}"
 ---
 
 # `<v:facebook_comments>`{#v_facebook_comments}

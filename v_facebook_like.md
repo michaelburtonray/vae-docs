@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:facebook_like>`{#v_facebook_like}
+title: "<v:facebook_like>{#v_facebook_like}"
 ---
 
 # `<v:facebook_like>`{#v_facebook_like}

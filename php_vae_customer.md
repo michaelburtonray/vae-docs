@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_customer()
+title: vae\_customer()
 ---
 
 # vae\_customer()

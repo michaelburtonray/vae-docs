@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Designer Portal
+title: Designer Portal
 ---
 
 # Designer Portal

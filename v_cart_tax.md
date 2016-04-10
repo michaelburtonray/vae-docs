@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:store:cart:tax>`{#v_cart_tax}
+title: "<v:store:cart:tax>{#v_cart_tax}"
 ---
 
 # `<v:store:cart:tax>`{#v_cart_tax}

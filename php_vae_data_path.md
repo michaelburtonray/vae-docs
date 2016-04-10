@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_data\_path()
+title: vae\_data\_path()
 ---
 
 # vae\_data\_path()

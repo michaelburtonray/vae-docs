@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_total\_weight()
+title: vae\_store\_total\_weight()
 ---
 
 # vae\_store\_total\_weight()

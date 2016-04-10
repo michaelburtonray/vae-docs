@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:store:item:if_discount>`{#v_store_item_if_discount}
+title: "<v:store:item:if_discount>{#v_store_item_if_discount}"
 ---
 
 # `<v:store:item:if_discount>`{#v_store_item_if_discount}

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Using XML to Send Data to Flash App
+title: Using XML to Send Data to Flash App
 ---
 
 # Using XML to Send Data to Flash App

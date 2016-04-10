@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:store:if_field_overridden>`{#v_store_if_field_overridden}
+title: "<v:store:if_field_overridden>{#v_store_if_field_overridden}"
 ---
 
 # `<v:store:if_field_overridden>`{#v_store_if_field_overridden}

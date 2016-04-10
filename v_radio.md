@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:radio>`{#v_radio}
+title: "<v:radio>{#v_radio}"
 ---
 
 # `<v:radio>`{#v_radio}

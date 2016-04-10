@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_permalink()
+title: vae\_permalink()
 ---
 
 # vae\_permalink()

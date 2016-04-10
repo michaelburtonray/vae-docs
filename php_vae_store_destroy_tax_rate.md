@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_destroy\_tax\_rate()
+title: vae\_store\_destroy\_tax\_rate()
 ---
 
 # vae\_store\_destroy\_tax\_rate()

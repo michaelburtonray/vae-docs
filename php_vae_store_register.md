@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_register()
+title: vae\_store\_register()
 ---
 
 # vae\_store\_register()

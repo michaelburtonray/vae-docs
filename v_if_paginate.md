@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:if_paginate>`{#v_if_paginate}
+title: "<v:if_paginate>{#v_if_paginate}"
 ---
 
 # `<v:if_paginate>`{#v_if_paginate}

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Video Tutorial: AJAX
+title: "Video Tutorial: AJAX"
 ---
 
 # Video Tutorial: AJAX

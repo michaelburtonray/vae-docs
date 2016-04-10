@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_multipart\_mail()
+title: vae\_multipart\_mail()
 ---
 
 # vae\_multipart\_mail()

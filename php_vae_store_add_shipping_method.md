@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_add\_shipping\_method()
+title: vae\_store\_add\_shipping\_method()
 ---
 
 # vae\_store\_add\_shipping\_method()

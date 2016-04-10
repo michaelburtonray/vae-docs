@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Adding Products to the Shopping Cart
+title: Adding Products to the Shopping Cart
 ---
 
 # Adding Products to the Shopping Cart

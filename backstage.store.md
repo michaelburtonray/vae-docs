@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Store Tab
+title: Store Tab
 ---
 
 # Store Tab

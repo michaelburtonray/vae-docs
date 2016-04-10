@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:imurl>`{#v_imurl}
+title: "<v:imurl>{#v_imurl}"
 ---
 
 # `<v:imurl>`{#v_imurl}

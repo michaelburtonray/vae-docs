@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_tick()
+title: vae\_tick()
 ---
 
 # vae\_tick()

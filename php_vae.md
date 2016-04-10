@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae()
+title: vae()
 ---
 
 # vae()

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:store:item:price>`{#v_store_item_price}
+title: "<v:store:item:price>{#v_store_item_price}"
 ---
 
 # `<v:store:item:price>`{#v_store_item_price}

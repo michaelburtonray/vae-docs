@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:store:if_currency>`{#v_store_if_currency}
+title: "<v:store:if_currency>{#v_store_if_currency}"
 ---
 
 # `<v:store:if_currency>`{#v_store_if_currency}

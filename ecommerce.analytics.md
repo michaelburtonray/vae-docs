@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Analytics
+title: Analytics
 ---
 
 # Analytics

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Checkbox
+title: Checkbox
 ---
 
 # Checkbox

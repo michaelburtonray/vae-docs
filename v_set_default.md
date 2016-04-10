@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:set_default>`{#v_set_default}
+title: "<v:set_default>{#v_set_default}"
 ---
 
 # `<v:set_default>`{#v_set_default}

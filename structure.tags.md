@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Tags
+title: Tags
 ---
 
 # Tags

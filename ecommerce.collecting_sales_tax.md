@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Collecting Sales Tax
+title: Collecting Sales Tax
 ---
 
 # Collecting Sales Tax

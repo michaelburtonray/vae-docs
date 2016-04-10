@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_watermark()
+title: vae\_watermark()
 ---
 
 # vae\_watermark()

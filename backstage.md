@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Backstage Reference
+title: Backstage Reference
 ---
 
 # Backstage Reference

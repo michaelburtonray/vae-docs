@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # External
+title: External
 ---
 
 # External

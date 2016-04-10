@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Users Tab
+title: Users Tab
 ---
 
 # Users Tab

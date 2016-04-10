@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v:store:user>`{#v_store_user}
+title: "<v:store:user>{#v_store_user}"
 ---
 
 # `<v:store:user>`{#v_store_user}

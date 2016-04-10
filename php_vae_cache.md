@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_cache()
+title: vae\_cache()
 ---
 
 # vae\_cache()

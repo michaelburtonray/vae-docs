@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_render\_tags()
+title: vae\_render\_tags()
 ---
 
 # vae\_render\_tags()

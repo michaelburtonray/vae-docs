@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Caching
+title: Caching
 ---
 
 # Caching

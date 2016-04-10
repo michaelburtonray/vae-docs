@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_destroy\_coupon\_code()
+title: vae\_store\_destroy\_coupon\_code()
 ---
 
 # vae\_store\_destroy\_coupon\_code()

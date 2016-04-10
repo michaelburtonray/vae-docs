@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Rich Text Area
+title: Rich Text Area
 ---
 
 # Rich Text Area

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # eCommerce
+title: eCommerce
 ---
 
 # eCommerce

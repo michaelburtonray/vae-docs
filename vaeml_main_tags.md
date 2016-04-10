@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # VaeML
+title: VaeML
 ---
 
 # VaeML

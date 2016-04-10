@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_style()
+title: vae\_style()
 ---
 
 # vae\_style()
