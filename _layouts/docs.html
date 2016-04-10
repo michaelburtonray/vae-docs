@@ -16,10 +16,10 @@ sections:
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="canonical" href="https://docs.vaeplatform.com{{ page.url }}">
     <link href='http://vaeplatform.com/favicon.ico' rel='shortcut icon' type=' image/x-icon' />
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery.lightbox-0.5.min.js"></script>
-    <script type="text/javascript" src="/js/swfobject.js"></script> 
-    <script type="text/javascript" src="/js/vae_book.js"></script> 
+    <script type="text/javascript" src="/js/swfobject.js"></script>
+    <script type="text/javascript" src="/js/vae_book.js"></script>
     <link rel="stylesheet" type="text/css" media="all" href="http://vaeplatform.com/stylesheets/reset-min.css" />
     <link rel="stylesheet" type="text/css" media="all" href="http://vaeplatform.com/stylesheets/global.css" />
     <link rel="stylesheet" href="{{ '/css/vaebook.css' }}" type="text/css">
@@ -83,41 +83,40 @@ sections:
           <div class="box">
             <div class="btm">
               <h3>Vae Guide</h3>
-                <ul class="parent-menu collapse">
-                  {% for section in page.sections %}
-                  {% capture parent_slug %}/docs/{{ section.slug }}{% if section.slug != '' %}/{% endif %}{% endcapture %}
-                  <li class="parent-item collapse {% if page.url == '/docs/' and section.slug == '' %}active{% else %}{% if section.slug != '' and page.url contains parent_slug %}active{% endif %}{% endif %}">
-                    {% if section.slug != 'support' %}
-                    <a class="parent-link" href="/docs/{{ section.slug }}{% if section.slug != '' %}/{% endif %}">
-                    {% else %}
-                    <a class="parent-link" href="/contact/">
-                    {% endif %}
-                    {{ section.title }}</a>
-                    {% if section.child_items %}
-                    <ul class="child-menu collapse" style="{% if section.slug != '' and page.url contains parent_slug %}display: block;{% endif %}">
-                      {% for child in section.child_items %}
-                      {% capture child_slug %}/docs/{{ section.slug }}/{{ child.slug }}{% if child.slug != '' %}/{% endif %}{% endcapture %}
-                      <li class="child-item"><a class="child-link {% if page.url == child_slug %}active{% endif %}" href="/docs/{{ section.slug }}/{{ child.slug }}{% if child.slug != '' %}/{% endif %}"><span>&#10095;</span> {{ child.title }}</a></li>
-                      {% endfor %}
-                    </ul>
-                    {% endif %}
-                  </li>
-                  {% endfor %}
-                </ul>
-                <h4>Quick Reference</h4>
-                <ul>
-                  <li><a href="vaeml">VaeML</a></li>
-                  <li><a href="vaeql">VaeQL</a></li>
-                  <li><a href="php">PHP Integration</a></li>
-                  <li><a href="hosting">Hosting Environment</a></li>
-                  <li><a href="structures">Structures</a></li>
-                </ul>
+              <ul class="parent-menu collapse">
+                {% for section in page.sections %}
+                {% capture parent_slug %}/docs/{{ section.slug }}{% if section.slug != '' %}/{% endif %}{% endcapture %}
+                <li class="parent-item collapse {% if page.url == '/docs/' and section.slug == '' %}active{% else %}{% if section.slug != '' and page.url contains parent_slug %}active{% endif %}{% endif %}">
+                  {% if section.slug != 'support' %}
+                  <a class="parent-link" href="/docs/{{ section.slug }}{% if section.slug != '' %}/{% endif %}">
+                  {% else %}
+                  <a class="parent-link" href="/contact/">
+                  {% endif %}
+                  {{ section.title }}</a>
+                  {% if section.child_items %}
+                  <ul class="child-menu collapse" style="{% if section.slug != '' and page.url contains parent_slug %}display: block;{% endif %}">
+                    {% for child in section.child_items %}
+                    {% capture child_slug %}/docs/{{ section.slug }}/{{ child.slug }}{% if child.slug != '' %}/{% endif %}{% endcapture %}
+                    <li class="child-item"><a class="child-link {% if page.url == child_slug %}active{% endif %}" href="/docs/{{ section.slug }}/{{ child.slug }}{% if child.slug != '' %}/{% endif %}"><span>&#10095;</span> {{ child.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                  {% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+              <h4>Quick Reference</h4>
+              <ul>
+                <li><a href="vaeml">VaeML</a></li>
+                <li><a href="vaeql">VaeQL</a></li>
+                <li><a href="php">PHP Integration</a></li>
+                <li><a href="hosting">Hosting Environment</a></li>
+                <li><a href="structures">Structures</a></li>
+              </ul>
             </div>
           </div>
         </div>
         <div id="doc-content">
           <div class="content-text">
-
             {{ content }}
           </div>
           <div class="clearer"></div>
@@ -239,8 +238,4 @@ sections:
       } catch(err) {}
     </script>
   </body>
-</html><?
-}
-
-function manual_header() {
-
+</html>
