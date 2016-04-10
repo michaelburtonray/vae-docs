@@ -26,9 +26,9 @@ context. The value of each tag is stored in a child structure called
 The Tags structure editing widget looks like a text field. Tags are
 separated by commas:
 
-![](assets/images/screenshots/content_management/text_structure.png)
+![](/images/screenshots/content_management/text_structure.png)
 
 When a Tags structure is displayed in the list view, tags are displayed
 separated by commas:
 
-![](assets/images/screenshots/content_management/text_structure_listview.png)
+![](/images/screenshots/content_management/text_structure_listview.png)

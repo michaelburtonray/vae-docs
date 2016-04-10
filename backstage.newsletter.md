@@ -29,7 +29,7 @@ Dashboard](#backstage.newsletter.list) for that list.
 To create a new newsletter list, click the Create New link at the top
 right corner of the Newsletter Lists list:
 
-![](assets/images/screenshots/content_management/newsletter_list_new_button.png)
+![](/images/screenshots/content_management/newsletter_list_new_button.png)
 
 An Add List form will be displayed with the following fields:
 
@@ -57,7 +57,7 @@ To edit a list, simply click the Edit icon next to that list in the
 Newsletter Lists list. This will open an Edit List form with the same
 fields as above
 
-![](assets/images/screenshots/content_management/newsletter_list_edit.png)
+![](/images/screenshots/content_management/newsletter_list_edit.png)
 
 Click the Save List button to complete the process of editing the list.
 
@@ -66,7 +66,7 @@ Click the Save List button to complete the process of editing the list.
 To remove a list, simply click the red Delete icon next to that list in
 the Newsletter Lists list:
 
-![](assets/images/screenshots/content_management/newsletter_list_delete.png)
+![](/images/screenshots/content_management/newsletter_list_delete.png)
 
 The list will be deactivated immediately. All subscriber information,
 view/click tracking data, and past campaigns will be deleted and cannot
@@ -79,7 +79,7 @@ tab](#backstage.newsletter.lists) or [All
 Campaigns](#backstage.newsletter.campaigns) tab opens the List Dashboard
 for that list:
 
-![](assets/images/screenshots/content_management/newsletter_dashboard.png)
+![](/images/screenshots/content_management/newsletter_dashboard.png)
 
 The list dashboard contains links titled Campaigns and Manage
 Subscribers that will take you to the
@@ -104,14 +104,14 @@ Clicking the Manage Subscribers link on the [List
 Dashboard](#backstage.newsletter.list) opens the Subscribers tab. It
 lists all subscribers to the selected newsletter list:
 
-![](assets/images/screenshots/content_management/newsletter_list_subscribers_manage.png)
+![](/images/screenshots/content_management/newsletter_list_subscribers_manage.png)
 
 ### Adding a Subscriber
 
 To add a new subscriber to the list, click the Create New link at the
 top right corner of the Subscribers for XYZ Mailing Lists list:
 
-![](assets/images/screenshots/content_management/newsletter_list_create_button.png)
+![](/images/screenshots/content_management/newsletter_list_create_button.png)
 
 An Add Subscriber form will be displayed with the following fields:
 
@@ -120,7 +120,7 @@ An Add Subscriber form will be displayed with the following fields:
 Click the Add Subscriber button to complete the process of adding the
 subscriber to the list:
 
-![](assets/images/screenshots/content_management/newsletter_add_subscriber_button.png)
+![](/images/screenshots/content_management/newsletter_add_subscriber_button.png)
 
 ### Import Multiple E-Mail Addresses as Subscribers
 
@@ -128,13 +128,13 @@ To import a list of E-Mail addresses as subscribers, click the Import
 E-Mail Addresses link at the bottom right corner of the Subscribers for
 XYZ Mailing Lists list:
 
-![](assets/images/screenshots/content_management/newsletter_list_subscribers_import_email_addresses.png)
+![](/images/screenshots/content_management/newsletter_list_subscribers_import_email_addresses.png)
 
 You will be taken to a page with an Add Many Subscribers box. Paste in
 your list of E-Mail addresses, one per line, and click the Submit E-Mail
 Addresses button:
 
-![](assets/images/screenshots/content_management/newsletter_list_subscribers_add_multiple_submit_button.png)
+![](/images/screenshots/content_management/newsletter_list_subscribers_add_multiple_submit_button.png)
 
 Each E-Mail address will be added to the list.
 
@@ -151,7 +151,7 @@ Each E-Mail address will be added to the list.
 To edit a subscriber, simply click the Edit icon next to that subscriber
 in the Subscribers for XYZ Mailing List list:
 
-![](assets/images/screenshots/content_management/newsletter_list_edit_button.png)
+![](/images/screenshots/content_management/newsletter_list_edit_button.png)
 
 This will open an Edit Subscriber form with the same fields as above.
 Click the Save Subscriber button to complete the process of editing the
@@ -164,7 +164,7 @@ subscriberin the Subscribers for XYZ Mailing List list. The subscriber
 will be removed immediately and will not receive any new messages from
 the list.
 
-![](assets/images/screenshots/content_management/newsletter_list_delete_button.png)
+![](/images/screenshots/content_management/newsletter_list_delete_button.png)
 
 ## Campaigns {#backstage.newsletter.campaigns}
 
@@ -211,7 +211,7 @@ trying to send the message for up to 3 days.
 To create a new campaign, click the Schedule or Begin New Campaign link
 at the top right corner of the Campaigns list:
 
-![](assets/images/screenshots/content_management/newsletter_campaign_new_button.png)
+![](/images/screenshots/content_management/newsletter_campaign_new_button.png)
 
 > **Tip**
 >
@@ -221,14 +221,14 @@ at the top right corner of the Campaigns list:
 > sections. These sections are Send to an Existing List and Target
 > Specific Customers:
 >
-> ![](assets/images/screenshots/content_management/newsletter_campaign_create_screen.png)
+> ![](/images/screenshots/content_management/newsletter_campaign_create_screen.png)
 >
 > If you do not have the Customers tab enabled, only existing lists will
 > be displayed.
 >
 > Click on a list name to begin a new campaign on that list:
 >
-> ![](assets/images/screenshots/content_management/newsletter_campaign_list_link.png)
+> ![](/images/screenshots/content_management/newsletter_campaign_list_link.png)
 >
 > Or enter targeting criteria into the boxes under Target Specific
 > Customers to begin a targeted campaign. You may target customers by
@@ -239,7 +239,7 @@ at the top right corner of the Campaigns list:
 
 A Schedule or Begin New Campaign form will be displayed:
 
-![](assets/images/screenshots/content_management/newsletter_campaign_form.png)
+![](/images/screenshots/content_management/newsletter_campaign_form.png)
 
 It will have the following fields:
 
@@ -296,7 +296,7 @@ your template and will be used to populate the template.
 Click the Add Campaign button to complete the process of creating the
 campaign:
 
-![](assets/images/screenshots/content_management/newsletter_campaign_form_add_button.png)
+![](/images/screenshots/content_management/newsletter_campaign_form_add_button.png)
 
 You will be taken back to the Campaigns list.
 
@@ -306,11 +306,11 @@ Before a campaign will be sent, you must confirm the campaign. In the
 Campaigns list, click the link for Confirm Campaign on the line of the
 campaign you would like to confirm:
 
-![](assets/images/screenshots/content_management/newsletter_campaign_confirm_screen.png)
+![](/images/screenshots/content_management/newsletter_campaign_confirm_screen.png)
 
 You will be brought to the Confirm Campaign page:
 
-![](assets/images/screenshots/content_management/newsletter_campaign_confirm_final.png)
+![](/images/screenshots/content_management/newsletter_campaign_confirm_final.png)
 
 Please review the E-Mail and make sure you're satisfied with the grammar
 and layout.
@@ -328,7 +328,7 @@ following section.
 To edit a campaign that has not yet begun to send, simply click the Edit
 icon next to that campaign in the Campaigns list:
 
-![](assets/images/screenshots/content_management/newsletter_campaign_edit_after_confirm.png)
+![](/images/screenshots/content_management/newsletter_campaign_edit_after_confirm.png)
 
 This will open an Edit Campaign form with the same fields as the
 Schedule or Begin New Campaign form. Click the Save Campaign button to
@@ -342,7 +342,7 @@ be sent. Please refer to the above section on confirming the campaign.
 To remove a campaign that has not yet begun to send, simply click the
 red Delete icon next to that campaign in the Campaigns list:
 
-![](assets/images/screenshots/content_management/newsletter_campaign_delete.png)
+![](/images/screenshots/content_management/newsletter_campaign_delete.png)
 
 The campaign will be removed immediately and will not be sent.
 
@@ -352,7 +352,7 @@ To view a campaign that is sending or has been sent, simply click the
 View icon (looks like a blue page with a green arrow) next to that
 campaign in the Campaigns list:
 
-![](assets/images/screenshots/content_management/newsletter_campaign_sent_view.png)
+![](/images/screenshots/content_management/newsletter_campaign_sent_view.png)
 
 This will allow you to view the campaign as it was sent.
 
@@ -366,7 +366,7 @@ To view analytics for campaign that has been sent, simply click the
 Analytics icon (looks like a bar graph) next to that campaign in the
 Campaigns list:
 
-![](assets/images/screenshots/content_management/newsletter_campaign_sent_stats.png)
+![](/images/screenshots/content_management/newsletter_campaign_sent_stats.png)
 
 This will take you to the Campaign Impact page for that campaign. This
 page includes information about the number of views and clicks by day,
@@ -434,7 +434,7 @@ to its confirm page. Any refresh of that page will reload your template.
 To create a new newsletter template, click the Create New link at the
 top right corner of the Templates list:
 
-![](assets/images/screenshots/content_management/newsletter_create_new.png)
+![](/images/screenshots/content_management/newsletter_create_new.png)
 
 An Add Template form will be displayed with the following fields:
 
@@ -479,7 +479,7 @@ Click the Add List button to complete the process of adding the list.
 To edit a template, simply click the Edit icon next to that template in
 the Templates list:
 
-![](assets/images/screenshots/content_management/newsletter_template_edit.png)
+![](/images/screenshots/content_management/newsletter_template_edit.png)
 
 This will open an Edit Template form with the same fields as above.
 Click the Save Template button to complete the process of editing the
@@ -490,6 +490,6 @@ template.
 To remove a template, simply click the red Delete icon next to that
 template in the Templates list:
 
-![](assets/images/screenshots/content_management/newsletter_template_delete.png)
+![](/images/screenshots/content_management/newsletter_template_delete.png)
 
 The template will be deactivated immediately.

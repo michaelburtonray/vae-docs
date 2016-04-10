@@ -31,8 +31,8 @@ Our contact.html page would then contain something like:
 
 The link before it's clicked:
 
-![](assets/images/screenshots/the_website/question_before.png)
+![](/images/screenshots/the_website/question_before.png)
 
 And the result of clicking the link:
 
-![](assets/images/screenshots/the_website/question_after.png)
+![](/images/screenshots/the_website/question_after.png)

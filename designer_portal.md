@@ -11,7 +11,7 @@ existing websites, edit their account data, and more. The Designer
 Portal is located at <https://secure.vaeplatform.com/rabbit_hole>. The
 login screen looks like this:
 
-![](assets/images/screenshots/designer_portal/designer_portal.login_screen.png)
+![](/images/screenshots/designer_portal/designer_portal.login_screen.png)
 
 This interface is available only to registered designer members of the
 Vae Designer Partner Program. For more information about joining the
@@ -42,7 +42,7 @@ If you do not yet have any websites, you will be shown a welcome screen
 that contains the form that will enable you to create your first
 website. It looks like this:
 
-![](assets/images/screenshots/designer_portal/designer_portal.add_first_website.png)
+![](/images/screenshots/designer_portal/designer_portal.add_first_website.png)
 
 ## Creating a new Website
 
@@ -90,4 +90,4 @@ your Designer Portal account details. On this screen you can change your
 name, username, password, and E-Mail address. To make changes, simply
 edit the proper form fields and press the Save button.
 
-![](assets/images/screenshots/designer_portal/designer_portal.account_tab.png)
+![](/images/screenshots/designer_portal/designer_portal.account_tab.png)

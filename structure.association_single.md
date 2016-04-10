@@ -26,12 +26,12 @@ actual child structure of the current context.
 The Association (single) structure editing widget looks like a dropdown
 menu, containing the titles of the associated entries in the dropdown:
 
-![](assets/images/screenshots/content_management/association_structure_single.png)
+![](/images/screenshots/content_management/association_structure_single.png)
 
 When an Association (single) structure is visible in the list view, the
 title of the selected associated entry is displayed:
 
-![](assets/images/screenshots/content_management/association_structure_single_listview.png)
+![](/images/screenshots/content_management/association_structure_single_listview.png)
 
 The name that is displayed for each associated entry is the title of
 that entry. To set this, navigate to the associated collection in the

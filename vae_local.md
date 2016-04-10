@@ -93,7 +93,7 @@ Vae user that was used to check out the Subversion working copy). This
 is a security feature that prevents anyone from accessing your data
 without your permission.
 
-![](assets/images/screenshots/the_website/vae_local.running.png)
+![](/images/screenshots/the_website/vae_local.running.png)
 
 Once the password has been approved, your local preview server will be
 running on `http://localhost:9999/`. You can open a browser window and

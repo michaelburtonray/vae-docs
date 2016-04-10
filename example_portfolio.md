@@ -35,13 +35,13 @@ From Site tab in our site's [Backstage](#backstage), we can define the
 Structures that will hold our site's contents. Here's the screen we're
 presented with before we add any structures:
 
-![](assets/images/screenshots/example_portfolio/initial_backstage_screen.png)
+![](/images/screenshots/example_portfolio/initial_backstage_screen.png)
 
 The first thing we'll add is a Section called `Home`:
 
-![](assets/images/screenshots/example_portfolio/home_setup_1.png)
+![](/images/screenshots/example_portfolio/home_setup_1.png)
 
-![](assets/images/screenshots/example_portfolio/home_setup_2.png)
+![](/images/screenshots/example_portfolio/home_setup_2.png)
 
 `Home` will hold an [Image Structure](#structure.image) and a [Text Area
 Structure](#structure.textarea) that will appear on the initial page our
@@ -50,39 +50,39 @@ clients will see when they load up our site. We're making `Home` a
 [Collection](#structure.collection) because we only want one entry for
 each of these Structures. We'll now create those structures:
 
-![](assets/images/screenshots/example_portfolio/home_setup_3.png)
+![](/images/screenshots/example_portfolio/home_setup_3.png)
 
 Let's add an Image Structure, which will hold an image that will be
 displayed on the homepage:
 
-![](assets/images/screenshots/example_portfolio/home_setup_4.png)
+![](/images/screenshots/example_portfolio/home_setup_4.png)
 
-![](assets/images/screenshots/example_portfolio/home_setup_5.png)
+![](/images/screenshots/example_portfolio/home_setup_5.png)
 
 Now we'll add a Text Area Structure. The Tex Area structure can hold
 multiple lines of text:
 
-![](assets/images/screenshots/example_portfolio/home_setup_6.png)
+![](/images/screenshots/example_portfolio/home_setup_6.png)
 
-![](assets/images/screenshots/example_portfolio/home_setup_7.png)
+![](/images/screenshots/example_portfolio/home_setup_7.png)
 
-![](assets/images/screenshots/example_portfolio/home_setup_8.png)
+![](/images/screenshots/example_portfolio/home_setup_8.png)
 
 Our Section is nearly complete:
 
-![](assets/images/screenshots/example_portfolio/home_setup_9.png)
+![](/images/screenshots/example_portfolio/home_setup_9.png)
 
 We'll add one more thing: an [Image Size](#structure.image) for our
 Image. This will allow us to specify the dimenions that it will be
 cropped to:
 
-![](assets/images/screenshots/example_portfolio/home_setup_10.png)
+![](/images/screenshots/example_portfolio/home_setup_10.png)
 
-![](assets/images/screenshots/example_portfolio/home_setup_11.png)
+![](/images/screenshots/example_portfolio/home_setup_11.png)
 
 We've added the Image Size and our `Home` Section is complete:
 
-![](assets/images/screenshots/example_portfolio/home_setup_12.png)
+![](/images/screenshots/example_portfolio/home_setup_12.png)
 
 Next up, we'll create some Structures to hold Erin's photos. Erin takes
 two types of photos: "Landscape" and "Architecture", so we'll create two
@@ -94,96 +94,96 @@ creating the `Landscape` Collection.
 
 We'll first add a new Collection:
 
-![](assets/images/screenshots/example_portfolio/landscape_1.png)
+![](/images/screenshots/example_portfolio/landscape_1.png)
 
-![](assets/images/screenshots/example_portfolio/landscape_2.png)
+![](/images/screenshots/example_portfolio/landscape_2.png)
 
 Next we'll add a [Text Structure](#structure.text) named `Album Name`,
 followed by an Image Structure called `Album                 Cover`.
 We're going to give `Album Cover` an Image Size called `thumb`:
 
-![](assets/images/screenshots/example_portfolio/landscape_6.png)
+![](/images/screenshots/example_portfolio/landscape_6.png)
 
-![](assets/images/screenshots/example_portfolio/landscape_7.png)
+![](/images/screenshots/example_portfolio/landscape_7.png)
 
-![](assets/images/screenshots/example_portfolio/landscape_8.png)
+![](/images/screenshots/example_portfolio/landscape_8.png)
 
 Finally, we'll add a Sub-Collection called `Images` to our Collection.
 This will store all the photos in the album, so it will contain an Image
 Structure:
 
-![](assets/images/screenshots/example_portfolio/landscape_9.png)
+![](/images/screenshots/example_portfolio/landscape_9.png)
 
-![](assets/images/screenshots/example_portfolio/landscape_12.png)
+![](/images/screenshots/example_portfolio/landscape_12.png)
 
-![](assets/images/screenshots/example_portfolio/landscape_13.png)
+![](/images/screenshots/example_portfolio/landscape_13.png)
 
 We've added two Image Sizes to the Image Structure in the `Images`
 Sub-Collection:
 
-![](assets/images/screenshots/example_portfolio/landscape_14.png)
+![](/images/screenshots/example_portfolio/landscape_14.png)
 
 We'll also create a Collection called `Architecture` with identical
 structuring:
 
-![](assets/images/screenshots/example_portfolio/architecture_collection.png)
+![](/images/screenshots/example_portfolio/architecture_collection.png)
 
 We'd also like to add a [Section](#structure.section) to hold Erin's
 contact information. This will consist of Text Structures for her email
 address and her phone number, with a [Text Area](#structure.textarea)
 Structure for her snail mail address:
 
-![](assets/images/screenshots/example_portfolio/contact_info.png)
+![](/images/screenshots/example_portfolio/contact_info.png)
 
 Now it's time to add content to our Structures. If we click on the
 [Content Tab](#backstage.content), we'll see a listing of the Structures
 we created under the [Site Tab](#backstage.site):
 
-![](assets/images/screenshots/example_portfolio/content_tab_1.png)
+![](/images/screenshots/example_portfolio/content_tab_1.png)
 
 If we click on `Landscape`, we'll be given a form that allows us to add
 the pieces of information as we specified it under the Site Tab. For
 this situation, it means we can add new photo albums by clicking on the
 Create New button.
 
-![](assets/images/screenshots/example_portfolio/content_tab_2.png)
+![](/images/screenshots/example_portfolio/content_tab_2.png)
 
 Here we've added an album for Erin's New Mexico photographs. If we click
 the `Images` hyperlink, we'll be shown a form where we can add photos to
 the `Images` Sub-Collection:
 
-![](assets/images/screenshots/example_portfolio/content_tab_3.png)
+![](/images/screenshots/example_portfolio/content_tab_3.png)
 
-![](assets/images/screenshots/example_portfolio/content_tab_4.png)
+![](/images/screenshots/example_portfolio/content_tab_4.png)
 
 Since we set up some Image Sizes under the [Vae Tab](#backstage.site)
 when we created our Image Structures, Vae asks us to specify the crop
 sizes as we upload the photos:
 
-![](assets/images/screenshots/example_portfolio/content_tab_5.png)
+![](/images/screenshots/example_portfolio/content_tab_5.png)
 
 Here's what our New Mexico `Images` collection looks like after we've
 added all the pictures in Erin's album:
 
-![](assets/images/screenshots/example_portfolio/content_tab_6.png)
+![](/images/screenshots/example_portfolio/content_tab_6.png)
 
 If we click back to the root of the `Landscape` Collection, we can see
 that the `New Mexico`'s `Images` Collection indicates that we have added
 7 Images:
 
-![](assets/images/screenshots/example_portfolio/content_tab_7.png)
+![](/images/screenshots/example_portfolio/content_tab_7.png)
 
 Okay, we've added three albums to our `Landscape` Collection:
 
-![](assets/images/screenshots/example_portfolio/content_tab_8.png)
+![](/images/screenshots/example_portfolio/content_tab_8.png)
 
 We've also done the same for our `Architecture` Collection:
 
-![](assets/images/screenshots/example_portfolio/content_tab_9.png)
+![](/images/screenshots/example_portfolio/content_tab_9.png)
 
 Lastly, we've filled-out our `Contact Information` Section:
 
-![](assets/images/screenshots/example_portfolio/content_tab_10.png)
+![](/images/screenshots/example_portfolio/content_tab_10.png)
 
 ## Coding the Site
 
@@ -200,7 +200,7 @@ photos. Here's our code:
 
 Here's our completed index.html page:
 
-![](assets/images/screenshots/example_portfolio/site_1.png)
+![](/images/screenshots/example_portfolio/site_1.png)
 
 Our next task is to code the `architecture.html` and `landscape.html`
 page. These pages will list all the albums within their respective
@@ -266,7 +266,7 @@ we're iterating through the `Architecture` Collection instead:
 
 Here's our final result:
 
-![](assets/images/screenshots/example_portfolio/site_2.png)
+![](/images/screenshots/example_portfolio/site_2.png)
 
 Because we used [permalinks](#permalinks), you can see that we have a
 nice clean address in the address bar.
@@ -311,9 +311,9 @@ larger version of these images, by clicking on the thumbnail. If that
 tag](#v_shortcuts), which we're using so we can insert the path to our
 image within an attribute value. Here's this code in action:
 
-![](assets/images/screenshots/example_portfolio/site_3.png)
+![](/images/screenshots/example_portfolio/site_3.png)
 
-![](assets/images/screenshots/example_portfolio/site_4.png)
+![](/images/screenshots/example_portfolio/site_4.png)
 
 Lastly, we'll code up a contact page for Erin. This will display her
 contact information along with an AJAX [contact form](#contact_us_form).
@@ -370,9 +370,9 @@ attribute. Our `confirmation.html` page, in it's entirety, is:
 
 Here's the `contact.html` page before and after an email is sent:
 
-![](assets/images/screenshots/example_portfolio/site_5.png)
+![](/images/screenshots/example_portfolio/site_5.png)
 
-![](assets/images/screenshots/example_portfolio/site_6.png)
+![](/images/screenshots/example_portfolio/site_6.png)
 
 Okay, and our site is complete! Be sure to check out the
 [documentation](#vae_guide) for these tags if anything is unclear. You

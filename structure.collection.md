@@ -26,7 +26,7 @@ In the backstage, collections are generally displayed in a [List
 View](#backstage.content.list). In this screenshot, we are viewing the
 `Artists` collection:
 
-![](assets/images/screenshots/content_management/collection_list_view.png)
+![](/images/screenshots/content_management/collection_list_view.png)
 
 ## Nested Collections
 
@@ -48,7 +48,7 @@ To create a nested collection, check the box Allow nested structures?
 when creating a collection in the [Site &gt; Content
 Management](#backstage.site.content_management) tab:
 
-![](assets/images/screenshots/content_management/add_new_collection.png)
+![](/images/screenshots/content_management/add_new_collection.png)
 
 In the backstage, Nested Collections operate very similarly to
 collections. Entries that are children of other entries will be indented

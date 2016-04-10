@@ -32,7 +32,7 @@ bitrate that you specify. In the Edit view for the Video structure,
 click on the Create New link under the Sizes for this video section to
 add a new custom encoding target size.
 
-![](assets/images/screenshots/content_management/video_structure_size_spec.png)
+![](/images/screenshots/content_management/video_structure_size_spec.png)
 
 This will bring up an Add Size box with the following fields:
 

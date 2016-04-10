@@ -173,7 +173,7 @@ To change your credit card on file, click the Change Credit Card on File
 link at the top right corner of the Credit Card box. This will link to
 an external page at `https://vae.vaesite.com/`:
 
-![](assets/images/screenshots/content_management/billing_add_card.png)
+![](/images/screenshots/content_management/billing_add_card.png)
 
 Enter your information into the box labeled Enter Credit Card
 Information and click the Change My Payment Information button to

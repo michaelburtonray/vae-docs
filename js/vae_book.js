@@ -10,18 +10,18 @@ jQuery.fn.swapWith = function(to) {
 
 $(function() {
   $("tr:even").addClass("stripe");
-  $('.screenshot').each(function() {
-    prev = $(this).prev()
-    if (!prev.is(".literallayout, .programlisting, h1, h2, h3, h4, h5, h6")) {
-      $(this).swapWith(prev);
-    } else {
-      $(this).removeClass("screenshot").addClass("screenshot2");
+  $('img').each(function() {
+    if ($(this).attr("src").match(/screenshot/)) {
+      prev = $(this).parent().prev();
+      if (!prev.is("code, h1, h2, h3, h4, h5, h6")) {
+        $(this).parent().prev().prepend("<div class='screenshot'><a href='#expand'><img src='" + $(this).attr("src") +"' /></a></div>");
+        $(this).remove();
+      } else {
+        $(this).addClass("screenshot2");
+      }
     }
   });
-  $('.screenshot').before("<div class='clearscreenshot'></div>");
-  $('.literallayout, .programlisting').prev().before("<div class='clearscreenshot'></div>");
-  $('.screenshot .imageobject img').wrap("<a>");
-  $('.screenshot .imageobject a').each(function() {
+  $('.screenshot a').each(function() {
     img = $(this).find("img");
     $(this).attr("href", img.attr("src"));
   }).lightBox();

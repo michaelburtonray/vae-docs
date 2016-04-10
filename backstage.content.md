@@ -35,7 +35,7 @@ configured.)
 
 The list view displays all entries in a collection in a tabular list:
 
-![](assets/images/screenshots/content_management/collection_list_view.png)
+![](/images/screenshots/content_management/collection_list_view.png)
 
 All structures that have the Show in List View? attribute set will be
 displayed in the table. Additionally, any Child
@@ -48,7 +48,7 @@ association.
 At the right of the table are links to Publish/Unpublish, Edit, and
 Delete each entry:
 
-![](assets/images/screenshots/content_management/collection_list_view_buttons.png)
+![](/images/screenshots/content_management/collection_list_view_buttons.png)
 
 ### Navigating to Child Collections
 
@@ -56,7 +56,7 @@ In the following picture, Mammals and Reptiles are both Child
 Collections of Animals. Clicking on either will open the List View for
 the Child [Collection](#structure.collection).
 
-![](assets/images/screenshots/content_management/child_collection.png)
+![](/images/screenshots/content_management/child_collection.png)
 
 The tab navigation bar at the top will expand to show the current child
 collection as the selected tab, and the selected entry from the parent
@@ -75,7 +75,7 @@ green, it means that the entry is published and live on the website. If
 the dot is red, it means that the entry is not published and will not be
 seen on the website:
 
-![](assets/images/screenshots/content_management/collection_list_view_disable.png)
+![](/images/screenshots/content_management/collection_list_view_disable.png)
 
 You may toggle an entry between published and unpublished by clicking
 the dot. New entries are always published by default. Note that
@@ -96,14 +96,14 @@ rearrange the entries into whatever order you'd like. Click the Reorder
 link at the top right corner of the list view. This will bring up the
 Drag to reorder page, which lists all entries in the collection:
 
-![](assets/images/screenshots/content_management/collection_list_view_reorder.png)
+![](/images/screenshots/content_management/collection_list_view_reorder.png)
 
 On the reorder screen, you crag and drop the entries into the order that
 you would like and click the Done button to save your chosen order.
 Click the Cancel link to go back to the List View. If you do not click
 Done, the order will not be saved:
 
-![](assets/images/screenshots/content_management/collection_reorder_screen.png)
+![](/images/screenshots/content_management/collection_reorder_screen.png)
 
 Only the title field for each entry is shown on the Drag to reorder
 page. This was done to avoid clutter on the reordering page. If you are
@@ -128,12 +128,12 @@ being sorted according to a sort field.
 To add a new entry to the current collection, click the Create New link
 at the top right corner of the [List View](#backstage.content.list):
 
-![](assets/images/screenshots/content_management/collection_list_view_create_new.png)
+![](/images/screenshots/content_management/collection_list_view_create_new.png)
 
 A Create New form will be displayed with an edit field for each
 structure in the collection:
 
-![](assets/images/screenshots/content_management/collection_list_view_create_new_form.png)
+![](/images/screenshots/content_management/collection_list_view_create_new_form.png)
 
 Click the Add button to complete the process of adding the entry. All
 validations on the collection will be run and if there are no errors,
@@ -172,14 +172,14 @@ compression should be a good balance between image quality and image
 size. However, if you'd like to tweak the compression level, click the
 Adjust Quality link next to the image:
 
-![](assets/images/screenshots/content_management/adjust_quality_button.png)
+![](/images/screenshots/content_management/adjust_quality_button.png)
 
 This will bring you to a box called Adjust Image Compression. Drag and
 drop the slider at the bottom of the image to select the proper level of
 quality. Click the Use this compression value button to save your
 selection and return to the Edit View:
 
-![](assets/images/screenshots/content_management/image_quality_adjust.png)
+![](/images/screenshots/content_management/image_quality_adjust.png)
 
 ### Recropping Images
 
@@ -187,12 +187,12 @@ If the entry contains images that have been cropped, you may also change
 the cropping from the Edit View. Click the Crop link next to the image
 and you will be brought to a box labeled Scale and Crop Image:
 
-![](assets/images/screenshots/content_management/crop_button.png)
+![](/images/screenshots/content_management/crop_button.png)
 
 Drag and use the resize handles on the crop frame to select the area of
 your image you would like to highlight:
 
-![](assets/images/screenshots/content_management/crop_image.png)
+![](/images/screenshots/content_management/crop_image.png)
 
 Then click the Use These Dimensions button to save your cropping
 selection.
@@ -203,19 +203,19 @@ If the entry contains files, images, or videos, you may replace or
 delete them. To replace a file, simply click the Replace button next to
 that file in the Edit View:
 
-![](assets/images/screenshots/content_management/replace_file_button.png)
+![](/images/screenshots/content_management/replace_file_button.png)
 
 To delete a file, simply click the Delete link next to that file in the
 Edit View:
 
-![](assets/images/screenshots/content_management/delete_file_button.png)
+![](/images/screenshots/content_management/delete_file_button.png)
 
 ### Deleting Content
 
 To delete an entry, simply click the Delete icon at the right of that
 entry on the [List View](#backstage.content.list):
 
-![](assets/images/screenshots/content_management/collection_list_view_delete_button.png)
+![](/images/screenshots/content_management/collection_list_view_delete_button.png)
 
 The content will be deleted instantly.
 
@@ -233,7 +233,7 @@ that string in all entries of every piece of content on your website.
 The search results page will display all results and link to the [Edit
 View](#backstage.content.editing) for each entry:
 
-![](assets/images/screenshots/content_management/collection_list_view_search.png)
+![](/images/screenshots/content_management/collection_list_view_search.png)
 
 If you click on the button that is specific to the current collection,
 the search results page will resemble the [List

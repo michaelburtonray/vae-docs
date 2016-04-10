@@ -326,10 +326,6 @@ h1 code, p code, p code a, .literal, .literal a {
   padding-bottom: 0px;
 }
 
-.clearscreenshot {
-  clear: right;
-}
-
 #doc-content .copyright {
   font-size: 0.85em;
   margin-top: 15px;
@@ -416,33 +412,32 @@ pre {
   float: right;
   margin: 0px 0px 15px 10px;
   padding: 10px;
+  max-width: 2000px !important;
+  max-height: 2000px !important;
   border-radius:10px;
 	-webkit-border-radius:10px;
 	-moz-border-radius:10px;
   text-align: center;
 }
 
-.screenshot .imageobject img {
+.screenshot img {
   border: 0px;
   max-width: 200px;
   max-height: 300px;
 }
 
-.screenshot2 {
-  background: #fff;
-  clear: right;
-  margin: 15px auto;
-  padding: 5px;
-  text-align: center;
-}
 
-.screenshot2 .imageobject img {
+.screenshot2 {
   border: 0px;
   max-width: 600px;
   max-height: 600px;
+  clear: right;
+  margin: 15px auto;
+  padding: 5px;
 }
 
 #doc-content h2, #doc-content h3, #doc-content h4 {
+  clear: right;
   background: none;
   font-size: 1.25em;
   margin: 1.25em 0;

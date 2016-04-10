@@ -12,12 +12,12 @@ link to manage your store's sales tax rules. On the initial screen you
 can create and remove rules. Click on the Edit button to set that rule's
 properties. Here's the Edit Tax Rate screen:
 
-![](assets/images/screenshots/ecommerce/tax_rate_edit.png)
+![](/images/screenshots/ecommerce/tax_rate_edit.png)
 
 Here's an example rule that taxes users with a shipping address in
 Florida:
 
-![](assets/images/screenshots/ecommerce/tax_rate_rule_edit.png)
+![](/images/screenshots/ecommerce/tax_rate_rule_edit.png)
 
 ## Using Tax Classes To Only Charge Tax On Certain Types of Items
 
@@ -32,4 +32,4 @@ when creating a new tax rule. So, if our Tax Class were to be called
 `<v:store:add_to_cart tax_rate="sweaters">`. In the Backstage, you'd
 then create a rule that applies to the "sweaters" Tax Class:
 
-![](assets/images/screenshots/ecommerce/tax_sweaters.png)
+![](/images/screenshots/ecommerce/tax_sweaters.png)

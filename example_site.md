@@ -10,19 +10,19 @@ title: "Full Site Tutorial: Vae Records"
 Once you login into the designer portal, you can quickly add a new
 website using the provided form:
 
-![](assets/images/screenshots/example_site/add_site.png)
+![](/images/screenshots/example_site/add_site.png)
 
 After filling in the site creation information, Vae might take a moment
 to get everything set up for you. Once it's finished, click the big red
 button to begin adding content.
 
-![](assets/images/screenshots/example_site/add_site_confirmation.png)
+![](/images/screenshots/example_site/add_site_confirmation.png)
 
 ### Organizing Your Data
 
 The next screen you'll be taken to is Vae's Backstage:
 
-![](assets/images/screenshots/example_site/organizing_data.png)
+![](/images/screenshots/example_site/organizing_data.png)
 
 Vae's Backstage is the place where you organize all of your data. You
 can also tweak lots of settings here. Eventually, your clients will use
@@ -31,7 +31,7 @@ structuring simple. Create a Collection to hold multiple entries (like a
 CD catalog), a Section for a single entry (like a welcome message), or
 an External structure to reference another site (like WordPress).
 
-![](assets/images/screenshots/example_site/organizing_data2.png)
+![](/images/screenshots/example_site/organizing_data2.png)
 
 After you create a Structure, you can give it sub-Structures. Sometimes
 it helps to think of these like columns in a table. In the picture,
@@ -53,7 +53,7 @@ intuitive.
 The drill down on the left side of the page lets you navigate these
 structures.
 
-![](assets/images/screenshots/example_site/drilldown.png)
+![](/images/screenshots/example_site/drilldown.png)
 
 #### Adding Data
 
@@ -63,21 +63,21 @@ your website's content, the Content tab is soley dedicated to adding,
 removing, and deleting the content itself. Ideally, this tab is all your
 client will ever need to access.
 
-![](assets/images/screenshots/example_site/content_tab.png)
+![](/images/screenshots/example_site/content_tab.png)
 
 Collections will always be hyperlinks, with the number of entries in the
 Collection indicated in parentheses. Clicking a Collection reveals all
 the entries for that Collection. Keep track of the tabs on the top of
 your screen if you get lost!
 
-![](assets/images/screenshots/example_site/content_tab_listing.png)
+![](/images/screenshots/example_site/content_tab_listing.png)
 
 ### Coding
 
 If you type your websites URL into a browser before modifying your index
 file, you'll see:
 
-![](assets/images/screenshots/example_site/coding_index_placeholder.png)
+![](/images/screenshots/example_site/coding_index_placeholder.png)
 
 We create a temporary placeholder index file in your webspace. FTP into
 `yoursitename.vaeplatform.com` to begin designing your front end. If you
@@ -111,7 +111,7 @@ is clicked to get to the artist.html page.
 
 This will render as:
 
-![](assets/images/screenshots/example_site/vaeml_output.png)
+![](/images/screenshots/example_site/vaeml_output.png)
 
 Here's the `artist.html` page from our example. This time, we're using
 the `<v:collection>` tag to iterate through the current artist's CD
@@ -138,7 +138,7 @@ using a `<v:a>` tag, which provides the context.
 
 Outputs...
 
-![](assets/images/screenshots/example_site/vaeml_output_artisthtml.png)
+![](/images/screenshots/example_site/vaeml_output_artisthtml.png)
 
 Each of these links point to the `CD.html` page, but each provides a
 different context, allowing unique content to be rendered from one file.
@@ -159,7 +159,7 @@ Here's the code for `CD.html`:
 
 Which outputs:
 
-![](assets/images/screenshots/example_site/vaeml_output_cdhtml.png)
+![](/images/screenshots/example_site/vaeml_output_cdhtml.png)
 
 Context, it is worth reiterating, is important because it is capable of
 saving you a TON of time. With just the code we just wrote, we can now
@@ -194,7 +194,7 @@ each can be found in the
 [`<v:store:add_to_cart>`](#v_store_add_to_cart)documented. They are all
 [Text](#structure.text) Structures. Here's the rendered page:
 
-![](assets/images/screenshots/example_site/vaeml_output_cdhtml_addtocart.png)
+![](/images/screenshots/example_site/vaeml_output_cdhtml_addtocart.png)
 
 Clicking on Add to Basket should take us to a cart page, which contains
 code for us to view all the items in our cart.
@@ -239,7 +239,7 @@ We're making use of the [`<v:store:cart>`](#v_store_cart) and
 display all the items we've added to our cart, and allow the user to
 modify the contents of their cart:
 
-![](assets/images/screenshots/example_site/vaeml_output_carthtml.png)
+![](/images/screenshots/example_site/vaeml_output_carthtml.png)
 
 Once the user clicks the Checkout &gt; button, they will be redirected
 to the registration page. We set this to be `registration.html`. The
@@ -346,7 +346,7 @@ information.
 Here we're making use of the [`<v:store:register>`](#v_store_register)
 tag to create our registration form:
 
-![](assets/images/screenshots/example_site/vaeml_output_registerhtml.png)
+![](/images/screenshots/example_site/vaeml_output_registerhtml.png)
 
 After registering their information, we'll then take the user to a
 standard checkout page. Here's the code for the top of the page, where
@@ -538,7 +538,7 @@ entry form for users to input their credit card information.
 
 The rendered content would look something like this:
 
-![](assets/images/screenshots/example_site/vaeml_output_checkouthtml.png)
+![](/images/screenshots/example_site/vaeml_output_checkouthtml.png)
 
 The last page our users will see is a confirmation page, which we've
 called `order_placed.html`. For our site, the code will be quite simple.
@@ -556,7 +556,7 @@ called `order_placed.html`. For our site, the code will be quite simple.
 
 This will render as:
 
-![](assets/images/screenshots/example_site/vaeml_output_order_placedhtml.png)
+![](/images/screenshots/example_site/vaeml_output_order_placedhtml.png)
 
 And we're done! A simple store has been implemented. As with most
 everything in the Vae world, there is no one way to do things, and this

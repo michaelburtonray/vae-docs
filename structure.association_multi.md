@@ -26,10 +26,10 @@ current context.
 The Association (multi) structure editing widget looks like a scrolling
 list of checkboxes:
 
-![](assets/images/screenshots/content_management/association_structure_multi.png)
+![](/images/screenshots/content_management/association_structure_multi.png)
 
 When an Association (multi) structure is visible in the list view, the
 titles of the selected associated entries are displayed
 (comma-delimited):
 
-![](assets/images/screenshots/content_management/association_structure_multi_listview.png)
+![](/images/screenshots/content_management/association_structure_multi_listview.png)

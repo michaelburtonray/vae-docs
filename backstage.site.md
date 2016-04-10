@@ -66,7 +66,7 @@ structure name.
 To add a structure to the root-level of your website, click the Add
 button under the Structures navigation box while viewing the root-level:
 
-![](assets/images/screenshots/content_management/site_tab_add_root_structure_button.png)
+![](/images/screenshots/content_management/site_tab_add_root_structure_button.png)
 
 This will bring up a form titled Select a Structure to Add.
 
@@ -130,7 +130,7 @@ To create a Prefab structure, simply click the button that says the name
 of the prefab structure you would like to create. This will load the
 Structure Properties box:
 
-![](assets/images/screenshots/content_management/newsletter_prefab.png)
+![](/images/screenshots/content_management/newsletter_prefab.png)
 
 Then proceed with the steps under the [Structure
 Properties](#backstage.site.content_management.properties) section of
@@ -146,7 +146,7 @@ Select a Structure to Add.
 There are 13 structures that can be added as a child structure: all 12
 simple and hybrid structures, as well as the Collection superstructure:
 
-![](assets/images/screenshots/content_management/newsletter_child_structures_add.png)
+![](/images/screenshots/content_management/newsletter_child_structures_add.png)
 
 Collections can be nested an arbitrary number of levels deep.
 
@@ -394,7 +394,7 @@ This is useful for clearing out test data.
 >
 > Be warned, this action is not reversable!
 
-![](assets/images/screenshots/content_management/operations_delete_all.png)
+![](/images/screenshots/content_management/operations_delete_all.png)
 
 To navigate back to the Structure Properties page, click the Edit link
 at the top right corner of the Operations.
@@ -405,7 +405,7 @@ The Interface tab is the place where you can customize the Vae backstage
 interface. You can change the website name, upload a logo, set colors,
 and enable or disable other tabs:
 
-![](assets/images/screenshots/content_management/operations_delete_all.png)
+![](/images/screenshots/content_management/operations_delete_all.png)
 
 > **Note**
 >
@@ -448,7 +448,7 @@ create your own.
 To create your own color scheme, simply click the Customize Color Scheme
 link:
 
-![](assets/images/screenshots/content_management/interface_customize_color_scheme.png)
+![](/images/screenshots/content_management/interface_customize_color_scheme.png)
 
 You will then be brought to a screen that allows you to enter in the
 HTML HEX codes for your color scheme. Vae color schemes consist of 11
@@ -509,7 +509,7 @@ to serve.
 To add a new domain name to the website account, click the Create New
 link at the top right corner of the Domain Names for this website list:
 
-![](assets/images/screenshots/content_management/newsletter_domains_create_new.png)
+![](/images/screenshots/content_management/newsletter_domains_create_new.png)
 
 This will bring up a box titled Add Domain Name to this website with the
 following fields:
@@ -590,7 +590,7 @@ change the deployment settings for Subversion.
 To change your FTP password, click the (change) link next to the line
 for Password:
 
-![](assets/images/screenshots/content_management/ftp_tab_password_change.png)
+![](/images/screenshots/content_management/ftp_tab_password_change.png)
 
 Enter a new password into the Change FTP Password box and click the
 Change FTP Password button.
@@ -601,7 +601,7 @@ The Subversion box shows you how to check out your website from
 Subversion. Press the Deploy Subversion Source to Live Site button to
 make the copy in your Subversion repository live:
 
-![](assets/images/screenshots/content_management/ftp_tab_subversion_deploy_button.png)
+![](/images/screenshots/content_management/ftp_tab_subversion_deploy_button.png)
 
 If you are using branching in Subversion, you will need to tell Vae
 which branch is the active branch to deploy from. To do that, click the
@@ -632,7 +632,7 @@ Wordpress, Drupal, osCommerce, and other third-party applications.
 To obtain a new MySQL database, click the Create New link at the top
 right corner of the MySQL Databases list:
 
-![](assets/images/screenshots/content_management/mysql_tab_create_new_button.png)
+![](/images/screenshots/content_management/mysql_tab_create_new_button.png)
 
 A database will be provisioned immediately and the connection details
 will be displayed in the MySQL Databases list.
@@ -667,7 +667,7 @@ Settings box with the following settings:
 To save the Optimization Settings, simply click the Save Content
 Settings button:
 
-![](assets/images/screenshots/content_management/optimize_tab_save_content_settings.png)
+![](/images/screenshots/content_management/optimize_tab_save_content_settings.png)
 
 Note that these settings only affect images as displayed on your
 website, not in the backstage. Additionally, these will not override

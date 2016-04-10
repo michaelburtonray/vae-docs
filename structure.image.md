@@ -38,7 +38,7 @@ crop an uploaded image, even if you don't want to fix a specific size.
 In the Edit view for the Image structure, click on the Create New link
 under the Sizes for this image section to add a new custom size.
 
-![](assets/images/screenshots/content_management/add_image_size.png)
+![](/images/screenshots/content_management/add_image_size.png)
 
 This will bring up an Add Size box with the following fields:
 

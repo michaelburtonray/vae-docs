@@ -33,7 +33,7 @@ E-Mail addresses on the Users tab will have no effect.
 To add a new user to the website account, click the Create New link at
 the top right corner of the Users list:
 
-![](assets/images/screenshots/content_management/users_tab_create_new.png)
+![](/images/screenshots/content_management/users_tab_create_new.png)
 
 An Add User form will be displayed with the following fields:
 
@@ -87,7 +87,7 @@ Click the Add User button to complete the process of adding the user.
 To edit a user, simply click the Edit icon next to that user in the
 Users list:
 
-![](assets/images/screenshots/content_management/users_tab_edit_user.png)
+![](/images/screenshots/content_management/users_tab_edit_user.png)
 
 This will open an Edit User form with the same fields as above. Click
 the Save User button to complete the process of editing the user.
@@ -104,7 +104,7 @@ address will bounce, and that user will not be able to log into the
 backstage. If the user is currently logged in, they will **not** be
 kicked out of their current session.
 
-![](assets/images/screenshots/content_management/users_tab_delete_user.png)
+![](/images/screenshots/content_management/users_tab_delete_user.png)
 
 ## Mail Forwarders Tab {#backstage.users.mail_forwarders}
 
@@ -117,7 +117,7 @@ forwarders on Vae.
 To add a new mail forwarder to the website account, click the Create New
 link at the top right corner of the Mail Forwarders list:
 
-![](assets/images/screenshots/content_management/mail_forward_create_new_button.png)
+![](/images/screenshots/content_management/mail_forward_create_new_button.png)
 
 An Add Mail Forwarder form will be displayed with the following fields:
 
@@ -131,14 +131,14 @@ An Add Mail Forwarder form will be displayed with the following fields:
 Click the Add Mail Forwarder button to complete the process of adding
 the mail forwarder:
 
-![](assets/images/screenshots/content_management/mail_forward_add_button.png)
+![](/images/screenshots/content_management/mail_forward_add_button.png)
 
 ### Editing a Mail Forwarder
 
 To edit a mail forwarder, simply click the Edit icon next to that mail
 forwarder in the Mail Forwarders list:
 
-![](assets/images/screenshots/content_management/mail_forward_edit_button.png)
+![](/images/screenshots/content_management/mail_forward_edit_button.png)
 
 This will open an Edit Mail Forwarder form with the same fields as
 above. Click the Save Mail Forwarder button to complete the process of
@@ -149,7 +149,7 @@ editing the mail forwarder.
 To remove a mail forwarder, simply click the red Delete icon next to
 that mail forwarder in the Mail Forwarders list:
 
-![](assets/images/screenshots/content_management/mail_forward_delete_button.png)
+![](/images/screenshots/content_management/mail_forward_delete_button.png)
 
 The E-Mail address will be deactivated immediately. After you delete a
 mail forwarder, any E-Mails destined for that address will bounce.

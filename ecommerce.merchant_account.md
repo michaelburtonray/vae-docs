@@ -51,13 +51,13 @@ Currently, Vae fully supports the following merchant account services:
 
 Payment methods can be added via the Store tab and the Settings sub-tab:
 
-![](assets/images/screenshots/ecommerce/add_payment_method.png)
+![](/images/screenshots/ecommerce/add_payment_method.png)
 
 Clicking Add Payment Method will bring you to The Add Payment Method
 screen. This screen allows you to integrate your merchant account with
 your Vae store:
 
-![](assets/images/screenshots/ecommerce/add_payment_screen.png)
+![](/images/screenshots/ecommerce/add_payment_screen.png)
 
 > **Tip**
 >
@@ -72,4 +72,4 @@ select menu, rendered using the
 [`<v:store:payment_methods_select>`](#v_store_payment_methods_select)
 tag:
 
-![](assets/images/screenshots/ecommerce/payment_select.png)
+![](/images/screenshots/ecommerce/payment_select.png)

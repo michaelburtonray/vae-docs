@@ -19,7 +19,7 @@ payment acceptance, and a powerful backstage interface for fulfilling
 orders and viewing analytics. We begin with the actual implementation of
 the store, and then discuss settings and third-party integration.
 
-# Creating the Structures for a Typical Store
+## Creating the Structures for a Typical Store
 
 One of the coolest part about eCommerce on Vae is that designers have
 extreme flexibility to build the store data structures in a way that
@@ -28,7 +28,7 @@ some sort of tutorial, so we will go through how a typical store on Vae
 is structured. This is by no means the only way, and we will show you
 later how you can get crazy.
 
-## Items Structure
+### Items Structure
 
 Your Items Structure, the place where information about the items that
 are for sale in your store is stored, should be a fairly simple
@@ -39,7 +39,7 @@ name of the item, the item's weight, a picture, a price, and a
 description. Here's a screenshot of what a drilldown might look like for
 the Items Structure in a store:
 
-![](assets/images/screenshots/ecommerce/items_structure.png)
+![](/images/screenshots/ecommerce/items_structure.png)
 
 > **Warning**
 >
@@ -49,9 +49,9 @@ the Items Structure in a store:
 > when creating the Structure. This will prevent future bugs that you
 > might find puzzling.
 >
-> ![](assets/images/screenshots/ecommerce/require_numeric_check.png)
+> ![](/images/screenshots/ecommerce/require_numeric_check.png)
 
-## Inventory Structure
+### Inventory Structure
 
 In order to keep track of how many items are available for sale in your
 store, Vae gives you the ability to update how many items you have in
@@ -60,7 +60,7 @@ sold. When structuring your website in the Backstage, you simply need to
 create a text field, where you will input then input the amount of items
 in stock.
 
-## Styles Structure
+### Styles Structure
 
 But what are you to do if you are selling several that come in different
 configurations? For example, if we were to be selling t-shirts, we might
@@ -71,15 +71,15 @@ dealing with this situation is by making a Styles Structure. Styles (you
 can call it whatever you want) is a [Collection](#structure.collection)
 under the Item Structure that holds possible configurations for an item.
 
-![](assets/images/screenshots/ecommerce/styles.png)
+![](/images/screenshots/ecommerce/styles.png)
 
 Since each configuration will have it's own inventory, make sure you put
 your Inventory structure under the Styles Structure, and not directly
 under the Items Structure, if you are using styles.
 
-# The Shopping Flow in VaeML
+## The Shopping Flow in VaeML
 
-## Shopping Cart {#shopping_cart}
+### Shopping Cart {#shopping_cart}
 
 The Vae shopping Cart is rendered using the
 [`<v:store:cart>`](#v_store_cart) tag. As with every other Vae
@@ -89,7 +89,7 @@ In this section, you will be walked through the process of how to solve
 a couple of common problems designers need to solve when implimenting a
 shopping cart page.
 
-## Collecting Registration (Billing and Shipping) Info {#store_registering}
+### Collecting Registration (Billing and Shipping) Info {#store_registering}
 
 Vae's [`<v:store:register>`](#v_store_register) allows designers to
 create a registration form that takes very little time to fill out.
@@ -98,7 +98,7 @@ where their personal information will be stored. However, if you do have
 a website with lots of repeat customers, your users might value the
 ability to sign in and checkout quickly.
 
-## Order Confirmation {#order_confirmation}
+### Order Confirmation {#order_confirmation}
 
 After submitting the order, most designers redirect users to an "order
 placed" page. In our example, we set
@@ -107,7 +107,7 @@ order\_placed.html. This is usually a simple page that says something
 like, "Congratulations! Your order has been received." You might then
 have a link back to your site's homepage.
 
-# Customizing Order Confirmation E-Mails
+## Customizing Order Confirmation E-Mails
 
 If you take a look at the [`<v:store:checkout>`](#v_store_checkout) tag
 in our example code, you will see the attribute

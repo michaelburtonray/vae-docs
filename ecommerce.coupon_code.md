@@ -14,4 +14,4 @@ gives you a lot of options when setting up your coupon, such as
 expiration date, minimum amount that must be spent before the coupon
 code is valid, and several more.
 
-![](assets/images/screenshots/ecommerce/coupon_code_new.png)
+![](/images/screenshots/ecommerce/coupon_code_new.png)

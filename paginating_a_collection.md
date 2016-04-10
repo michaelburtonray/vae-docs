@@ -19,7 +19,7 @@ three entries in our Collection, and we will output all three entries.
 
 And here's how this might look when renedered on a website:
 
-![](assets/images/screenshots/the_website/cookbook/without_paginate.png)
+![](/images/screenshots/the_website/cookbook/without_paginate.png)
 
 If for some reason we decided we'd like to display just two Artists at a
 time, `Paginate` becomes very handy. For our example, we'll also use an
@@ -34,11 +34,11 @@ specify a select menu which can be used to navigate between pages.
 
 And now the collection displays in two separate pages:
 
-![](assets/images/screenshots/the_website/cookbook/with_paginate.png)
+![](/images/screenshots/the_website/cookbook/with_paginate.png)
 
 Page 2:
 
-![](assets/images/screenshots/the_website/cookbook/with_paginate_2.png)
+![](/images/screenshots/the_website/cookbook/with_paginate_2.png)
 
 If you'd instead like to use links to navigate, the `next` and
 `previous` attributes allow you to specify `<v:a>` tags to use for
@@ -54,8 +54,8 @@ navigation. Here's our code, modified to to produce 'Next' and
 
 Here's the two pages that are then rendered:
 
-![](assets/images/screenshots/the_website/cookbook/with_paginate_next.png)
+![](/images/screenshots/the_website/cookbook/with_paginate_next.png)
 
 Page 2:
 
-![](assets/images/screenshots/the_website/cookbook/with_paginate_prev.png)
+![](/images/screenshots/the_website/cookbook/with_paginate_prev.png)

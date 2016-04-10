@@ -13,7 +13,7 @@ specific customer.
 
 By default, the Customers tab will show you a list of all customers:
 
-![](assets/images/screenshots/content_management/customer_list_view.png)
+![](/images/screenshots/content_management/customer_list_view.png)
 
 To view a customer, click on their name.
 
@@ -23,11 +23,11 @@ To add a new customer to the website account, click the Create New link
 at the top right corner of the Customers list. An Add Customer form will
 be displayed with the following fields:
 
-![](assets/images/screenshots/content_management/customer_list_view_create_new_button.png)
+![](/images/screenshots/content_management/customer_list_view_create_new_button.png)
 
 Clicking the Add Customer button will reveal this form:
 
-![](assets/images/screenshots/content_management/add_customer_form.png)
+![](/images/screenshots/content_management/add_customer_form.png)
 
 1.  Name - Full name of the customer.
 
@@ -53,7 +53,7 @@ To edit a customer, simply click the Edit icon next to that customer in
 the Customers list. This will open an Edit Customer form with the same
 fields as above:
 
-![](assets/images/screenshots/content_management/customer_edit_form.png)
+![](/images/screenshots/content_management/customer_edit_form.png)
 
 Click the Save Customer button to complete the process of editing the
 customer.
@@ -63,7 +63,7 @@ customer.
 To remove a customer, simply click the red Delete icon next to that
 customer in the Customers list:
 
-![](assets/images/screenshots/content_management/customers_delete_button.png)
+![](/images/screenshots/content_management/customers_delete_button.png)
 
 The customer will be deactivated immediately. After you delete a
 customer, they will no longer be able to log in on your website. If the
@@ -77,7 +77,7 @@ is located on the right side of the secondary tab menu. Enter the
 customer name and click the Search button. The search reuslts will open
 into a Search Results subtab:
 
-![](assets/images/screenshots/content_management/customers_search.png)
+![](/images/screenshots/content_management/customers_search.png)
 
 Within the Search Results subtab, you may click on a customer's name to
 view that customer, or click on the Edit or Delete icons to edit or
@@ -90,7 +90,7 @@ subtab, you are brought to the Customer subtab. This is the customer
 dashboard for the customer, and you can see see all the addresses this
 customer has on file, as well as their order history:
 
-![](assets/images/screenshots/content_management/customer_info_view.png)
+![](/images/screenshots/content_management/customer_info_view.png)
 
 To edit the customer from this screen, click the link at the top right
 that says Edit John Doe (*John Doe* will be replaced with the actual
@@ -108,7 +108,7 @@ listed.
 To add a new address to the customer, click the Create New link at the
 top right corner of the Addresses list:
 
-![](assets/images/screenshots/content_management/customer_info_create_new_address_button.png)
+![](/images/screenshots/content_management/customer_info_create_new_address_button.png)
 
 An Add Address form will be displayed. Click the Add Address button to
 complete the process of adding the customer.
@@ -118,7 +118,7 @@ complete the process of adding the customer.
 To edit a customer address, simply click the Edit icon next to that
 address in the Addresses list. This will open an Edit Address form:
 
-![](assets/images/screenshots/content_management/customer_address_edit.png)
+![](/images/screenshots/content_management/customer_address_edit.png)
 
 Click the Save Address button to complete the process of editing the
 address.
@@ -128,7 +128,7 @@ address.
 To remove a customer address, simply click the red Delete icon next to
 that address in the Addresses list:
 
-![](assets/images/screenshots/content_management/customer_remove_address_button.png)
+![](/images/screenshots/content_management/customer_remove_address_button.png)
 
 The address will be deactivated immediately. If the customer is
 currently logged in, they may continue to see that address during their

@@ -31,4 +31,4 @@ will be displayed in the `bigPicDisplay` div. This happens
 asynchronously, so the image will be loaded without a full page refresh.
 Here's the result:
 
-![](assets/images/screenshots/the_website/cookbook/ajax_photo_gallery.png)
+![](/images/screenshots/the_website/cookbook/ajax_photo_gallery.png)
