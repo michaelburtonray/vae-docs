@@ -4,76 +4,251 @@ sections:
   icon: home
   slug: ''
 ---
-
-<!doctype html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{{ page.title }} &middot; Docs &middot; Vae Platform</title>
-
-  {% if page.description %}
-  <meta name="description" content="{{ page.description }}">
-  {% endif %}
-
-  <link rel="canonical" href="https://docs.vaeplatform.com{{ page.url }}">
-  <link rel="shortcut icon" href="{{ 'favicon.ico' }}">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500" type="text/css">
-  <link rel="stylesheet" href="{{ '/css/docs.css' }}" type="text/css">
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-</head>
-<body class="docs">
-  <div class="wrapper">
-    <div class="header">
-      <div class="header-group group">
-        <a href="/"><img src="{{ '/images/logo-top.png' }}" class="logo" alt="Vae"></a>
-        <h3>Documentation &amp; Reference Center</h3>
+  <head>
+    <title>{{ page.title }} &middot; Vae&trade; Platform Documentation</title>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+    <meta http-equiv="Content-Type" content="text/html; charset=<?=$manual['head'][0]?>" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="canonical" href="https://docs.vaeplatform.com{{ page.url }}">
+    <link href='http://vaeplatform.com/favicon.ico' rel='shortcut icon' type=' image/x-icon' />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>    
+    <script type="text/javascript" src="/js/jquery.lightbox-0.5.min.js"></script>
+    <script type="text/javascript" src="/js/swfobject.js"></script> 
+    <script type="text/javascript" src="/js/vae_book.js"></script> 
+    <link rel="stylesheet" type="text/css" media="all" href="http://vaeplatform.com/stylesheets/reset-min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://vaeplatform.com/stylesheets/global.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/include/stylesheets/vaebook.css" />
+    <link rel="stylesheet" href="{{ '/css/vaebook.css' }}" type="text/css">
+  </head>
+  <body class='inner'>
+    <div id='header'>
+      <a class='vae-logo-top' href='http://vaeplatform.com/'>
+        <img alt='Vae&trade;' src='http://vaeplatform.com/images-o/logo-top.png' title='Vae&trade;' />
+      </a>
+      <div id='phone-top'>
+        <p>1-800-ATN-VERB</p>
+        <small>Mon-Fri 9AM-9PM EST</small>
       </div>
-      <div class="sidebar-toggle">
-        <button>Documentation Sections</button>
+      <div id='nav-top'>
+        <div id='menu-main'>
+          <ul>
+            <li>
+              <a href='http://vaeplatform.com/'>
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href='http://vaeplatform.com/content-management-system'>
+                <span>Tour</span>
+              </a>
+            </li>
+            <li class='active'>
+              <a href='/'>
+                <span>Documentation</span>
+              </a>
+            </li>
+            <li>
+              <a href='http://vaeplatform.com/blog'>
+                <span>Blog</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id='menu-secondary'>
+          <ul>
+            <li>
+              <a href='http://forum.vaeplatform.com/'>Forum</a>
+            </li>
+            <li>
+              <a href='http://vaeplatform.com/cms-testimonials'>Testimonials</a>
+            </li>
+            <li>
+              <a href='http://vaeplatform.com/pricing'>Pricing</a>
+            </li>
+            <li class="bt-free-signup">
+              <a href='http://vaeplatform.com/start'>Join Now</a>
+            </li>
+          </ul>
+        </div>
+        <span class='clearfix'></span>
+      </div>
+      <div id='inner-heading'>
+        <h1>Documentation and Integration Center</h1>
       </div>
     </div>
-
-    <div class="main group">
-      <div class="sidebar">
-        <ul class="parent-menu collapse">
-          {% for section in page.sections %}
-          {% capture parent_slug %}/docs/{{ section.slug }}{% if section.slug != '' %}/{% endif %}{% endcapture %}
-          <li class="parent-item collapse {% if page.url == '/docs/' and section.slug == '' %}active{% else %}{% if section.slug != '' and page.url contains parent_slug %}active{% endif %}{% endif %}">
-            {% if section.slug != 'support' %}
-            <a class="parent-link" href="/docs/{{ section.slug }}{% if section.slug != '' %}/{% endif %}">
-            {% else %}
-            <a class="parent-link" href="/contact/">
-            {% endif %}
-            {{ section.title }}</a>
-            {% if section.child_items %}
-            <ul class="child-menu collapse" style="{% if section.slug != '' and page.url contains parent_slug %}display: block;{% endif %}">
-              {% for child in section.child_items %}
-              {% capture child_slug %}/docs/{{ section.slug }}/{{ child.slug }}{% if child.slug != '' %}/{% endif %}{% endcapture %}
-              <li class="child-item"><a class="child-link {% if page.url == child_slug %}active{% endif %}" href="/docs/{{ section.slug }}/{{ child.slug }}{% if child.slug != '' %}/{% endif %}"><span>&#10095;</span> {{ child.title }}</a></li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-
-      <div class="content">
-        <div class="section">
-          {{ content }}
-
-          <div class="paging group">
-            <a class="prev">&laquo; Previous: <span></span></a>
-            <a class="next">Next: <span></span> &raquo;</a>
+    <div id='documentation'>
+      <div id='content'>
+        <div class="sidebar">
+          <div class="box">
+            <div class="btm">
+              <h3>Vae Guide</h3>
+                <ul class="parent-menu collapse">
+                  {% for section in page.sections %}
+                  {% capture parent_slug %}/docs/{{ section.slug }}{% if section.slug != '' %}/{% endif %}{% endcapture %}
+                  <li class="parent-item collapse {% if page.url == '/docs/' and section.slug == '' %}active{% else %}{% if section.slug != '' and page.url contains parent_slug %}active{% endif %}{% endif %}">
+                    {% if section.slug != 'support' %}
+                    <a class="parent-link" href="/docs/{{ section.slug }}{% if section.slug != '' %}/{% endif %}">
+                    {% else %}
+                    <a class="parent-link" href="/contact/">
+                    {% endif %}
+                    {{ section.title }}</a>
+                    {% if section.child_items %}
+                    <ul class="child-menu collapse" style="{% if section.slug != '' and page.url contains parent_slug %}display: block;{% endif %}">
+                      {% for child in section.child_items %}
+                      {% capture child_slug %}/docs/{{ section.slug }}/{{ child.slug }}{% if child.slug != '' %}/{% endif %}{% endcapture %}
+                      <li class="child-item"><a class="child-link {% if page.url == child_slug %}active{% endif %}" href="/docs/{{ section.slug }}/{{ child.slug }}{% if child.slug != '' %}/{% endif %}"><span>&#10095;</span> {{ child.title }}</a></li>
+                      {% endfor %}
+                    </ul>
+                    {% endif %}
+                  </li>
+                  {% endfor %}
+                </ul>
+                <h4>Quick Reference</h4>
+                <ul>
+                  <li><a href="vaeml">VaeML</a></li>
+                  <li><a href="vaeql">VaeQL</a></li>
+                  <li><a href="php">PHP Integration</a></li>
+                  <li><a href="hosting">Hosting Environment</a></li>
+                  <li><a href="structures">Structures</a></li>
+                </ul>
+            </div>
           </div>
         </div>
+        <div id="doc-content">
+          <div class="content-text">
+
+            {{ content }}
+            <div class="paging group">
+              <a class="prev">&laquo; Previous: <span></span></a>
+              <a class="next">Next: <span></span> &raquo;</a>
+            </div>
+          </div>
+          <div class="clearer"></div>
+          <?php echo pagenav(); ?>
+        </div>
+        <div class="clearer"></div>
       </div>
     </div>
-  </div>
-</body>
-</html>
+    <div id='footer-wrap'>
+      <div id='footer'>
+        <div id='footer-left'>
+          <div id='footer-links'>
+            <div>
+              <h4>Vae</h4>
+              <ul>
+                <li>
+                  <a href='http://vaeplatform.com/pricing'>Pricing</a>
+                </li>
+                <li>
+                  <a href='http://vaeplatform.com/cms-testimonials'>Testimonials</a>
+                </li>
+                <li>
+                  <a href='http://vaeplatform.com/blog'>Blog</a>
+                </li>
+                <li>
+                  <a href='http://vaeplatform.com/start'>Join Now</a>
+                </li>
+              </ul>
+            </div>
+            <div class='big'>
+              <h4>Tour</h4>
+              <ul>
+                <li>
+                  <a href='http://vaeplatform.com/content-management-system'>CMS</a>
+                </li>
+                <li>
+                  <a href='http://vaeplatform.com/ecommerce-cms'>eCommerce</a>
+                </li>
+                <li>
+                  <a href='http://vaeplatform.com/email-marketing-cms'>E-Mail Marketing</a>
+                </li>
+                <li>
+                  <a href='http://vaeplatform.com/hosting-platform-deluxe'>Deluxe Hosting Platform</a>
+                </li>
+              </ul>
+            </div>
+            <div class='big'>
+              <h4>Developers</h4>
+              <ul>
+                <li>
+                  <a href='/'>Documentation</a>
+                </li>
+                <li>
+                  <a href='http://forum.vaeplatform.com/'>Forum</a>
+                </li>
+                <li>
+                  <a href='/vaeml'>VaeML Reference</a>
+                </li>
+                <li>
+                  <a href='/vaeql'>VaeQL Reference</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='divider'></div>
+          <ul id='footer-socials'>
+            <li class='rss-link'>
+              <a href='http://vaeplatform.com/rss' target='_blank'>RSS</a>
+            </li>
+            <li class='twitter-link'>
+              <a href='http://twitter.com/VaePlatform' target='_blank'>Twitter</a>
+            </li>
+            <li class='fb-link'>
+              <a href='http://www.facebook.com/pages/Vae-Platform/82620167908' target='_blank'>Facebook</a>
+            </li>
+          </ul>
+          <div id='copyright'>Copyright &copy; 2007-2011 Action Verb, LLC. All rights reserved</div>
+        </div>
+        <div id='footerbox-right'>
+          <a class='loginbutton' href='http://vaeplatform.com/login'>Login</a>
+          <ul>
+            <li class='link-documentation'>
+              <a href='http://docs.vaeplatform.com/'>Documentation</a>
+            </li>
+            <li class='link-toc'>
+              <a href='http://vaeplatform.com/terms-of-service'>Terms of Service</a>
+            </li>
+          </ul>
+          <ul>
+            <li class='link-privacy'>
+              <a href='http://vaeplatform.com/privacy-policy'>Privacy Policy</a>
+            </li>
+            <li class='link-contact'>
+              <a href='http://vaeplatform.com/contact'>Contact Us</a>
+            </li>
+          </ul>
+          <div class='divider'></div>
+          <div id='av-logo'>
+            <a href='http://actionverb.com/'>Action Verb</a>
+          </div>
+          <div id='footer-closure'>
+            <small class='center'>
+              Vae&trade; is a service of Action Verb, LLC,
+              San Diego, CA
+            </small>
+          </div>
+        </div>
+        <div class='clearfix'></div>
+      </div>
+    </div>
+    <script type='text/javascript'>
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type='text/javascript'>
+      try {
+      var pageTracker = _gat._getTracker("UA-8605785-1");
+      pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+  </body>
+</html><?
+}
+
+function manual_header() {
+

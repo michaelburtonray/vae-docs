@@ -1,0 +1,672 @@
+@font-face {
+	font-family: 'DB';
+	src: url('../assets/webfontkit/din-bold-webfont.eot');
+	src: local('☺'), url('../assets/webfontkit/din-bold-webfont.woff') format('woff'), url('../assets/webfontkit/din-bold-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DM';
+	src: url('../assets/webfontkit/din-medi-webfont.eot');
+	src: local('☺'), url('../assets/webfontkit/din-medi-webfont.woff') format('woff'), url('../assets/webfontkit/din-medi-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DR';
+	src: url('../assets/webfontkit/din-regu-webfont.eot');
+	src: local('☺'), url('../assets/webfontkit/din-regu-webfont.woff') format('woff'), url('../assets/webfontkit/din-regu-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DSReg';
+	src: url('../assets/webfontkit/dinmitte-webfont.eot');
+	src: local('☺'), url('../assets/webfontkit/dinmitte-webfont.woff') format('woff'), url('../assets/webfontkit/dinmitte-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/****/
+
+.sidebar {
+  margin-bottom: 25px;
+}
+.sidebar li a {
+  line-height: 18px;
+  overflow: hidden;
+  padding: 9px 0px 9px 42px;
+  font-family:'DSReg';
+}
+.sidebar li.parent {
+  background-color: #f8f8f8;
+  font-size: 0.95em;
+}
+.sidebar li.next {
+  background-color: #eee;
+  font-size: 0.9em;
+}
+.sidebar li.up {
+  background: #666 !important;
+	border-bottom:3px solid #e0c300 ;
+  color: #fff;
+}
+.sidebar li.up a {
+  background-position: 18px -128px;
+  color: #fff;
+}
+.sidebar li:hover, .sidebar li.active {
+  background-color: #201f23;
+}
+.content-text {
+  font-family:'DSReg';
+  font-size:1.2em;
+  line-height:1.2em;
+}
+
+#documentation {
+  padding-bottom: 0px;
+}
+#doc-content {
+  padding-bottom: 0px;
+}
+
+/****/
+
+#add_comment form {
+  padding: 15px;
+}
+#add_comment form textarea {
+  font-family: Monaco, "Lucida Console", "Courier New", Courier, monospace;
+  font-size: 0.9em;
+  width: 100%;
+  margin: 0;
+}
+#add_comment form table {
+  width: 100%;
+}
+#add_comment form table .stripe {
+  background: none;
+}
+#add_comment form td {
+  font-size: 0.9em;
+}
+#add_comment form .msg {
+  font-size: 0.9em;
+  margin-bottom: 15px;
+}
+#comments, #add_comment {
+  background: #fcfcfc;
+  margin-left: 200px;
+  padding: 25px 0px;
+}
+#comments h3, #add_comment h3 {
+  background: #333;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 0px;
+  padding: 5px 15px;
+}
+#comments .comment {
+  background: #fcfcfc;
+  font-family: Monaco, "Lucida Console", "Courier New", Courier, monospace;
+  font-size: 0.9em;
+  padding: 15px;
+}
+#comments .floatr, #add_comment .floatr {
+  color: #fff;
+  float: right;
+  font-size: 0.9em;
+  padding: 7px;
+}
+#comments .name {
+  background: #e1e1e1;
+  display: block;
+  font-size: 0.9em;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+#int_center_header {
+  margin: 0;
+}
+
+#main {
+  margin: 0px;
+  padding: 0px;
+}
+
+#rating {
+  background: #fcfcfc;
+  font-size: 0.8em;
+  margin-top: 35px;
+  padding: 8px;
+}
+
+#sidebar {
+  float: left;
+  width: 200px;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearright {
+  clear: right;
+}
+
+.clearer {
+  clear: both;
+}
+.code {
+  font-family: Monaco, "Lucida Console", "Courier New", Courier, monospace;
+}
+.hide {
+  display: none;
+}
+
+.moderation_note {
+  font-size: 0.85em;
+}
+
+.pagenav {
+  background: #eee;
+  font-size: 0.9em;
+  padding: 8px;
+}
+.pagenav a {
+  font-weight: bold;
+  text-decoration: none;
+}
+.pagenav .prev {
+  float: left;
+}
+.pagenav .next {
+  float: right;
+}
+.search {
+  float: right;
+  font-size: 0.85em;
+  margin: 17px 0;
+}
+.searchresult {
+  background: #eee;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.searchresult a {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.searchresult .desc {
+  font-size: 0.75em;
+}
+.searchwrapper {
+  float: left;
+  width: 600px;
+}
+.toc {
+  background-color: #555;
+  color: #fff;
+  overflow: hidden;
+  width: 200px;
+}
+.toc .tocinside {
+  border-bottom: 1px solid #111;
+  padding-bottom: 8px;
+}
+.toc a {
+  background-color: #555;
+  color: #fff;
+  display: block;
+  font-size: 0.9em;
+  line-height: 1.1em;
+  padding: 5px 10px 5px 20px;
+  text-decoration: none;
+}
+.toc a.haschildren {
+  background-image: url(/include/images/arrow_white_down.gif);
+  background-position: 174px 52%;
+  background-repeat: no-repeat;
+  padding-right: 36px;
+}
+.toc a.haschildren:hover {
+  background-image: url(/include/images/arrow_black_down.gif);
+}
+.toc a.next {
+  background: #dbdbdb;
+  color: #666;
+  font-size: 0.8em;
+  padding: 8px 10px;
+}
+.toc a.parent {
+  background-color: #757779;
+  font-size: 1.0em;
+  padding: 10px 10px;
+}
+.toc a.up, .toc div.up {
+  background-color: #303234;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  padding: 10px 10px;
+}
+.toc a:hover {
+  background-color: #faec31;
+  color: #000;
+}
+.toc a.current {
+  background-color: #37393a;
+  color: #fff;
+}
+
+/* Stylize the actual text */
+
+#doc-content h1 {
+  background:url("http://vaeplatform.com/images-o/icons/icon-guide.png") no-repeat scroll 0 50% transparent;
+  color:#000000;
+  font-family:'DM';
+  font-size:1.6em;
+  line-height:48px;
+  margin-bottom:20px;
+  padding-left:34px;
+  text-align: left;
+  text-shadow:0 1px 0 #FFFFFF;
+}
+h1.title {
+  text-align: center;
+}
+#doc-content h2 {
+  font-size: 1.6em;
+  margin: 0px 0px 1.25em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: right;
+}
+
+b.caution {
+  display: none;
+}
+b.note {
+  display: none;
+}
+b.tip {
+  display: none;
+}
+b.warning {
+  display: none;
+}
+
+caption {
+  background: #ee4432;
+  color: #fff;
+  padding: 4px;
+}
+
+code {
+  font-family: Monaco, "Lucida Console", "Courier New", Courier, monospace;
+}
+
+em.emphasis {
+  font-style: normal;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 0 15px 0;
+  line-height: 1.35em;
+}
+
+p code, p code a, .literal, .literal a {
+  color: #ee4432;
+}
+
+#doc-content a {
+	color: #151515;
+	text-decoration: none;
+	border-bottom:1px solid #e0c300 ;
+}
+
+#doc-content li {
+  margin-left: 40px;
+  margin-bottom: 0px;
+  list-style-type: square;
+}
+
+#doc-content table {
+  border-spacing: 0;
+  margin: 0px 40px 15px 40px;
+  width: 590px;
+}
+#doc-content table td {
+  padding: 5px;
+}
+#doc-content table th {
+  background: #ee4432;
+  color: #fff;
+  text-align: left;
+  padding: 5px;
+}
+
+.authorgroup {
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.caution {
+  background: #fcc;
+  border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+  margin: 0px 40px 15px 40px;
+  font-size: 0.9em;
+  padding: 15px 10px 1px 10px;
+}
+
+.chunklist {
+  background: #fff;
+  border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.chunklist_children {
+  border: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.clearscreenshot {
+  clear: right;
+}
+
+#doc-content .copyright {
+  font-size: 0.85em;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.editor {
+  font-size: 0.85em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.epigraph {
+  background: #eee;
+  border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+  clear: right;
+  font-size: 0.9em;
+  font-style: italic;
+  margin: 1px auto 15px auto;
+  padding: 15px 20px 15px 20px;
+  width: 450px;
+}
+.epigraph .attribution {
+  font-style: normal;
+  text-align: right;
+}
+
+.glossterm {
+  font-style: italic;
+}
+
+.guibutton, .guimenuitem {
+  font-weight: bold;
+}
+
+.informalexample {
+  background: #eee;
+  clear: right;
+  padding: 15px 10px 1px 10px;
+  margin: 0px 40px 15px 40px;
+  font-size: 0.9em;
+}
+
+.literal {
+  font-family: Monaco, "Lucida Console", "Courier New", Courier, monospace;
+}
+
+.literallayout, .programlisting {
+  background: #555;
+  clear: right;
+  color: #fff;
+  font-family: Monaco, "Lucida Console", "Courier New", Courier, monospace;
+  max-height: 200px;
+  margin-bottom: 15px;
+  overflow: auto;
+  padding: 8px;
+  text-shadow: none;
+}
+
+.note {
+  background: #ffc;
+  border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+  clear: right;
+  font-size: 0.9em;
+  padding: 15px 10px 1px 10px;
+}
+
+.optional {
+  font-style: italic;
+}
+
+.releaseinfo {
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.screenshot {
+  background: #fff;
+  clear: right;
+  float: right;
+  margin: 0px 0px 15px 10px;
+  padding: 10px;
+  border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+  text-align: center;
+}
+
+.screenshot .imageobject img {
+  border: 0px;
+  max-width: 200px;
+  max-height: 300px;
+}
+
+.screenshot2 {
+  background: #fff;
+  clear: right;
+  margin: 15px auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.screenshot2 .imageobject img {
+  border: 0px;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+#doc-content .section h2 {
+  font-size: 1.4em;
+}
+
+#doc-content .section h3 {
+  margin-top: 2em;
+}
+#doc-content .section .section h2, #doc-content .chapter .section h2 {
+  background: none;
+  font-size: 1.25em;
+  margin: 1.25em 0;
+  padding: 0;
+}
+#doc-content .section .section .section h2 {
+  font-size: 1.15em;
+}
+
+.stripe {
+  background: #f0f0f0;
+}
+
+.tip {
+  background: #cfc;
+  border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+  clear: right;
+  padding: 15px 10px 1px 10px;
+  margin: 0px 40px 15px 40px;
+  font-size: 0.9em;
+}
+
+.videoobject {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.warning {
+  background: #fcc;
+  border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+  clear: right;
+  padding: 15px 10px 1px 10px;
+  margin: 0px 40px 15px 40px;
+  font-size: 0.9em;
+}
+
+.br0 {color: #faec31;}
+.co1 {color: #D4DE28; font-style: italic;}
+.imp {font-weight: bold; color: red;}
+.es0 {color: #000099;}
+.kw1 {color: #faec31;}
+.kw2 {color: #bbb;}
+.kw3 {color: #faec31;}
+.re0 {color: #ee4432;}
+.re1 {color: #faec31;}
+.re2 {color: #faec31;}
+.sc0 {color: #d4de28;}
+.sc1 {color: #aaaaaa;}
+.sc2 {color: #339933;}
+.sc3 {color: #fff;}
+.sc-1 {color: #D4DE28; font-style: italic;}
+.st0 {color: #ccc;}
+.st_h {color: #ccc;}
+.sy0 {color: #d4de28;}
+.sy1 {color: #bbb;}
+
+
+/**
+ * jQuery lightBox plugin
+ * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)
+ * and adapted to me for use like a plugin from jQuery.
+ * @name jquery-lightbox-0.5.css
+ * @author Leandro Vieira Pinho - http://leandrovieira.com
+ * @version 0.5
+ * @date April 11, 2008
+ * @category jQuery plugin
+ * @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)
+ * @license CC Attribution-No Derivative Works 2.5 Brazil - http://creativecommons.org/licenses/by-nd/2.5/br/deed.en_US
+ * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin
+ */
+#jquery-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+}
+#jquery-lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+}
+#jquery-lightbox a img { border: none; }
+#lightbox-container-image-box {
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+#lightbox-container-image { padding: 10px; }
+#lightbox-loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+}
+#lightbox-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav { left: 0; }
+#lightbox-nav a { outline: none;}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+	width: 49%;
+	height: 100%;
+	zoom: 1;
+	display: block;
+}
+#lightbox-nav-btnPrev { 
+	left: 0; 
+	float: left;
+}
+#lightbox-nav-btnNext { 
+	right: 0; 
+	float: right;
+}
+#lightbox-container-image-data-box {
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%;
+	padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+	padding: 0 10px; 
+	color: #666; 
+}
+#lightbox-container-image-data #lightbox-image-details { 
+	width: 70%; 
+	float: left; 
+	text-align: left; 
+}	
+#lightbox-image-details-caption { font-weight: bold; }
+#lightbox-image-details-currentNumber {
+	display: block; 
+	clear: left; 
+	padding-bottom: 1.0em;	
+}			
+#lightbox-secNav-btnClose {
+	width: 66px; 
+	float: right;
+	padding-bottom: 0.7em;	
+}
