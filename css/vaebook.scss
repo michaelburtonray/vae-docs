@@ -442,18 +442,16 @@ pre {
   max-height: 600px;
 }
 
-#doc-content .section h3 {
-  font-size: 1.4em;
-}
-
-#doc-content .section h4 {
-  margin-top: 2em;
-}
-#doc-content h2 {
+#doc-content h2, #doc-content h3, #doc-content h4 {
   background: none;
   font-size: 1.25em;
   margin: 1.25em 0;
+  line-height: 48px;
   padding: 0;
+}
+
+#doc-content h3 {
+  font-size: 1.15em;
 }
 
 .stripe {
