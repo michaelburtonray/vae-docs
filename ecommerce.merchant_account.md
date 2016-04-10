@@ -17,7 +17,6 @@ Currently, Vae fully supports the following merchant account services:
 -   Cybersource (http://www.cybersource.com/)
 
 -   PayPal Website Payments Pro
-
     (https://www.paypal.com/cgi-bin/webscr?cmd=\_wp-pro-overview-outside)
     Braintree offers great rates for stores with high volume (tens of
     thousands of dollars per month and up). Authorize.Net is only sold

@@ -27,10 +27,10 @@ number of date links. Dividers can also wrap the each dater link.
 
 -   `href` - page to link to. Defaults to the current page.
 
-    `param` - URL parameter to contain the date value. Defaults to
+-   `param` - URL parameter to contain the date value. Defaults to
     `date`.
 
-    `strftime` - provide a [strftime format
+-   `strftime` - provide a [strftime format
     string](http://www.php.net/strftime) in this attribute and it will
     be used to format the date displayed in the link as well as set the
     granularity of the date ranges. If you display a day value, links
