@@ -3,7 +3,7 @@ layout: docs
 title: # PHP and MySQL
 ---
 
-# PHP and MySQL {#php_mysql}
+# PHP and MySQL
 
 We support the latest version of [PHP](http://www.php.net/) and
 [MySQL](http://www.mysql.com/) on all Vae accounts (although we strongly

@@ -3,7 +3,7 @@ layout: docs
 title: # SEO: Search Engine Optimization
 ---
 
-# SEO: Search Engine Optimization {#seo}
+# SEO: Search Engine Optimization
 
 Search Engine Optimization is a very broad topic and encompasses several
 types of things you might do to make your website more highly regarded

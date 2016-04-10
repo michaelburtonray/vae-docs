@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_destroy\_coupon\_code()
 ---
 
-# vae\_store\_destroy\_coupon\_code() {#php_vae_store_destroy_coupon_code}
+# vae\_store\_destroy\_coupon\_code()
 
 The `vae_store_destroy_coupon_code()` removes a coupon code.
 

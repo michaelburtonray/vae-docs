@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_richtext()
 ---
 
-# vae\_richtext() {#php_vae_richtext}
+# vae\_richtext()
 
 The `vae_richtext()` function applies proper formatting to the data
 stored in a Rich Text structure.

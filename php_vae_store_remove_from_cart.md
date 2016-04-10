@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_remove\_from\_cart()
 ---
 
-# vae\_store\_remove\_from\_cart() {#php_vae_store_remove_from_cart}
+# vae\_store\_remove\_from\_cart()
 
 The `vae_store_remove_from_cart()` function retrieves all the items
 currently in the visitor's shopping cart.

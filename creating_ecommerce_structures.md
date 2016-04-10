@@ -19,7 +19,7 @@ payment acceptance, and a powerful backstage interface for fulfilling
 orders and viewing analytics. We begin with the actual implementation of
 the store, and then discuss settings and third-party integration.
 
-# Creating the Structures for a Typical Store {#creating_ecommerce_structures}
+# Creating the Structures for a Typical Store
 
 One of the coolest part about eCommerce on Vae is that designers have
 extreme flexibility to build the store data structures in a way that
@@ -77,7 +77,7 @@ Since each configuration will have it's own inventory, make sure you put
 your Inventory structure under the Styles Structure, and not directly
 under the Items Structure, if you are using styles.
 
-# The Shopping Flow in VaeML {#shopping_flow}
+# The Shopping Flow in VaeML
 
 ## Shopping Cart {#shopping_cart}
 
@@ -107,7 +107,7 @@ order\_placed.html. This is usually a simple page that says something
 like, "Congratulations! Your order has been received." You might then
 have a link back to your site's homepage.
 
-# Customizing Order Confirmation E-Mails {#customizing_order_emails}
+# Customizing Order Confirmation E-Mails
 
 If you take a look at the [`<v:store:checkout>`](#v_store_checkout) tag
 in our example code, you will see the attribute

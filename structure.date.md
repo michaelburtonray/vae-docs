@@ -3,7 +3,7 @@ layout: docs
 title: # Date
 ---
 
-# Date {#structure.date}
+# Date
 
 A Date Structure stores a date value. When editing this Structure in
 Vae's Backstage Content tab, a calendar widget allows for easy date

@@ -3,7 +3,7 @@ layout: docs
 title: # Making An AJAX Photo Gallery
 ---
 
-# Making An AJAX Photo Gallery {#ajax_photo_library}
+# Making An AJAX Photo Gallery
 
 Making a simple photo gallery is a task that can be accomplished using
 the [`<v:a>`](#v_a) tag with the `ajax` attribute, along with the

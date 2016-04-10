@@ -3,7 +3,7 @@ layout: docs
 title: # Video Tutorial: Image Sizes
 ---
 
-# Video Tutorial: Image Sizes {#vid_image_sizes}
+# Video Tutorial: Image Sizes
 
 ![]()
 

@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_update()
 ---
 
-# vae\_update() {#php_vae_update}
+# vae\_update()
 
 Use the `vae_update()` function to update data stored in Vae.
 

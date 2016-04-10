@@ -3,7 +3,7 @@ layout: docs
 title: # Using AJAX
 ---
 
-# Using AJAX {#using_ajax}
+# Using AJAX
 
 Some Vae tags utilize an attribute called `ajax`, which gives a the
 designer the ability to specify a div to load content into,

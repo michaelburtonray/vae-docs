@@ -3,7 +3,7 @@ layout: docs
 title: # Video Tutorial: PHP
 ---
 
-# Video Tutorial: PHP {#vid_php}
+# Video Tutorial: PHP
 
 ![]()
 

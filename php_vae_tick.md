@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_tick()
 ---
 
-# vae\_tick() {#php_vae_tick}
+# vae\_tick()
 
 Use the `vae_tick()` function to build a time report of how long it
 takes your page to build. Simply insert calls to this function at

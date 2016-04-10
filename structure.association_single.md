@@ -3,7 +3,7 @@ layout: docs
 title: # Association (single)
 ---
 
-# Association (single) {#structure.association_single}
+# Association (single)
 
 The Association (single) structure stores an association with another
 entry on Vae. When creating the structure, you specify which collections

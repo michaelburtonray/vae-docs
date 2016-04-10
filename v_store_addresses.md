@@ -3,7 +3,7 @@ layout: docs
 title: # &lt;v:store:addresses&gt;
 ---
 
-# &lt;v:store:addresses&gt; {#v_store_addresses}
+# &lt;v:store:addresses&gt;
 
 Iterates over all addresses stored in the profile for the currently
 logged-in customer. Typically used to build a My Account page that

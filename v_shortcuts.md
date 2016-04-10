@@ -3,7 +3,7 @@ layout: docs
 title: # `<v>` shortcuts
 ---
 
-# `<v>` shortcuts {#v_shortcuts}
+# `<v>` shortcuts
 
 These are not VaeML tags; they are shortcuts that you can also use
 inside VaeML pages. These shortcuts are especially powerful because they

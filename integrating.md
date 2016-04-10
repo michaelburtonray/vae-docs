@@ -3,7 +3,7 @@ layout: docs
 title: # Integrating Vae Content Into Your Website
 ---
 
-# Integrating Vae Content Into Your Website {#integrating}
+# Integrating Vae Content Into Your Website
 
 Now that you have learned how to publish your website [via FTP or
 Subversion](#accessing_your_webspace), it is time to integrate your Vae

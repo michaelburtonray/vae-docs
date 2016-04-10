@@ -3,7 +3,7 @@ layout: docs
 title: # Password
 ---
 
-# Password {#structure.password}
+# Password
 
 The Password Structure stores a password securely with encryption. It is
 generally used with the [`<v:users:login>`](#v_users_login) and

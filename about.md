@@ -3,7 +3,7 @@ layout: docs
 title: # About Vae
 ---
 
-# About Vae {#about}
+# About Vae
 
 > Vae has changed my entire business as a web designer. Before Vae, I
 > would build a site for a client and be stuck doing updates into
@@ -47,7 +47,7 @@ see Vae as a breath of fresh air.
 Come follow along with us as we show you why Vae is the best way to
 build websites for your clients.
 
-# No Assumptions, No Hacking {#no_hacking}
+# No Assumptions, No Hacking
 
 If you've ever heard the phrase *Content Management System*, you might
 associate it with PHP-based open source products, such as Drupal,
@@ -88,7 +88,7 @@ solutions, the PHP code will be 100% written by you.
 
 We'll get into more details on all of this in the coming pages.
 
-# Separation of Content and Layout {#separation_of_content_and_layout}
+# Separation of Content and Layout
 
 Another flaw in most website publishing systems or content management
 systems is a tight coupling between website layout and managed content.
@@ -178,7 +178,7 @@ to manage. Imagine other content that you might have for each artist,
 for example MP3s, Press, Tour Dates, or Blog Posts. In Vae, managing
 that content is as simple as setting up the necessary structures.
 
-# Web Professionals Required {#web_professionals_required}
+# Web Professionals Required
 
 As a company, we frequently come under pressure from investors and
 friends to make the Vae platform more accessible to nontechnical
@@ -206,7 +206,7 @@ content presentation language called VaeML. Setting up content
 management takes work, but in time it will be second nature and you will
 be an even better designer than you were before.
 
-# A Sampling of Vae Sites {#real_vae_sites}
+# A Sampling of Vae Sites
 
 Seeing is believing, so let's take a moment to check out some of the
 different sites that have been built on Vae. Later, we'll circle back

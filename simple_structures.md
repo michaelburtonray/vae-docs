@@ -3,7 +3,7 @@ layout: docs
 title: # Simple Structures
 ---
 
-# Simple Structures {#simple_structures}
+# Simple Structures
 
 Simple structures are the most basic types of data structures within
 Vae. Each simple structure holds one piece of data. There are currently

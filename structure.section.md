@@ -3,7 +3,7 @@ layout: docs
 title: # Section
 ---
 
-# Section {#structure.section}
+# Section
 
 A Section is a superstructure that may contain multiple child
 structures, however it can only hold a single entry of data.

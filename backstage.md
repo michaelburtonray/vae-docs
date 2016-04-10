@@ -3,7 +3,7 @@ layout: docs
 title: # Backstage Reference
 ---
 
-# Backstage Reference {#backstage}
+# Backstage Reference
 
 This section is a tab-by-tab guide to the backstage interface. While it
 can be read cover-to-cover, this section is best used as a reference

@@ -3,7 +3,7 @@ layout: docs
 title: # Tags
 ---
 
-# Tags {#structure.tags}
+# Tags
 
 The Tags structure stores tags that can be used to associate the parent
 entry with different topics.

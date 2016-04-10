@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_redirect()
 ---
 
-# vae\_redirect() {#php_vae_redirect}
+# vae\_redirect()
 
 Use the `vae_redirect()` function to register a URL that the user will
 be redirected to AFTER the script finishes processing.

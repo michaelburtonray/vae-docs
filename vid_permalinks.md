@@ -3,7 +3,7 @@ layout: docs
 title: # Video Tutorial: Permalinks
 ---
 
-# Video Tutorial: Permalinks {#vid_permalinks}
+# Video Tutorial: Permalinks
 
 ![]()
 

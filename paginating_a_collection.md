@@ -3,7 +3,7 @@ layout: docs
 title: # Paginating A Collection
 ---
 
-# Paginating A Collection {#paginating_a_collection}
+# Paginating A Collection
 
 Vae's `paginate` attribute allows you to limit the number of entries the
 `<v:collection>` tag will output. Here's an example code snippet hat

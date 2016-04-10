@@ -3,7 +3,7 @@ layout: docs
 title: # Getting Started with Structures
 ---
 
-# Getting Started with Structures {#getting_started_with_structures}
+# Getting Started with Structures
 
 Structures can be created and managed on the Site tab's [Content
 Management](#backstage.site.content_management) subtab. The [Content

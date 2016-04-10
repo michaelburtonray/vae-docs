@@ -3,7 +3,7 @@ layout: docs
 title: # Video Tutorial: Newsletters
 ---
 
-# Video Tutorial: Newsletters {#vid_newsletter}
+# Video Tutorial: Newsletters
 
 ![]()
 

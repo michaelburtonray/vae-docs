@@ -3,7 +3,7 @@ layout: docs
 title: # Customers Tab
 ---
 
-# Customers Tab {#backstage.customers}
+# Customers Tab
 
 The Customers tab allows you to view, edit, and search customers of your
 online store. It is useful for looking up the order history of a

@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_destroy\_tax\_rate()
 ---
 
-# vae\_store\_destroy\_tax\_rate() {#php_vae_store_destroy_tax_rate}
+# vae\_store\_destroy\_tax\_rate()
 
 The `vae_store_destroy_tax_rate()` removes a tax rate.
 

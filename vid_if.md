@@ -3,7 +3,7 @@ layout: docs
 title: # Video Tutorial: If
 ---
 
-# Video Tutorial: If {#vid_if}
+# Video Tutorial: If
 
 ![]()
 

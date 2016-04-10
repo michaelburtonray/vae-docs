@@ -3,7 +3,7 @@ layout: docs
 title: # Image
 ---
 
-# Image {#structure.image}
+# Image
 
 The Image Structure allows users to upload images in virtually any image
 format. Vae will automatically crop and resize images to the exact

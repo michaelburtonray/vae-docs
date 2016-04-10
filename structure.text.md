@@ -3,7 +3,7 @@ layout: docs
 title: # Text
 ---
 
-# Text {#structure.text}
+# Text
 
 The Text structure stores a single line of unformatted text. It can be
 used for names, numbers, URLs, or any number of other things that can be

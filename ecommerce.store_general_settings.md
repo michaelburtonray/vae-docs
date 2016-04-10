@@ -3,7 +3,7 @@ layout: docs
 title: # Store General Settings
 ---
 
-# Store General Settings {#ecommerce.store_general_settings}
+# Store General Settings
 
 Also located under the Store tab/Settings sub-tab is the Store Genereal
 Setttings link. Click this link to configure the basics of your store,

@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_loggedin()
 ---
 
-# vae\_store\_loggedin() {#php_vae_store_loggedin}
+# vae\_store\_loggedin()
 
 The `vae_store_loggedin()` function determines if the current Store user
 is logged in.

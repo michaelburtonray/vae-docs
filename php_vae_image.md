@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_image() and vae\_sizedimage()
 ---
 
-# vae\_image() and vae\_sizedimage() {#php_vae_image}
+# vae\_image() and vae\_sizedimage()
 
 Use the `vae_image()` or `vae_sizedimage()` function to generate a URL
 for an image uploaded through Vae. The value returned by these functions

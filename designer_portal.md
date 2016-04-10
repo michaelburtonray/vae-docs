@@ -3,7 +3,7 @@ layout: docs
 title: # Designer Portal
 ---
 
-# Designer Portal {#designer_portal}
+# Designer Portal
 
 The designer portal is the primary interface that members of the Vae
 Designer Partner Program use to provision websites, access their

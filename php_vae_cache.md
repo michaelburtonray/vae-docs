@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_cache()
 ---
 
-# vae\_cache() {#php_vae_cache}
+# vae\_cache()
 
 Use the `vae_cache()` function to cache the results of a PHP function in
 memory for a specified period of time and automatically display the

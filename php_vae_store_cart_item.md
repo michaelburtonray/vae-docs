@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_cart\_item()
 ---
 
-# vae\_store\_cart\_item() {#php_vae_store_cart_item}
+# vae\_store\_cart\_item()
 
 The `vae_store_cart_item()` function retrieves an item from the
 visitor's shopping cart.

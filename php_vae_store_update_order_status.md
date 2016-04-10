@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_update\_order\_status()
 ---
 
-# vae\_store\_update\_order\_status() {#php_vae_store_update_order_status}
+# vae\_store\_update\_order\_status()
 
 Use the `vae_store_update_order_status()` function to update the status
 of an order that has been placed on the website.

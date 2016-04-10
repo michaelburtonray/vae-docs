@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_flash()
 ---
 
-# vae\_flash() {#php_vae_flash}
+# vae\_flash()
 
 Use the `vae_flash()` function to add a message to the Vae flash bin.
 These messages are displayed to the user on the next page that is

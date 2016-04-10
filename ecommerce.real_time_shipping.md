@@ -3,7 +3,7 @@ layout: docs
 title: # Real-Time Shipping Calculations
 ---
 
-# Real-Time Shipping Calculations {#ecommerce.real_time_shipping}
+# Real-Time Shipping Calculations
 
 Vae can automatically calculate shipping costs at checkout, as long as
 the the `weight_field` has been properly set in the

@@ -3,7 +3,7 @@ layout: docs
 title: # vae()
 ---
 
-# vae() {#php_vae}
+# vae()
 
 The `vae()` (formerly `vae_find()`, which still works as an alias)
 function is the main way of accessing your Vae content through PHP.

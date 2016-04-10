@@ -3,7 +3,7 @@ layout: docs
 title: # Rich Text Area
 ---
 
-# Rich Text Area {#structure.richtext}
+# Rich Text Area
 
 A Rich Text Area Structure stores HTML formatted text. Use these when
 you need to support formatting or embedded images/video/HTML in your

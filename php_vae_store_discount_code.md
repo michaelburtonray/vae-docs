@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_discount\_code()
 ---
 
-# vae\_store\_discount\_code() {#php_vae_store_discount_code}
+# vae\_store\_discount\_code()
 
 The `vae_store_discount_code()` retrieves information about the
 currently applied discount code. When called with an argument, it sets

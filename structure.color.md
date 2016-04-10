@@ -3,7 +3,7 @@ layout: docs
 title: # Color
 ---
 
-# Color {#structure.color}
+# Color
 
 The Color Structure stores a color value. When editing entries for this
 structure, a color-picker widget allows for easy color selection. This

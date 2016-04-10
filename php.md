@@ -3,7 +3,7 @@ layout: docs
 title: # PHP Integration
 ---
 
-# PHP Integration {#php}
+# PHP Integration
 
 You can use Vae PHP integration to access your Vae content through the
 PHP programming language.

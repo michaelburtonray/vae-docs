@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_permalink()
 ---
 
-# vae\_permalink() {#php_vae_permalink}
+# vae\_permalink()
 
 Use the `vae_permalink()` function to retrieve the
 [permalink](#permalinks) for a given entry ID.

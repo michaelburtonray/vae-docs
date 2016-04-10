@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_watermark()
 ---
 
-# vae\_watermark() {#php_vae_watermark}
+# vae\_watermark()
 
 Use the `vae_watermark()` function to add a watermark to an image.
 

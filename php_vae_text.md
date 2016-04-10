@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_text()
 ---
 
-# vae\_text() {#php_vae_text}
+# vae\_text()
 
 The `vae_text()` function renders the text you specify in a given font,
 size, and color.

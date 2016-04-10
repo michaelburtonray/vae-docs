@@ -3,7 +3,7 @@ layout: docs
 title: # Video Tutorial: Collections
 ---
 
-# Video Tutorial: Collections {#vid_collection}
+# Video Tutorial: Collections
 
 ![]()
 

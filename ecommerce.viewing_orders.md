@@ -3,7 +3,7 @@ layout: docs
 title: # Viewing Orders
 ---
 
-# Viewing Orders {#ecommerce.viewing_orders}
+# Viewing Orders
 
 ## Orders Tab (Backstage)
 

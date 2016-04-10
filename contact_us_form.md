@@ -3,7 +3,7 @@ layout: docs
 title: # A 'Contact Us' Form
 ---
 
-# A 'Contact Us' Form {#contact_us_form}
+# A 'Contact Us' Form
 
 A common feature of many sites is a 'Contact Us' form, which allows
 users to quickly shoot an email to the client. With Vae, you can utilize

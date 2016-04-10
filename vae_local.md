@@ -3,7 +3,7 @@ layout: docs
 title: # Vae Local Development Environment
 ---
 
-# Vae Local Development Environment {#vae_local}
+# Vae Local Development Environment
 
 The Vae Local Development Environment is a software package that you can
 install on your local computer. It allows you to preview pages that you

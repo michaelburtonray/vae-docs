@@ -3,7 +3,7 @@ layout: docs
 title: # Global PHP Includes
 ---
 
-# Global PHP Includes {#global_php_includes}
+# Global PHP Includes
 
 If you are using PHP, it is often useful to write PHP code that is used
 across your website. With Vae, you can put this shared code into a file

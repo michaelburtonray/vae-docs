@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_destroy()
 ---
 
-# vae\_destroy() {#php_vae_destroy}
+# vae\_destroy()
 
 Use the `vae_destroy()` function to delete (destroy) an entry in a Vae
 collection.

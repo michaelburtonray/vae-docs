@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_orders()
 ---
 
-# vae\_store\_orders() {#php_vae_store_orders}
+# vae\_store\_orders()
 
 The `vae_store_orders()` function returns an array of up to 50 orders
 that have been placed on this website. Optional finders are provided to

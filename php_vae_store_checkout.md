@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_checkout()
 ---
 
-# vae\_store\_checkout() {#php_vae_store_checkout}
+# vae\_store\_checkout()
 
 The `vae_store_checkout()` function completes the checkout action for
 the current website user. This function should be called after

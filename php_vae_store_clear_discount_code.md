@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_clear\_discount\_code()
 ---
 
-# vae\_store\_clear\_discount\_code() {#php_vae_store_clear_discount_code}
+# vae\_store\_clear\_discount\_code()
 
 Use the `vae_store_clear_discount_code()` function to clear the
 currently applied discount code.

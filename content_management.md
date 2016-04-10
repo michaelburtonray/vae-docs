@@ -3,7 +3,7 @@ layout: docs
 title: # Content Management
 ---
 
-# Content Management {#content_management}
+# Content Management
 
 As we discussed in the previous chapter, Vae doesn't make assumptions
 about what kind of content your website contains or how it should be

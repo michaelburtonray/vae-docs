@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_data\_path()
 ---
 
-# vae\_data\_path() {#php_vae_data_path}
+# vae\_data\_path()
 
 Use the `vae_data_path()` function to retrieve the filesystem path to
 the folder where Vae stores its local cache of images, files and videos.

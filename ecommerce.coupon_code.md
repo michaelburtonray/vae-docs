@@ -3,7 +3,7 @@ layout: docs
 title: # Coupon Codes
 ---
 
-# Coupon Codes {#ecommerce.coupon_code}
+# Coupon Codes
 
 The Coupon Codes sub-tab (located under the Store tab) is the place to
 manage your coupon codes. If you include the relevant markup (as we

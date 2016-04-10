@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_customer()
 ---
 
-# vae\_customer() {#php_vae_customer}
+# vae\_customer()
 
 Use the `vae_customer()` function to retrieve information about a
 customer by customer ID.

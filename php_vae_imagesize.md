@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_imagesize()
 ---
 
-# vae\_imagesize() {#php_vae_imagesize}
+# vae\_imagesize()
 
 Use the `vae_imagesize()` function to determine the pixel size of an
 image stored in your Vae data folder.

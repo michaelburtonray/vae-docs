@@ -3,7 +3,7 @@ layout: docs
 title: # Checkbox
 ---
 
-# Checkbox {#structure.checkbox}
+# Checkbox
 
 A Checkbox structure stores a boolean yes-or-no value. Suppose you are
 desigining a site for a car dealership who wants to display, for each

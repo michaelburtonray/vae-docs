@@ -3,7 +3,7 @@ layout: docs
 title: # Usage / Billing Tab
 ---
 
-# Usage / Billing Tab {#backstage.usage}
+# Usage / Billing Tab
 
 The Usage / Billing tab contains information and controls that are
 useful to the account holder or whoever pays the bills. The subtabs of

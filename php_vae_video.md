@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_video()
 ---
 
-# vae\_video() {#php_vae_video}
+# vae\_video()
 
 Use the `vae_video()` function to generate a URL for a video uploaded
 through Vae. This is typically called to embed the URL within the code

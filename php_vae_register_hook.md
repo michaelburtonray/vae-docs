@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_register\_hook()
 ---
 
-# vae\_register\_hook() {#php_vae_register_hook}
+# vae\_register\_hook()
 
 Use the `vae_register_hook()` function to register code that will run
 when certain Vae events are triggered. For VaeML tag-based events, your

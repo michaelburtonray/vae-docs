@@ -3,7 +3,7 @@ layout: docs
 title: # Generating PDFs
 ---
 
-# Generating PDFs {#pdf}
+# Generating PDFs
 
 Vae allows you to build PDF files on the fly from HTML and CSS source.
 This can be used, for example, to create downloadable print-ready

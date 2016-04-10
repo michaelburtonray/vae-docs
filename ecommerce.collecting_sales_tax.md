@@ -3,7 +3,7 @@ layout: docs
 title: # Collecting Sales Tax
 ---
 
-# Collecting Sales Tax {#ecommerce.collecting_sales_tax}
+# Collecting Sales Tax
 
 ## Defining Tax Rates
 

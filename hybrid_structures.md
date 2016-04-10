@@ -3,7 +3,7 @@ layout: docs
 title: # Hybrid Structures
 ---
 
-# Hybrid Structures {#hybrid_structures}
+# Hybrid Structures
 
 Admittedly, the terminology is getting a little over-the-top, but it is
 important to dedicate a separate category to two structures because they

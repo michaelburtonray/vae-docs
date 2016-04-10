@@ -3,7 +3,7 @@ layout: docs
 title: # File
 ---
 
-# File {#structure.file}
+# File
 
 The File structure stores any file. There is no file size limit,
 however, files stored in File structures will count against your overall

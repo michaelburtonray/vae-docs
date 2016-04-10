@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_file()
 ---
 
-# vae\_file() {#php_vae_file}
+# vae\_file()
 
 Use the `vae_file()` function to retrieve the URL for a file (or an
 image/video) uploaded through Vae. This return value is typically used

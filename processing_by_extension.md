@@ -3,7 +3,7 @@ layout: docs
 title: # Summary -- Processing by Extension
 ---
 
-# Summary -- Processing by Extension {#processing_by_extension}
+# Summary -- Processing by Extension
 
 As you have seen, Vae supports many different forms of preprocessing on
 documents. The exact set of processing is determined by the file

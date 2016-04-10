@@ -3,7 +3,7 @@ layout: docs
 title: # Custom Error Pages
 ---
 
-# Custom Error Pages {#custom_error_pages}
+# Custom Error Pages
 
 For a more polished look, you can edit the error pages that your
 visitors will see if there is a server error. These files are simple

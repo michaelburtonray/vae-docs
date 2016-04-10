@@ -3,7 +3,7 @@ layout: docs
 title: # Association (multi)
 ---
 
-# Association (multi) {#structure.association_multi}
+# Association (multi)
 
 The Association (multi) structure stores an association with other
 entries on Vae. When creating the structure, you specify which

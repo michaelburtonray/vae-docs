@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_current\_user()
 ---
 
-# vae\_store\_current\_user() {#php_vae_store_current_user}
+# vae\_store\_current\_user()
 
 The `vae_store_current_user()` function retrieves information about the
 current user.

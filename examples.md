@@ -3,7 +3,7 @@ layout: docs
 title: # Tutorials and Examples
 ---
 
-# Tutorials and Examples {#examples}
+# Tutorials and Examples
 
 To give you the full picture, we've written some full tutorials that
 will walk you through creating a Vae site from start to finish. We

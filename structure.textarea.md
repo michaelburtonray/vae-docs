@@ -3,7 +3,7 @@ layout: docs
 title: # Text Area
 ---
 
-# Text Area {#structure.textarea}
+# Text Area
 
 A Text Area Structure stores muliple lines of unformatted text. It is
 good for text blocks that range from a sentence to a few paragraphs. For

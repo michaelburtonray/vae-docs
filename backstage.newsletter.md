@@ -3,7 +3,7 @@ layout: docs
 title: # Newsletter Tab
 ---
 
-# Newsletter Tab {#backstage.newsletter}
+# Newsletter Tab
 
 The Newsletter tab is the hub for sending and tracking newsletters on
 Vae. Vae allows all accounts to create an unlimited number of E-Mail

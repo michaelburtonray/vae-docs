@@ -3,7 +3,7 @@ layout: docs
 title: # Content Tab
 ---
 
-# Content Tab {#backstage.content}
+# Content Tab
 
 The Content tab is where content can be added to the Structures that
 make up your website. On the Content tab, you can add edit, delete,

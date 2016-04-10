@@ -3,7 +3,7 @@ layout: docs
 title: # Video Tutorial: AJAX
 ---
 
-# Video Tutorial: AJAX {#vid_ajax}
+# Video Tutorial: AJAX
 
 ![]()
 

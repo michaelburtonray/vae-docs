@@ -3,7 +3,7 @@ layout: docs
 title: # Accessing Your Webspace
 ---
 
-# Accessing Your Webspace {#accessing_your_webspace}
+# Accessing Your Webspace
 
 Every Vae account comes with webspace. By default, your website will be
 made available at `http://<accountname>.vaesite.com/`. You may also

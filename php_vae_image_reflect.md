@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_image\_reflect()
 ---
 
-# vae\_image\_reflect() {#php_vae_image_reflect}
+# vae\_image\_reflect()
 
 Use the `vae_image_reflect()` function to apply an Apple-like reflection
 effect to an image.

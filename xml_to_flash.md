@@ -3,7 +3,7 @@ layout: docs
 title: # Using XML to Send Data to Flash App
 ---
 
-# Using XML to Send Data to Flash App {#xml_to_flash}
+# Using XML to Send Data to Flash App
 
 Many users wonder whether they can use Vae to manage the content of
 their Flash-based websites. If you use XML to drive your site's content,

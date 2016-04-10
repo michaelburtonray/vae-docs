@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_style()
 ---
 
-# vae\_style() {#php_vae_style}
+# vae\_style()
 
 Use the `vae_style()` function to sanitize and process text from a Text
 or Text Area structure. It converts newlines to `<br />` tags,

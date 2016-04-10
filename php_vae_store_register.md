@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_register()
 ---
 
-# vae\_store\_register() {#php_vae_store_register}
+# vae\_store\_register()
 
 The `vae_store_register()` function registers the current website user
 as a customer. This will add them to the Customers tab in the backstage

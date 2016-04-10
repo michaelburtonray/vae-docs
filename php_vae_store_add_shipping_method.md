@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_add\_shipping\_method()
 ---
 
-# vae\_store\_add\_shipping\_method() {#php_vae_store_add_shipping_method}
+# vae\_store\_add\_shipping\_method()
 
 The `vae_store_add_shipping_method()` function adds a shipping method to
 the site. All options available from the built-in shipping methods are

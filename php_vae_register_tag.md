@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_register\_tag()
 ---
 
-# vae\_register\_tag() {#php_vae_register_tag}
+# vae\_register\_tag()
 
 Use the `vae_register_tag()` function to register your own
 [VaeML](#vaeml) tag. You define a function that will render your tag and

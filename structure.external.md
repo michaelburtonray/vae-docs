@@ -3,7 +3,7 @@ layout: docs
 title: # External
 ---
 
-# External {#structure.external}
+# External
 
 An External Structure is not really a structure at all, rather it simply
 links to or embeds an external resources. External Structures are used

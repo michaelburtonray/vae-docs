@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_loggedin()
 ---
 
-# vae\_loggedin() {#php_vae_loggedin}
+# vae\_loggedin()
 
 Use the `vae_loggedin()` function to determine if the client is logged
 in to the Vae backstage.

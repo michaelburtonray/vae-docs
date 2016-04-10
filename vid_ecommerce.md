@@ -3,7 +3,7 @@ layout: docs
 title: # Video Tutorial: eCommerce
 ---
 
-# Video Tutorial: eCommerce {#vid_ecommerce}
+# Video Tutorial: eCommerce
 
 ![]()
 

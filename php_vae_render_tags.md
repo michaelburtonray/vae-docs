@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_render\_tags()
 ---
 
-# vae\_render\_tags() {#php_vae_render_tags}
+# vae\_render\_tags()
 
 Use the vae\_render\_tags() function to render the tags inside a `VaeML`
 tag.

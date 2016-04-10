@@ -3,7 +3,7 @@ layout: docs
 title: # Users Tab
 ---
 
-# Users Tab {#backstage.users}
+# Users Tab
 
 The Users tab includes two subtabs: Vae Users, and Mail Forwarders. Vae
 Users is where you can manage users (which provide access to the

@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_asset()
 ---
 
-# vae\_asset() {#php_vae_asset}
+# vae\_asset()
 
 Use the `vae_asset()` function to generate a URL for an asset uploaded
 through a Vae Rich Text structure.

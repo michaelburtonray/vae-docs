@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_errors()
 ---
 
-# vae\_errors() {#php_vae_errors}
+# vae\_errors()
 
 Use the `vae_errors()` function to retrieve any error messages from a
 previous call that failed where the documentation of that call tells you

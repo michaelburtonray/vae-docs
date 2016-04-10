@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_total\_weight()
 ---
 
-# vae\_store\_total\_weight() {#php_vae_store_total_weight}
+# vae\_store\_total\_weight()
 
 The `vae_store_total_weight()` function overrides the total weight for
 items in the cart. This function is useful because it enables you to

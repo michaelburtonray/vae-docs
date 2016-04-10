@@ -3,7 +3,7 @@ layout: docs
 title: # Analytics
 ---
 
-# Analytics {#ecommerce.analytics}
+# Analytics
 
 The Analytics sub-tab, located under the Store tab, is a powerful tool
 for tracking your orders by sales over time, total sales, sales by

@@ -3,7 +3,7 @@ layout: docs
 title: # The Website
 ---
 
-# The Website {#the_website}
+# The Website
 
 Now that we've discussed Vae's [content management](#content_management)
 features, let's move on to the other important aspect of Vae: powerful
@@ -36,7 +36,7 @@ skimmed over if you are reading this book straight through. But be sure
 to check out our [Cookbook](#cookbook) section, which includes some
 great tutorials that will show you how powerful Vae can be.
 
-# Vae Hosting Environment {#hosting}
+# Vae Hosting Environment
 
 Vae provides a powerful and unique hosting environment, filled with
 features that other website hosting companies would never offer. We

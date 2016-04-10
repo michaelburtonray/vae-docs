@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_create\_coupon\_code()
 ---
 
-# vae\_store\_create\_coupon\_code() {#php_vae_store_create_coupon_code}
+# vae\_store\_create\_coupon\_code()
 
 The `vae_store_create_coupon_code()` function creates a coupon code.
 

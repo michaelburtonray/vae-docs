@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_store\_add\_item\_to\_cart()
 ---
 
-# vae\_store\_add\_item\_to\_cart() {#php_vae_store_add_item_to_cart}
+# vae\_store\_add\_item\_to\_cart()
 
 The `vae_store_add_item_to_cart()` function adds an item to the user's
 shopping cart.

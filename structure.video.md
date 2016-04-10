@@ -3,7 +3,7 @@ layout: docs
 title: # Video
 ---
 
-# Video {#structure.video}
+# Video
 
 The Video Structure allows users to upload videos in virtually any video
 format. Vae will automatically convert any uploaded video to embeddable

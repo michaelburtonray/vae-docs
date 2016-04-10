@@ -3,7 +3,7 @@ layout: docs
 title: # vae\_cdn\_url()
 ---
 
-# vae\_cdn\_url() {#php_vae_cdn_url}
+# vae\_cdn\_url()
 
 Use the `vae_cdn_url()` function to retrieve the URL prefix for
 accessing any file on your site via a CDN (content delivery network).

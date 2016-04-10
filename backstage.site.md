@@ -3,7 +3,7 @@ layout: docs
 title: # Site Tab
 ---
 
-# Site Tab {#backstage.site}
+# Site Tab
 
 The Site tab contains functions and settings that are useful to the
 website designer. The subtabs of the Site tab control how content is

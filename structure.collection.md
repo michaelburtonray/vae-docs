@@ -3,7 +3,7 @@ layout: docs
 title: # Collection
 ---
 
-# Collection {#structure.collection}
+# Collection
 
 A Collection is a superstructure that may contain multiple child
 structures, and entries of data. The collection is an integral part of

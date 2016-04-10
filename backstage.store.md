@@ -3,7 +3,7 @@ layout: docs
 title: # Store Tab
 ---
 
-# Store Tab {#backstage.store}
+# Store Tab
 
 The Store tab allows you to manage your website's eCommerce settings, as
 well as monitor your sales.
