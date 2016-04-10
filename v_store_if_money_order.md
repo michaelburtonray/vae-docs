@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:if_money_order>{#v_store_if_money_order}"
+title: "<v:store:if_money_order>"
 ---
 
 # `<v:store:if_money_order>`{#v_store_if_money_order}

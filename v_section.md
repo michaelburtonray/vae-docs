@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:section>{#v_section}"
+title: "<v:section>"
 ---
 
 # `<v:section>`{#v_section}

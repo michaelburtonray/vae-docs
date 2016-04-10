@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:checkbox>{#v_checkbox}"
+title: "<v:checkbox>"
 ---
 
 # `<v:checkbox>`{#v_checkbox}

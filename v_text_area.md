@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:text_area>{#v_text_area}"
+title: "<v:text_area>"
 ---
 
 # `<v:text_area>`{#v_text_area}

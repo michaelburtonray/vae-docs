@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:form>{#v_form}"
+title: "<v:form>"
 ---
 
 # `<v:form>`{#v_form}

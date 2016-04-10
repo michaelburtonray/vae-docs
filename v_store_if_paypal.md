@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:if_paypal>{#v_store_if_paypal}"
+title: "<v:store:if_paypal>"
 ---
 
 # `<v:store:if_paypal>`{#v_store_if_paypal}

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:state_select>{#v_state_select}"
+title: "<v:state_select>"
 ---
 
 # `<v:state_select>`{#v_state_select}

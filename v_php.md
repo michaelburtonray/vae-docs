@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:php>{#v_php}"
+title: "<v:php>"
 ---
 
 # `<v:php>`{#v_php}

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:gravatar>{#v_gravatar}"
+title: "<v:gravatar>"
 ---
 
 # `<v:gravatar>`{#v_gravatar}

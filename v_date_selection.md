@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:date_selection>{#v_date_selection}"
+title: "<v:date_selection>"
 ---
 
 # `<v:date_selection>`{#v_date_selection}

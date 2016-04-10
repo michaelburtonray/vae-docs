@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:users:forgot>{#v_users_forgot}"
+title: "<v:users:forgot>"
 ---
 
 # `<v:users:forgot>`{#v_users_forgot}

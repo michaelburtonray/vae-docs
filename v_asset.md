@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:asset>{#v_asset}"
+title: "<v:asset>"
 ---
 
 # `<v:asset>`{#v_asset}

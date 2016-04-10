@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:checkout>{#v_store_checkout}"
+title: "<v:store:checkout>"
 ---
 
 # `<v:store:checkout>`{#v_store_checkout}

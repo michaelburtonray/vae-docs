@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:previous_order>{#v_store_previous_order}"
+title: "<v:store:previous_order>"
 ---
 
 # `<v:store:previous_order>`{#v_store_previous_order}

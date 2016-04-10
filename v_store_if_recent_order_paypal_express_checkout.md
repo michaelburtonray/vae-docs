@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:if_recent_order_paypal_express_checkout>{#v_store_if_recent_order_paypal_express_checkout}"
+title: "<v:store:if_recent_order_paypal_express_checkout>"
 ---
 
 # `<v:store:if_recent_order_paypal_express_checkout>`{#v_store_if_recent_order_paypal_express_checkout}

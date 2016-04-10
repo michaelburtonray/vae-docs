@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:fragment>{#v_fragment}"
+title: "<v:fragment>"
 ---
 
 # `<v:fragment>`{#v_fragment}

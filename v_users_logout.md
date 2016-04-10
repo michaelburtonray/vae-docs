@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:users:logout>{#v_users_logout}"
+title: "<v:users:logout>"
 ---
 
 # `<v:users:logout>`{#v_users_logout}

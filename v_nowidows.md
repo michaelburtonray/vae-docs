@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:nowidows>{#v_nowidows}"
+title: "<v:nowidows>"
 ---
 
 # `<v:nowidows>`{#v_nowidows}

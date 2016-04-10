@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:register>{#v_store_register}"
+title: "<v:store:register>"
 ---
 
 # `<v:store:register>`{#v_store_register}

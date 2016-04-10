@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:forgot>{#v_store_forgot}"
+title: "<v:store:forgot>"
 ---
 
 # `<v:store:forgot>`{#v_store_forgot}

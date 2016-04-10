@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:fileurl>{#v_fileurl}"
+title: "<v:fileurl>"
 ---
 
 # `<v:fileurl>`{#v_fileurl}
