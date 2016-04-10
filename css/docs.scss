@@ -87,7 +87,7 @@ table td {
   position: fixed;
   width: 100%;
   min-width: 800px;
-  background: #0a143a;
+  background: #333;
   height: $header_height;
   z-index: 30;
   top: 0;
@@ -125,13 +125,13 @@ table td {
 
 .header .logo {
   float: left;
-  width: 150px;
+  width: 100px;
   height: auto;
 }
 
 .header h3 {
   float: left;
-  color: #69a7c2;
+  color: #fff;
   margin: 0;
   margin-left: 14px;
   margin-top: 12px;
@@ -206,7 +206,7 @@ table td {
   left: 0;
   bottom: 0;
   width: 300px;
-  background: #083e64;
+  background: #666;
   font-size: 13px;
   font-weight: 400;
   height: 100%;
@@ -227,7 +227,7 @@ table td {
 }
 
 .sidebar .parent-item {
-  border-bottom: 1px solid #0f537e;
+  border-bottom: 1px solid #222;
   overflow: hidden;
 }
 
@@ -240,7 +240,7 @@ table td {
 
 .sidebar .parent-link:hover,
 .sidebar .parent-item.active {
-  background: #002D4C;
+  background: #444;
 }
 
 .sidebar .parent-link img {

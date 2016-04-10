@@ -3,85 +3,6 @@ sections:
 - title: Getting Started
   icon: home
   slug: ''
-- title: BrickFTP Features
-  slug: features
-  icon: features
-  child_items:
-  - title: Introduction
-    slug:  ''
-  - title: Web Interface
-    slug:  web-interface
-  - title: Transferring Files
-    slug:  transferring-files
-  - title: Custom Branding
-    slug:  custom-branding
-  - title: Users
-    slug:  users
-  - title: Groups
-    slug:  groups
-  - title: Permissions
-    slug:  permissions
-  - title: Sharing Files
-    slug:  sharing-files
-  - title: Notifications
-    slug:  notifications
-  - title: History
-    slug:  history
-  - title: Performance Tips
-    slug:  performance-tips
-- title: Tutorials
-  slug: tutorials
-  icon: tutorials
-  child_items:
-  - title: Introduction
-    slug:  ''
-  - title: Connecting via FTP/FTPS
-    slug:  ftp-ftps
-  - title: Connecting via SFTP + SSH Keys
-    slug:  sftp
-  - title: Connecting via WebDAV
-    slug:  webdav
-  - title: Configure LDAP
-    slug:  ldap
-- title: FAQ
-  slug: faq
-  icon: faq
-- title: Articles
-  slug: articles
-  icon: articles
-  child_items:
-  - title: Introduction
-    slug:  ''
-  - title: Custom Domain Name
-    slug:  custom-domain
-- title: REST API
-  slug: rest-api
-  icon: rest-api
-  child_items:
-  - title: Introduction
-    slug:  ''
-  - title: Authentication
-    slug:  authentication
-  - title: Users
-    slug:  users
-  - title: Groups
-    slug:  groups
-  - title: Permissions
-    slug:  permissions
-  - title: Notifications
-    slug:  notifications
-  - title: History
-    slug:  history
-  - title: File and Folder Operations
-    slug:  file-operations
-  - title: File Uploading
-    slug:  file-uploading
-- title: Webhook API
-  slug: webhook-api
-  icon: webhook-api
-- title: Still Stuck? &nbsp;&nbsp;Contact Us.
-  slug: support
-  icon: support
 ---
 
 <!doctype html>
@@ -109,7 +30,7 @@ sections:
   <div class="wrapper">
     <div class="header">
       <div class="header-group group">
-        <a href="/"><img src="{{ 'img/logo-white.png' }}" class="logo" alt="BrickFTP"></a>
+        <a href="/"><img src="{{ '/images/logo-top.png' }}" class="logo" alt="Vae"></a>
         <h3>Documentation &amp; Reference Center</h3>
       </div>
       <div class="sidebar-toggle">
@@ -128,7 +49,7 @@ sections:
             {% else %}
             <a class="parent-link" href="/contact/">
             {% endif %}
-            <img src="{{ 'img/docs/sidebar-' | append: section.icon | append: '.png' }}" alt="{{ section.title }}">{{ section.title }}</a>
+            {{ section.title }}</a>
             {% if section.child_items %}
             <ul class="child-menu collapse" style="{% if section.slug != '' and page.url contains parent_slug %}display: block;{% endif %}">
               {% for child in section.child_items %}
