@@ -44,11 +44,15 @@ resize to a named crop or video size, just specify its name like this:
 
 ### Sample Code
 
-    <!-- use the data in a text field as the ALT text for an image -->
-    <img src="help.gif" alt="<v=/help/button_caption>" />
+{% highlight html %}
+<!-- use the data in a text field as the ALT text for an image -->
+<img src="help.gif" alt="<v=/help/button_caption>" />
+{% endhighlight %}
 
-    <!-- use an uploaded image as the background for a <div> -->
-    <div style="background: url(<v=/styles/background_image,480,360>);"></div>
+{% highlight html %}
+<!-- use an uploaded image as the background for a <div> -->
+<div style="background: url(<v=/styles/background_image,480,360>);"></div>
+{% endhighlight %}
 
 ## `<v~> and <v~path>` - Permalinks
 
@@ -58,10 +62,12 @@ supplied path.
 
 ### Sample Code
 
-    <v:collection path="artists">
-     The permalink to this artist is <v~>.
-     The permalink to this artist's first album is <v~albums[1]>.
-    </v:collection>
+{% highlight html %}
+<v:collection path="artists">
+ The permalink to this artist is <v~>.
+ The permalink to this artist's first album is <v~albums[1]>.
+</v:collection>
+{% endhighlight %}
 
 ## `<v->` - Current entry ID
 
@@ -73,11 +79,13 @@ numbered `<div>` tags.
 
 ### Sample Code
 
-    <v:collection path="items">
-     <div id="item_<v->">
-      This is an item.
-     </div>
-    </v:collection>
+{% highlight html %}
+<v:collection path="items">
+ <div id="item_<v->">
+  This is an item.
+ </div>
+</v:collection>
+{% endhighlight %}
 
 ## `<v? ?>` - Execute PHP code
 

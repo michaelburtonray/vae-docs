@@ -23,15 +23,17 @@ For example, this snippet of Haml:
 
 ... is equivalent to this snippet of HTML:
 
-    <div id="blog">
-      <v:collection path="blog_posts">
-        <div class="blog_post">
-          <h1>
-            <v:text path="title" />
-          </h1>
-        </div>
-      </v:collection>
+{% highlight html %}
+<div id="blog">
+  <v:collection path="blog_posts">
+    <div class="blog_post">
+      <h1>
+        <v:text path="title" />
+      </h1>
     </div>
+  </v:collection>
+</div>
+{% endhighlight %}
 
 As you might imagine, working with the top one is much easier. Everyone
 on the Vae team is a big fan of Haml and Sass and we use them as much as

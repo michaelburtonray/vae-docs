@@ -104,12 +104,14 @@ use your website locally.
 The `vae` command accepts command line options in standard UNIX style.
 Here are the available options:
 
-    Usage: vae [options]
-        -u, --username <username>        Your Vae username
-        -p, --port <port number>         Start server on this port
-        -r, --root <path to site root>   Path to the root of the local copy of your Vae site.
-        -s, --site <subdomain>           Vae subdomain for this site
-        -h, --help                       Show this help message
+{% highlight html %}
+Usage: vae [options]
+    -u, --username <username>        Your Vae username
+    -p, --port <port number>         Start server on this port
+    -r, --root <path to site root>   Path to the root of the local copy of your Vae site.
+    -s, --site <subdomain>           Vae subdomain for this site
+    -h, --help                       Show this help message
+{% endhighlight %}
 
 ### Deploying the Subversion copy to your webspace
 

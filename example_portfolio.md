@@ -193,10 +193,12 @@ Subtab](#backstage.site.ftp)), we'll code up an index page. We'll make
 the index page minimalist, and link to Erin's Landscape and Architecture
 photos. Here's our code:
 
-    <div id="title">Erin Smith Photography</div>
-     <a href="/landscape"><div class="section_title">Landscape</div></a>
-     <a href=/architecture"><div class="section_title">Architecture</div></a>
-    </div>
+{% highlight html %}
+<div id="title">Erin Smith Photography</div>
+ <a href="/landscape"><div class="section_title">Landscape</div></a>
+ <a href=/architecture"><div class="section_title">Architecture</div></a>
+</div>
+{% endhighlight %}
 
 Here's our completed index.html page:
 
@@ -226,15 +228,17 @@ supporting code in our template file, our `landscape.html` and
 architecture.html pages are quite sparse. Here's the code for
 `landscape.html`:
 
-    <v:template filename="/__choose_album_template" title="Landscape">
-     <v:collection path="/landscape">
-      <div class="panel" title="<v=album_name>">
-       <div class="wrapper">
-        <v:a path="images"><v:img path="album_cover" image_size="coverSize" /></v:a>
-       </div>
-      </div> 
-     </v:collection>
-    </v:template>
+{% highlight html %}
+<v:template filename="/__choose_album_template" title="Landscape">
+ <v:collection path="/landscape">
+  <div class="panel" title="<v=album_name>">
+   <div class="wrapper">
+    <v:a path="images"><v:img path="album_cover" image_size="coverSize" /></v:a>
+   </div>
+  </div> 
+ </v:collection>
+</v:template>
+{% endhighlight %}
 
 The `<v:collection>` tag loops through our `Landscape` Collection and
 outputs the `Album                 Name` and `Album Cover`. The
@@ -254,15 +258,17 @@ code, where we placed the `<v:yield>` tag.
 The `landscape.html` file is identical to`architecture.html`, except for
 we're iterating through the `Architecture` Collection instead:
 
-    <v:template filename="/__choose_album_template" title="Architecture">
-    <v:collection path="/architecture">
-     <div class="panel" title="<v=album_name>">
-      <div class="wrapper">
-          <v:a path="images"><v:img path="album_cover" image_size="coverSize" /></v:a>
-      </div>
-     </div>  
-    </v:collection>
-    </v:template>
+{% highlight html %}
+<v:template filename="/__choose_album_template" title="Architecture">
+<v:collection path="/architecture">
+ <div class="panel" title="<v=album_name>">
+  <div class="wrapper">
+      <v:a path="images"><v:img path="album_cover" image_size="coverSize" /></v:a>
+  </div>
+ </div>  
+</v:collection>
+</v:template>
+{% endhighlight %}
 
 Here's our final result:
 
@@ -274,32 +280,38 @@ nice clean address in the address bar.
 Our next task is to create a page for viewing the images in an album.
 We'll call this page `album.html`. Here's our code for this page:
 
-    <html>
-     <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-      <link rel="stylesheet" href="/style.css" type="text/css" />
-      <script type="text/javascript" src="/thickbox/jquery.js"></script>
-      <script type="text/javascript" src="/thickbox/thickbox.js"></script>
-      <link rel="stylesheet" href="/thickbox/thickbox.css" type="text/css" media="screen" />
-      <title>Erin Smith Photography - <v:text text="album_name" /></title>
-     </head>
-     <body>
-      <div id="album">
-      <div id="content">
-       <div id="top">
-        <div id="sitename">Erin Smith Photography</div>
-        <div id="section"><v:text text="album_name" /></div>               
-       </div>
+{% highlight html %}
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <link rel="stylesheet" href="/style.css" type="text/css" />
+  <script type="text/javascript" src="/thickbox/jquery.js"></script>
+  <script type="text/javascript" src="/thickbox/thickbox.js"></script>
+  <link rel="stylesheet" href="/thickbox/thickbox.css" type="text/css" media="screen" />
+  <title>Erin Smith Photography - <v:text text="album_name" /></title>
+ </head>
+ <body>
+  <div id="album">
+  <div id="content">
+   <div id="top">
+    <div id="sitename">Erin Smith Photography</div>
+    <div id="section"><v:text text="album_name" /></div>               
+   </div>
+{% endhighlight %}
 
-          <v:collection path="../images">
-              <div class="thumb"><a href="<v=image,large>" class="thickbox"><v:img path="image" image_size="thumb"/></a></div>
-             </v:collection>
+{% highlight html %}
+      <v:collection path="../images">
+          <div class="thumb"><a href="<v=image,large>" class="thickbox"><v:img path="image" image_size="thumb"/></a></div>
+         </v:collection>
+{% endhighlight %}
 
-        <div id="bottom_nav"><a href="/landscape">Landscape</a> - < href"/architecture">Architecture</v:a> - <v:a href="/contact">Contact Erin</a></div>
-       </div>
-        </div>
-     </body>
-    </html>
+{% highlight html %}
+    <div id="bottom_nav"><a href="/landscape">Landscape</a> - < href"/architecture">Architecture</v:a> - <v:a href="/contact">Contact Erin</a></div>
+   </div>
+    </div>
+ </body>
+</html>
+{% endhighlight %}
 
 You can see that we're surrounding each thumbnail image with a
 hyperlink. Notice also that the href attribute of these hyperlinks is
@@ -319,42 +331,44 @@ Lastly, we'll code up a contact page for Erin. This will display her
 contact information along with an AJAX [contact form](#contact_us_form).
 Here's the code:
 
-    <html>
-     <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-      <link rel="stylesheet" href="/style.css" type="text/css" />
-      <title>Erin Smith Photography - Contact Erin</title>
-     </head>
-     <body>
-      <div id="contactErin">
-       <div id="top">
-        <div id="sitename">Erin Smith Photography</div>
-        <div id="section"><v:text param="title" /></div>               
-       </div>
-       <div>
-       <div id="content">
-        <div id="contactform">
-         <v:formmail to="k2@actionverb.com" redirect="/confirmed.html" ajax="emailSent">
-          <h1>Contact Erin</h1>
-          <div id="snailMail"><v:text path="/contact_info/snail_mail_address" /></div>
-           <v:text_area value="Your Name" name="Name" rows="1" cols="40" />
-           <v:text_area name="Comments" value="What's up?" rows="5" cols="40"/>
-           <input type="submit" />
-          </v:formmail>
-                      
-          <div id="contactInfo">
-           <v:section path="/contact_info">
-            <div class="content">Email: <a href="mailto:<v=email_address>"><v:text path="/contact_info/email_address" /></a> </div>
-            <div class="content">Phone: <v:text path="phone_number" /></div>
-           </v:section>
-           <div id="emailSent"></div>
-          </div>
-         </div>
-        <div id="bottom_nav"><a href="/landscape">Landscape</a> - < href"/architecture">Architecture</v:a> - <v:a href="/contact">Contact Erin</a></div>
-       </div>
+{% highlight html %}
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <link rel="stylesheet" href="/style.css" type="text/css" />
+  <title>Erin Smith Photography - Contact Erin</title>
+ </head>
+ <body>
+  <div id="contactErin">
+   <div id="top">
+    <div id="sitename">Erin Smith Photography</div>
+    <div id="section"><v:text param="title" /></div>               
+   </div>
+   <div>
+   <div id="content">
+    <div id="contactform">
+     <v:formmail to="k2@actionverb.com" redirect="/confirmed.html" ajax="emailSent">
+      <h1>Contact Erin</h1>
+      <div id="snailMail"><v:text path="/contact_info/snail_mail_address" /></div>
+       <v:text_area value="Your Name" name="Name" rows="1" cols="40" />
+       <v:text_area name="Comments" value="What's up?" rows="5" cols="40"/>
+       <input type="submit" />
+      </v:formmail>
+                  
+      <div id="contactInfo">
+       <v:section path="/contact_info">
+        <div class="content">Email: <a href="mailto:<v=email_address>"><v:text path="/contact_info/email_address" /></a> </div>
+        <div class="content">Phone: <v:text path="phone_number" /></div>
+       </v:section>
+       <div id="emailSent"></div>
       </div>
-     </body>
-    </html>
+     </div>
+    <div id="bottom_nav"><a href="/landscape">Landscape</a> - < href"/architecture">Architecture</v:a> - <v:a href="/contact">Contact Erin</a></div>
+   </div>
+  </div>
+ </body>
+</html>
+{% endhighlight %}
 
 The new tag here is `<v:formmail>`. It renders a form that when
 submitted, sends an email to the address specified in the `to`

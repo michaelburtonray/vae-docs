@@ -19,10 +19,12 @@ cache of images, files and videos.
 
 ## Sample Usage
 
-    <?php
-    // get homepage image
-    $image = vae_image(vae_find("home/image"));
-    $local_path = vae_data_path() . $image;
+{% highlight php %}
+<?php
+// get homepage image
+$image = vae_image(vae_find("home/image"));
+$local_path = vae_data_path() . $image;
+{% endhighlight %}
 
     // stream homepage image directly to browser
     vae_disable_vaeml();

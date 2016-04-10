@@ -37,7 +37,9 @@ next to the entry it exists within, and then click the Crop button:
 To have the image display as you cropped it, just specify the name of
 your crop in the image's `image_size` attribute.
 
-    <v:img path="welcome_message/my_image" image_size="myCrop" />
+{% highlight html %}
+<v:img path="welcome_message/my_image" image_size="myCrop" />
+{% endhighlight %}
 
 Here is our image after being cropped:
 

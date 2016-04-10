@@ -16,41 +16,43 @@ page is refreshed. To allow the user to change the quantity, a
 textbox with this functionality. Here is an example of the markup for a
 Vae shopping cart:
 
-    <v:store:cart>
-     <ul>
-      <li>Remove</li>
-      <li>Image</li>
-      <li>Item Description</li>
-      <li>Options</li>
-      <li>Qty</li>
-      <li>Price</li>
-      <li>Total</li>
-     </ul>
-     <v:store:cart:items>
-      <ul>
-       <li><v:checkbox path="remove" /></li>
-       <li><v:img path="image" /></li>
-       <li><v:text path="name" /></li>
-       <li><v:text path="option_value" />
-       <li><v:text_field path="qty" size="1" /></li>
-       <li>$<v:text path="price" number_format="2" /></li>
-       <li>$<v:text path="total" number_format="2" /></li>
-      </ul>
-     </v:store:cart:items>
-      <ul>
-       <li>
-        Subtotal: $<v:store:cart:subtotal /></li>
-      </ul>
-       <ul>
-        <li>
-         <input type="submit" value="Update Cart" />
-         <a href="/">Continue Shopping</a></li>
-        <li><a href="/register.html">Checkout</a></li></ul>
-        <v:else>
-         Your cart is empty!
-         <a href="/">Continue.</a>
-        </v:else>
-       </v:store:cart>
+{% highlight html %}
+<v:store:cart>
+ <ul>
+  <li>Remove</li>
+  <li>Image</li>
+  <li>Item Description</li>
+  <li>Options</li>
+  <li>Qty</li>
+  <li>Price</li>
+  <li>Total</li>
+ </ul>
+ <v:store:cart:items>
+  <ul>
+   <li><v:checkbox path="remove" /></li>
+   <li><v:img path="image" /></li>
+   <li><v:text path="name" /></li>
+   <li><v:text path="option_value" />
+   <li><v:text_field path="qty" size="1" /></li>
+   <li>$<v:text path="price" number_format="2" /></li>
+   <li>$<v:text path="total" number_format="2" /></li>
+  </ul>
+ </v:store:cart:items>
+  <ul>
+   <li>
+    Subtotal: $<v:store:cart:subtotal /></li>
+  </ul>
+   <ul>
+    <li>
+     <input type="submit" value="Update Cart" />
+     <a href="/">Continue Shopping</a></li>
+    <li><a href="/register.html">Checkout</a></li></ul>
+    <v:else>
+     Your cart is empty!
+     <a href="/">Continue.</a>
+    </v:else>
+   </v:store:cart>
+{% endhighlight %}
 
 > **Warning**
 >

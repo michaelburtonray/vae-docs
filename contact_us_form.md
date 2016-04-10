@@ -13,11 +13,13 @@ obscures the email address which the form sends the data to. Also, since
 [`<v:formmail>`](#v_formmail) supports all of the [`<v:form>`](#v_form)
 tag attributes, validation is supported.
 
-    <v:formmail to="k2@actionverb.com" redirect="confirmed.html">
-     Your Name: <v:text_field name="Name" />
-     Your Question: <v:text_area name="Comments" />
-     <input type="submit" />
-    </v:formmail>
+{% highlight html %}
+<v:formmail to="k2@actionverb.com" redirect="confirmed.html">
+ Your Name: <v:text_field name="Name" />
+ Your Question: <v:text_area name="Comments" />
+ <input type="submit" />
+</v:formmail>
+{% endhighlight %}
 
 Note the `redirect` attribute, which in our example points to
 "confirmed.html". This will be the page the user is taken to upon

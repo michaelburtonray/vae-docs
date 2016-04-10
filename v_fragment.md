@@ -40,38 +40,44 @@ your site by avoiding re-rendering common elements, such as menus.
 
 In your template file (for example `__template.html`):
 
-    <html>
-     <head>
-      <title>My Website</title>
-      <v:yield for="header" />
-     </head>
-     <body>
-      <h1>My Website</h1>
-      <v:yield />
-     </body>
-    </html>
+{% highlight html %}
+<html>
+ <head>
+  <title>My Website</title>
+  <v:yield for="header" />
+ </head>
+ <body>
+  <h1>My Website</h1>
+  <v:yield />
+ </body>
+</html>
+{% endhighlight %}
 
 In your content file (for example `index.html`):
 
-    <v:template filename="__template">
-     <v:fragment for="header">
-      <meta name="description" content="Pricing and Signup info" />
-     </v:fragment>
-     <p>Welcome to my website.</p>
-    </v:template>
+{% highlight html %}
+<v:template filename="__template">
+ <v:fragment for="header">
+  <meta name="description" content="Pricing and Signup info" />
+ </v:fragment>
+ <p>Welcome to my website.</p>
+</v:template>
+{% endhighlight %}
 
 Would render:
 
-    <html>
-     <head>
-      <title>My Website</title>
-      <meta name="description" content="Pricing and Signup info" />
-     </head>
-     <body>
-      <h1>My Website</h1>
-      <p>Welcome to my website.</p>
-     </body>
-    </html>
+{% highlight html %}
+<html>
+ <head>
+  <title>My Website</title>
+  <meta name="description" content="Pricing and Signup info" />
+ </head>
+ <body>
+  <h1>My Website</h1>
+  <p>Welcome to my website.</p>
+ </body>
+</html>
+{% endhighlight %}
 
 ## Sample Usage - Use 2 (caching)
 

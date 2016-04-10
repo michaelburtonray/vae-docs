@@ -34,31 +34,41 @@ None.
 
 Show only the first 20 characters of each post's name:
 
-    <v:collection path="posts">
-     <v:php>
-      return substr($context['name'], 0, 20);
-     </v:php>
-    </v:collection>
+{% highlight html %}
+<v:collection path="posts">
+ <v:php>
+  return substr($context['name'], 0, 20);
+ </v:php>
+</v:collection>
+{% endhighlight %}
 
-    <v:collection path="posts">
-     <v?=substr($context['name'], 0, 20)?>
-    </v:collection>
+{% highlight html %}
+<v:collection path="posts">
+ <v?=substr($context['name'], 0, 20)?>
+</v:collection>
+{% endhighlight %}
 
 Show the MD5 hash of the current page's title:
 
-    <v:php>
-     return md5($context['title']);
-    </v:php>
+{% highlight html %}
+<v:php>
+ return md5($context['title']);
+</v:php>
+{% endhighlight %}
 
-    <v?=md5($context['title'])?>
+{% highlight html %}
+<v?=md5($context['title'])?>
+{% endhighlight %}
 
 Increment and display global counter:
 
-    <v:collection path="posts">
-     <v:php>
-      return $i++;
-     </v:php>
-    </v:collection>
+{% highlight html %}
+<v:collection path="posts">
+ <v:php>
+  return $i++;
+ </v:php>
+</v:collection>
+{% endhighlight %}
 
     <v:collection path="posts">
      <v?=$i++?>

@@ -31,7 +31,9 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    Hello, <v:session_dump key="username" />.
+{% highlight html %}
+Hello, <v:session_dump key="username" />.
+{% endhighlight %}
 
 Would render something like:
 

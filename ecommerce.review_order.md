@@ -11,77 +11,83 @@ ordering what's in their basket. The
 users to complete their purchase. Here is an example of a Checkout
 screen markup:
 
-    <ul>
-     <li>Item</li>
-     <li>Qty</li>
-     <li>Price</li>
-     <li>Total</li>
-    </ul>
-    <v:store:cart:items>
-     <ul>
-      <li><v:img path="image" /></li>
-      <li><v:text path="name" /></li>
-      <li><v:text_field path="qty"/></li>
-      <li>$<v:text path="price" /></li>
-      <li>$<v:text path="total" /></li>
-    </ul>
-    </v:store:cart:items>
-    <ul>
-     <li>
-      Payment Method:
-      <v:store:payment_methods_select />
-      Shipping Method:<v:store:shipping_methods_select />
-      Coupon Code:<v:store:discount><v:text_field name="discount" /><input type="submit" value="Apply Coupon Code" />
-      </v:store:discount>
-     </li>
-     <li>
-      Subtotal:$<v:store:cart:subtotal />
-      <v:store:if_discount>Discount: $<v:store:cart:discount /></v:store:if_discount>
-      Shipping: $<v:store:cart:shipping />
-      Tax: $<v:store:cart:tax />
-      Total: $<v:store:cart:total />
-     </li>
-    </ul>
+{% highlight html %}
+<ul>
+ <li>Item</li>
+ <li>Qty</li>
+ <li>Price</li>
+ <li>Total</li>
+</ul>
+<v:store:cart:items>
+ <ul>
+  <li><v:img path="image" /></li>
+  <li><v:text path="name" /></li>
+  <li><v:text_field path="qty"/></li>
+  <li>$<v:text path="price" /></li>
+  <li>$<v:text path="total" /></li>
+</ul>
+</v:store:cart:items>
+<ul>
+ <li>
+  Payment Method:
+  <v:store:payment_methods_select />
+  Shipping Method:<v:store:shipping_methods_select />
+  Coupon Code:<v:store:discount><v:text_field name="discount" /><input type="submit" value="Apply Coupon Code" />
+  </v:store:discount>
+ </li>
+ <li>
+  Subtotal:$<v:store:cart:subtotal />
+  <v:store:if_discount>Discount: $<v:store:cart:discount /></v:store:if_discount>
+  Shipping: $<v:store:cart:shipping />
+  Tax: $<v:store:cart:tax />
+  Total: $<v:store:cart:total />
+ </li>
+</ul>
+{% endhighlight %}
 
-     <li>
-      <v:store:user>
-     <li>
-      <h3>Billing Information<span class="edit">(<a href="/register">edit</a>)</h3>
-       Name:<v:text path="billing_name" />
-       Company:<v:text path="billing_company" />
-       Address:<v:text path="billing_address" />
-       Address 2:<v:text path="billing_address_2" />
-       City:<v:text path="billing_city" />
-       State:<v:text path="billing_state" />
-       Country:<v:text path="billing_country" />
-       Zip/Postal Code:<v:text path="billing_zip" />
-       Phone Number:<v:text path="billing_phone" />
-       E-Mail Address:<v:text path="e_mail_address" />
-     </li>
-     <li><h3>Shipping Information(<a href="/register">edit</a>)</h3>
-      Name:<v:text path="shipping_name" />
-      Company:<v:text path="shipping_company" />
-      Address:<v:text path="shipping_address" />
-      Address 2:<v:text path="shipping_address_2" />
-      City:<v:text path="shipping_city" />
-      State:<v:text path="shipping_state" />
-      Country:<v:text path="shipping_country" />
-      Zip/Postal Code:<v:text path="shipping_zip" />
-      Phone Number:<v:text path="shipping_phone" />
-    </v:store:user>
-     <v:store:checkout register_page="register.html" redirect="order_placed.html" email_confirmation="/emails/confirmation" email_received="/emails/received" email_shipping="/emails/shipping">
-    <v:store:if_credit_card>
-     <li>
-      <h3>Enter Your Credit Card Information</h3>
-       Credit Card Type:</label><v:store:credit_card_select name="cc_type" required="true" /><label>Credit Card Number: <v:text_field name="cc_number" />
-       Expiration Date (MM / YYYY): <v:text_field name="cc_month" /> / <v:text_field name="cc_year" /> 
-       CVV2: <v:text_field name="cc_cvv" />
-     </li>
-    </v:store:if_credit_card>
-    </ul>
+{% highlight html %}
+ <li>
+  <v:store:user>
+ <li>
+  <h3>Billing Information<span class="edit">(<a href="/register">edit</a>)</h3>
+   Name:<v:text path="billing_name" />
+   Company:<v:text path="billing_company" />
+   Address:<v:text path="billing_address" />
+   Address 2:<v:text path="billing_address_2" />
+   City:<v:text path="billing_city" />
+   State:<v:text path="billing_state" />
+   Country:<v:text path="billing_country" />
+   Zip/Postal Code:<v:text path="billing_zip" />
+   Phone Number:<v:text path="billing_phone" />
+   E-Mail Address:<v:text path="e_mail_address" />
+ </li>
+ <li><h3>Shipping Information(<a href="/register">edit</a>)</h3>
+  Name:<v:text path="shipping_name" />
+  Company:<v:text path="shipping_company" />
+  Address:<v:text path="shipping_address" />
+  Address 2:<v:text path="shipping_address_2" />
+  City:<v:text path="shipping_city" />
+  State:<v:text path="shipping_state" />
+  Country:<v:text path="shipping_country" />
+  Zip/Postal Code:<v:text path="shipping_zip" />
+  Phone Number:<v:text path="shipping_phone" />
+</v:store:user>
+ <v:store:checkout register_page="register.html" redirect="order_placed.html" email_confirmation="/emails/confirmation" email_received="/emails/received" email_shipping="/emails/shipping">
+<v:store:if_credit_card>
+ <li>
+  <h3>Enter Your Credit Card Information</h3>
+   Credit Card Type:</label><v:store:credit_card_select name="cc_type" required="true" /><label>Credit Card Number: <v:text_field name="cc_number" />
+   Expiration Date (MM / YYYY): <v:text_field name="cc_month" /> / <v:text_field name="cc_year" /> 
+   CVV2: <v:text_field name="cc_cvv" />
+ </li>
+</v:store:if_credit_card>
+</ul>
+{% endhighlight %}
 
-     <input type="submit" value="Submit Order" />
-     </v:store:checkout>
+{% highlight html %}
+ <input type="submit" value="Submit Order" />
+ </v:store:checkout>
+{% endhighlight %}
 
 ## Accepting Coupon Codes
 

@@ -21,7 +21,9 @@ None.
 
 ## Sample Usage
 
-    <v:nowidows>This is my headline</v:nowidows>
+{% highlight html %}
+<v:nowidows>This is my headline</v:nowidows>
+{% endhighlight %}
 
 Would render something like:
 

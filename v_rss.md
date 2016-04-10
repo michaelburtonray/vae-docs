@@ -49,7 +49,9 @@ use Google Base tags.
 
 Simple example, feeding the posts from a Blog:
 
-    <v:rss title="My Site" description="My blog feed." path="posts" title_field="title" description_field="content" />
+{% highlight html %}
+<v:rss title="My Site" description="My blog feed." path="posts" title_field="title" description_field="content" />
+{% endhighlight %}
 
 Creating a feed in Google Base format for submitting products to Google:
 

@@ -106,45 +106,53 @@ Here are a few different sample tags.
 
 This will create a tag `<v:todays_date>` that renders today's date.
 
-    <?php
-    vae_register_tag('todays_date', array(
-      'handler' => 'todays_date'
-    ));
-    function todays_date($a, $tag, $context, &$callback, $render_context) {
-      return strftime("%B %d, %Y");
-    }
-    ?>
+{% highlight php %}
+<?php
+vae_register_tag('todays_date', array(
+  'handler' => 'todays_date'
+));
+function todays_date($a, $tag, $context, &$callback, $render_context) {
+  return strftime("%B %d, %Y");
+}
+?>
+{% endhighlight %}
 
 Example HTML file:
 
-    Today's date is: <v:todays_date />.
+{% highlight html %}
+Today's date is: <v:todays_date />.
+{% endhighlight %}
 
 ### Basic Example: StripeRow
 
 This will render table rows with alternating CSS classes to achieve a
 “striped background” effect.
 
-    <?php
-    vae_register_tag('tr_striped', array(
-      'handler' => 'tr_striped'
-    ));
-    function tr_striped($a, $tag, $context, &$callback, $render_context) {
-      global $stripe;
-      $class = (($stripe % 2) ? 'bg1' : 'bg2');
-      $stripe++;
-      return "<tr class='$class'>" . vae_render_tags($tag, $context, true, $render_context) . "</tr>";
-    }
-    ?>
+{% highlight php %}
+<?php
+vae_register_tag('tr_striped', array(
+  'handler' => 'tr_striped'
+));
+function tr_striped($a, $tag, $context, &$callback, $render_context) {
+  global $stripe;
+  $class = (($stripe % 2) ? 'bg1' : 'bg2');
+  $stripe++;
+  return "<tr class='$class'>" . vae_render_tags($tag, $context, true, $render_context) . "</tr>";
+}
+?>
+{% endhighlight %}
 
 Example HTML file:
 
-    <table>
-      <tr class='bg2'><td>1</td></tr>
-      <tr class='bg1'><td>2</td></tr>
-      <tr class='bg2'><td>3</td></tr>
-      <tr class='bg1'><td>4</td></tr>
-      <tr class='bg2'><td>5</td></tr>
-    </table>
+{% highlight html %}
+<table>
+  <tr class='bg2'><td>1</td></tr>
+  <tr class='bg1'><td>2</td></tr>
+  <tr class='bg2'><td>3</td></tr>
+  <tr class='bg1'><td>4</td></tr>
+  <tr class='bg2'><td>5</td></tr>
+</table>
+{% endhighlight %}
 
 Of course, you can now use `<v:tr_striped>` inside `<v:collection>`
 tags, which is where it would truly be valuable.
@@ -155,51 +163,59 @@ This will render code only if the current domain name matches a
 specified domain name. This is useful if you have multiple domain names
 leading into your site.
 
-    <?php
-    vae_register_tag('if_current_domain', array(
-      'handler' => 'if_current_domain',
-      'params' => array("domain"), 
-      'required' => array("domain")
-    ));
-        
-    function if_current_domain($a, $tag, $context, &$callback, $render_context) {
-      $does_domain_match = ($_SERVER['HTTP_HOST'] == $a['domain']);
-      // passing a third parameter into vae_render_tags() tells Vae to 
-      // only render it the third parameter is true.  Otherwise, 
-      // render the contents of <v:else>
-      return vae_render_tags($tag, $context, $does_domain_match, $render_context);
-    }
-    ?>
+{% highlight php %}
+<?php
+vae_register_tag('if_current_domain', array(
+  'handler' => 'if_current_domain',
+  'params' => array("domain"), 
+  'required' => array("domain")
+));
+    
+function if_current_domain($a, $tag, $context, &$callback, $render_context) {
+  $does_domain_match = ($_SERVER['HTTP_HOST'] == $a['domain']);
+  // passing a third parameter into vae_render_tags() tells Vae to 
+  // only render it the third parameter is true.  Otherwise, 
+  // render the contents of <v:else>
+  return vae_render_tags($tag, $context, $does_domain_match, $render_context);
+}
+?>
+{% endhighlight %}
 
 Now in your HTML files, you can use:
 
-    <v:if_current_domain domain="acmewidgets.com">
-      Welcome to ACME Widgets, Inc.
-    </v:if_current_domain>
-    <v:else>You are at one of our other domains.</v:else>
+{% highlight html %}
+<v:if_current_domain domain="acmewidgets.com">
+  Welcome to ACME Widgets, Inc.
+</v:if_current_domain>
+<v:else>You are at one of our other domains.</v:else>
+{% endhighlight %}
 
 ### Server-side processing: BetterFormmail
 
 This will create a replacement for the `<v:formmail>` tag.
 
-    <?php
-    vae_register_tag('better_formmail', array(
-      'callback' => 'better_formmail_callback',  
-      'html' => 'form', 
-      'params' => array("redirect","to"), 
-      'required' => array("to")
-    ));
+{% highlight php %}
+<?php
+vae_register_tag('better_formmail', array(
+  'callback' => 'better_formmail_callback',  
+  'html' => 'form', 
+  'params' => array("redirect","to"), 
+  'required' => array("to")
+));
+{% endhighlight %}
 
-    function better_formmail_callback($tag) {
-      $mail = "Hey you!  Someone submitted a form at " . strftime("%B %d, %Y at %H:%M") . ":\n\n";
-      foreach ($_POST as $k => $v) {
-        $mail .= $k . " - " . $v . "\n";
-      }  
-      mail($tag['attrs']['to'], "BetterFormmail", $mail, "From: BetterFormmail <me@email.com>");
-      if ($tag['attrs']['redirect']) return vae_redirect($tag['attrs']['redirect']);
-      return vae_redirect($_SERVER['PHP_SELF']);
-    }
-    ?>
+{% highlight html %}
+function better_formmail_callback($tag) {
+  $mail = "Hey you!  Someone submitted a form at " . strftime("%B %d, %Y at %H:%M") . ":\n\n";
+  foreach ($_POST as $k => $v) {
+    $mail .= $k . " - " . $v . "\n";
+  }  
+  mail($tag['attrs']['to'], "BetterFormmail", $mail, "From: BetterFormmail <me@email.com>");
+  if ($tag['attrs']['redirect']) return vae_redirect($tag['attrs']['redirect']);
+  return vae_redirect($_SERVER['PHP_SELF']);
+}
+?>
+{% endhighlight %}
 
 Now in your HTML files, you can use:
 

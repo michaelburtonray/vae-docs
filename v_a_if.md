@@ -28,13 +28,15 @@ Assume that our `locations` collection has 2 entries: New York and
 London. Only New York has the checkbox `show_more_information` set.
 Then, this code:
 
-    <v:collection path="locations">
-     <p>
-      <v:a_if path="show_more_information" href="/location" />
-       <v:text path="name" />
-      </v:a_if>
-     </p>
-    </v:collection>
+{% highlight html %}
+<v:collection path="locations">
+ <p>
+  <v:a_if path="show_more_information" href="/location" />
+   <v:text path="name" />
+  </v:a_if>
+ </p>
+</v:collection>
+{% endhighlight %}
 
 Might render:
 

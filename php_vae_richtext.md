@@ -72,9 +72,11 @@ Suppose you had a Rich Text Area Structure 'About Us' which was a Child
 of a Section named 'Homepage'. The following would return a rich text
 area containing the contents of the 'About Us' Rich Text Area Structure.
 
-    <v:php>
-        return vae_richtext(vae_find("/homepage/about_us"));
-    </v:php>
+{% highlight html %}
+<v:php>
+    return vae_richtext(vae_find("/homepage/about_us"));
+</v:php>
+{% endhighlight %}
 
 This would create formatted HTML with contents from the 'About Us' Rich
 Text Area Structure.

@@ -15,35 +15,41 @@ markup for a page which accomplishes this. The main tag to notice is
 Vae's [`<v:store:login>`](#v_store_login) tag, which handles all the
 work of verifying a user's login information.
 
-    <h3>Sign in with your E-Mail Address and Password:</h3>
-    <v:store:login flash='login' redirect='/account'>
-     <p>If you already have an account, sign in here.</p>
-     <table>
-     <tr>
-      <td>Enter your E-Mail Address:</td>
-      <td>
-       <v:text_field path='e_mail_address'></v:text_field>
-      </td>
-     </tr>
-     <tr>
-      <td>Enter your Password:</td>
-     <td>
-      <v:password_field path='password'></v:password_field>
-     </td>
-     </tr>
-     </table>
-     <div class='buttons'>
-      <a href='#submit'>Sign In</a>
-     </div>
-    </v:store:login>
+{% highlight html %}
+<h3>Sign in with your E-Mail Address and Password:</h3>
+<v:store:login flash='login' redirect='/account'>
+ <p>If you already have an account, sign in here.</p>
+ <table>
+ <tr>
+  <td>Enter your E-Mail Address:</td>
+  <td>
+   <v:text_field path='e_mail_address'></v:text_field>
+  </td>
+ </tr>
+ <tr>
+  <td>Enter your Password:</td>
+ <td>
+  <v:password_field path='password'></v:password_field>
+ </td>
+ </tr>
+ </table>
+ <div class='buttons'>
+  <a href='#submit'>Sign In</a>
+ </div>
+</v:store:login>
+{% endhighlight %}
 
-    <h3>If you do not have an Account, you can create one:</h3>
-     Welcome to this site.  Just click 'Register For an Account'.
-     <a href='/register-front'>Register for an Account</a>
+{% highlight html %}
+<h3>If you do not have an Account, you can create one:</h3>
+ Welcome to this site.  Just click 'Register For an Account'.
+ <a href='/register-front'>Register for an Account</a>
+{% endhighlight %}
 
-    <h3>Forgot Your Password?</h3>
-     We can help.  Just click the button to the right.
-     <a href='/forgot'>I Forgot My Password</a>
+{% highlight html %}
+<h3>Forgot Your Password?</h3>
+ We can help.  Just click the button to the right.
+ <a href='/forgot'>I Forgot My Password</a>
+{% endhighlight %}
 
 Creating [`<v:text_field>`](#v_text_field) tags with path values
 `"password"` and `"e_mail_address"` is necessary to create a functional

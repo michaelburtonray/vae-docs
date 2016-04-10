@@ -31,13 +31,15 @@ HTML to render if there is no value set for that path.
 
 ## Sample Usage
 
-    <v:collection id="events_collection" path="events" paginate="10">
-     <li><v:text path="name" /></li>
-    </v:collection>
-    <v:if_paginate collection="events_collection">
-     Be sure to look on the other pages for more events!
-    </v:if_paginate>
-    <v:else>There are no more events.</v:else>
+{% highlight html %}
+<v:collection id="events_collection" path="events" paginate="10">
+ <li><v:text path="name" /></li>
+</v:collection>
+<v:if_paginate collection="events_collection">
+ Be sure to look on the other pages for more events!
+</v:if_paginate>
+<v:else>There are no more events.</v:else>
+{% endhighlight %}
 
 This will also work, but this syntax is deprecated as it doesn't allow
 you to specify all the other options that are specified in

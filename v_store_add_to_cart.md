@@ -154,47 +154,59 @@ need to specify an `options` request parameter in this case.
 
 Bare bones (not tied into CMS structures):
 
-    <v:store:add_to_cart redirect="/cart" name="$5 Donation" price="5.00">
-     <input type="submit" value="Add to Cart" />
-    </v:store:add_to_cart>
+{% highlight html %}
+<v:store:add_to_cart redirect="/cart" name="$5 Donation" price="5.00">
+ <input type="submit" value="Add to Cart" />
+</v:store:add_to_cart>
+{% endhighlight %}
 
 Item from CMS:
 
-    <v:store:add_to_cart redirect="/cart" name_field="name" price_field="price" inventory_field="inventory">
-     Quantity: <v:text_field name="quantity" value="1" />
-     <input type="submit" value="Add to Cart" />
-    </v:store:add_to_cart>
+{% highlight html %}
+<v:store:add_to_cart redirect="/cart" name_field="name" price_field="price" inventory_field="inventory">
+ Quantity: <v:text_field name="quantity" value="1" />
+ <input type="submit" value="Add to Cart" />
+</v:store:add_to_cart>
+{% endhighlight %}
 
 Item with options:
 
-    <v:store:add_to_cart redirect="/cart" name_field="name" price_field="price" option_field="size" options_collection="sizes" weight_field="weight">
-     Quantity: <v:text_field name="quantity" value="1" />
-     <v:option_select name="options" path="sizes" fields="size" />
-     <input type="submit" value="Add to Cart" />
-    </v:store:add_to_cart>
+{% highlight html %}
+<v:store:add_to_cart redirect="/cart" name_field="name" price_field="price" option_field="size" options_collection="sizes" weight_field="weight">
+ Quantity: <v:text_field name="quantity" value="1" />
+ <v:option_select name="options" path="sizes" fields="size" />
+ <input type="submit" value="Add to Cart" />
+</v:store:add_to_cart>
+{% endhighlight %}
 
 Item with options – choose a separate quantity for each option:
 
-    <v:store:add_to_cart redirect="/cart" name_field="name" price_field="price" option_field="size" options_collection="sizes" weight_field="weight">
-     <v:collection path="sizes">
-      How many of size <v:text path="size" />:
-      Quantity: <v:text_field name="quantity" />
-     </v:collection>
-     <input type="submit" value="Add to Cart" />
-    </v:store:add_to_cart>
+{% highlight html %}
+<v:store:add_to_cart redirect="/cart" name_field="name" price_field="price" option_field="size" options_collection="sizes" weight_field="weight">
+ <v:collection path="sizes">
+  How many of size <v:text path="size" />:
+  Quantity: <v:text_field name="quantity" />
+ </v:collection>
+ <input type="submit" value="Add to Cart" />
+</v:store:add_to_cart>
+{% endhighlight %}
 
 Digital item:
 
-    <v:store:add_to_cart redirect="/cart" digital="true" name_field="name" price_field="price">
-     <input type="submit" value="Add Album To Cart" />
-    </v:store:add_to_cart>
+{% highlight html %}
+<v:store:add_to_cart redirect="/cart" digital="true" name_field="name" price_field="price">
+ <input type="submit" value="Add Album To Cart" />
+</v:store:add_to_cart>
+{% endhighlight %}
 
 Donation box:
 
-    <v:store:add_to_cart redirect="/cart" name="Donation" price_input="amount">
-     Donation Amount: <v:text_field name="amount" value="" />
-     <input type="submit" value="Add to Cart" />
-    </v:store:add_to_cart>
+{% highlight html %}
+<v:store:add_to_cart redirect="/cart" name="Donation" price_input="amount">
+ Donation Amount: <v:text_field name="amount" value="" />
+ <input type="submit" value="Add to Cart" />
+</v:store:add_to_cart>
+{% endhighlight %}
 
 Multiple items:
 

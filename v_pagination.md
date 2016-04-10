@@ -54,10 +54,12 @@ page number link.
 
 ## Sample Usage
 
-    <v:collection paginate="10" id="items">
-     ...
-    </v:collection>
-    <v:pagination collection="items" />
+{% highlight html %}
+<v:collection paginate="10" id="items">
+ ...
+</v:collection>
+<v:pagination collection="items" />
+{% endhighlight %}
 
 Would render something like:
 

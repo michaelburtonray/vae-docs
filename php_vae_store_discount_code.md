@@ -26,13 +26,15 @@ described on the page for creating coupon codes.
 
 ## Sample Usage
 
-    <?php
-    // Display message if using a really good discount code
-    $code = vae_store_discount_code();
-    if ($code['percentage_amount'] > 50) {
-      echo "Wow, you're getting a great deal.";
-    }
-    ?>
+{% highlight php %}
+<?php
+// Display message if using a really good discount code
+$code = vae_store_discount_code();
+if ($code['percentage_amount'] > 50) {
+  echo "Wow, you're getting a great deal.";
+}
+?>
+{% endhighlight %}
 
 ## Usage -- Apply a Discount Code
 

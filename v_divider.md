@@ -41,13 +41,15 @@ None.
 
 ## Sample Usage - Simple
 
-    <v:collection path="locations">
-     <p><v:text path="name" /></p>
-     <!-- insert a horizontal rule after every 5 location names -->
-     <v:divider every="5">
-      <hr />
-     </v:divider>
-    </v:collection>
+{% highlight html %}
+<v:collection path="locations">
+ <p><v:text path="name" /></p>
+ <!-- insert a horizontal rule after every 5 location names -->
+ <v:divider every="5">
+  <hr />
+ </v:divider>
+</v:collection>
+{% endhighlight %}
 
 ## Sample Usage - As a Wrapper
 

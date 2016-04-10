@@ -49,9 +49,11 @@ nested entry content.
 
 List all categories (including children) without hierarchy:
 
-    <v:nested_collection path="categories">
-     <v:text path="name" />
-    </v:collection>
+{% highlight html %}
+<v:nested_collection path="categories">
+ <v:text path="name" />
+</v:collection>
+{% endhighlight %}
 
 List all categories in a hierarchical list:
 

@@ -109,60 +109,70 @@ be passed through unchanged into the generated tag.
 
 This snippet of code:
 
-    <v:collection path="locations">
-     <p>
-      <v:a href="/location">
-       <v:text path="name" />
-      </v:a>
-     </p>
-    </v:collection>
+{% highlight html %}
+<v:collection path="locations">
+ <p>
+  <v:a href="/location">
+   <v:text path="name" />
+  </v:a>
+ </p>
+</v:collection>
+{% endhighlight %}
 
 Would render something like:
 
-    <p>
-     <a href="/location/1">
-      New York
-     </a>
-    </p>
-    <p>
-     <a href="/location/2">
-      London
-     </a>
-    </p>
+{% highlight html %}
+<p>
+ <a href="/location/1">
+  New York
+ </a>
+</p>
+<p>
+ <a href="/location/2">
+  London
+ </a>
+</p>
+{% endhighlight %}
 
 If the locations collection has [permalinks](#permalinks) defined, you
 could omit the `href=` attribute entirely and Vae will render the
 correct permalinks:
 
-    <v:collection path="locations">
-     <p>
-      <v:a>
-       <v:text path="name" />
-      </v:a>
-     </p>
-    </v:collection>
+{% highlight html %}
+<v:collection path="locations">
+ <p>
+  <v:a>
+   <v:text path="name" />
+  </v:a>
+ </p>
+</v:collection>
+{% endhighlight %}
 
 Would render something like this (the exact permalinks would depend on
 how you configured Permalinks in the backstage):
 
-    <p>
-     <a href="/new-york">
-      New York
-     </a>
-    </p>
-    <p>
-     <a href="/london">
-      London
-     </a>
-    </p>
+{% highlight html %}
+<p>
+ <a href="/new-york">
+  New York
+ </a>
+</p>
+<p>
+ <a href="/london">
+  London
+ </a>
+</p>
+{% endhighlight %}
 
 Loading pages in via AJAX:
 
-    <v:collection path="locations">
-     <v:a ajax="location_area" animate="fadeIn" jump="location_area" loading="/images/spinner.gif" loadingposition="after">
-      <v:text path="name" />
-     </v:a>
-    </v:collection>
+{% highlight html %}
+<v:collection path="locations">
+ <v:a ajax="location_area" animate="fadeIn" jump="location_area" loading="/images/spinner.gif" loadingposition="after">
+  <v:text path="name" />
+ </v:a>
+</v:collection>
+{% endhighlight %}
 
     <div id="location_area" style="display: none;">
      <!-- pages will load here -->

@@ -109,61 +109,75 @@ number of entries. Dividers can also wrap the entry content.
 
 Basic Sample:
 
-    <v:collection path="locations">
-     <p><v:text path="name" /></p>
-    </v:collection>
+{% highlight html %}
+<v:collection path="locations">
+ <p><v:text path="name" /></p>
+</v:collection>
+{% endhighlight %}
 
 Sample using the `groups` attribute:
 
-    <table>
-     <tr> 
-     <td>
-      This column will show the first half of the locations:
-      <v:collection path="locations" groups="2">
-       <p><v:text path="name" /></p>
-      </v:collection>
-     </td>
-     <td>Something else</td>
-     <td>
-      This column will show the second half of the locations:
-      <v:collection path="locations" groups="2">
-       <p><v:text path="name" /></p>
-      </v:collection>
-      </td>
-     </tr>
-    </table>
+{% highlight html %}
+<table>
+ <tr> 
+ <td>
+  This column will show the first half of the locations:
+  <v:collection path="locations" groups="2">
+   <p><v:text path="name" /></p>
+  </v:collection>
+ </td>
+ <td>Something else</td>
+ <td>
+  This column will show the second half of the locations:
+  <v:collection path="locations" groups="2">
+   <p><v:text path="name" /></p>
+  </v:collection>
+  </td>
+ </tr>
+</table>
+{% endhighlight %}
 
 Sample using the `per-row` attribute:
 
-    <table>
-     <v:collection path="locations" per-row="3">
-      <td><v:text path="name" /></td>
-     </v:collection>
-    </table>
+{% highlight html %}
+<table>
+ <v:collection path="locations" per-row="3">
+  <td><v:text path="name" /></td>
+ </v:collection>
+</table>
+{% endhighlight %}
 
 Sample search results page:
 
-    <v:collection path="locations" filter_input="query">
-     <p><v:text path="name" /></p>
-    </v:collection>
+{% highlight html %}
+<v:collection path="locations" filter_input="query">
+ <p><v:text path="name" /></p>
+</v:collection>
+{% endhighlight %}
 
 Sample with sorting:
 
-    <v:collection path="locations" order="country,state,city,name,DESC(date_added)">
-     <p><v:text path="name" /></p>
-    </v:collection>
+{% highlight html %}
+<v:collection path="locations" order="country,state,city,name,DESC(date_added)">
+ <p><v:text path="name" /></p>
+</v:collection>
+{% endhighlight %}
 
 Samples with pagination:
 
-    <v:collection path="locations" paginate="10" page_select="page_selector">
-     <p><v:text path="name" /></p>
-    </v:collection>
-    <v:select id="page_selector" />
+{% highlight html %}
+<v:collection path="locations" paginate="10" page_select="page_selector">
+ <p><v:text path="name" /></p>
+</v:collection>
+<v:select id="page_selector" />
+{% endhighlight %}
 
-    <v:collection path="locations" paginate="10" id="locations_collection">
-     <p><v:text path="name" /></p>
-    </v:collection>
-    <v:pagination collection="locations_collection"  />
+{% highlight html %}
+<v:collection path="locations" paginate="10" id="locations_collection">
+ <p><v:text path="name" /></p>
+</v:collection>
+<v:pagination collection="locations_collection"  />
+{% endhighlight %}
 
     <v:collection path="locations" paginate="10" previous="previous_link" next="next_link" wrap="true">
      <p><v:text path="name" /></p>

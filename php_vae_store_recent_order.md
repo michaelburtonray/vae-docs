@@ -25,12 +25,14 @@ purchased or an array containing all data from the most recent order.
 
 ## Sample Usage
 
-    <?php
-    // Get all items from the recent order and display each item name
-    $items = vae_store_recent_order();
-    foreach ($items as $cart_id => $item) {
-      echo $item['name'];
-    }
+{% highlight php %}
+<?php
+// Get all items from the recent order and display each item name
+$items = vae_store_recent_order();
+foreach ($items as $cart_id => $item) {
+  echo $item['name'];
+}
+{% endhighlight %}
 
     // Get all data from the recent order and display billing name
     $order = vae_store_recent_order(true);

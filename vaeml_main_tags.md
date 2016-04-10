@@ -108,8 +108,10 @@ To force the user to enter a field twice for confirmation (commonly used
 when setting a password), simply create another field and prepend
 `confirm_` to the name/path. For example:
 
-    <v:password_field path="password" />
-    <v:password_field path="confirm_password" />
+{% highlight html %}
+<v:password_field path="password" />
+<v:password_field path="confirm_password" />
+{% endhighlight %}
 
 Vae will automatically ensure that the value in each text field is the
 same as part of the validation process.

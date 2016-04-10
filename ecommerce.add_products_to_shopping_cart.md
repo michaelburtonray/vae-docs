@@ -10,14 +10,16 @@ website will allow you to display an item to the customer that they will
 then be able to add to their shopping cart. Let's look at an example
 snippet of code that utilizes this tag.
 
-    <v:text path="item_name" />
-    $<v:text path="price" />
-    <v:store:add_to_cart redirect="/cart" inventory_field="inventory" 
-        name_field="item_name" price_field="price" weight_field="weight">
-     Quantity:
-     <input size="2" name="quantity" value="1" type="text" />
-     <input type="submit" value="Add to Cart" />
-    </v:store:add_to_cart>
+{% highlight html %}
+<v:text path="item_name" />
+$<v:text path="price" />
+<v:store:add_to_cart redirect="/cart" inventory_field="inventory" 
+    name_field="item_name" price_field="price" weight_field="weight">
+ Quantity:
+ <input size="2" name="quantity" value="1" type="text" />
+ <input type="submit" value="Add to Cart" />
+</v:store:add_to_cart>
+{% endhighlight %}
 
 This assumes we are in the context of an "Items" Collection (or "Things"
 Collection, or whatever it might be called), meaning we would use this
@@ -36,20 +38,22 @@ To do so, render a select menu with the options for your styles, and add
 [`<v:store:add_to_cart>`](#v_store_add_to_cart) tag. Let's do an example
 with a style Collection called "sizes".
 
-    <v:if path="sizes">
-    Size:    
-    <select name="options">
-     <v:collection path="sizes[inventory>0]">
-      <option value="<v->"><v=size></option>
-     </v:collection>
-    </select>
-    </v:if>
-    <v:text path="item_name" /><br>
-     $<v:text path="price" /><br>
-    <v:store:add_to_cart redirect="/cart" inventory_field="inventory" options_collection="sizes" option_field="size" name_field="item_name" price_field="price" weight_field="weight">
-     Quantity: <input size="2" name="quantity" value="1" type="text" />
-     <input type="submit" value="Add to Cart" />
-    </v:store:add_to_cart>
+{% highlight html %}
+<v:if path="sizes">
+Size:    
+<select name="options">
+ <v:collection path="sizes[inventory>0]">
+  <option value="<v->"><v=size></option>
+ </v:collection>
+</select>
+</v:if>
+<v:text path="item_name" /><br>
+ $<v:text path="price" /><br>
+<v:store:add_to_cart redirect="/cart" inventory_field="inventory" options_collection="sizes" option_field="size" name_field="item_name" price_field="price" weight_field="weight">
+ Quantity: <input size="2" name="quantity" value="1" type="text" />
+ <input type="submit" value="Add to Cart" />
+</v:store:add_to_cart>
+{% endhighlight %}
 
 > **Tip**
 >

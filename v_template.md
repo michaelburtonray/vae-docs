@@ -31,59 +31,69 @@ rendered at difference places in the template.
 
 In your template file (for example `__template.html`):
 
-    <html>
-     <head>
-      <title>My Website</title>
-     </head>
-     <body>
-      <h1>My Website</h1>
-      <v:yield />
-     </body>
-    </html>
+{% highlight html %}
+<html>
+ <head>
+  <title>My Website</title>
+ </head>
+ <body>
+  <h1>My Website</h1>
+  <v:yield />
+ </body>
+</html>
+{% endhighlight %}
 
 In your content file (for example `index.html`):
 
-    <v:template filename="__template">
-     <p>Welcome to my website.</p>
-    </v:template>
+{% highlight html %}
+<v:template filename="__template">
+ <p>Welcome to my website.</p>
+</v:template>
+{% endhighlight %}
 
 Would render:
 
-    <html>
-     <head>
-      <title>My Website</title>
-     </head>
-     <body>
-      <h1>My Website</h1>
-      <p>Welcome to my website.</p>
-     </body>
-    </html>
+{% highlight html %}
+<html>
+ <head>
+  <title>My Website</title>
+ </head>
+ <body>
+  <h1>My Website</h1>
+  <p>Welcome to my website.</p>
+ </body>
+</html>
+{% endhighlight %}
 
 We can also use the `title` attribute to set the title of the page that
 will go in the HTML `<title>` tag.
 
 In your template file (for example `__template.html`):
 
-    <html>
-     <head>
-      <title>
-       <v:if param="title">
-        <v:text param="title" /> | My Website
-       </v:if>
-       <v:else>My Website</v:else>
-      </title>
-     </head>
-     <body>
-      <h1>My Website</h1>
-      <v:yield />
-     </body>
-    </html>
+{% highlight html %}
+<html>
+ <head>
+  <title>
+   <v:if param="title">
+    <v:text param="title" /> | My Website
+   </v:if>
+   <v:else>My Website</v:else>
+  </title>
+ </head>
+ <body>
+  <h1>My Website</h1>
+  <v:yield />
+ </body>
+</html>
+{% endhighlight %}
 
 In your content file (for example `index.html`):
 
-    <v:template filename="__template" title="Features">
-     <p>These are the features.</p>
-    </v:template>
+{% highlight html %}
+<v:template filename="__template" title="Features">
+ <p>These are the features.</p>
+</v:template>
+{% endhighlight %}
 
 Would render:
 

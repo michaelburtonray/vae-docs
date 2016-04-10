@@ -25,14 +25,18 @@ Two-element array containing the width and height of the image.
 
 ## Sample Usage
 
-    <?php
-    // Fetch image and compute image size
-    $bio = vae("bio");
-    $image_filename = vae_file($bio['press_photo']);
-    $image_size = vae_imagesize($image_filename);
+{% highlight php %}
+<?php
+// Fetch image and compute image size
+$bio = vae("bio");
+$image_filename = vae_file($bio['press_photo']);
+$image_size = vae_imagesize($image_filename);
+{% endhighlight %}
 
-    // Display Image
-    echo '<img src="' . $image_filename . '" alt="My Image" />';
+{% highlight html %}
+// Display Image
+echo '<img src="' . $image_filename . '" alt="My Image" />';
+{% endhighlight %}
 
     // Create a <div> the same size as our image
     echo '<div style="width: ' . $image_size[0] . '; height: ' . $image_size[1] . ';">My Div</div>';

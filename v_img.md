@@ -77,15 +77,21 @@ This tag is usually self-closed.
 
 Scaled:
 
-    <v:img path="about_us/photo_of_employees" width="320" height="240" alt="Our Employee Photo" title="Our Employee Photo" />
+{% highlight html %}
+<v:img path="about_us/photo_of_employees" width="320" height="240" alt="Our Employee Photo" title="Our Employee Photo" />
+{% endhighlight %}
 
 Cropped:
 
-    <v:img path="about_us/photo_of_employees" image_size="Square" />
+{% highlight html %}
+<v:img path="about_us/photo_of_employees" image_size="Square" />
+{% endhighlight %}
 
 Watermarked:
 
-    <v:img path="about_us/photo_of_employees" image_size="Square" watermark="/images/logo.png" watermark_align="left" watermark_vertical_align="bottom" watermark_horizontal_padding="10" watermark_vertical_padding="10" />
+{% highlight html %}
+<v:img path="about_us/photo_of_employees" image_size="Square" watermark="/images/logo.png" watermark_align="left" watermark_vertical_align="bottom" watermark_horizontal_padding="10" watermark_vertical_padding="10" />
+{% endhighlight %}
 
 Filtered:
 

@@ -21,13 +21,15 @@ None.
 To split the links collection across three columns, use something like
 this:
 
-    <v:repeat times="3">
-     <div class="column">
-      <v:collection path="links" groups="3">
-       <!-- show my links -->
-      </v:collection>
-     </div>
-    </v:repeat>
+{% highlight html %}
+<v:repeat times="3">
+ <div class="column">
+  <v:collection path="links" groups="3">
+   <!-- show my links -->
+  </v:collection>
+ </div>
+</v:repeat>
+{% endhighlight %}
 
 It would render as follows:
 

@@ -133,11 +133,15 @@ to cover several of them with sample code.
 
 ### Basic Sample
 
-    Our phone number is: <v:text path="contact/phone_number" />
+{% highlight html %}
+Our phone number is: <v:text path="contact/phone_number" />
+{% endhighlight %}
 
 ### Formatting Dates
 
-    This article was written on: <v:text path="date" strftime="%B %d, %Y" />
+{% highlight html %}
+This article was written on: <v:text path="date" strftime="%B %d, %Y" />
+{% endhighlight %}
 
 Would render something like this:
 
@@ -145,15 +149,21 @@ Would render something like this:
 
 ### Rendering text in a specific font
 
-    <v:text text="Thank you <v=name>!" font="HelveticaNeue" font-size="14" kerning="0" color="#000000" padding="5" />
+{% highlight html %}
+<v:text text="Thank you <v=name>!" font="HelveticaNeue" font-size="14" kerning="0" color="#000000" padding="5" />
+{% endhighlight %}
 
 ### Rendering a Rich Text Area
 
-    <v:text path="body" asset_width="500" asset_height="500" audio_player_vars="bg=0xFF0000&loop=no" />
+{% highlight html %}
+<v:text path="body" asset_width="500" asset_height="500" audio_player_vars="bg=0xFF0000&loop=no" />
+{% endhighlight %}
 
 ### Transforming input
 
-    <v:text text="hello world" maxlendth="8" transform="uppercase" />
+{% highlight html %}
+<v:text text="hello world" maxlendth="8" transform="uppercase" />
+{% endhighlight %}
 
 Would render:
 
@@ -161,7 +171,9 @@ Would render:
 
 Number formatting:
 
-    <v:text after=".9876" before="7" text="100000" number_format="2" />
+{% highlight html %}
+<v:text after=".9876" before="7" text="100000" number_format="2" />
+{% endhighlight %}
 
 Would render:
 

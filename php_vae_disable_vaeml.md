@@ -25,10 +25,12 @@ This function always returns `true`.
 
 Let's say we have some PHP code reading a file that generates JPGs.
 
-    <?php
-    Header("Content-type: image/jpeg");
-    readfile("image.jpg");
-    ?>
+{% highlight php %}
+<?php
+Header("Content-type: image/jpeg");
+readfile("image.jpg");
+?>
+{% endhighlight %}
 
 If our file contained some combination of characters that happen to form
 some VaeML—for example, [`<v->`](#v_shortcuts)—we'd be in trouble. Using

@@ -50,78 +50,92 @@ be rendered.
 
 In your template file (for example `__template.html`):
 
-    <html>
-     <head>
-      <title>My Website</title>
-     </head>
-     <body>
-      <h1>My Website</h1>
-      <v:yield />
-     </body>
-    </html>
+{% highlight html %}
+<html>
+ <head>
+  <title>My Website</title>
+ </head>
+ <body>
+  <h1>My Website</h1>
+  <v:yield />
+ </body>
+</html>
+{% endhighlight %}
 
 In your content file (for example `index.html`):
 
-    <v:template filename="__template">
-     <p>Welcome to my website.</p>
-    </v:template>
+{% highlight html %}
+<v:template filename="__template">
+ <p>Welcome to my website.</p>
+</v:template>
+{% endhighlight %}
 
 Would render:
 
-    <html>
-     <head>
-      <title>My Website</title>
-     </head>
-     <body>
-      <h1>My Website</h1>
-      <p>Welcome to my website.</p>
-     </body>
-     </html>
+{% highlight html %}
+<html>
+ <head>
+  <title>My Website</title>
+ </head>
+ <body>
+  <h1>My Website</h1>
+  <p>Welcome to my website.</p>
+ </body>
+ </html>
+{% endhighlight %}
 
 ### Example \#2 (With 'for' attribute)
 
 In your template file (for example `__template.html`):
 
-    <html>
-     <head>
-      <title>My Website</title>
-      <v:yield for="header" />
-     </head>
-     <body>
-      <h1>My Website</h1>
-      <v:yield />
-     </body>
-    </html>
+{% highlight html %}
+<html>
+ <head>
+  <title>My Website</title>
+  <v:yield for="header" />
+ </head>
+ <body>
+  <h1>My Website</h1>
+  <v:yield />
+ </body>
+</html>
+{% endhighlight %}
 
 In your content file (for example `index.html`):
 
-    <v:template filename="__template">
-     <v:fragment for="header">
-      <meta name="description" content="Pricing and Signup info" />
-     </v:fragment>
-     <p>Welcome to my website.</p>
-    </v:template>
+{% highlight html %}
+<v:template filename="__template">
+ <v:fragment for="header">
+  <meta name="description" content="Pricing and Signup info" />
+ </v:fragment>
+ <p>Welcome to my website.</p>
+</v:template>
+{% endhighlight %}
 
 Would render:
 
-    <html>
-     <head>
-      <title>My Website</title>
-      <meta name="description" value="Pricing and Signup info" />
-     </head>
-     <body>
-      <h1>My Website</h1>
-      <p>Welcome to my website.</p>
-     </body>
+{% highlight html %}
+<html>
+ <head>
+  <title>My Website</title>
+  <meta name="description" value="Pricing and Signup info" />
+ </head>
+ <body>
+  <h1>My Website</h1>
+  <p>Welcome to my website.</p>
+ </body>
+{% endhighlight %}
 
 ## Example \#3 (Specifying a Default Value)
 
 If no fragment `contact` existed in your content file, and the following
 code was in your template file:
 
-    <v:yield for="contact">
-     Contact us at support@actionverb.com
-    </v:yield>
+{% highlight html %}
+<v:yield for="contact">
+ Contact us at support@actionverb.com
+</v:yield>
+{% endhighlight %}
 
 The default value specified would be rendered:
 

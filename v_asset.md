@@ -55,19 +55,21 @@ This tag is usually self-closed.
 
 This code:
 
-    <html>
-     <head>
-      <v:asset framework="jquery/1" />
-      <v:asset src="/javascripts/main.js" />
-      <v:asset src="/javascripts/sifr.js" />
-      <v:asset src="/javascripts/jquery.lightbox.js" />
-      <v:asset src="/stylesheets/main.sass" />
-      <v:asset src="/stylesheets/homepage.sass" />
-      <v:asset src="/stylesheets/projects.sass" />
-      <v:asset src="/stylesheets/lightbox.css" />
-     </head>
-     ...
-    </html>
+{% highlight html %}
+<html>
+ <head>
+  <v:asset framework="jquery/1" />
+  <v:asset src="/javascripts/main.js" />
+  <v:asset src="/javascripts/sifr.js" />
+  <v:asset src="/javascripts/jquery.lightbox.js" />
+  <v:asset src="/stylesheets/main.sass" />
+  <v:asset src="/stylesheets/homepage.sass" />
+  <v:asset src="/stylesheets/projects.sass" />
+  <v:asset src="/stylesheets/lightbox.css" />
+ </head>
+ ...
+</html>
+{% endhighlight %}
 
 Would render something like:
 

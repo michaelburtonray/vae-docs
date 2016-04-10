@@ -45,11 +45,15 @@ number of date links. Dividers can also wrap the each dater link.
 
 ## Sample Usage
 
-    <v:date_selection path="posts" date_field="date" />
+{% highlight html %}
+<v:date_selection path="posts" date_field="date" />
+{% endhighlight %}
 
 Would render something like:
 
-    <a href="?date=2008-08">August 2008</a> <a href="?date=2008-07">July 2008</a>
+{% highlight html %}
+<a href="?date=2008-08">August 2008</a> <a href="?date=2008-07">July 2008</a>
+{% endhighlight %}
 
 Here's how you would then display the post from the selected date range:
 

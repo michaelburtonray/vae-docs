@@ -68,17 +68,19 @@ Other available events are:
 
 In your \_\_vae.php file:
 
-    <?php
-    // Make sure that we are available on the requested day
-    function check_add() {
-      if (!available($_REQUEST['id'], $_REQUEST['notes'], true)) {
-        vae_flash("Sorry, we are not available for those dates.  Please try different dates.", 'err');
-        return false;
-      }
-      return true;
-    }
-    vae_register_hook("store:add_to_cart", 'check_add'); 
-    ?>
+{% highlight php %}
+<?php
+// Make sure that we are available on the requested day
+function check_add() {
+  if (!available($_REQUEST['id'], $_REQUEST['notes'], true)) {
+    vae_flash("Sorry, we are not available for those dates.  Please try different dates.", 'err');
+    return false;
+  }
+  return true;
+}
+vae_register_hook("store:add_to_cart", 'check_add'); 
+?>
+{% endhighlight %}
 
 In your \_\_vae.php file:
 

@@ -54,25 +54,31 @@ HTML to render if there is no value set for that path.
 
 Only display the special notice if something is there:
 
-    <v:if path="homepage/special_notice">
-     SPECIAL NOTICE: <v:text path="homepage/special_notice" />
-    </v:if>
-    <v:else>Everything is normal</v:else>
+{% highlight html %}
+<v:if path="homepage/special_notice">
+ SPECIAL NOTICE: <v:text path="homepage/special_notice" />
+</v:if>
+<v:else>Everything is normal</v:else>
+{% endhighlight %}
 
 Kevin is awesome, so he gets an image to represent his name:
 
-    <v:if path="artist_name" is="Kevin">
-     <img src="/images/kevin.gif" />
-    </v:if>
-    <v:else><v:text path="artist_name" /></v:else>
+{% highlight html %}
+<v:if path="artist_name" is="Kevin">
+ <img src="/images/kevin.gif" />
+</v:if>
+<v:else><v:text path="artist_name" /></v:else>
+{% endhighlight %}
 
 Switch based on user input:
 
-    <v:if param="query">
-     Search Results:
-     ...
-    </v:if>
-    <v:else>You didn't enter a search string!</v:else>
+{% highlight html %}
+<v:if param="query">
+ Search Results:
+ ...
+</v:if>
+<v:else>You didn't enter a search string!</v:else>
+{% endhighlight %}
 
 Promote special offers:
 

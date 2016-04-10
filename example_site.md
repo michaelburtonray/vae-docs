@@ -101,13 +101,15 @@ magic of Vae, we can then create one single `artist.html` page, which
 displays the appropriate Artist's information, based on what hyperlink
 is clicked to get to the artist.html page.
 
-    <h1>Welcome to Vae Records!</h1>
-    <v:collection path="artists">
-     <div class="artist_desc">
-      <h3><v:a href="/artist"><v:text path="artist_name"/></v:a></h3>
-      <v:text path="artist_bio"/>
-     </div>
-    </v:collection>
+{% highlight html %}
+<h1>Welcome to Vae Records!</h1>
+<v:collection path="artists">
+ <div class="artist_desc">
+  <h3><v:a href="/artist"><v:text path="artist_name"/></v:a></h3>
+  <v:text path="artist_bio"/>
+ </div>
+</v:collection>
+{% endhighlight %}
 
 This will render as:
 
@@ -123,18 +125,22 @@ Collection when we are writing code within the `<v:collection>` tag, we
 can use the same principles when creating an HTML page that is linked to
 using a `<v:a>` tag, which provides the context.
 
-    <h1>Welcome to Vae Records!</h1>
-    <h2><v:text path="artist_name"/></h2>
+{% highlight html %}
+<h1>Welcome to Vae Records!</h1>
+<h2><v:text path="artist_name"/></h2>
+{% endhighlight %}
 
-    Check out our CDs!
-    <v:collection path="cds">
-     <div class="albumListing">
-      <v:a href="/CD"><v:img path="cover_art" image_size="cover_size" /></v:a>
-      <div class="albumText">
-       <v:a href="/CD"><v:text path="album_title"/></v:a>
-      </div>
-     </div>
-    </v:collection>
+{% highlight html %}
+Check out our CDs!
+<v:collection path="cds">
+ <div class="albumListing">
+  <v:a href="/CD"><v:img path="cover_art" image_size="cover_size" /></v:a>
+  <div class="albumText">
+   <v:a href="/CD"><v:text path="album_title"/></v:a>
+  </div>
+ </div>
+</v:collection>
+{% endhighlight %}
 
 Outputs...
 
@@ -144,18 +150,22 @@ Each of these links point to the `CD.html` page, but each provides a
 different context, allowing unique content to be rendered from one file.
 Here's the code for `CD.html`:
 
-    <h1>Welcome to Vae Records!</h1>
-    <h2><v:text path="artist_name"/></h2>
+{% highlight html %}
+<h1>Welcome to Vae Records!</h1>
+<h2><v:text path="artist_name"/></h2>
+{% endhighlight %}
 
-    Check out our CDs!
-    <v:collection path="cds">
-     <div class="albumListing">
-      <v:a href="/CD"><v:img path="cover_art" image_size="cover_size" /></v:a>
-      <div class="albumText">
-       <v:a href="/CD"><v:text path="album_title"/></v:a>
-      </div>
-     </div>
-    </v:collection>
+{% highlight html %}
+Check out our CDs!
+<v:collection path="cds">
+ <div class="albumListing">
+  <v:a href="/CD"><v:img path="cover_art" image_size="cover_size" /></v:a>
+  <div class="albumText">
+   <v:a href="/CD"><v:text path="album_title"/></v:a>
+  </div>
+ </div>
+</v:collection>
+{% endhighlight %}
 
 Which outputs:
 
@@ -178,11 +188,13 @@ our record label is a Add to Basket button next to each CD listing,
 along with a cart and checkout page. No problem! To the bottom of our
 `CD.html` file, we'll add the following:
 
-    <v:store:add_to_cart redirect="/cart" inventory_field="inventory" name_field="album_title" price_field="price" weight_field="weight">
-     Quantity:
-     <input size="2" name="quantity" value="1" type="text" />
-     <input type="submit" value="Add to Basket"/>
-    </v:store:add_to_cart>
+{% highlight html %}
+<v:store:add_to_cart redirect="/cart" inventory_field="inventory" name_field="album_title" price_field="price" weight_field="weight">
+ Quantity:
+ <input size="2" name="quantity" value="1" type="text" />
+ <input type="submit" value="Add to Basket"/>
+</v:store:add_to_cart>
+{% endhighlight %}
 
 So now our CD listings sport a nice Add to Basket button, which will
 take us to the `cart.html` page, once we create it. We're utilizing the
@@ -199,40 +211,42 @@ each can be found in the
 Clicking on Add to Basket should take us to a cart page, which contains
 code for us to view all the items in our cart.
 
-     <v:store:cart>
-      <table>
-       <tr>
-        <th>Remove</td>
-        <th>Item</td>
-        <th>Qty</td>
-        <th>Price</td>
-        <th>Total</td>
-       </tr>
-       <v:store:cart:items>
-        <tr>
-         <td><v:checkbox name="remove" /></td>
-         <td><v:text path="name" /></td>
-         <td><v:text_field path="qty" size="2" /></td>
-         <td>$<v:text path="price" number_format="2" /></td>
-         <td>$<v:text path="total" number_format="2" /></td>
-        </tr>
-       </v:store:cart:items>
-      </table>
-      
-      <div><strong>Subtotal:</strong> $<v:store:cart:subtotal /></div>
-       <div>
-        <input type="submit" value="Update Cart" border="0" />
-       </div>
-       <div>
-        <input type="button" onclick="window.location.href='/register';" value="Checkout &gt;" />
-       </div>
-      </div>
-      <p><a href="/">Continue Shopping</a></p>
-      <v:else>
-       <p>Your cart is empty!</p>
-       <p><a href="/">Continue Shopping</a></p>
-      </v:else>
-     </v:store:cart>
+{% highlight html %}
+ <v:store:cart>
+  <table>
+   <tr>
+    <th>Remove</td>
+    <th>Item</td>
+    <th>Qty</td>
+    <th>Price</td>
+    <th>Total</td>
+   </tr>
+   <v:store:cart:items>
+    <tr>
+     <td><v:checkbox name="remove" /></td>
+     <td><v:text path="name" /></td>
+     <td><v:text_field path="qty" size="2" /></td>
+     <td>$<v:text path="price" number_format="2" /></td>
+     <td>$<v:text path="total" number_format="2" /></td>
+    </tr>
+   </v:store:cart:items>
+  </table>
+  
+  <div><strong>Subtotal:</strong> $<v:store:cart:subtotal /></div>
+   <div>
+    <input type="submit" value="Update Cart" border="0" />
+   </div>
+   <div>
+    <input type="button" onclick="window.location.href='/register';" value="Checkout &gt;" />
+   </div>
+  </div>
+  <p><a href="/">Continue Shopping</a></p>
+  <v:else>
+   <p>Your cart is empty!</p>
+   <p><a href="/">Continue Shopping</a></p>
+  </v:else>
+ </v:store:cart>
+{% endhighlight %}
 
 We're making use of the [`<v:store:cart>`](#v_store_cart) and
 [`<v:store:cart:items>`](#v_store_cart_items) in this example, to
@@ -246,102 +260,104 @@ to the registration page. We set this to be `registration.html`. The
 registration page is where users will input their billing shipping
 information.
 
-    <div id="main">
-      <h2>Enter Your Information:</h2>
-      <v:store:register redirect="checkout.html">
-      <div class="registration_info">
-       <h3>Billing Information:</h3>
-       <table>
-        <tr>
-         <td>Name:</td>
-         <td><v:text_field path="billing_name" required="name" />
-        </tr>
-        <tr>
-         <td>Company:</td>
-         <td><v:text_field path="billing_company" />
-        </tr>
-        <tr>
-         <td>Address:</td>
-         <td><v:text_field path="billing_address" required="true" />
-        </tr>
-        <tr>
-         <td>Address 2:</td>
-         <td><v:text_field path="billing_address_2" />
-        </tr>
-        <tr>
-         <td>City:</td>
-         <td><v:text_field path="billing_city" required="true" />
-        </tr>
-        <tr>
-         <td>State/Province:</td>
-         <td><v:state_select path="billing_state" required="uscanada" />
-        </tr>
-        <tr>
-         <td>Country:</td>
-         <td><v:country_select path="billing_country" required="true" />
-        </tr>
-        <tr>
-         <td>Zip/Postal Code:</td>
-         <td><v:text_field path="billing_zip" required="uscanada" />
-        </tr>
-        <tr>
-         <td>Phone:</td>
-         <td><v:text_field path="billing_phone" required="true" />
-        </tr>
-        <tr>
-         <td>E-Mail Address:</td>
-         <td><v:text_field path="e_mail_address" required="email" />
-        </tr>
-        <tr>
-         <td>Confirm E-Mail Address:</td>
-         <td><v:text_field path="confirm_e_mail_address" required="email" />
-        </tr>
-       </table>
-      </div>
-      <div class="registration_info">
-       <p>Same as billing? <a href="#" onclick="shipping_billing(); return false;">Click here</a>.</p>
-       <table cellspacing="0">
-        <tr>
-         <td>Name:</td>
-         <td><v:text_field path="shipping_name" required="true" />
-        </tr>
-        <tr>
-         <td>Company:</td>
-         <td><v:text_field path="shipping_company" />
-        </tr>
-        <tr>
-         <td>Address:</td>
-         <td><v:text_field path="shipping_address" required="true" />
-        </tr>
-        <tr>
-         <td>Address 2:</td>
-         <td><v:text_field path="shipping_address_2" />
-        </tr>
-        <tr>
-         <td>City:</td>
-         <td><v:text_field path="shipping_city" required="true" />
-        </tr>
-        <tr>
-         <td>State/Province:</td>
-         <td><v:state_select path="shipping_state" required="uscanada" />
-        </tr>
-        <tr>
-         <td>Country:</td>
-         <td><v:country_select path="shipping_country" required="true" />
-        </tr>
-        <tr>
-         <td>Zip/Postal Code:</td>
-         <td><v:text_field path="shipping_zip" required="uscanada" />
-        </tr>
-        <tr>
-         <td>Phone:</td>
-         <td><v:text_field path="shipping_phone" required="true" />
-        </tr>    
-       </table>
-       <input type="submit" value="Continue" />
-      </div>
-     </div>
-     </v:store:register>
+{% highlight html %}
+<div id="main">
+  <h2>Enter Your Information:</h2>
+  <v:store:register redirect="checkout.html">
+  <div class="registration_info">
+   <h3>Billing Information:</h3>
+   <table>
+    <tr>
+     <td>Name:</td>
+     <td><v:text_field path="billing_name" required="name" />
+    </tr>
+    <tr>
+     <td>Company:</td>
+     <td><v:text_field path="billing_company" />
+    </tr>
+    <tr>
+     <td>Address:</td>
+     <td><v:text_field path="billing_address" required="true" />
+    </tr>
+    <tr>
+     <td>Address 2:</td>
+     <td><v:text_field path="billing_address_2" />
+    </tr>
+    <tr>
+     <td>City:</td>
+     <td><v:text_field path="billing_city" required="true" />
+    </tr>
+    <tr>
+     <td>State/Province:</td>
+     <td><v:state_select path="billing_state" required="uscanada" />
+    </tr>
+    <tr>
+     <td>Country:</td>
+     <td><v:country_select path="billing_country" required="true" />
+    </tr>
+    <tr>
+     <td>Zip/Postal Code:</td>
+     <td><v:text_field path="billing_zip" required="uscanada" />
+    </tr>
+    <tr>
+     <td>Phone:</td>
+     <td><v:text_field path="billing_phone" required="true" />
+    </tr>
+    <tr>
+     <td>E-Mail Address:</td>
+     <td><v:text_field path="e_mail_address" required="email" />
+    </tr>
+    <tr>
+     <td>Confirm E-Mail Address:</td>
+     <td><v:text_field path="confirm_e_mail_address" required="email" />
+    </tr>
+   </table>
+  </div>
+  <div class="registration_info">
+   <p>Same as billing? <a href="#" onclick="shipping_billing(); return false;">Click here</a>.</p>
+   <table cellspacing="0">
+    <tr>
+     <td>Name:</td>
+     <td><v:text_field path="shipping_name" required="true" />
+    </tr>
+    <tr>
+     <td>Company:</td>
+     <td><v:text_field path="shipping_company" />
+    </tr>
+    <tr>
+     <td>Address:</td>
+     <td><v:text_field path="shipping_address" required="true" />
+    </tr>
+    <tr>
+     <td>Address 2:</td>
+     <td><v:text_field path="shipping_address_2" />
+    </tr>
+    <tr>
+     <td>City:</td>
+     <td><v:text_field path="shipping_city" required="true" />
+    </tr>
+    <tr>
+     <td>State/Province:</td>
+     <td><v:state_select path="shipping_state" required="uscanada" />
+    </tr>
+    <tr>
+     <td>Country:</td>
+     <td><v:country_select path="shipping_country" required="true" />
+    </tr>
+    <tr>
+     <td>Zip/Postal Code:</td>
+     <td><v:text_field path="shipping_zip" required="uscanada" />
+    </tr>
+    <tr>
+     <td>Phone:</td>
+     <td><v:text_field path="shipping_phone" required="true" />
+    </tr>    
+   </table>
+   <input type="submit" value="Continue" />
+  </div>
+ </div>
+ </v:store:register>
+{% endhighlight %}
 
 Here we're making use of the [`<v:store:register>`](#v_store_register)
 tag to create our registration form:
@@ -353,188 +369,202 @@ standard checkout page. Here's the code for the top of the page, where
 we'll list out the items that the user is purchasing, using the
 [`<v:store:cart:items>`](#v_store_cart_items) tag.
 
-    <h2>Checkout:</h2>
-     <table>
-      <tr>
-       <th>Item</td>
-       <th>Qty</td>
-       <th>Price</td>
-       <th">Total</td>
-      </tr>
+{% highlight html %}
+<h2>Checkout:</h2>
+ <table>
+  <tr>
+   <th>Item</td>
+   <th>Qty</td>
+   <th>Price</td>
+   <th">Total</td>
+  </tr>
+{% endhighlight %}
 
-      <v:store:cart:items>
-       <tr>
-        <td><v:text path="name" /></td>
-        <td><v:text path="qty" size="2" /></td>
-        <td>$<v:text path="price" number_format="2" /></td>
-        <td>$<v:text path="total" number_format="2" /></td>
-       </tr>
-      </v:store:cart:items>
-     </table>
+{% highlight html %}
+  <v:store:cart:items>
+   <tr>
+    <td><v:text path="name" /></td>
+    <td><v:text path="qty" size="2" /></td>
+    <td>$<v:text path="price" number_format="2" /></td>
+    <td>$<v:text path="total" number_format="2" /></td>
+   </tr>
+  </v:store:cart:items>
+ </table>
+{% endhighlight %}
 
-     <table>
-      <tr><td>Subtotal:</td>
-       <td>$<v:store:cart:subtotal /></td>
-      </tr>
-      <tr>
-       <td>Shipping:</td>
-       <td>$<v:store:cart:shipping /></td>
-      </tr>
-      <v:store:if_discount>
-      <tr>
-        <td>Discount:</td>
-        <td>($<v:store:cart:discount />)</td>
-      </tr>
-      </v:store:if_discount>
-      <tr>
-       <td><strong>Total:</strong></td>
-       <td><strong>$<v:store:cart:total /></strong></td>
-      </tr>
-     </table>   
-     
+{% highlight html %}
+ <table>
+  <tr><td>Subtotal:</td>
+   <td>$<v:store:cart:subtotal /></td>
+  </tr>
+  <tr>
+   <td>Shipping:</td>
+   <td>$<v:store:cart:shipping /></td>
+  </tr>
+  <v:store:if_discount>
+  <tr>
+    <td>Discount:</td>
+    <td>($<v:store:cart:discount />)</td>
+  </tr>
+  </v:store:if_discount>
+  <tr>
+   <td><strong>Total:</strong></td>
+   <td><strong>$<v:store:cart:total /></strong></td>
+  </tr>
+ </table>   
+ 
+{% endhighlight %}
 
 Next we'll display the shipping select menu, using the
 [`<v:store:shipping_methods_select>`](#v_store_shipping_methods_select)
 tag.
 
-     <v:store:if_shippable>
-      Shipping Method: <v:store:shipping_methods_select />
-     </v:store:if_shippable>
-     <v:store:if_discount>
-      Special Offer code applied.  Your discount will appear over there
-      <v:else>
+{% highlight html %}
+ <v:store:if_shippable>
+  Shipping Method: <v:store:shipping_methods_select />
+ </v:store:if_shippable>
+ <v:store:if_discount>
+  Special Offer code applied.  Your discount will appear over there
+  <v:else>
+{% endhighlight %}
 
-       <v:store:discount>
-        If you have a Special Offer Code, enter it here and click Apply: <v:text_field name="discount" />
-        <input type="submit" value="Apply" />
-       </v:store:discount>
-      </v:else>
-     </v:store:if_discount>
+{% highlight html %}
+   <v:store:discount>
+    If you have a Special Offer Code, enter it here and click Apply: <v:text_field name="discount" />
+    <input type="submit" value="Apply" />
+   </v:store:discount>
+  </v:else>
+ </v:store:if_discount>
+{% endhighlight %}
 
 Next we'll have the user confirm their shipping/billing information.
 We'll use the [`<v:store:user>`](#v_store_user) tag to do this.
 
-     <h3>Review Shipping and Billing Information: <a href="register.html">(edit)</a></h3>
-     <v:store:user>
-      <table>
-       <tr>
-        <td>
-         <strong>Billing</strong>
-         <table width="100%">
-          <tr>
-           <td>Name:</td>
-           <td><v:text path="billing_name" /></td>
-          </tr>
-          <tr>
-           <td>Company:</td>
-           <td><v:text path="billing_company" /></td>
-          </tr>
-          <tr>
-           <td>Address:</td>
-           <td><v:text path="billing_address" /></td>
-          </tr>
-          <tr>
-           <td>Address 2:</td>
-           <td><v:text path="billing_address_2" /></td>
-          </tr>
-          <tr>
-           <td>City:</td>
-           <td><v:text path="billing_city" /></td>
-          </tr>
-          <tr>
-           <td>State:</td>
-           <td><v:text path="billing_state" /></td>
-          </tr>
-          <tr>
-           <td>Country:</td>
-           <td><v:text path="billing_country" /></td>
-          </tr>
-          <tr>
-           <td>Zip/Postal Code:</td>
-           <td><v:text path="billing_zip" /></td>
-          </tr>
-          <tr>
-           <td>Phone Number:</td>
-           <td><v:text path="billing_phone" /></td>
-          </tr>
-          <tr>
-           <td>E-Mail Address:</td>
-           <td><v:text path="e_mail_address" /></td>
-          </tr>
-         </table>
-        </td>
-        <td>
-         <strong>Shipping</strong>
-         <table>
-          <tr>
-           <td>Name:</td>
-           <td><v:text path="shipping_name" /></td>
-          </tr>
-          <tr>
-           <td>Company:</td>
-           <td><v:text path="shipping_company" /></td>
-          </tr>
-          <tr>
-           <td>Address:</td>
-           <td><v:text path="shipping_address" /></td>
-          </tr>
-          <tr>
-           <td>Address 2:</td>
-           <td><v:text path="shipping_address_2" /></td>
-          </tr>
-          <tr>
-           <td>City:</td>
-           <td><v:text path="shipping_city" /></td>
-          </tr>
-          <tr>
-           <td>State:</td>
-           <td><v:text path="shipping_state" /></td>
-          </tr>
-          <tr>
-           <td>Country:</td>
-           <td><v:text path="shipping_country" /></td>
-          </tr>
-          <tr>
-           <td>Zip/Postal Code:</td>
-           <td><v:text path="shipping_zip" /></td>
-          </tr>
-          <tr>
-           <td>Phone Number:</td>
-           <td><v:text path="shipping_phone" /></td>
-          </tr>
-         </table>
-        </td>
-       </tr>
-      </table>
+{% highlight html %}
+ <h3>Review Shipping and Billing Information: <a href="register.html">(edit)</a></h3>
+ <v:store:user>
+  <table>
+   <tr>
+    <td>
+     <strong>Billing</strong>
+     <table width="100%">
+      <tr>
+       <td>Name:</td>
+       <td><v:text path="billing_name" /></td>
+      </tr>
+      <tr>
+       <td>Company:</td>
+       <td><v:text path="billing_company" /></td>
+      </tr>
+      <tr>
+       <td>Address:</td>
+       <td><v:text path="billing_address" /></td>
+      </tr>
+      <tr>
+       <td>Address 2:</td>
+       <td><v:text path="billing_address_2" /></td>
+      </tr>
+      <tr>
+       <td>City:</td>
+       <td><v:text path="billing_city" /></td>
+      </tr>
+      <tr>
+       <td>State:</td>
+       <td><v:text path="billing_state" /></td>
+      </tr>
+      <tr>
+       <td>Country:</td>
+       <td><v:text path="billing_country" /></td>
+      </tr>
+      <tr>
+       <td>Zip/Postal Code:</td>
+       <td><v:text path="billing_zip" /></td>
+      </tr>
+      <tr>
+       <td>Phone Number:</td>
+       <td><v:text path="billing_phone" /></td>
+      </tr>
+      <tr>
+       <td>E-Mail Address:</td>
+       <td><v:text path="e_mail_address" /></td>
+      </tr>
+     </table>
+    </td>
+    <td>
+     <strong>Shipping</strong>
+     <table>
+      <tr>
+       <td>Name:</td>
+       <td><v:text path="shipping_name" /></td>
+      </tr>
+      <tr>
+       <td>Company:</td>
+       <td><v:text path="shipping_company" /></td>
+      </tr>
+      <tr>
+       <td>Address:</td>
+       <td><v:text path="shipping_address" /></td>
+      </tr>
+      <tr>
+       <td>Address 2:</td>
+       <td><v:text path="shipping_address_2" /></td>
+      </tr>
+      <tr>
+       <td>City:</td>
+       <td><v:text path="shipping_city" /></td>
+      </tr>
+      <tr>
+       <td>State:</td>
+       <td><v:text path="shipping_state" /></td>
+      </tr>
+      <tr>
+       <td>Country:</td>
+       <td><v:text path="shipping_country" /></td>
+      </tr>
+      <tr>
+       <td>Zip/Postal Code:</td>
+       <td><v:text path="shipping_zip" /></td>
+      </tr>
+      <tr>
+       <td>Phone Number:</td>
+       <td><v:text path="shipping_phone" /></td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+  </table>
+{% endhighlight %}
 
 Finally, we'll utilize [`<v:store:checkout>`](#v_store_checkout) and
 [`<v:store:if_credit_card>`](#v_store_if_credit_card) to provide an
 entry form for users to input their credit card information.
 
-     <v:store:checkout redirect="order_placed.html" register_page="register.html">
-      <v:store:if_credit_card>
-       <h3>Enter Credit Card Information:</h3>
-       <table>
-        <tr>
-          <td>Credit Card Type:</td>
-          <td><v:store:credit_card_select name="cc_type" required="true" /></td>
-        </tr>
-        <tr>
-         <td>Credit Card Number (no spaces or dashes):</td>
-         <td><v:text_field name="cc_number" maxlength="16" /></td>
-        </tr>
-        <tr>
-         <td>Expiration Date (mm/yyyy):</td>
-         <td><v:text_field name="cc_month" size="4" maxlength="2" /> / <v:text_field name="cc_year" size="4" maxlength="4" /></td>
-        </tr>
-        <tr>
-         <td>CVV2:</td>
-         <td><v:text_field name="cc_cvv" size="4" maxlength="4" /></td>
-        </tr>
-       </table>
-      </v:store:if_credit_card>
-      <input type="submit" value="Submit Order" />
-      </v:store:checkout>
+{% highlight html %}
+ <v:store:checkout redirect="order_placed.html" register_page="register.html">
+  <v:store:if_credit_card>
+   <h3>Enter Credit Card Information:</h3>
+   <table>
+    <tr>
+      <td>Credit Card Type:</td>
+      <td><v:store:credit_card_select name="cc_type" required="true" /></td>
+    </tr>
+    <tr>
+     <td>Credit Card Number (no spaces or dashes):</td>
+     <td><v:text_field name="cc_number" maxlength="16" /></td>
+    </tr>
+    <tr>
+     <td>Expiration Date (mm/yyyy):</td>
+     <td><v:text_field name="cc_month" size="4" maxlength="2" /> / <v:text_field name="cc_year" size="4" maxlength="4" /></td>
+    </tr>
+    <tr>
+     <td>CVV2:</td>
+     <td><v:text_field name="cc_cvv" size="4" maxlength="4" /></td>
+    </tr>
+   </table>
+  </v:store:if_credit_card>
+  <input type="submit" value="Submit Order" />
+  </v:store:checkout>
+{% endhighlight %}
 
 The rendered content would look something like this:
 
@@ -543,16 +573,18 @@ The rendered content would look something like this:
 The last page our users will see is a confirmation page, which we've
 called `order_placed.html`. For our site, the code will be quite simple.
 
-    <html>
-     <head>
-      <title>My Store</title>
-     </head>
-     <body>
-      <h2>Order Successful</h2>
-      <p>We have E-Mailed you a receipt.</p>
-      <p>The charge will show up on your statement as AVRecords.</p>
-     </body>
-     </html>
+{% highlight html %}
+<html>
+ <head>
+  <title>My Store</title>
+ </head>
+ <body>
+  <h2>Order Successful</h2>
+  <p>We have E-Mailed you a receipt.</p>
+  <p>The charge will show up on your statement as AVRecords.</p>
+ </body>
+ </html>
+{% endhighlight %}
 
 This will render as:
 
