@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Vae Docs
+---
+
 # Vae Docs
 
 This is the Jekyll version of Vae documentation.
@@ -11,14 +16,9 @@ Install Jekyll and dependencies
 
 Start Jekyll server using local config
 
-`bundle exec jekyll serve --config _config.yml,_config_local.yml`
+`bundle exec jekyll serve --config _config.yml`
 
 You can now access the site at [http://localhost:4000](http://localhost:4000/).
-
-
-## Notes
-
-* All assets should use the `{{ 'img/file.png' | cdn }}` url structure. The `_config_local.yml` will override the CDN url for local development.
 
 
 ## Reference

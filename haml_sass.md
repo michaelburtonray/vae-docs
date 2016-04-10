@@ -1,4 +1,4 @@
-# Haml and Sass {#haml_sass}
+# Haml and Sass
 
 We also provide support for [Haml](http://haml.hamptoncatlin.com/) and
 [Sass](http://haml.hamptoncatlin.com/docs/rdoc/classes/Sass.html), which

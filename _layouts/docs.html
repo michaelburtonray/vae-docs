@@ -98,9 +98,9 @@ sections:
   {% endif %}
 
   <link rel="canonical" href="https://docs.vaeplatform.com{{ page.url }}">
-  <link rel="shortcut icon" href="{{ 'favicon.ico' | cdn }}">
+  <link rel="shortcut icon" href="{{ 'favicon.ico' }}">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500" type="text/css">
-  <link rel="stylesheet" href="{{ 'css/docs.css' | cdn }}" type="text/css">
+  <link rel="stylesheet" href="{{ '/css/docs.css' }}" type="text/css">
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -109,7 +109,7 @@ sections:
   <div class="wrapper">
     <div class="header">
       <div class="header-group group">
-        <a href="/"><img src="{{ 'img/logo-white.png' | cdn }}" class="logo" alt="BrickFTP"></a>
+        <a href="/"><img src="{{ 'img/logo-white.png' }}" class="logo" alt="BrickFTP"></a>
         <h3>Documentation &amp; Reference Center</h3>
       </div>
       <div class="sidebar-toggle">
@@ -128,7 +128,7 @@ sections:
             {% else %}
             <a class="parent-link" href="/contact/">
             {% endif %}
-            <img src="{{ 'img/docs/sidebar-' | append: section.icon | append: '.png' | cdn }}" alt="{{ section.title }}">{{ section.title }}</a>
+            <img src="{{ 'img/docs/sidebar-' | append: section.icon | append: '.png' }}" alt="{{ section.title }}">{{ section.title }}</a>
             {% if section.child_items %}
             <ul class="child-menu collapse" style="{% if section.slug != '' and page.url contains parent_slug %}display: block;{% endif %}">
               {% for child in section.child_items %}
