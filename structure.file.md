@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # File {#structure.file}
+title: # File
 ---
 
 # File {#structure.file}

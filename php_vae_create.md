@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_create() {#php_vae_create}
+title: # vae\_create()
 ---
 
 # vae\_create() {#php_vae_create}

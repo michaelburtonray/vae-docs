@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_register\_hook() {#php_vae_register_hook}
+title: # vae\_register\_hook()
 ---
 
 # vae\_register\_hook() {#php_vae_register_hook}

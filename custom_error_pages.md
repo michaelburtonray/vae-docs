@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Custom Error Pages {#custom_error_pages}
+title: # Custom Error Pages
 ---
 
 # Custom Error Pages {#custom_error_pages}

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_data\_path() {#php_vae_data_path}
+title: # vae\_data\_path()
 ---
 
 # vae\_data\_path() {#php_vae_data_path}

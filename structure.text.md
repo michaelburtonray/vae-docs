@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Text {#structure.text}
+title: # Text
 ---
 
 # Text {#structure.text}

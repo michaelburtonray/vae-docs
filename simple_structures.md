@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Simple Structures {#simple_structures}
+title: # Simple Structures
 ---
 
 # Simple Structures {#simple_structures}

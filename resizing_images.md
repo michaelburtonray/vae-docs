@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Resizing Images {#resizing_images}
+title: # Resizing Images
 ---
 
 # Resizing Images {#resizing_images}

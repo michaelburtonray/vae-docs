@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_recent\_order() {#php_vae_store_recent_order}
+title: # vae\_store\_recent\_order()
 ---
 
 # vae\_store\_recent\_order() {#php_vae_store_recent_order}

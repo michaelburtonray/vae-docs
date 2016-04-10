@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_multipart\_mail() {#php_vae_multipart_mail}
+title: # vae\_multipart\_mail()
 ---
 
 # vae\_multipart\_mail() {#php_vae_multipart_mail}

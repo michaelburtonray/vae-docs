@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # SEO: Search Engine Optimization {#seo}
+title: # SEO: Search Engine Optimization
 ---
 
 # SEO: Search Engine Optimization {#seo}

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_loggedin() {#php_vae_store_loggedin}
+title: # vae\_store\_loggedin()
 ---
 
 # vae\_store\_loggedin() {#php_vae_store_loggedin}

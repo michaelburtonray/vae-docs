@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Full Site Tutorial: Vae Records {#example_site}
+title: # Full Site Tutorial: Vae Records
 ---
 
 # Full Site Tutorial: Vae Records {#example_site}

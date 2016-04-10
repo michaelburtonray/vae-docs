@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Video Tutorial: PHP {#vid_php}
+title: # Video Tutorial: PHP
 ---
 
 # Video Tutorial: PHP {#vid_php}

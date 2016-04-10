@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Video {#structure.video}
+title: # Video
 ---
 
 # Video {#structure.video}

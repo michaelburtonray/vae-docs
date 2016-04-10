@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_errors() {#php_vae_errors}
+title: # vae\_errors()
 ---
 
 # vae\_errors() {#php_vae_errors}

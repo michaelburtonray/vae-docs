@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Password {#structure.password}
+title: # Password
 ---
 
 # Password {#structure.password}

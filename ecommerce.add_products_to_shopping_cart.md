@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Adding Products to the Shopping Cart {#ecommerce.add_products_to_shopping_cart}
+title: # Adding Products to the Shopping Cart
 ---
 
 # Adding Products to the Shopping Cart {#ecommerce.add_products_to_shopping_cart}

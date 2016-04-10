@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_disable\_vaeml() {#php_vae_disable_vaeml}
+title: # vae\_disable\_vaeml()
 ---
 
 # vae\_disable\_vaeml() {#php_vae_disable_vaeml}

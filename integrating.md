@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Integrating Vae Content Into Your Website {#integrating}
+title: # Integrating Vae Content Into Your Website
 ---
 
 # Integrating Vae Content Into Your Website {#integrating}

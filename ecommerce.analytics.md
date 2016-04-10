@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Analytics {#ecommerce.analytics}
+title: # Analytics
 ---
 
 # Analytics {#ecommerce.analytics}

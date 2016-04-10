@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Content Tab {#backstage.content}
+title: # Content Tab
 ---
 
 # Content Tab {#backstage.content}

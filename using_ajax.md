@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Using AJAX {#using_ajax}
+title: # Using AJAX
 ---
 
 # Using AJAX {#using_ajax}

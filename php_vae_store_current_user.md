@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_current\_user() {#php_vae_store_current_user}
+title: # vae\_store\_current\_user()
 ---
 
 # vae\_store\_current\_user() {#php_vae_store_current_user}

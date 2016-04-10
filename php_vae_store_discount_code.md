@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_discount\_code() {#php_vae_store_discount_code}
+title: # vae\_store\_discount\_code()
 ---
 
 # vae\_store\_discount\_code() {#php_vae_store_discount_code}

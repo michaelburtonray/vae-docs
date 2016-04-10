@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Newsletter Tab {#backstage.newsletter}
+title: # Newsletter Tab
 ---
 
 # Newsletter Tab {#backstage.newsletter}

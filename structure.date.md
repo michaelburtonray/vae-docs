@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Date {#structure.date}
+title: # Date
 ---
 
 # Date {#structure.date}

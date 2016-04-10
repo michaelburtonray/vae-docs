@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Vae Local Development Environment {#vae_local}
+title: # Vae Local Development Environment
 ---
 
 # Vae Local Development Environment {#vae_local}

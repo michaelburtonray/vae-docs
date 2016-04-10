@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Usage / Billing Tab {#backstage.usage}
+title: # Usage / Billing Tab
 ---
 
 # Usage / Billing Tab {#backstage.usage}

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_render\_tags() {#php_vae_render_tags}
+title: # vae\_render\_tags()
 ---
 
 # vae\_render\_tags() {#php_vae_render_tags}

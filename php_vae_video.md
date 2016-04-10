@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_video() {#php_vae_video}
+title: # vae\_video()
 ---
 
 # vae\_video() {#php_vae_video}

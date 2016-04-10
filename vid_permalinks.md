@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Video Tutorial: Permalinks {#vid_permalinks}
+title: # Video Tutorial: Permalinks
 ---
 
 # Video Tutorial: Permalinks {#vid_permalinks}

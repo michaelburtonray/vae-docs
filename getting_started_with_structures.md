@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Getting Started with Structures {#getting_started_with_structures}
+title: # Getting Started with Structures
 ---
 
 # Getting Started with Structures {#getting_started_with_structures}

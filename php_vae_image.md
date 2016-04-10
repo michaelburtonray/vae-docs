@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_image() and vae\_sizedimage() {#php_vae_image}
+title: # vae\_image() and vae\_sizedimage()
 ---
 
 # vae\_image() and vae\_sizedimage() {#php_vae_image}

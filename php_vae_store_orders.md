@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_orders() {#php_vae_store_orders}
+title: # vae\_store\_orders()
 ---
 
 # vae\_store\_orders() {#php_vae_store_orders}

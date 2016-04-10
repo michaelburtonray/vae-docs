@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Summary -- Processing by Extension {#processing_by_extension}
+title: # Summary -- Processing by Extension
 ---
 
 # Summary -- Processing by Extension {#processing_by_extension}

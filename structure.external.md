@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # External {#structure.external}
+title: # External
 ---
 
 # External {#structure.external}

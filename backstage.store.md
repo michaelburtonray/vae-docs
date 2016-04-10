@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Store Tab {#backstage.store}
+title: # Store Tab
 ---
 
 # Store Tab {#backstage.store}

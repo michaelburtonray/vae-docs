@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_update\_coupon\_code() {#php_vae_store_update_coupon_code}
+title: # vae\_store\_update\_coupon\_code()
 ---
 
 # vae\_store\_update\_coupon\_code() {#php_vae_store_update_coupon_code}

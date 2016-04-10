@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Tags {#structure.tags}
+title: # Tags
 ---
 
 # Tags {#structure.tags}

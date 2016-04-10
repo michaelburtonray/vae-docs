@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Accessing Your Webspace {#accessing_your_webspace}
+title: # Accessing Your Webspace
 ---
 
 # Accessing Your Webspace {#accessing_your_webspace}

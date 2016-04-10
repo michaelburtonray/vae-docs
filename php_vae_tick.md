@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_tick() {#php_vae_tick}
+title: # vae\_tick()
 ---
 
 # vae\_tick() {#php_vae_tick}

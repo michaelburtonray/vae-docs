@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_cdn\_url() {#php_vae_cdn_url}
+title: # vae\_cdn\_url()
 ---
 
 # vae\_cdn\_url() {#php_vae_cdn_url}

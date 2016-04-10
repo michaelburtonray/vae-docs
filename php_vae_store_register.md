@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_register() {#php_vae_store_register}
+title: # vae\_store\_register()
 ---
 
 # vae\_store\_register() {#php_vae_store_register}

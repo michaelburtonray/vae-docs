@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_destroy\_all\_tax\_rates() {#php_vae_store_destroy_all_tax_rates}
+title: # vae\_store\_destroy\_all\_tax\_rates()
 ---
 
 # vae\_store\_destroy\_all\_tax\_rates() {#php_vae_store_destroy_all_tax_rates}

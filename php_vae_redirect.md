@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_redirect() {#php_vae_redirect}
+title: # vae\_redirect()
 ---
 
 # vae\_redirect() {#php_vae_redirect}

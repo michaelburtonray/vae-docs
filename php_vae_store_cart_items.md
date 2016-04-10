@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_cart\_items() {#php_vae_store_cart_items}
+title: # vae\_store\_cart\_items()
 ---
 
 # vae\_store\_cart\_items() {#php_vae_store_cart_items}

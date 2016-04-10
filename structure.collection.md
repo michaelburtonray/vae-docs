@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Collection {#structure.collection}
+title: # Collection
 ---
 
 # Collection {#structure.collection}

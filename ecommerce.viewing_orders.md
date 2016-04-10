@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Viewing Orders {#ecommerce.viewing_orders}
+title: # Viewing Orders
 ---
 
 # Viewing Orders {#ecommerce.viewing_orders}

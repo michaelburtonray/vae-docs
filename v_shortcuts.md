@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # `<v>` shortcuts {#v_shortcuts}
+title: # `<v>` shortcuts
 ---
 
 # `<v>` shortcuts {#v_shortcuts}

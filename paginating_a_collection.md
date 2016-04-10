@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Paginating A Collection {#paginating_a_collection}
+title: # Paginating A Collection
 ---
 
 # Paginating A Collection {#paginating_a_collection}

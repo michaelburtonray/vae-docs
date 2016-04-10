@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_store\_create\_tax\_rate() {#php_vae_store_create_tax_rate}
+title: # vae\_store\_create\_tax\_rate()
 ---
 
 # vae\_store\_create\_tax\_rate() {#php_vae_store_create_tax_rate}

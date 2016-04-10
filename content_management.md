@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Content Management {#content_management}
+title: # Content Management
 ---
 
 # Content Management {#content_management}

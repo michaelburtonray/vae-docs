@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_customer() {#php_vae_customer}
+title: # vae\_customer()
 ---
 
 # vae\_customer() {#php_vae_customer}

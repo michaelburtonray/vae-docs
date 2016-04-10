@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Text Area {#structure.textarea}
+title: # Text Area
 ---
 
 # Text Area {#structure.textarea}

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_asset() {#php_vae_asset}
+title: # vae\_asset()
 ---
 
 # vae\_asset() {#php_vae_asset}

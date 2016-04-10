@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Association (multi) {#structure.association_multi}
+title: # Association (multi)
 ---
 
 # Association (multi) {#structure.association_multi}

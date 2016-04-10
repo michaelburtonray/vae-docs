@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Video Tutorial: If {#vid_if}
+title: # Video Tutorial: If
 ---
 
 # Video Tutorial: If {#vid_if}

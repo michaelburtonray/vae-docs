@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Dynamic PDF Generation {#dynamic_pdf}
+title: # Dynamic PDF Generation
 ---
 
 # Dynamic PDF Generation {#dynamic_pdf}

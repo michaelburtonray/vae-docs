@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # &lt;v:store:addresses&gt; {#v_store_addresses}
+title: # &lt;v:store:addresses&gt;
 ---
 
 # &lt;v:store:addresses&gt; {#v_store_addresses}

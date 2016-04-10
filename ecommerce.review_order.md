@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Checking Out / Review Order {#ecommerce.review_order}
+title: # Checking Out / Review Order
 ---
 
 # Checking Out / Review Order {#ecommerce.review_order}

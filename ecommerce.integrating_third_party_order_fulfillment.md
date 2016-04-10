@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Integrating With a Third-Party for Order Fulfillment {#ecommerce.integrating_third_party_order_fulfillment}
+title: # Integrating With a Third-Party for Order Fulfillment
 ---
 
 # Integrating With a Third-Party for Order Fulfillment {#ecommerce.integrating_third_party_order_fulfillment}

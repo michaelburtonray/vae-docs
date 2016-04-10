@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Tutorials and Examples {#examples}
+title: # Tutorials and Examples
 ---
 
 # Tutorials and Examples {#examples}

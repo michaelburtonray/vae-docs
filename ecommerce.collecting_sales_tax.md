@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Collecting Sales Tax {#ecommerce.collecting_sales_tax}
+title: # Collecting Sales Tax
 ---
 
 # Collecting Sales Tax {#ecommerce.collecting_sales_tax}

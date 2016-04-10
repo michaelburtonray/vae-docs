@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Real-Time Shipping Calculations {#ecommerce.real_time_shipping}
+title: # Real-Time Shipping Calculations
 ---
 
 # Real-Time Shipping Calculations {#ecommerce.real_time_shipping}

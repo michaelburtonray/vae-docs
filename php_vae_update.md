@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_update() {#php_vae_update}
+title: # vae\_update()
 ---
 
 # vae\_update() {#php_vae_update}

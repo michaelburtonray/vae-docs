@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # The Website {#the_website}
+title: # The Website
 ---
 
 # The Website {#the_website}

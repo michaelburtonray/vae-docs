@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Users Tab {#backstage.users}
+title: # Users Tab
 ---
 
 # Users Tab {#backstage.users}

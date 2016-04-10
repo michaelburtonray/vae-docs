@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Getting Started {#getting_started_guide}
+title: # Getting Started
 ---
 
 # Getting Started {#getting_started_guide}

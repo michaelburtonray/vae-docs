@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_register\_tag() {#php_vae_register_tag}
+title: # vae\_register\_tag()
 ---
 
 # vae\_register\_tag() {#php_vae_register_tag}

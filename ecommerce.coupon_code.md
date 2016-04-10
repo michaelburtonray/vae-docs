@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Coupon Codes {#ecommerce.coupon_code}
+title: # Coupon Codes
 ---
 
 # Coupon Codes {#ecommerce.coupon_code}

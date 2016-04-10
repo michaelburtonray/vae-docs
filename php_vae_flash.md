@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_flash() {#php_vae_flash}
+title: # vae\_flash()
 ---
 
 # vae\_flash() {#php_vae_flash}

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Color {#structure.color}
+title: # Color
 ---
 
 # Color {#structure.color}

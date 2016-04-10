@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Video Tutorial: Building ZIPs {#vid_zip}
+title: # Video Tutorial: Building ZIPs
 ---
 
 # Video Tutorial: Building ZIPs {#vid_zip}

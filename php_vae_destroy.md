@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_destroy() {#php_vae_destroy}
+title: # vae\_destroy()
 ---
 
 # vae\_destroy() {#php_vae_destroy}

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Checkbox {#structure.checkbox}
+title: # Checkbox
 ---
 
 # Checkbox {#structure.checkbox}

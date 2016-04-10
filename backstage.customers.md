@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Customers Tab {#backstage.customers}
+title: # Customers Tab
 ---
 
 # Customers Tab {#backstage.customers}

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Video Tutorial: Collections {#vid_collection}
+title: # Video Tutorial: Collections
 ---
 
 # Video Tutorial: Collections {#vid_collection}

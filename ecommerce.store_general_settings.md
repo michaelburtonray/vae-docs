@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Store General Settings {#ecommerce.store_general_settings}
+title: # Store General Settings
 ---
 
 # Store General Settings {#ecommerce.store_general_settings}

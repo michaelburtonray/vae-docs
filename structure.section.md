@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Section {#structure.section}
+title: # Section
 ---
 
 # Section {#structure.section}

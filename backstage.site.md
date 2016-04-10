@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # Site Tab {#backstage.site}
+title: # Site Tab
 ---
 
 # Site Tab {#backstage.site}

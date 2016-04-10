@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_image\_grey() {#php_vae_image_grey}
+title: # vae\_image\_grey()
 ---
 
 # vae\_image\_grey() {#php_vae_image_grey}

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # About Vae {#about}
+title: # About Vae
 ---
 
 # About Vae {#about}

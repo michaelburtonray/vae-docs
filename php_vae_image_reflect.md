@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: # vae\_image\_reflect() {#php_vae_image_reflect}
+title: # vae\_image\_reflect()
 ---
 
 # vae\_image\_reflect() {#php_vae_image_reflect}
