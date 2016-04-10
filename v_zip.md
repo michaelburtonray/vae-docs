@@ -31,9 +31,11 @@ None.
 
 ## Sample Usage
 
-    <v:zip filename="Your MP3 Downloads">
-     Click to download a ZIP of all MP3s
-     <v:collection path="mp3s">
-      <v:file path="mp3" filename="<v=name>" />
-     </v:collection>
-    </v:zip>
+{% highlight html %}
+<v:zip filename="Your MP3 Downloads">
+ Click to download a ZIP of all MP3s
+ <v:collection path="mp3s">
+  <v:file path="mp3" filename="<v=name>" />
+ </v:collection>
+</v:zip>
+{% endhighlight %}

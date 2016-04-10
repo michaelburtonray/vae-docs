@@ -1,3 +1,6 @@
+---
+---
+
 @font-face {
 	font-family: 'DB';
 	src: url('../assets/webfontkit/din-bold-webfont.eot');
@@ -29,6 +32,9 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+@import 'highlight';
+
 
 /****/
 
@@ -480,27 +486,6 @@ pre {
   margin: 0px 40px 15px 40px;
   font-size: 0.9em;
 }
-
-.br0 {color: #faec31;}
-.co1 {color: #D4DE28; font-style: italic;}
-.imp {font-weight: bold; color: red;}
-.es0 {color: #000099;}
-.kw1 {color: #faec31;}
-.kw2 {color: #bbb;}
-.kw3 {color: #faec31;}
-.re0 {color: #ee4432;}
-.re1 {color: #faec31;}
-.re2 {color: #faec31;}
-.sc0 {color: #d4de28;}
-.sc1 {color: #aaaaaa;}
-.sc2 {color: #339933;}
-.sc3 {color: #fff;}
-.sc-1 {color: #D4DE28; font-style: italic;}
-.st0 {color: #ccc;}
-.st_h {color: #ccc;}
-.sy0 {color: #d4de28;}
-.sy1 {color: #bbb;}
-
 
 /**
  * jQuery lightBox plugin
