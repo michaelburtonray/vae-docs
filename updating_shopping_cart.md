@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Updating Quantities or Removing Products From Shopping Cart
+---
+
 # Updating Quantities or Removing Products From Shopping Cart
 
 As with any common eCommerce shopping cart, once the user has items in

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:login>`{#v_store_login}
+---
+
 # `<v:store:login>`{#v_store_login}
 
 Outputs an HTML form (`<form>` tag) that when submitted will log

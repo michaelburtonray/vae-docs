@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:if_paypal>`{#v_store_if_paypal}
+---
+
 # `<v:store:if_paypal>`{#v_store_if_paypal}
 
 Renders its contents only if currently selected payment method is PayPal

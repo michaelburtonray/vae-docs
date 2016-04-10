@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Vae Local Development Environment {#vae_local}
+---
+
 # Vae Local Development Environment {#vae_local}
 
 The Vae Local Development Environment is a software package that you can

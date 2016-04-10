@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Validations
+---
+
 # Validations
 
 Vae provides validations that can be enabled on strucures that ensure

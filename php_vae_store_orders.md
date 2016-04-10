@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_store\_orders() {#php_vae_store_orders}
+---
+
 # vae\_store\_orders() {#php_vae_store_orders}
 
 The `vae_store_orders()` function returns an array of up to 50 orders

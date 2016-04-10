@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Image {#structure.image}
+---
+
 # Image {#structure.image}
 
 The Image Structure allows users to upload images in virtually any image

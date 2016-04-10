@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_cache() {#php_vae_cache}
+---
+
 # vae\_cache() {#php_vae_cache}
 
 Use the `vae_cache()` function to cache the results of a PHP function in

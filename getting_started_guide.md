@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Getting Started {#getting_started_guide}
+---
+
 # Getting Started {#getting_started_guide}
 
 VaeML is an exteremely powerful tag-based language that is coded

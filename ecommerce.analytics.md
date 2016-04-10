@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Analytics {#ecommerce.analytics}
+---
+
 # Analytics {#ecommerce.analytics}
 
 The Analytics sub-tab, located under the Store tab, is a powerful tool

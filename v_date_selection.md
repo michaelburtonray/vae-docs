@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:date_selection>`{#v_date_selection}
+---
+
 # `<v:date_selection>`{#v_date_selection}
 
 Renders a set of date links that represent the date range associated

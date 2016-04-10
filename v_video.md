@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:video>`{#v_video}
+---
+
 # `<v:video>`{#v_video}
 
 Outputs HTML that will display a video player that plays the video

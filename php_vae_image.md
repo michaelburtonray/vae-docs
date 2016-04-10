@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_image() and vae\_sizedimage() {#php_vae_image}
+---
+
 # vae\_image() and vae\_sizedimage() {#php_vae_image}
 
 Use the `vae_image()` or `vae_sizedimage()` function to generate a URL

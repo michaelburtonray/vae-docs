@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:pdf>`{#v_pdf}
+---
+
 # `<v:pdf>`{#v_pdf}
 
 To render pages as a PDF, they should be named `.pdf.html`, `.pdf.haml`,

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_richtext() {#php_vae_richtext}
+---
+
 # vae\_richtext() {#php_vae_richtext}
 
 The `vae_richtext()` function applies proper formatting to the data

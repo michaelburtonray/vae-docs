@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:password_field>`{#v_password_field}
+---
+
 # `<v:password_field>`{#v_password_field}
 
 Outputs an HTML password input field (`<input type="password">` tag).

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:facebook_like>`{#v_facebook_like}
+---
+
 # `<v:facebook_like>`{#v_facebook_like}
 
 Renders a [Facebook Like

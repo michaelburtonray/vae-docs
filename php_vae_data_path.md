@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_data\_path() {#php_vae_data_path}
+---
+
 # vae\_data\_path() {#php_vae_data_path}
 
 Use the `vae_data_path()` function to retrieve the filesystem path to

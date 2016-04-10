@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:a>`{#v_a}
+---
+
 # `<v:a>`{#v_a}
 
 Outputs an HTML link (`<a>` tag). The link can point to a URL that you

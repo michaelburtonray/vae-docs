@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:yield>`{#v_yield}
+---
+
 # `<v:yield>`{#v_yield}
 
 Used in a template file to mark the part of the file that will be filled

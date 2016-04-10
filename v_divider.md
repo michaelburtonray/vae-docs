@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:divider>`{#v_divider}
+---
+
 # `<v:divider>`{#v_divider}
 
 This tag is used to insert HTML code between or around the individual

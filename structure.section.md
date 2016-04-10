@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Section {#structure.section}
+---
+
 # Section {#structure.section}
 
 A Section is a superstructure that may contain multiple child

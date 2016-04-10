@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Integrating With a Third-Party for Order Fulfillment {#ecommerce.integrating_third_party_order_fulfillment}
+---
+
 # Integrating With a Third-Party for Order Fulfillment {#ecommerce.integrating_third_party_order_fulfillment}
 
 Most of our customers warehouse and ship products themselves. Vae makes

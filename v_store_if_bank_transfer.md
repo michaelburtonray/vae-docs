@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:if_bank_transfer>`{#v_store_if_bank_transfer}
+---
+
 # `<v:store:if_bank_transfer>`{#v_store_if_bank_transfer}
 
 Renders its contents only if currently selected payment method is Bank

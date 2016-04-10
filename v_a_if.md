@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:a_if>`{#v_a_if}
+---
+
 # `<v:a_if>`{#v_a_if}
 
 Outputs its contents either as an HTML link (`<a>` tag) or without a

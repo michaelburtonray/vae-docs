@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:create>`{#v_create}
+---
+
 # `<v:create>`{#v_create}
 
 Outputs an HTML form (`<form>` tag) that when submitted will add an

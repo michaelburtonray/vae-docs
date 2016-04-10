@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Color {#structure.color}
+---
+
 # Color {#structure.color}
 
 The Color Structure stores a color value. When editing entries for this

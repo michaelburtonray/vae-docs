@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Video Tutorial: Formmail {#vid_formmail}
+---
+
 # Video Tutorial: Formmail {#vid_formmail}
 
 ![]()

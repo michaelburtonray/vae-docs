@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # eCommerce
+---
+
 # eCommerce
 
 When we set out to create an eCommerce engine, we built on the rest of

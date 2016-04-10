@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_tick() {#php_vae_tick}
+---
+
 # vae\_tick() {#php_vae_tick}
 
 Use the `vae_tick()` function to build a time report of how long it

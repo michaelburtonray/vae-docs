@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:if_recent_order_paypal_express_checkout>`{#v_store_if_recent_order_paypal_express_checkout}
+---
+
 # `<v:store:if_recent_order_paypal_express_checkout>`{#v_store_if_recent_order_paypal_express_checkout}
 
 Renders its contents only if the payment method used for the most recent

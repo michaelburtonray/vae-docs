@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:state_select>`{#v_state_select}
+---
+
 # `<v:state_select>`{#v_state_select}
 
 Outputs an HTML select input field (`<select>` tag) prepopulated with a

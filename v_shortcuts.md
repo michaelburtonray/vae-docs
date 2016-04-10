@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v>` shortcuts {#v_shortcuts}
+---
+
 # `<v>` shortcuts {#v_shortcuts}
 
 These are not VaeML tags; they are shortcuts that you can also use

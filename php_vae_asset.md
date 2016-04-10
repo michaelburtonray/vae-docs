@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_asset() {#php_vae_asset}
+---
+
 # vae\_asset() {#php_vae_asset}
 
 Use the `vae_asset()` function to generate a URL for an asset uploaded

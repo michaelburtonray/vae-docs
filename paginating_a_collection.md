@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Paginating A Collection {#paginating_a_collection}
+---
+
 # Paginating A Collection {#paginating_a_collection}
 
 Vae's `paginate` attribute allows you to limit the number of entries the

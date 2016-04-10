@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Generating PDFs {#pdf}
+---
+
 # Generating PDFs {#pdf}
 
 Vae allows you to build PDF files on the fly from HTML and CSS source.

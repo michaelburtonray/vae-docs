@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_create() {#php_vae_create}
+---
+
 # vae\_create() {#php_vae_create}
 
 Use the `vae_create()` function to create a new entry in a Vae

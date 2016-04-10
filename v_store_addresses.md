@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # &lt;v:store:addresses&gt; {#v_store_addresses}
+---
+
 # &lt;v:store:addresses&gt; {#v_store_addresses}
 
 Iterates over all addresses stored in the profile for the currently

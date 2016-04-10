@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:>`{#v_}
+---
+
 # `<v:>`{#v_}
 
 ## Required Attributes

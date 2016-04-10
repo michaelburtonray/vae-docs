@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:previous_order>`{#v_store_previous_order}
+---
+
 # `<v:store:previous_order>`{#v_store_previous_order}
 
 Renders the text and tags inside with the context set to the previously

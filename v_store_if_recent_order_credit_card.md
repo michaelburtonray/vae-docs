@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:if_recent_order_credit_card>`{#v_store_if_recent_order_credit_card}
+---
+
 # `<v:store:if_recent_order_credit_card>`{#v_store_if_recent_order_credit_card}
 
 Renders its contents only if the payment method used for the most recent

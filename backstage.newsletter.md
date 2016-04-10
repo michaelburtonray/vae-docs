@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Newsletter Tab {#backstage.newsletter}
+---
+
 # Newsletter Tab {#backstage.newsletter}
 
 The Newsletter tab is the hub for sending and tracking newsletters on

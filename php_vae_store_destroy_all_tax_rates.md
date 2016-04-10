@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_store\_destroy\_all\_tax\_rates() {#php_vae_store_destroy_all_tax_rates}
+---
+
 # vae\_store\_destroy\_all\_tax\_rates() {#php_vae_store_destroy_all_tax_rates}
 
 The `vae_store_destroy_all_tax_rates()` removes all tax rates. This is

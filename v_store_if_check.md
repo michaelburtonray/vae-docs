@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:if_check>`{#v_store_if_check}
+---
+
 # `<v:store:if_check>`{#v_store_if_check}
 
 Renders its contents only if currently selected payment method is Check.

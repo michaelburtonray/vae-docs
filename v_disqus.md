@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:disqus>`{#v_disqus}
+---
+
 # `<v:disqus>`{#v_disqus}
 
 Renders a [Disqus](http://disqus.com/) discussion area. You must first

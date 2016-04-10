@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:newsletter>`{#v_newsletter}
+---
+
 # `<v:newsletter>`{#v_newsletter}
 
 Creates a HTML form to subscribe a visitor to one of your Vae

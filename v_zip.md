@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:zip>`{#v_zip}
+---
+
 # `<v:zip>`{#v_zip}
 
 Builds a ZIP file containing files stored in Vae.

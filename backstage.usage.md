@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Usage / Billing Tab {#backstage.usage}
+---
+
 # Usage / Billing Tab {#backstage.usage}
 
 The Usage / Billing tab contains information and controls that are

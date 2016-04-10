@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Checkbox {#structure.checkbox}
+---
+
 # Checkbox {#structure.checkbox}
 
 A Checkbox structure stores a boolean yes-or-no value. Suppose you are

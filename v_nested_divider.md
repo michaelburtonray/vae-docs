@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:nested_divider>`{#v_nested_divider}
+---
+
 # `<v:nested_divider>`{#v_nested_divider}
 
 This tag is used to insert HTML code between or around the hierarchy

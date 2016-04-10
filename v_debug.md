@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:debug>`{#v_debug}
+---
+
 # `<v:debug>`{#v_debug}
 
 Helps you debug your code by outputting all data in the current context.

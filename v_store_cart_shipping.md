@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:cart:shipping>`{#v_store_cart_shipping}
+---
+
 # `<v:store:cart:shipping>`{#v_store_cart_shipping}
 
 Renders the shipping amount for the currently selected shipping method.

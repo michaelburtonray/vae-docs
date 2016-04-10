@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Text {#structure.text}
+---
+
 # Text {#structure.text}
 
 The Text structure stores a single line of unformatted text. It can be

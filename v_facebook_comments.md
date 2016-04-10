@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:facebook_comments>`{#v_facebook_comments}
+---
+
 # `<v:facebook_comments>`{#v_facebook_comments}
 
 Renders a [Facebook Comment

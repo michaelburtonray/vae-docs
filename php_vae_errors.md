@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_errors() {#php_vae_errors}
+---
+
 # vae\_errors() {#php_vae_errors}
 
 Use the `vae_errors()` function to retrieve any error messages from a

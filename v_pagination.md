@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:pagination>`{#v_pagination}
+---
+
 # `<v:pagination>`{#v_pagination}
 
 Renders a set of page links for a `<v:collection>` tag that is being

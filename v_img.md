@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:img>`{#v_img}
+---
+
 # `<v:img>`{#v_img}
 
 Outputs an HTML `<img>` tag that will display the image uploaded to a

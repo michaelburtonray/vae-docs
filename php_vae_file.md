@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_file() {#php_vae_file}
+---
+
 # vae\_file() {#php_vae_file}
 
 Use the `vae_file()` function to retrieve the URL for a file (or an

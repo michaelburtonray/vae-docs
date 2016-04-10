@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:checkout>`{#v_store_checkout}
+---
+
 # `<v:store:checkout>`{#v_store_checkout}
 
 Outputs an HTML form (`form` tag) that will complete checkout.

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_store\_checkout() {#php_vae_store_checkout}
+---
+
 # vae\_store\_checkout() {#php_vae_store_checkout}
 
 The `vae_store_checkout()` function completes the checkout action for

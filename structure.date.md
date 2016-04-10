@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Date {#structure.date}
+---
+
 # Date {#structure.date}
 
 A Date Structure stores a date value. When editing this Structure in

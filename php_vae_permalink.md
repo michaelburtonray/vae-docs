@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_permalink() {#php_vae_permalink}
+---
+
 # vae\_permalink() {#php_vae_permalink}
 
 Use the `vae_permalink()` function to retrieve the

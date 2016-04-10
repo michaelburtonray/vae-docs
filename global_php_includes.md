@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Global PHP Includes {#global_php_includes}
+---
+
 # Global PHP Includes {#global_php_includes}
 
 If you are using PHP, it is often useful to write PHP code that is used

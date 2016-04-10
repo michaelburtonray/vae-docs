@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Using AJAX {#using_ajax}
+---
+
 # Using AJAX {#using_ajax}
 
 Some Vae tags utilize an attribute called `ajax`, which gives a the

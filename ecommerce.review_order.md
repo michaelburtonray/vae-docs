@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Checking Out / Review Order {#ecommerce.review_order}
+---
+
 # Checking Out / Review Order {#ecommerce.review_order}
 
 The final step in the ordering process for a customer is reviewing and

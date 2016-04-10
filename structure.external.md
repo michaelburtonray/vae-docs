@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # External {#structure.external}
+---
+
 # External {#structure.external}
 
 An External Structure is not really a structure at all, rather it simply

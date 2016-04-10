@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:cart:discount>`{#v_store_cart_discount}
+---
+
 # `<v:store:cart:discount>`{#v_store_cart_discount}
 
 Renders the amount of any currently activated discounts.

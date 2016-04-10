@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # File {#structure.file}
+---
+
 # File {#structure.file}
 
 The File structure stores any file. There is no file size limit,

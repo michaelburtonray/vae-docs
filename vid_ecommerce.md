@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Video Tutorial: eCommerce {#vid_ecommerce}
+---
+
 # Video Tutorial: eCommerce {#vid_ecommerce}
 
 ![]()

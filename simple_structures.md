@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Simple Structures {#simple_structures}
+---
+
 # Simple Structures {#simple_structures}
 
 Simple structures are the most basic types of data structures within

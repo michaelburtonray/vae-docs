@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:gravatar>`{#v_gravatar}
+---
+
 # `<v:gravatar>`{#v_gravatar}
 
 Renders a [Gravatar](http://gravatar.com/) image.

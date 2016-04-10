@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Making An AJAX Photo Gallery {#ajax_photo_library}
+---
+
 # Making An AJAX Photo Gallery {#ajax_photo_library}
 
 Making a simple photo gallery is a task that can be accomplished using

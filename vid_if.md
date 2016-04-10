@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Video Tutorial: If {#vid_if}
+---
+
 # Video Tutorial: If {#vid_if}
 
 ![]()

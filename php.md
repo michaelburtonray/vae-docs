@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # PHP Integration {#php}
+---
+
 # PHP Integration {#php}
 
 You can use Vae PHP integration to access your Vae content through the

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_multipart\_mail() {#php_vae_multipart_mail}
+---
+
 # vae\_multipart\_mail() {#php_vae_multipart_mail}
 
 The `vae_multipart_mail()` function sends an E-Mail in both text and

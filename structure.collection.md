@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Collection {#structure.collection}
+---
+
 # Collection {#structure.collection}
 
 A Collection is a superstructure that may contain multiple child

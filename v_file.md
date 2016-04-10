@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:file>`{#v_file}
+---
+
 # `<v:file>`{#v_file}
 
 Outputs an HTML link (`<a>` tag) that will initiate a download of a file

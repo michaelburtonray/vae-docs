@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:else>`{#v_else}
+---
+
 # `<v:else>`{#v_else}
 
 When a [`<v:if`](#v_if)&gt; tag or other tag that provides conditional

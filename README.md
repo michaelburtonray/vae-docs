@@ -1,8 +1,3 @@
----
-layout: docs
-title: # Vae Docs
----
-
 # Vae Docs
 
 This is the Jekyll version of Vae documentation.

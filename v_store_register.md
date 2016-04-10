@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:register>`{#v_store_register}
+---
+
 # `<v:store:register>`{#v_store_register}
 
 Outputs an HTML form (`<form>` tag) that will save a customer's billing

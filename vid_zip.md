@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Video Tutorial: Building ZIPs {#vid_zip}
+---
+
 # Video Tutorial: Building ZIPs {#vid_zip}
 
 ![]()

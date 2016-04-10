@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_store\_total\_weight() {#php_vae_store_total_weight}
+---
+
 # vae\_store\_total\_weight() {#php_vae_store_total_weight}
 
 The `vae_store_total_weight()` function overrides the total weight for

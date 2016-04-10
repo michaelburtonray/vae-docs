@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:currency>`{#v_store_currency}
+---
+
 # `<v:store:currency>`{#v_store_currency}
 
 Renders the current display currency for your store, as set with the

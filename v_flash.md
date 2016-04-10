@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:flash>`{#v_flash}
+---
+
 # `<v:flash>`{#v_flash}
 
 Renders any messages stored in the Vae flash bucket. These include error

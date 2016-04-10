@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:cart:tax>`{#v_cart_tax}
+---
+
 # `<v:store:cart:tax>`{#v_cart_tax}
 
 Renders the tax amount due for the current shopping cart.

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_store\_register() {#php_vae_store_register}
+---
+
 # vae\_store\_register() {#php_vae_store_register}
 
 The `vae_store_register()` function registers the current website user

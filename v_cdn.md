@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:cdn>`{#v_cdn}
+---
+
 # `<v:cdn>`{#v_cdn}
 
 Outputs either the base CDN URL for your website (if called with no

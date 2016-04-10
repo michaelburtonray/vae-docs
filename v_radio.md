@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:radio>`{#v_radio}
+---
+
 # `<v:radio>`{#v_radio}
 
 Outputs an HTML radio input field (`<input type="radio">` tag).

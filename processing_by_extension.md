@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Summary -- Processing by Extension {#processing_by_extension}
+---
+
 # Summary -- Processing by Extension {#processing_by_extension}
 
 As you have seen, Vae supports many different forms of preprocessing on

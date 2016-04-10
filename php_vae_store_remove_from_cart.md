@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_store\_remove\_from\_cart() {#php_vae_store_remove_from_cart}
+---
+
 # vae\_store\_remove\_from\_cart() {#php_vae_store_remove_from_cart}
 
 The `vae_store_remove_from_cart()` function retrieves all the items

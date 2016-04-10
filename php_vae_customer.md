@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_customer() {#php_vae_customer}
+---
+
 # vae\_customer() {#php_vae_customer}
 
 Use the `vae_customer()` function to retrieve information about a

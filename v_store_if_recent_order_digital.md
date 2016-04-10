@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:if_recent_order_digital>`{#v_store_if_recent_order_digital}
+---
+
 # `<v:store:if_recent_order_digital>`{#v_store_if_recent_order_digital}
 
 Renders its contents only if the user's recent order contained digital

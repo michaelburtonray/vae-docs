@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:repeat>`{#v_repeat}
+---
+
 # `<v:repeat>`{#v_repeat}
 
 Renders the code inside multiple times. Useful for avoiding repeated

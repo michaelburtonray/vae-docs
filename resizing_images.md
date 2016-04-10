@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Resizing Images {#resizing_images}
+---
+
 # Resizing Images {#resizing_images}
 
 Adding crops to Image Structures makes it easy for both you and your

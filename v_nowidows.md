@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:nowidows>`{#v_nowidows}
+---
+
 # `<v:nowidows>`{#v_nowidows}
 
 Inserts a nonbreaking space before the last word in a block of text to

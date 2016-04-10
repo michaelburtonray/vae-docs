@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_store\_cart\_items() {#php_vae_store_cart_items}
+---
+
 # vae\_store\_cart\_items() {#php_vae_store_cart_items}
 
 The `vae_store_cart_items()` function retrieves all the items currently

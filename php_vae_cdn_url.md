@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_cdn\_url() {#php_vae_cdn_url}
+---
+
 # vae\_cdn\_url() {#php_vae_cdn_url}
 
 Use the `vae_cdn_url()` function to retrieve the URL prefix for

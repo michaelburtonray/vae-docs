@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:formmail>`{#v_formmail}
+---
+
 # `<v:formmail>`{#v_formmail}
 
 Creates a HTML form that will send an E-Mail when the form is submitted.

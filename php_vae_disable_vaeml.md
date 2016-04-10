@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_disable\_vaeml() {#php_vae_disable_vaeml}
+---
+
 # vae\_disable\_vaeml() {#php_vae_disable_vaeml}
 
 Use the `vae_disable_vaeml()` function to disable all VaeML in a file.

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Tutorials and Examples {#examples}
+---
+
 # Tutorials and Examples {#examples}
 
 To give you the full picture, we've written some full tutorials that

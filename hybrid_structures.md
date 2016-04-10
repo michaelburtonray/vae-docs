@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Hybrid Structures {#hybrid_structures}
+---
+
 # Hybrid Structures {#hybrid_structures}
 
 Admittedly, the terminology is getting a little over-the-top, but it is

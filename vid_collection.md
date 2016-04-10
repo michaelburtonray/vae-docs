@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Video Tutorial: Collections {#vid_collection}
+---
+
 # Video Tutorial: Collections {#vid_collection}
 
 ![]()

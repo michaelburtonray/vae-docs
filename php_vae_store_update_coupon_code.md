@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_store\_update\_coupon\_code() {#php_vae_store_update_coupon_code}
+---
+
 # vae\_store\_update\_coupon\_code() {#php_vae_store_update_coupon_code}
 
 The `vae_store_update_coupon_code()` function updates a coupon code.

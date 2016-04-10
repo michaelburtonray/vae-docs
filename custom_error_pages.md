@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Custom Error Pages {#custom_error_pages}
+---
+
 # Custom Error Pages {#custom_error_pages}
 
 For a more polished look, you can edit the error pages that your

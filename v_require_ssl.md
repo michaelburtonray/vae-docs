@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:require_ssl>`{#v_require_ssl}
+---
+
 # `<v:require_ssl>`{#v_require_ssl}
 
 Ensures that a page is being accessed via an SSL connection. If not, the

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Getting Started with Structures {#getting_started_with_structures}
+---
+
 # Getting Started with Structures {#getting_started_with_structures}
 
 Structures can be created and managed on the Site tab's [Content

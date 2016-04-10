@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:section>`{#v_section}
+---
+
 # `<v:section>`{#v_section}
 
 Renders the text and tags inside relative to a new path context. This is

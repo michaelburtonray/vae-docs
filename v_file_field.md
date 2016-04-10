@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:file_field>`{#v_file_field}
+---
+
 # `<v:file_field>`{#v_file_field}
 
 Outputs an HTML file input field (`<input type="hidden">` tag).

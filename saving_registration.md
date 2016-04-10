@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Saving Registration Data
+---
+
 # Saving Registration Data
 
 Notice at the bottom of our example markup in the previous section,

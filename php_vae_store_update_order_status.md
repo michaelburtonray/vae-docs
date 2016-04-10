@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_store\_update\_order\_status() {#php_vae_store_update_order_status}
+---
+
 # vae\_store\_update\_order\_status() {#php_vae_store_update_order_status}
 
 Use the `vae_store_update_order_status()` function to update the status

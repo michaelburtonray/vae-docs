@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # VaeQL
+---
+
 # VaeQL
 
 VaeQL is our proprietary navigation and query language for specifying

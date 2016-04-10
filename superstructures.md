@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Superstructures
+---
+
 # Superstructures
 
 Superstructures are structures that contain other structures. They are

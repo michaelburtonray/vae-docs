@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:users:login>`{#v_users_login}
+---
+
 # `<v:users:login>`{#v_users_login}
 
 Outputs an HTML form (`<form>` tag) that when submitted will log users

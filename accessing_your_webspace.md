@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Accessing Your Webspace {#accessing_your_webspace}
+---
+
 # Accessing Your Webspace {#accessing_your_webspace}
 
 Every Vae account comes with webspace. By default, your website will be

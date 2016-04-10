@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Password {#structure.password}
+---
+
 # Password {#structure.password}
 
 The Password Structure stores a password securely with encryption. It is

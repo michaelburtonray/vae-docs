@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:item:if_discount>`{#v_store_item_if_discount}
+---
+
 # `<v:store:item:if_discount>`{#v_store_item_if_discount}
 
 Renders its contents only if the item in the current context is

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Permalinks
+---
+
 # Permalinks
 
 Vae can automatically generate permanent links (Permalinks) for entries

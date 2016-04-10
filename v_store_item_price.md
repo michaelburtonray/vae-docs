@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:item:price>`{#v_store_item_price}
+---
+
 # `<v:store:item:price>`{#v_store_item_price}
 
 Displays the price of an item, factoring in discounts that are applied

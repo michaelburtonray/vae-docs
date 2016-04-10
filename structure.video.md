@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Video {#structure.video}
+---
+
 # Video {#structure.video}
 
 The Video Structure allows users to upload videos in virtually any video

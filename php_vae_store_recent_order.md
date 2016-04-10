@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_store\_recent\_order() {#php_vae_store_recent_order}
+---
+
 # vae\_store\_recent\_order() {#php_vae_store_recent_order}
 
 The `vae_store_recent_order()` function retrieves either an array

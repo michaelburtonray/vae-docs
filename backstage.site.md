@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Site Tab {#backstage.site}
+---
+
 # Site Tab {#backstage.site}
 
 The Site tab contains functions and settings that are useful to the

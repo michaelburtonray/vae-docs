@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:asset>`{#v_asset}
+---
+
 # `<v:asset>`{#v_asset}
 
 Combines Javascript and/or stylesheet files into one compressed download

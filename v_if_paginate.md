@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:if_paginate>`{#v_if_paginate}
+---
+
 # `<v:if_paginate>`{#v_if_paginate}
 
 Renders its contents only if a specified collection contains more than a

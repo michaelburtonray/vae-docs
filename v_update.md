@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:update>`{#v_update}
+---
+
 # `<v:update>`{#v_update}
 
 Outputs an HTML form (`<form>` tag) that when submitted will update an

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:cart>`{#v_store_cart}
+---
+
 # `<v:store:cart>`{#v_store_cart}
 
 Outputs an HTML form (`<form>` tag) that will process modifications to

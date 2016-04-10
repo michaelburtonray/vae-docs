@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:captcha>`{#v_captcha}
+---
+
 # `<v:captcha>`{#v_captcha}
 
 Renders a CAPTCHA using [reCAPTCHA](http://recaptcha.net/). Only useful

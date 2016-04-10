@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Video Tutorial: AJAX {#vid_ajax}
+---
+
 # Video Tutorial: AJAX {#vid_ajax}
 
 ![]()

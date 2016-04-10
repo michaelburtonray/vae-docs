@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:google_checkout>`{#v_store_google_checkout}
+---
+
 # `<v:store:google_checkout>`{#v_store_google_checkout}
 
 Displays a button that when clicked will launch the Google Checkout

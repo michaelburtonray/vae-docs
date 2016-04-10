@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:select>`{#v_select}
+---
+
 # `<v:select>`{#v_select}
 
 Outputs an HTML select input field (`<select>` tag). When used inside a

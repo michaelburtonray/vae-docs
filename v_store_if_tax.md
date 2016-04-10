@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:if_tax>`{#v_store_if_tax}
+---
+
 # `<v:store:if_tax>`{#v_store_if_tax}
 
 Renders its contents only if there is tax due for the current

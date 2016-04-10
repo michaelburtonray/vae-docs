@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:hidden_field>`{#v_hidden_field}
+---
+
 # `<v:hidden_field>`{#v_hidden_field}
 
 Outputs an HTML hidden input field (`<input type="hidden">` tag).

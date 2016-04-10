@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Structures
+---
+
 # Structures
 
 In Vae, the basic container for content is called a structure. A simple

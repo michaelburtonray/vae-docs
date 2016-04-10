@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae() {#php_vae}
+---
+
 # vae() {#php_vae}
 
 The `vae()` (formerly `vae_find()`, which still works as an alias)

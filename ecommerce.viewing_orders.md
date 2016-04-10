@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Viewing Orders {#ecommerce.viewing_orders}
+---
+
 # Viewing Orders {#ecommerce.viewing_orders}
 
 ## Orders Tab (Backstage)

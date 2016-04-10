@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Backstage Reference {#backstage}
+---
+
 # Backstage Reference {#backstage}
 
 This section is a tab-by-tab guide to the backstage interface. While it

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:shipping_method>`{#v_store_shipping_method}
+---
+
 # `<v:store:shipping_method>`{#v_store_shipping_method}
 
 Renders the name of the currently selected shipping method.

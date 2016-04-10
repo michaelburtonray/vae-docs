@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Adding Products to the Shopping Cart {#ecommerce.add_products_to_shopping_cart}
+---
+
 # Adding Products to the Shopping Cart {#ecommerce.add_products_to_shopping_cart}
 
 Using the [`<v:store:add_to_cart>`](#v_store_add_to_cart) tag in your

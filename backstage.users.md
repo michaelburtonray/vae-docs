@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Users Tab {#backstage.users}
+---
+
 # Users Tab {#backstage.users}
 
 The Users tab includes two subtabs: Vae Users, and Mail Forwarders. Vae

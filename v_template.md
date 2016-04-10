@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:template>`{#v_template}
+---
+
 # `<v:template>`{#v_template}
 
 Used to include a template file that will wrap the content of the

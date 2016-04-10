@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Rich Text Area {#structure.richtext}
+---
+
 # Rich Text Area {#structure.richtext}
 
 A Rich Text Area Structure stores HTML formatted text. Use these when

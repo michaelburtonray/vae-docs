@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # The Website {#the_website}
+---
+
 # The Website {#the_website}
 
 Now that we've discussed Vae's [content management](#content_management)

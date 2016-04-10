@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:fileurl>`{#v_fileurl}
+---
+
 # `<v:fileurl>`{#v_fileurl}
 
 Outputs the URL for a file uploaded to a Vae file or image structure.

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:set_default>`{#v_set_default}
+---
+
 # `<v:set_default>`{#v_set_default}
 
 Sets a request parameter's default value – the value that will be used

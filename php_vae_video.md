@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_video() {#php_vae_video}
+---
+
 # vae\_video() {#php_vae_video}
 
 Use the `vae_video()` function to generate a URL for a video uploaded

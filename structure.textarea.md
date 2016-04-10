@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Text Area {#structure.textarea}
+---
+
 # Text Area {#structure.textarea}
 
 A Text Area Structure stores muliple lines of unformatted text. It is

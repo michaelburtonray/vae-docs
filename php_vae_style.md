@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_style() {#php_vae_style}
+---
+
 # vae\_style() {#php_vae_style}
 
 Use the `vae_style()` function to sanitize and process text from a Text

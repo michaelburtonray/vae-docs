@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_image\_grey() {#php_vae_image_grey}
+---
+
 # vae\_image\_grey() {#php_vae_image_grey}
 
 Use the `vae_image_grey()` function to make an image greyscale.

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:address_select>`{#v_store_address_select}
+---
+
 # `<v:store:address_select>`{#v_store_address_select}
 
 Outputs an HTML select input field (`<select>` tag) prepopulated with a

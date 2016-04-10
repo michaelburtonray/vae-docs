@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:discount>`{#v_store_discount}
+---
+
 # `<v:store:discount>`{#v_store_discount}
 
 Outputs an HTML form (`<form>` tag) that will process discount codes

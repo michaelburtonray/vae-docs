@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Content Tab {#backstage.content}
+---
+
 # Content Tab {#backstage.content}
 
 The Content tab is where content can be added to the Structures that

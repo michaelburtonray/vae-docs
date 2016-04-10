@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:collection>`{#v_collection}
+---
+
 # `<v:collection>`{#v_collection}
 
 Iterates over a Vae Collection and renders the text and tags inside once

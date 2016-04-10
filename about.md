@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # About Vae {#about}
+---
+
 # About Vae {#about}
 
 > Vae has changed my entire business as a web designer. Before Vae, I

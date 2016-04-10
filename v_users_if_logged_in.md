@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:users:if_logged_in>`{#v_users_if_logged_in}
+---
+
 # `<v:users:if_logged_in>`{#v_users_if_logged_in}
 
 Renders its contents only if the current visitor is logged in.

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Haml and Sass
+---
+
 # Haml and Sass
 
 We also provide support for [Haml](http://haml.hamptoncatlin.com/) and

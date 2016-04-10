@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:forgot>`{#v_store_forgot}
+---
+
 # `<v:store:forgot>`{#v_store_forgot}
 
 Outputs an HTML form (`<form>` tag) that will operate as a forgot

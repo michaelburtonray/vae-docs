@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Tags {#structure.tags}
+---
+
 # Tags {#structure.tags}
 
 The Tags structure stores tags that can be used to associate the parent

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Designer Portal {#designer_portal}
+---
+
 # Designer Portal {#designer_portal}
 
 The designer portal is the primary interface that members of the Vae

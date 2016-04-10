@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Customers Tab {#backstage.customers}
+---
+
 # Customers Tab {#backstage.customers}
 
 The Customers tab allows you to view, edit, and search customers of your

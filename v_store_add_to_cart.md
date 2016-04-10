@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:add_to_cart>`{#v_store_add_to_cart}
+---
+
 # `<v:store:add_to_cart>`{#v_store_add_to_cart}
 
 Outputs an HTML form (`<form>` tag) that will add an item to the

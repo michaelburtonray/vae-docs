@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_update() {#php_vae_update}
+---
+
 # vae\_update() {#php_vae_update}
 
 Use the `vae_update()` function to update data stored in Vae.

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:rss>`{#v_rss}
+---
+
 # `<v:rss>`{#v_rss}
 
 Generates an RSS feed from one or more collections of data on Vae.

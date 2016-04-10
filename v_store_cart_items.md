@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:cart:items>`{#v_store_cart_items}
+---
+
 # `<v:store:cart:items>`{#v_store_cart_items}
 
 Iterates over all items in the current customer's shopping cart and

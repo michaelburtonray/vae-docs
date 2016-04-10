@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Association (multi) {#structure.association_multi}
+---
+
 # Association (multi) {#structure.association_multi}
 
 The Association (multi) structure stores an association with other

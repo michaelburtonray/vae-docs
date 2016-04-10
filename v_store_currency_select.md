@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:currency_select>`{#v_store_currency_select}
+---
+
 # `<v:store:currency_select>`{#v_store_currency_select}
 
 Outputs an HTML select input field (`<select>` tag) that when changed

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:text_area>`{#v_text_area}
+---
+
 # `<v:text_area>`{#v_text_area}
 
 Outputs an HTML textarea input field (`<textarea>` tag).

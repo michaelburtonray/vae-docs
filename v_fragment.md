@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:fragment>`{#v_fragment}
+---
+
 # `<v:fragment>`{#v_fragment}
 
 This tag has 2 uses.

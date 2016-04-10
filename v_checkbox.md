@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:checkbox>`{#v_checkbox}
+---
+
 # `<v:checkbox>`{#v_checkbox}
 
 Outputs an HTML checkbox tag (`<input type="checkbox">` tag). When the

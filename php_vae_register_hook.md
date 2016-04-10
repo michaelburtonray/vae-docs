@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_register\_hook() {#php_vae_register_hook}
+---
+
 # vae\_register\_hook() {#php_vae_register_hook}
 
 Use the `vae_register_hook()` function to register code that will run

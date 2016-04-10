@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Content Management {#content_management}
+---
+
 # Content Management {#content_management}
 
 As we discussed in the previous chapter, Vae doesn't make assumptions

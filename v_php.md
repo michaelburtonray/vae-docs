@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:php>`{#v_php}
+---
+
 # `<v:php>`{#v_php}
 
 Put PHP code inside this tag to have it run inside the proper Vae

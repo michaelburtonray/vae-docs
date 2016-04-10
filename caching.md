@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Caching
+---
+
 # Caching
 
 Vae has a powerful behind the scenes caching system designed to ensure

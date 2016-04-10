@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:text>`{#v_text}
+---
+
 # `<v:text>`{#v_text}
 
 Outputs the text associated with a Vae [text

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_store\_update\_tax\_rate() {#php_vae_store_update_tax_rate}
+---
+
 # vae\_store\_update\_tax\_rate() {#php_vae_store_update_tax_rate}
 
 The `vae_store_update_tax_rate()` function updates a tax rate.

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # VaeML
+---
+
 # VaeML
 
 VaeML is our meta-language that you can mix in with your HTML code to

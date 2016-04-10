@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Full Site Tutorial: Erin Smith Photography {#example_portfolio}
+---
+
 # Full Site Tutorial: Erin Smith Photography {#example_portfolio}
 
 In this tutorial, we will show you how to create a portfolio site from

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:if_shippable>`{#v_store_if_shippable}
+---
+
 # `<v:store:if_shippable>`{#v_store_if_shippable}
 
 Renders its contents only if the order contains items that would be

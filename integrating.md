@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Integrating Vae Content Into Your Website {#integrating}
+---
+
 # Integrating Vae Content Into Your Website {#integrating}
 
 Now that you have learned how to publish your website [via FTP or

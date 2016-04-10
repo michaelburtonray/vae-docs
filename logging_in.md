@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Logging In To Retrieve Saved Information
+---
+
 # Logging In To Retrieve Saved Information
 
 Let's first give an example of a "Sign In" page. In our shopping cart

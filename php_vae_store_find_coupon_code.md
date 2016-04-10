@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # vae\_store\_find\_coupon\_code() {#php_vae_store_find_coupon_code}
+---
+
 # vae\_store\_find\_coupon\_code() {#php_vae_store_find_coupon_code}
 
 The `vae_store_find_coupon_code()` obtains an associative array

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # Store General Settings {#ecommerce.store_general_settings}
+---
+
 # Store General Settings {#ecommerce.store_general_settings}
 
 Also located under the Store tab/Settings sub-tab is the Store Genereal

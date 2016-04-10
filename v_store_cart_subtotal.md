@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:store:cart:subtotal>`{#v_store_cart_subtotal}
+---
+
 # `<v:store:cart:subtotal>`{#v_store_cart_subtotal}
 
 Renders the subtotal for the current shopping cart.

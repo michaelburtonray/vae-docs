@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # PHP and MySQL {#php_mysql}
+---
+
 # PHP and MySQL {#php_mysql}
 
 We support the latest version of [PHP](http://www.php.net/) and

@@ -1,3 +1,8 @@
+---
+layout: docs
+title: # `<v:if>`{#v_if}
+---
+
 # `<v:if>`{#v_if}
 
 Renders its contents only if a certain condition is met. These
