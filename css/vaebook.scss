@@ -338,7 +338,7 @@ h1 code, p code, p code a, .literal, .literal a {
   text-align: center;
 }
 
-.epigraph {
+blockquote {
   background: #eee;
   border-radius:10px;
 	-webkit-border-radius:10px;
@@ -349,10 +349,6 @@ h1 code, p code, p code a, .literal, .literal a {
   margin: 1px auto 15px auto;
   padding: 15px 20px 15px 20px;
   width: 450px;
-}
-.epigraph .attribution {
-  font-style: normal;
-  text-align: right;
 }
 
 .glossterm {
