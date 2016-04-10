@@ -369,11 +369,11 @@ h1 code, p code, p code a, .literal, .literal a {
   font-size: 0.9em;
 }
 
-.literal {
+pre {
   font-family: Monaco, "Lucida Console", "Courier New", Courier, monospace;
 }
 
-.literallayout, .programlisting {
+pre {
   background: #555;
   clear: right;
   color: #fff;
