@@ -34,6 +34,14 @@ code {
   font-smoothing: auto !important;
 }
 
+pre {
+  margin: 10px 0;
+  border: 2px solid #eee;
+  padding: 12px 20px;
+  font-size: 13px;
+  @include border-radius(5px);
+}
+
 pre code {
   font-size: 100%;
   padding: 0;
