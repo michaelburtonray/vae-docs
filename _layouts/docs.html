@@ -219,10 +219,10 @@ sections:
               <h3>Vae Guide</h3>
               <ul class="parent-menu collapse">
                 {% for section in page.sections %}
-                {% capture parent_slug %}/docs/{{ section.slug }}{% if section.slug != '' %}/{% endif %}{% endcapture %}
-                <li class="parent-item collapse {% if page.url == '/docs/' and section.slug == '' %}active{% else %}{% if section.slug != '' and page.url contains parent_slug %}active{% endif %}{% endif %}">
+                {% capture parent_slug %}/{{ section.slug }}{% if section.slug != '' %}/{% endif %}{% endcapture %}
+                <li class="parent-item collapse {% if page.url == '/' and section.slug == '' %}active{% else %}{% if section.slug != '' and page.url contains parent_slug %}active{% endif %}{% endif %}">
                   {% if section.slug != 'support' %}
-                  <a class="parent-link" href="/docs/{{ section.slug }}{% if section.slug != '' %}/{% endif %}">
+                  <a class="parent-link" href="/{{ section.slug }}{% if section.slug != '' %}/{% endif %}">
                   {% else %}
                   <a class="parent-link" href="/contact/">
                   {% endif %}
@@ -230,8 +230,8 @@ sections:
                   {% if section.child_items %}
                   <ul class="child-menu collapse" style="{% if section.slug != '' and page.url contains parent_slug %}display: block;{% endif %}">
                     {% for child in section.child_items %}
-                    {% capture child_slug %}/docs/{{ section.slug }}/{{ child.slug }}{% if child.slug != '' %}/{% endif %}{% endcapture %}
-                    <li class="child-item"><a class="child-link {% if page.url == child_slug %}active{% endif %}" href="/docs/{{ section.slug }}/{{ child.slug }}{% if child.slug != '' %}/{% endif %}"><span>&#10095;</span> {{ child.title }}</a></li>
+                    {% capture child_slug %}/{{ child.slug }}{% if child.slug != '' %}/{% endif %}{% endcapture %}
+                    <li class="child-item"><a class="child-link {% if page.url == child_slug %}active{% endif %}" href="/{{ child.slug }}{% if child.slug != '' %}/{% endif %}"><span>&#10095;</span> {{ child.title }}</a></li>
                     {% endfor %}
                   </ul>
                   {% endif %}
