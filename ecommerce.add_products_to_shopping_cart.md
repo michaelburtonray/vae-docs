@@ -26,7 +26,7 @@ Collection, or whatever it might be called), meaning we would use this
 code either on a page that displays an Item, or within
 [`<v:collection>`](/v_collection/) tags that loop through the Items
 Collection. As you can see, by specifying the values of the
-[`<v:store:add_to_cart>`](//) attributes (such as `name_field`) to the
+[`<v:store:add_to_cart>`](/v_store_add_to_cart/) attributes (such as `name_field`) to the
 appropriate Substructures in our Item Structure, Vae sends the necessary
 information about an Item to the user's Cart. In this example, our Cart
 page is called Cart.html (or .haml, or .php), so we are redirecting to
