@@ -25,7 +25,7 @@ assign it a `name="cc_type"`.
 
 -   `required` - if set and used in conjunction with a Vae form tag that
     generates an HTML form, validation will be performed on this field.
-    Please see [VaeML Form Tag Validations](#vaeml_form_validation) for
+    Please see [VaeML Form Tag Validations](/vaeml_form_validation/) for
     more information.
 
 Since this tag generates an HTML `<select>` tag, you may also use any

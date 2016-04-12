@@ -9,13 +9,13 @@ Outputs an HTML form (`<form>` tag) that when submitted will register
 users for your website by adding their information to a Vae collection.
 This is commonly used for building members-only areas.
 
-You may use the [form validation tools](#vaeml_form_validation) provided
+You may use the [form validation tools](/vaeml_form_validation/) provided
 by the Vae form tags to make certain fields required.
 
 ## Required Attributes
 
 -   `path` - the path to the Vae collection that holds your users. Uses
-    [VaeQL](#vaeql) syntax.
+    [VaeQL](/vaeql/) syntax.
 
 ## Optional Attributes
 

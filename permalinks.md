@@ -18,7 +18,7 @@ for a collection called `Artists`, you would create a file called
 `artist.html`.
 
 Then, in the Edit View for the collection on the [Site &gt; Content
-Management tab](#backstage.site.content_management.properties) enter the
+Management tab](/backstage.site.content_management.properties/) enter the
 name of this page into the box for Permalink HTML Page. Vae will
 automatically create a Permalink for each entry in the collection. As an
 example, the default permalink for an entry with title Picasso would be
@@ -30,7 +30,7 @@ will also set the `id` request parameter to the ID of the Picasso entry.
 
 You may customize the format of Permalinks by setting the Permalink
 Format option on the Edit View for the collection on the [Site &gt;
-Content Management tab](#backstage.site.content_management.properties).
+Content Management tab](/backstage.site.content_management.properties/).
 
 To link to a page by its Permalink in VaeML, simply use the `<v:a>` tag
 without specifying an `href=""`.

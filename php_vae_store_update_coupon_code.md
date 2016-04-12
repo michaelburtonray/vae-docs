@@ -13,7 +13,7 @@ The `vae_store_update_coupon_code()` function updates a coupon code.
 
 -   `$code_id` - numeric ID of the coupon code. This is not the code
     string itself. Obtain this ID by calling
-    [`vae_store_find_coupon_code()`](#).
+    [`vae_store_find_coupon_code()`](//).
 
 -   `$options` - PHP associative array containing the options for the
     coupon code.

@@ -9,9 +9,9 @@ Renders its contents only if the payment method used for the most recent
 order was PayPal Express Checkout.
 
 This tag will not render its contents if the payment method is [PayPal
-Website Payments Standard](#v_store_if_recent_order_paypal) or [PayPal
+Website Payments Standard](/v_store_if_recent_order_paypal/) or [PayPal
 Website Payments Pro (Direct
-Payment)](#v_store_if_recent_order_credit_card). This is because you may
+Payment)](/v_store_if_recent_order_credit_card/). This is because you may
 want to provide different sets of instructions for each payment type.
 
 ## Required Attributes
@@ -22,7 +22,7 @@ None.
 
 None.
 
-You may provide a [`<v:else>`](#v_else) tag after this tag to specify
+You may provide a [`<v:else>`](/v_else/) tag after this tag to specify
 HTML to render if the method was not not PayPal Express Checkout.
 
 ## Sample Usage

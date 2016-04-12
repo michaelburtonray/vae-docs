@@ -9,14 +9,14 @@ Iterates over a Vae Collection and renders the text and tags inside once
 for every entry. This tag is very flexible: you can paginate, search,
 and sort the collection directly in this tag.
 
-You may nest a [`<v:divider>`](#v_divider) tag inside this tag to
+You may nest a [`<v:divider>`](/v_divider/) tag inside this tag to
 specify a divider that is shown after each entry or after a certain
 number of entries. Dividers can also wrap the entry content.
 
 ## Required Attributes
 
 -   `path` - path to the collection you would like to render. Uses
-    [VaeQL](#vaeql) syntax.
+    [VaeQL](/vaeql/) syntax.
 
 ## Optional Attributes
 
@@ -87,7 +87,7 @@ number of entries. Dividers can also wrap the entry content.
     listing any contents.
 
 -   `store_in_session` - If set, a comma-delimited list of the
-    [permalinks](#permalinks) of all items that match this path and
+    [permalinks](/permalinks/) of all items that match this path and
     filter, in the sorted order, will be stored in the session under
     this name. Useful in combination with `<v:session_dump>`.
 

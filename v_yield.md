@@ -7,12 +7,12 @@ title: "<v:yield>"
 
 Used in a template file to mark the part of the file that will be filled
 in by the original content page or page fragment. See the documentation
-for the [`<v:template>`](#v_template) tag for more information about
+for the [`<v:template>`](/v_template/) tag for more information about
 templates.
 
 Additional `<v:yield>` tags may exist within the same file if they are
 used with a `for` attribute, which includes specific
-[fragments](#v_fragment) from the original content page.
+[fragments](/v_fragment/) from the original content page.
 
 The `<v:yield>` tag is also used on newsletter templates. Within
 newsletter templates, the attributes `asset_width` and `asset_height`

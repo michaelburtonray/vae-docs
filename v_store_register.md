@@ -8,7 +8,7 @@ title: "<v:store:register>"
 Outputs an HTML form (`<form>` tag) that will save a customer's billing
 information, shipping information, and E-Mail address.
 
-You may use the [form validation tools](#vaeml_form_validation) provided
+You may use the [form validation tools](/vaeml_form_validation/) provided
 by the Vae form tags to make certain fields required.
 
 ## Required Attributes
@@ -20,7 +20,7 @@ by the Vae form tags to make certain fields required.
 
 -   `formmail` - set to an E-Mail address and all the data from the form
     will be E-Mail address specified. This uses the same mechanism as
-    the [`<v:formmail>`](#v_formmail) tag.
+    the [`<v:formmail>`](/v_formmail/) tag.
 
 -   `from` - if using the `formmail` attribute, specify a value here and
     we will make the E-Mail that is sent come from this address.
@@ -31,7 +31,7 @@ by the Vae form tags to make certain fields required.
     it came from the person who sent the form.
 
 -   `newsletter` - supply a [newsletter
-    code](#backstage.newsletter.list) here and the user will
+    code](/backstage.newsletter.list/) here and the user will
     automatically be subscribed to that newsletter when registering.
 
 -   `newsletter_confirm` - if specified, the user will only be

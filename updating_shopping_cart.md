@@ -7,12 +7,12 @@ title: Updating Quantities or Removing Products From Shopping Cart
 
 As with any common eCommerce shopping cart, once the user has items in
 their cart, they can remove or modify the quantity of items. The easiest
-way to allow item removal is to create a [`<v:checkbox>`](#v_checkbox)
+way to allow item removal is to create a [`<v:checkbox>`](/v_checkbox/)
 with `path="remove"`. When placed the
-[`<v:store:cart:items>`](#v_store_cart_items) tag, a checkbox is
+[`<v:store:cart:items>`](/v_store_cart_items/) tag, a checkbox is
 rendered that removes the item from the cart when it is checked and the
 page is refreshed. To allow the user to change the quantity, a
-[`<v:text_field>`](#v_text_field) with the path `qty` will render a
+[`<v:text_field>`](/v_text_field/) with the path `qty` will render a
 textbox with this functionality. Here is an example of the markup for a
 Vae shopping cart:
 
@@ -57,5 +57,5 @@ Vae shopping cart:
 > **Warning**
 >
 > It is crucial that your Update Cart and Checkout buttons be within the
-> [`<v:store:cart>`](#v_store_cart) tags, in order to properly interface
+> [`<v:store:cart>`](/v_store_cart/) tags, in order to properly interface
 > with Vae.

@@ -7,8 +7,8 @@ title: "<v:a>"
 
 Outputs an HTML link (`<a>` tag). The link can point to a URL that you
 specify, a URL stored in a Vae text field, or the
-[Permalink](#permalinks) of an entry. If this tag is used from within a
-[`<v:collection>`](#v_collection) block, it will automatically append
+[Permalink](/permalinks/) of an entry. If this tag is used from within a
+[`<v:collection>`](/v_collection/) block, it will automatically append
 the ID and title of the current entry to the link. By appending this ID
 to the URL, you will be able to directly access attributes of that entry
 on the new page.
@@ -134,7 +134,7 @@ Would render something like:
 </p>
 {% endhighlight %}
 
-If the locations collection has [permalinks](#permalinks) defined, you
+If the locations collection has [permalinks](/permalinks/) defined, you
 could omit the `href=` attribute entirely and Vae will render the
 correct permalinks:
 

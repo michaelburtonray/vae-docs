@@ -11,9 +11,9 @@ discourage use of MySQL on Vae). Pages ending with the `.php` extension
 will automatically be parsed as PHP.
 
 You can create and delete MySQL Databases under the [Site &gt; MySQL
-tab](#backstage.site.mysql) in the backstage.
+tab](/backstage.site.mysql/) in the backstage.
 
-You may use [VaeML](#vaeml) tags in PHP, but they will not be processed
+You may use [VaeML](/vaeml/) tags in PHP, but they will not be processed
 until the entire PHP script has run. This is actually very powerful,
 because it means that you can use PHP to *generate* VaeML code. Be
 careful though, because generating VaeML in this way can make our

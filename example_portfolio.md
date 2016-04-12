@@ -9,7 +9,7 @@ In this tutorial, we will show you how to create a portfolio site from
 scratch. We're going to call our fictional client Erin Smith, and we'll
 say she's a photographer. While creating Erin's site, we'll first walk
 you through the structuring of our content in Vae's
-[Backstage](#backstage). Once we've defined our content, we'll add some
+[Backstage](/backstage/). Once we've defined our content, we'll add some
 photographs, biographical information, contact information, and Erin's
 resumé to the Backstage. Once we're finished up Backstage, we'll
 integrate our content into our website. Finally, we'll show off just how
@@ -31,7 +31,7 @@ creating a portfolio site for our client, Erin Smith.
 
 ## Structuring the Content
 
-From Site tab in our site's [Backstage](#backstage), we can define the
+From Site tab in our site's [Backstage](/backstage/), we can define the
 Structures that will hold our site's contents. Here's the screen we're
 presented with before we add any structures:
 
@@ -43,11 +43,11 @@ The first thing we'll add is a Section called `Home`:
 
 ![](/images/screenshots/example_portfolio/home_setup_2.png)
 
-`Home` will hold an [Image Structure](#structure.image) and a [Text Area
-Structure](#structure.textarea) that will appear on the initial page our
+`Home` will hold an [Image Structure](/structure.image/) and a [Text Area
+Structure](/structure.textarea/) that will appear on the initial page our
 clients will see when they load up our site. We're making `Home` a
-[Section](#structure.section) and not a
-[Collection](#structure.collection) because we only want one entry for
+[Section](/structure.section/) and not a
+[Collection](/structure.collection/) because we only want one entry for
 each of these Structures. We'll now create those structures:
 
 ![](/images/screenshots/example_portfolio/home_setup_3.png)
@@ -72,7 +72,7 @@ Our Section is nearly complete:
 
 ![](/images/screenshots/example_portfolio/home_setup_9.png)
 
-We'll add one more thing: an [Image Size](#structure.image) for our
+We'll add one more thing: an [Image Size](/structure.image/) for our
 Image. This will allow us to specify the dimenions that it will be
 cropped to:
 
@@ -86,7 +86,7 @@ We've added the Image Size and our `Home` Section is complete:
 
 Next up, we'll create some Structures to hold Erin's photos. Erin takes
 two types of photos: "Landscape" and "Architecture", so we'll create two
-identical [Collections](#structure.collection) of "Albums" for these two
+identical [Collections](/structure.collection/) of "Albums" for these two
 categories. Each will contain an album name, album cover, and a
 Collection of Images. This will keep the Backstage organized, and making
 coding this website much easier. We'll walk you through the process for
@@ -98,7 +98,7 @@ We'll first add a new Collection:
 
 ![](/images/screenshots/example_portfolio/landscape_2.png)
 
-Next we'll add a [Text Structure](#structure.text) named `Album Name`,
+Next we'll add a [Text Structure](/structure.text/) named `Album Name`,
 followed by an Image Structure called `Album                 Cover`.
 We're going to give `Album Cover` an Image Size called `thumb`:
 
@@ -128,16 +128,16 @@ structuring:
 
 ![](/images/screenshots/example_portfolio/architecture_collection.png)
 
-We'd also like to add a [Section](#structure.section) to hold Erin's
+We'd also like to add a [Section](/structure.section/) to hold Erin's
 contact information. This will consist of Text Structures for her email
-address and her phone number, with a [Text Area](#structure.textarea)
+address and her phone number, with a [Text Area](/structure.textarea/)
 Structure for her snail mail address:
 
 ![](/images/screenshots/example_portfolio/contact_info.png)
 
 Now it's time to add content to our Structures. If we click on the
-[Content Tab](#backstage.content), we'll see a listing of the Structures
-we created under the [Site Tab](#backstage.site):
+[Content Tab](/backstage.content/), we'll see a listing of the Structures
+we created under the [Site Tab](/backstage.site/):
 
 ![](/images/screenshots/example_portfolio/content_tab_1.png)
 
@@ -156,7 +156,7 @@ the `Images` Sub-Collection:
 
 ![](/images/screenshots/example_portfolio/content_tab_4.png)
 
-Since we set up some Image Sizes under the [Vae Tab](#backstage.site)
+Since we set up some Image Sizes under the [Vae Tab](/backstage.site/)
 when we created our Image Structures, Vae asks us to specify the crop
 sizes as we upload the photos:
 
@@ -189,7 +189,7 @@ Lastly, we've filled-out our `Contact Information` Section:
 
 The next step for us is creating a website using this content. Using the
 FTP information obtained from when we first logged in (or from the [FTP
-Subtab](#backstage.site.ftp)), we'll code up an index page. We'll make
+Subtab](/backstage.site.ftp/)), we'll code up an index page. We'll make
 the index page minimalist, and link to Erin's Landscape and Architecture
 photos. Here's our code:
 
@@ -208,7 +208,7 @@ Our next task is to code the `architecture.html` and `landscape.html`
 page. These pages will list all the albums within their respective
 collections, linking to a seperate page where the user can view each
 individual photo. Since these two pages will be nearly identical, we'll
-use [templates](#v_template) so we don't have to code the same thing
+use [templates](/v_template/) so we don't have to code the same thing
 twice. We're calling this template `__choose_album_template.html`, and
 it's going to contain all of the code for these two pages except the
 segment that outputs the listing of our albums.
@@ -274,7 +274,7 @@ Here's our final result:
 
 ![](/images/screenshots/example_portfolio/site_2.png)
 
-Because we used [permalinks](#permalinks), you can see that we have a
+Because we used [permalinks](/permalinks/), you can see that we have a
 nice clean address in the address bar.
 
 Our next task is to create a page for viewing the images in an album.
@@ -320,7 +320,7 @@ attribute is set ot "thickbox". We've done this because we're using the
 Thickbox JavaScript library to make it easy for our users to view a
 larger version of these images, by clicking on the thumbnail. If that
 `<v=>` tag looks confusing, it's because it's a [shortcut
-tag](#v_shortcuts), which we're using so we can insert the path to our
+tag](/v_shortcuts/), which we're using so we can insert the path to our
 image within an attribute value. Here's this code in action:
 
 ![](/images/screenshots/example_portfolio/site_3.png)
@@ -328,7 +328,7 @@ image within an attribute value. Here's this code in action:
 ![](/images/screenshots/example_portfolio/site_4.png)
 
 Lastly, we'll code up a contact page for Erin. This will display her
-contact information along with an AJAX [contact form](#contact_us_form).
+contact information along with an AJAX [contact form](/contact_us_form/).
 Here's the code:
 
 {% highlight html %}
@@ -372,7 +372,7 @@ Here's the code:
 
 The new tag here is `<v:formmail>`. It renders a form that when
 submitted, sends an email to the address specified in the `to`
-attribute. We're utilizing Vae's [AJAX attribute](#using_ajax) in the
+attribute. We're utilizing Vae's [AJAX attribute](/using_ajax/) in the
 formmail tag to asychronously display our confirmation message in the
 `emailSent` div, instead of redirecting to another page. If we removed
 the AJAX attribute, our users would be ridirected to `confirmation.html`
@@ -389,6 +389,6 @@ Here's the `contact.html` page before and after an email is sent:
 ![](/images/screenshots/example_portfolio/site_6.png)
 
 Okay, and our site is complete! Be sure to check out the
-[documentation](#vae_guide) for these tags if anything is unclear. You
+[documentation](/vae_guide/) for these tags if anything is unclear. You
 can also contact a Vae Account Manager, who will be happy to walk you
 through any part of this tutorial.

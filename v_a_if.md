@@ -7,7 +7,7 @@ title: "<v:a_if>"
 
 Outputs its contents either as an HTML link (`<a>` tag) or without a
 link, depending on whether the path specified in the `path=` attribute
-contains data. If called from within a [`<v:collection>`](#v_collection)
+contains data. If called from within a [`<v:collection>`](/v_collection/)
 block, it will automatically append information about which item in the
 collection was clicked to the query string just like the `<v:a>` tag.
 

@@ -10,8 +10,8 @@ entry with different topics.
 
 ---|---
 Common Use Examples:|Tagging (as on a blog)
-Supported [Validations](#validations):|None.
-Related [VaeML](#vaeml) Tags:|The `<v:collection>` tag allows iterating through each tag, as if they were a collection.
+Supported [Validations](/validations/):|None.
+Related [VaeML](/vaeml/) Tags:|The `<v:collection>` tag allows iterating through each tag, as if they were a collection.
 
 When accessing the tags in VaeML, you can use VaeQL to loop through the
 tags, as if it were they were in a child collection of the current

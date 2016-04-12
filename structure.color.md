@@ -13,8 +13,8 @@ codes.
 
 ---|---
 Common Use Examples:|Color (for blog post, calendar date, category, etc.)
-Supported [Validations](#validations):|Presence
-Related [VaeML](#vaeml) Tags:|The `<v:text>` tag is commonly used to render data stored in a Color structure.
+Supported [Validations](/validations/):|Presence
+Related [VaeML](/vaeml/) Tags:|The `<v:text>` tag is commonly used to render data stored in a Color structure.
 
 ## Backstage Look and Feel
 

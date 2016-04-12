@@ -7,7 +7,7 @@ title: "<v:divider>"
 
 This tag is used to insert HTML code between or around the individual
 entries in a tag that iterates over multiple entries (such as
-[`<v:collection>`](#v_collection)). There are 2 ways to use this tag. If
+[`<v:collection>`](/v_collection/)). There are 2 ways to use this tag. If
 the tag contains a `<v:yield>` tag, the contents of this tag will wrap
 each entry, with the `<v:yield>` tag denoting where the rendered HTML
 from each entry will go. If this tag does not contain a `<v:divider>`
@@ -28,7 +28,7 @@ The individual `<v:divider>` tags may have different values for the
 > **Warning**
 >
 > This tag only works inside of a tag that iterates over a number of
-> entries, such as [`<v:collection>`](#v_collection).
+> entries, such as [`<v:collection>`](/v_collection/).
 
 ## Required Attributes
 

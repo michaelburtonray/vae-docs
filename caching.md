@@ -21,8 +21,8 @@ important that you do not name files with a `.php` extension unless you
 are using PHP in them directly.**
 
 You can build higher levels of caching into your pages by using the
-[&lt;v:fragment&gt;](#v_fragment) VaeML tag or the
-[vae\_cache()](#php_vae_cache) PHP function.
+[&lt;v:fragment&gt;](/v_fragment/) VaeML tag or the
+[vae\_cache()](/php_vae_cache/) PHP function.
 
 Resized images, watermarked images, and generated images are also
 cached. Vae manages the cache automatically, and you are not charged for

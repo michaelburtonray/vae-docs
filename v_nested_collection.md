@@ -8,11 +8,11 @@ title: "<v:nested_collection>"
 Iterates over a Vae Nested Collection and renders the text and tags
 inside once for every entry, including child entries.
 
-You may nest a [`<v:divider>`](#v_divider) tag inside this tag to
+You may nest a [`<v:divider>`](/v_divider/) tag inside this tag to
 specify a divider that is shown after each entry or after a certain
 number of entries. Dividers can also wrap the entry content.
 
-You may nest a [`<v:nested_divider>`](#v_nested_divider) tag inside this
+You may nest a [`<v:nested_divider>`](/v_nested_divider/) tag inside this
 tag to specify a divider that is shown after each nesting level or after
 a certain number of nesting levels. Nested dividers can also wrap the
 nested entry content.
@@ -20,7 +20,7 @@ nested entry content.
 ## Required Attributes
 
 -   `path` - path to the collection you would like to render. Uses
-    [VaeQL](#vaeql) syntax.
+    [VaeQL](/vaeql/) syntax.
 
 ## Optional Attributes
 

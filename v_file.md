@@ -6,7 +6,7 @@ title: "<v:file>"
 # `<v:file>`
 
 Outputs an HTML link (`<a>` tag) that will initiate a download of a file
-(stored in a [File](#structure.file) or [Image](#structure.image)
+(stored in a [File](/structure.file/) or [Image](/structure.image/)
 structure) when clicked on by the user.
 
 Everything between the opening and closing tag is used as the body of
@@ -16,7 +16,7 @@ generated).
 ## Required Attributes
 
 -   `path` - the path to the Vae file or image structure. Uses
-    [VaeQL](#vaeql) syntax.
+    [VaeQL](/vaeql/) syntax.
 
 ## Optional Attributes
 

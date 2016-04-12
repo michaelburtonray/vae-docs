@@ -33,7 +33,7 @@ the form:
     should create `<v:checkbox>` tags for each item with
     `path="remove"`.
 
-You may provide a [`<v:else>`](#v_else) tag after this tag to specify
+You may provide a [`<v:else>`](/v_else/) tag after this tag to specify
 HTML to render if there are no items in the cart.
 
 ## Sample Usage

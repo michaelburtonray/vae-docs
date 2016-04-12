@@ -13,7 +13,7 @@ can be used inside attributes of other VaeML tags.
 
 The `<v=path>` shortcut returns the value of that path (relative to the
 current context), regardless of what type of structure that path
-represents. (Uses [VaeQL](#vaeql) syntax).
+represents. (Uses [VaeQL](/vaeql/) syntax).
 
 For example, `<v=contact/phone_number>` is equivalent to
 `<v:text path="contact/phone_number" />`, if `content/phone_number` is

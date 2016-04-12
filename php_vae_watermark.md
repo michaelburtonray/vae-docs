@@ -13,8 +13,8 @@ Use the `vae_watermark()` function to add a watermark to an image.
 
 -   `$image` - Filename for the image you would like to add a
     watermark to. This is usually obtained by calling
-    [`vae_image()`](#php_vae_image) on the image ID (obtained by reading
-    the data returned by [`vae()`](#php_vae) under the path of the Image
+    [`vae_image()`](/php_vae_image/) on the image ID (obtained by reading
+    the data returned by [`vae()`](/php_vae/) under the path of the Image
     structure you wish to use). This should be an image retrieved from
     Vae (and thus stored in the local Vae data cache folder).
 

@@ -12,7 +12,7 @@ path to that entry every time.
 
 ## Required Attributes
 
--   `path` - the path to be set as the new context. Uses [VaeQL](#vaeql)
+-   `path` - the path to be set as the new context. Uses [VaeQL](/vaeql/)
     syntax
 
 ## Optional Attributes

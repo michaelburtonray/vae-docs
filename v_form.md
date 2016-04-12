@@ -9,7 +9,7 @@ Outputs an HTML form.
 
 When used in conjunction with VaeML form tags, validation can be
 performed on user input. Please see [VaeML Form Tag
-Validations](#vaeml_form_validation) for more information.
+Validations](/vaeml_form_validation/) for more information.
 
 ## Required Attributes
 
@@ -41,7 +41,7 @@ Validations](#vaeml_form_validation) for more information.
     of the structure that corresponds to the URL of
     the commenter/poster.
 
--   `flash` - name of the [flash bucket](#v_flash) to store error
+-   `flash` - name of the [flash bucket](/v_flash/) to store error
     messages in. You can name your flash buckets to put different types
     of messages in different places. Just pass that name here and in the
     `flash` attribute of the `<v:flash>` tag you are using to display

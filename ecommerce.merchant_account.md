@@ -68,7 +68,7 @@ your Vae store:
 
 Once your payment methods are setup, they will appear in the payment
 select menu, rendered using the
-[`<v:store:payment_methods_select>`](#v_store_payment_methods_select)
+[`<v:store:payment_methods_select>`](/v_store_payment_methods_select/)
 tag:
 
 ![](/images/screenshots/ecommerce/payment_select.png)

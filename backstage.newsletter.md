@@ -11,10 +11,10 @@ mailing lists. the only charge for newsletter sending is if you exceed
 the number of individual sends allotted in your plan.
 
 The default subtab is the [All
-Campaigns](#backstage.newsletter.campaigns) tab, which we consider the
+Campaigns](/backstage.newsletter.campaigns/) tab, which we consider the
 main dashboard for newsletter activity. However, it is easier to
 conceptualize the newsletter process by starting with the
-[Lists](#backstage.newsletter.lists) subtab, so that is how we proceed
+[Lists](/backstage.newsletter.lists/) subtab, so that is how we proceed
 in this manual.
 
 ## Lists
@@ -22,7 +22,7 @@ in this manual.
 The Lists subtab allows you to manage Newsletter Lists. Clicking the
 Lists tab brings you to a list of all of your Newsletter lists. You can
 click on the list name to be taken to the [List
-Dashboard](#backstage.newsletter.list) for that list.
+Dashboard](/backstage.newsletter.list/) for that list.
 
 ### Creating a Newsletter List
 
@@ -75,16 +75,16 @@ be recovered.
 ## List Dashboard
 
 Clicking the name of a list on the [Lists
-tab](#backstage.newsletter.lists) or [All
-Campaigns](#backstage.newsletter.campaigns) tab opens the List Dashboard
+tab](/backstage.newsletter.lists/) or [All
+Campaigns](/backstage.newsletter.campaigns/) tab opens the List Dashboard
 for that list:
 
 ![](/images/screenshots/content_management/newsletter_dashboard.png)
 
 The list dashboard contains links titled Campaigns and Manage
 Subscribers that will take you to the
-[Campaigns](#backstage.newsletter.campaigns) and
-[Subscribers](#backstage.newsletter.subscribers) tabs, respectively.
+[Campaigns](/backstage.newsletter.campaigns/) and
+[Subscribers](/backstage.newsletter.subscribers/) tabs, respectively.
 
 The section labeled List Impact shows two graphs detailing performance
 of the list. The top graph shows views and clicks over time, while the
@@ -101,7 +101,7 @@ code necessary if you want to enable subscribing to this list via the
 ## Subscribers
 
 Clicking the Manage Subscribers link on the [List
-Dashboard](#backstage.newsletter.list) opens the Subscribers tab. It
+Dashboard](/backstage.newsletter.list/) opens the Subscribers tab. It
 lists all subscribers to the selected newsletter list:
 
 ![](/images/screenshots/content_management/newsletter_list_subscribers_manage.png)
@@ -176,7 +176,7 @@ recipients.
 >
 > The Campaigns tab can be accessed in two forms: as the All Campaigns
 > tab when you first click onto the main Newsletter tab, or by clicking
-> Campaigns from the [List Dashboard](#backstage.newsletter.list). When
+> Campaigns from the [List Dashboard](/backstage.newsletter.list/). When
 > accesed as All Campaigns, all campaigns are shown, and the Schedule or
 > Begin New Campaign link will ask which list to launch the new campaign
 > on. When accessed from a specific list, only campaigns specific to
@@ -217,7 +217,7 @@ at the top right corner of the Campaigns list:
 >
 > If you were on the All Campaigns tab, a box labelled New Campaign -
 > Select Recipients will be displayed. If you have the [Customers
-> tab](#backstage.customers) enabled, it will be divided into 2
+> tab](/backstage.customers/) enabled, it will be divided into 2
 > sections. These sections are Send to an Existing List and Target
 > Specific Customers:
 >
@@ -259,7 +259,7 @@ It will have the following fields:
 
 3.  Design Template - The template to use for this campaign. To add or
     manage templates, go to the [Templates
-    tab](#backstage.newsletter.templates). Changing this value will
+    tab](/backstage.newsletter.templates/). Changing this value will
     refresh the page to allow any additional structures for that
     template to be loaded into the form.
 
@@ -382,7 +382,7 @@ Newsletter templates are HTML-based templates that are used to style
 newsletters. Generally these templates are created by the same designer
 that designs the rest of the website. The Templates tab is only
 available to Vae users that have access to the [Site
-tab](#backstage.site). A template must be created before any newsletters
+tab](/backstage.site/). A template must be created before any newsletters
 can be sent.
 
 As Vae has evolved, we have developed two different methods for

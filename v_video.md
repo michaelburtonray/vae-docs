@@ -6,12 +6,12 @@ title: "<v:video>"
 # `<v:video>`
 
 Outputs HTML that will display a video player that plays the video
-uploaded to a Vae [Video structure](#structure.video).
+uploaded to a Vae [Video structure](/structure.video/).
 
 ## Required Attributes
 
 -   `path` - the path to the video structure that you would like
-    to render. Uses [VaeQL](#vaeql) syntax.
+    to render. Uses [VaeQL](/vaeql/) syntax.
 
 ## Optional Attributes
 

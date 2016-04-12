@@ -6,7 +6,7 @@ title: "<v:store:if_currency>"
 # `<v:store:if_currency>`
 
 Renders its contents only if the user has [elected to display the prices
-on the site in a different currency](#v_store_currency_select).
+on the site in a different currency](/v_store_currency_select/).
 
 ## Required Attributes
 
@@ -16,7 +16,7 @@ None.
 
 None.
 
-You may provide a [`<v:else>`](#v_else) tag after this tag to specify
+You may provide a [`<v:else>`](/v_else/) tag after this tag to specify
 HTML to render if the user has not elected to display the prices on the
 site in a different currency.
 

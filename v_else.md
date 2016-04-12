@@ -5,7 +5,7 @@ title: "<v:else>"
 
 # `<v:else>`
 
-When a [`<v:if`](#v_if)&gt; tag or other tag that provides conditional
+When a [`<v:if`](/v_if/)&gt; tag or other tag that provides conditional
 branching contains a `<v:else>` tag, the content of the `<v:else>` will
 be rendered if the if condition is false.
 

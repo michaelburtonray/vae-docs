@@ -22,13 +22,13 @@ make certain fields required.
 
 -   `email_confirmation` - path to the [HTML template to use for the
     confirmation E-Mail sent to the
-    customer](#customizing_order_emails).
+    customer](/customizing_order_emails/).
 
 -   `email_received` - path to the [HTML template to use for the order
-    received E-Mail sent to the merchant](#customizing_order_emails).
+    received E-Mail sent to the merchant](/customizing_order_emails/).
 
 -   `email_shipping` - path to the [HTML template to use for the order
-    shipped E-Mail sent to the customer](#customizing_order_emails).
+    shipped E-Mail sent to the customer](/customizing_order_emails/).
 
 -   `lockout_redirect` - if specified, user will be redirected to this
     page after 3 failed attempts at submitting the form. This is a good

@@ -7,10 +7,10 @@ title: "<v:fragment>"
 
 This tag has 2 uses.
 
-Use 1. Used within [`<v:template>`](#v_template) tags to define a named
+Use 1. Used within [`<v:template>`](/v_template/) tags to define a named
 fragment of HTML code, which will be rendered in a specific location in
 a template file. Specifically, the text and tags within this tag will be
-displayed where there is a [`<v:yield>`](#v_yield) tag with a matching
+displayed where there is a [`<v:yield>`](/v_yield/) tag with a matching
 `for` attribute in the template file.
 
 In this sense, fragments are useful because they make it possible to

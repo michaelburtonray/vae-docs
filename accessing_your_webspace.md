@@ -7,7 +7,7 @@ title: Accessing Your Webspace
 
 Every Vae account comes with webspace. By default, your website will be
 made available at `http://<accountname>.vaesite.com/`. You may also
-[point a domain name to your webspace](#backstage.site.domains).
+[point a domain name to your webspace](/backstage.site.domains/).
 
 To publish files to your webspace, you may use Git, Subversion, or FTP. We do not
 support any other method of direct access, such as SFTP, WebDav,
@@ -30,11 +30,11 @@ Vae also provides a Subversion repository for each website. Advanced
 designers or teams of designers may elect to use Subversion instead of
 direct FTP access for publishing their website. Designers who use this
 workflow typically use the [Vae Local Development
-Environment](#vae_local) to preview pages locally before checking them
+Environment](/vae_local/) to preview pages locally before checking them
 into Subversion and then deploying them onto the live webspace.
 
 To use Subversion, you should first create a user on the [Users
-tab](#backstage.users) that has Subversion permissions. You can then
+tab](/backstage.users/) that has Subversion permissions. You can then
 check out a local copy on your local machine. To do that, open a
 terminal and type:
 
@@ -49,7 +49,7 @@ Subversion will prompt for the correct username.
 After entering your username and password, your Vae site will be checked
 out locally. You may then use standard Subversion commands (such as
 `svn stat`, `svn commit`, etc.), as well as launch the [Vae Local
-Development Environment preview server](#vae_local).
+Development Environment preview server](/vae_local/).
 
 Note that we do not ever import the contents of your FTP root into the
 Subversion repository. So your first checkout will always be an empty
@@ -58,7 +58,7 @@ responsibility to commit these files to Subversion.
 
 If you plan to use branching in Subversion, please check out the
 documentation for the [Site &gt; FTP/Subversion
-tab](#backstage.site.ftp) for information on how to tell Vae which
+tab](/backstage.site.ftp/) for information on how to tell Vae which
 branch is the active branch that should be deployed.
 
 For more information on Subversion, please see the [Subversion

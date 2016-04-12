@@ -25,4 +25,4 @@ Extension|Output Format|Processors (in order)|Cached?
 `.sass`|CSS|SASS|Yes
 
 The Cached? column refers to whether the rendered output will be cached
-in the Vae [caching system](#caching).
+in the Vae [caching system](/caching/).

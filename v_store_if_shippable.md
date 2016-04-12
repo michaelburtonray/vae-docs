@@ -14,7 +14,7 @@ None.
 
 ## Optional Attributes
 
-You may provide a [`<v:else>`](#v_else) tag after this tag to specify
+You may provide a [`<v:else>`](/v_else/) tag after this tag to specify
 HTML to to render if the order will not be shipped.
 
 ## Sample Usage

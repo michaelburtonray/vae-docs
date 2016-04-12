@@ -14,7 +14,7 @@ function is the main way of accessing your Vae content through PHP.
 easily used in PHP.
 
 If you don't pass in a parameter, all your content is returned.
-Alternatively, you may pass in a [VaeQL](#vaeql) query to retrieve
+Alternatively, you may pass in a [VaeQL](/vaeql/) query to retrieve
 exactly what you need.
 
 ## Data Encoding
@@ -33,7 +33,7 @@ are `vae_image()`, `vae_file()`, and `vae_video()`.
 
 `vae($path, $options = null)`
 
--   `$path` - [VaeQL query](#vaeql) specifying the data you want
+-   `$path` - [VaeQL query](/vaeql/) specifying the data you want
     to retrieve. Follows the same VaeQL syntax used by VaeML wherever
     VaeML accepts a `path=` attribute.
 

@@ -14,8 +14,8 @@ update news items or blogs themselves.
 
 ---|---
 Common Use Examples:|Blog posts, news postings, descriptions, and other situations that require formatted text.
-Supported [Validations](#validations):|None.
-Related [VaeML](#vaeml) Tags:|The `<v:text>` tag is commonly used to render data stored in a Rich Text Area structure. Use the `asset_width=` and `asset_height=` attributes to automatically resize any embedded media.
+Supported [Validations](/validations/):|None.
+Related [VaeML](/vaeml/) Tags:|The `<v:text>` tag is commonly used to render data stored in a Rich Text Area structure. Use the `asset_width=` and `asset_height=` attributes to automatically resize any embedded media.
 
 ## Backstage Look and Feel
 

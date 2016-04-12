@@ -18,7 +18,7 @@ is overridden in the context of its options.
 
 None.
 
-You may provide a [`<v:else>`](#v_else) tag after this tag to specify
+You may provide a [`<v:else>`](/v_else/) tag after this tag to specify
 HTML to render if the field is not overridden.
 
 ## Sample Usage

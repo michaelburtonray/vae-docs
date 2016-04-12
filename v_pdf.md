@@ -7,7 +7,7 @@ title: "<v:pdf>"
 
 To render pages as a PDF, they should be named `.pdf.html`, `.pdf.haml`,
 `.pdf.html.php`, or `pdf.haml.php`. For more information, please see the
-[documentation on generating PDFs on Vae](#pdf).
+[documentation on generating PDFs on Vae](/pdf/).
 
 You may place this tag anywhere in the page to specify options for the
 PDF output. Use this tag to set the paper size, orientation, and

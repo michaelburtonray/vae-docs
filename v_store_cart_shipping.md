@@ -14,7 +14,7 @@ None.
 ## Optional Attributes
 
 -   `currency` - if set to `true`, the amount will be displayed in the
-    [currently selected currency](#v_store_currency_select). If omitted,
+    [currently selected currency](/v_store_currency_select/). If omitted,
     the amount will be displayed in the site's operating currency.
 
 ## Self-closed

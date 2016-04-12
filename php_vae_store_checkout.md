@@ -24,13 +24,13 @@ These are options that may be provided in the `$options` array.
 
 -   `email_confirmation` - path to the [HTML template to use for the
     confirmation E-Mail sent to the
-    customer](#customizing_order_emails).
+    customer](/customizing_order_emails/).
 
 -   `email_received` - path to the [HTML template to use for the order
-    received E-Mail sent to the merchant](#customizing_order_emails).
+    received E-Mail sent to the merchant](/customizing_order_emails/).
 
 -   `email_shipping` - path to the [HTML template to use for the order
-    shipped E-Mail sent to the customer](#customizing_order_emails).
+    shipped E-Mail sent to the customer](/customizing_order_emails/).
 
 -   `notes` - any user-provided notes that go along with
     the transaction. These will be logged in the Vae backstage for the

@@ -17,13 +17,13 @@ None.
 
 -   `email_confirmation` - path to the [HTML template to use for the
     confirmation E-Mail sent to the
-    customer](#customizing_order_emails).
+    customer](/customizing_order_emails/).
 
 -   `email_received` - path to the [HTML template to use for the order
-    received E-Mail sent to the merchant](#customizing_order_emails).
+    received E-Mail sent to the merchant](/customizing_order_emails/).
 
 -   `email_shipping` - path to the [HTML template to use for the order
-    shipped E-Mail sent to the customer](#customizing_order_emails).
+    shipped E-Mail sent to the customer](/customizing_order_emails/).
 
 ## Self-closed
 

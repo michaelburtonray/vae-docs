@@ -6,14 +6,14 @@ title: Password
 # Password
 
 The Password Structure stores a password securely with encryption. It is
-generally used with the [`<v:users:login>`](#v_users_login) and
-[`<v:users:register>`](#v_store_register) to create a members only area
+generally used with the [`<v:users:login>`](/v_users_login/) and
+[`<v:users:register>`](/v_store_register/) to create a members only area
 on your website.
 
 ---|---
 Common Use Examples:|Password
-Supported [Validations](#validations):|None.
-Related [VaeML](#vaeml) Tags:|[`<v:users:login>`](#v_users_login), [`<v:users:register>`](#v_store_register).
+Supported [Validations](/validations/):|None.
+Related [VaeML](/vaeml/) Tags:|[`<v:users:login>`](/v_users_login/), [`<v:users:register>`](/v_store_register/).
 
 ## Backstage Look and Feel
 

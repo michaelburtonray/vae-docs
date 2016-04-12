@@ -14,9 +14,9 @@ image stored in your Vae data folder.
 
 -   `$local_filename` - Local filename of the image you would like to
     measure, relative to the local Vae data cache path (i.e. as returned
-    by [`vae_image()`](#php_vae_image). This is usually obtained by
-    calling [`vae_image()`](#php_vae_image) on the image ID (obtained by
-    reading the data returned by [`vae()`](#php_vae) under the path of
+    by [`vae_image()`](/php_vae_image/). This is usually obtained by
+    calling [`vae_image()`](/php_vae_image/) on the image ID (obtained by
+    reading the data returned by [`vae()`](/php_vae/) under the path of
     the Image structure you wish to use).
 
 ## Returns

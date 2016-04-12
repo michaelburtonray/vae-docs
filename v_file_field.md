@@ -7,13 +7,13 @@ title: "<v:file_field>"
 
 Outputs an HTML file input field (`<input type="hidden">` tag).
 
-[Form validation](#vaeml_form_validation) can be run on the client and
+[Form validation](/vaeml_form_validation/) can be run on the client and
 server end.
 
 ## Required Attributes
 
 -   `path` - the path to the Vae item this input pertains to. Uses
-    [VaeQL](#vaeql) syntax. If provided, the `name` parameter will be
+    [VaeQL](/vaeql/) syntax. If provided, the `name` parameter will be
     set to this as well.
 
 OR:
@@ -25,7 +25,7 @@ OR:
 
 -   `required` - if set and used in conjunction with a Vae form tag that
     generates an HTML form, validation will be performed on this field.
-    Please see the [Validating Forms](#vaeml_form_validation) page for
+    Please see the [Validating Forms](/vaeml_form_validation/) page for
     more information.
 
 Since this tag generates an HTML `<input>` tag, you may also use any

@@ -12,8 +12,8 @@ converted Flash Video into your site.
 
 ---|---
 Common Use Examples:|Videos
-Supported [Validations](#validations):|None.
-Related [VaeML](#vaeml) Tags:|The the `<v=path>` shortcut is usually used to embed the converted Flash Video into your site. The `<v:file>` tag allows downloading videos stored in a Video structure.
+Supported [Validations](/validations/):|None.
+Related [VaeML](/vaeml/) Tags:|The the `<v=path>` shortcut is usually used to embed the converted Flash Video into your site. The `<v:file>` tag allows downloading videos stored in a Video structure.
 
 ## Backstage Look and Feel
 

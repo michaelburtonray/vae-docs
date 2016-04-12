@@ -15,7 +15,7 @@ automatically generating a new compressed file every time an asset is
 changed.
 
 If you are loading the page via the [Vae Local Development
-Environment](#vae_local), Vae will not combine the Javascript and
+Environment](/vae_local/), Vae will not combine the Javascript and
 stylesheet assets, but rather render individual `<link>` or `<script>`
 tags for each asset. This should assist with debugging.
 

@@ -6,7 +6,7 @@ title: "<v:store:shipping_methods_select>"
 # `<v:store:shipping_methods_select>`
 
 Outputs an HTML select input field (`<select>` tag) prepopulated with a
-list of acceptable [shipping methods](#ecommerce.real_time_shipping) as
+list of acceptable [shipping methods](/ecommerce.real_time_shipping/) as
 options. The current shipping method will be selected.
 
 This tag will automatically refresh the current page `onchange`. It does

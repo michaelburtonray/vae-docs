@@ -21,7 +21,7 @@ use Google Base tags.
 -   `description` - description for the RSS feed.
 
 -   `path` - path to the collection(s) to include in the RSS feed. Uses
-    [VaeQL](#vaeql) syntax. Separate multiple paths with a comma.
+    [VaeQL](/vaeql/) syntax. Separate multiple paths with a comma.
 
 -   `title_field` - path to the structure within each collection that
     contains the text that should be used for the RSS title field.

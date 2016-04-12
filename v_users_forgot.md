@@ -25,7 +25,7 @@ The E-Mail that will be sent looks like this:
 ## Required Attributes
 
 -   `path` - the path to the Vae collection that holds the information
-    about your users. Uses [VaeQL](#vaeql) syntax.
+    about your users. Uses [VaeQL](/vaeql/) syntax.
 
 -   `required` - comma-delimited list of fields that are required to
     match a user. For example if you wanted to allow them to enter their

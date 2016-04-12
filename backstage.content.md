@@ -8,7 +8,7 @@ title: Content Tab
 The Content tab is where content can be added to the Structures that
 make up your website. On the Content tab, you can add edit, delete,
 reorder, and search Entries, which are the sets of data in
-[Collections](#structure.collection) and [Sections](#structure.section).
+[Collections](/structure.collection/) and [Sections](/structure.section/).
 
 The Content tab is designed to be incredibly easy to use, so that
 anyone, including your clients, can manage data easily.
@@ -25,8 +25,8 @@ subtab. On this tab is a list of the root-level superstructures on your
 website. Click on one of them to manage the content in that structure.
 
 If you click on a Collection, you will be taken to the [List
-View](#backstage.content.list). If you click on a Section, you will be
-taken directly to the [Edit View](#backstage.content.editing). If you
+View](/backstage.content.list/). If you click on a Section, you will be
+taken directly to the [Edit View](/backstage.content.editing/). If you
 click on an External structure, the external page will be loaded (either
 in an IFRAME or new window, depending on how the structure is
 configured.)
@@ -39,9 +39,9 @@ The list view displays all entries in a collection in a tabular list:
 
 All structures that have the Show in List View? attribute set will be
 displayed in the table. Additionally, any Child
-[Collections](#structure.collection) or [Reverse
-Associations](#structure.association_single) on the
-[Collection](#structure.collection) will have a link displayed in the
+[Collections](/structure.collection/) or [Reverse
+Associations](/structure.association_single/) on the
+[Collection](/structure.collection/) will have a link displayed in the
 table that allows you to navigate to that child collection or reverse
 association.
 
@@ -54,17 +54,17 @@ Delete each entry:
 
 In the following picture, Mammals and Reptiles are both Child
 Collections of Animals. Clicking on either will open the List View for
-the Child [Collection](#structure.collection).
+the Child [Collection](/structure.collection/).
 
 ![](/images/screenshots/content_management/child_collection.png)
 
 The tab navigation bar at the top will expand to show the current child
 collection as the selected tab, and the selected entry from the parent
 collection as its own tab. Clicking the selected entry from the parent
-[Collection](#structure.collection) will take you directly to its [Edit
-View](#backstage.content.editing).
+[Collection](/structure.collection/) will take you directly to its [Edit
+View](/backstage.content.editing/).
 
-If there is no link for a Child [Collection](#structure.collection),
+If there is no link for a Child [Collection](/structure.collection/),
 this is because the collection has the Hidden? attribute set.
 
 ### Publishing and Unpublishing Entries
@@ -126,7 +126,7 @@ being sorted according to a sort field.
 ## Adding Content
 
 To add a new entry to the current collection, click the Create New link
-at the top right corner of the [List View](#backstage.content.list):
+at the top right corner of the [List View](/backstage.content.list/):
 
 ![](/images/screenshots/content_management/collection_list_view_create_new.png)
 
@@ -144,7 +144,7 @@ prompted to correct the errors.
 
 Nested Collections support adding entries as a child of another entry in
 the same collection. To add an entry as a child, click the Add (+) icon
-to the right of that entry on the [List View](#backstage.content.list).
+to the right of that entry on the [List View](/backstage.content.list/).
 This will bring up the Create New form with a header that says that you
 are adding a new entry as a child entry.
 
@@ -160,7 +160,7 @@ the Use These Dimensions button to save your cropping selection.
 ## Editing and Deleting Content
 
 To edit am entry, simply click the Edit icon at the right of that entry
-on the [List View](#backstage.content.list). This will open an Edit form
+on the [List View](/backstage.content.list/). This will open an Edit form
 with an edit field for each structure in the collection. Click the Save
 button to complete the process of editing the entry.
 
@@ -213,7 +213,7 @@ Edit View:
 ### Deleting Content
 
 To delete an entry, simply click the Delete icon at the right of that
-entry on the [List View](#backstage.content.list):
+entry on the [List View](/backstage.content.list/):
 
 ![](/images/screenshots/content_management/collection_list_view_delete_button.png)
 
@@ -231,12 +231,12 @@ only.
 If you enter a search query and click Search All, Vae will search for
 that string in all entries of every piece of content on your website.
 The search results page will display all results and link to the [Edit
-View](#backstage.content.editing) for each entry:
+View](/backstage.content.editing/) for each entry:
 
 ![](/images/screenshots/content_management/collection_list_view_search.png)
 
 If you click on the button that is specific to the current collection,
 the search results page will resemble the [List
-View](#backstage.content.list), providing options to Publish/Unpublish,
+View](/backstage.content.list/), providing options to Publish/Unpublish,
 Edit, and Delete each entry. For this reason, you should use the more
 specific search option if you can.

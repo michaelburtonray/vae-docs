@@ -9,7 +9,7 @@ Use the `vae_video()` function to generate a URL for a video uploaded
 through Vae. This is typically called to embed the URL within the code
 for a Flash FLV player. The URL is returned relative to the Vae data
 URL, which you can retrieve using the
-[`vae_data_url()`](#php_vae_data_url) function.
+[`vae_data_url()`](/php_vae_data_url/) function.
 
 Currently, returned URLs do not contain slashes, however, this is not
 guaranteed, and may change in the future.
@@ -19,7 +19,7 @@ guaranteed, and may change in the future.
 `vae_video($video_id, $video_size)`
 
 -   `$video_id` - ID of the video you wish to retrieve. This is obtained
-    by reading the data returned by [`vae()`](#php_vae) under the path
+    by reading the data returned by [`vae()`](/php_vae/) under the path
     of the Video structure you wish to use.
 
 -   `$video_size` - if you set up a specific video resizing task in Vae,

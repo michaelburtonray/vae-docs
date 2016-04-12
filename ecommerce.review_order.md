@@ -7,7 +7,7 @@ title: Checking Out / Review Order
 
 The final step in the ordering process for a customer is reviewing and
 ordering what's in their basket. The
-[`<v:store:checkout>`](#v_store_checkout) tag provides a form for your
+[`<v:store:checkout>`](/v_store_checkout/) tag provides a form for your
 users to complete their purchase. Here is an example of a Checkout
 screen markup:
 
@@ -92,25 +92,25 @@ screen markup:
 ## Accepting Coupon Codes
 
 As we have done in our example, you can use the
-[`<v:store:discount>`](#v_store_discount) tag to give users the ability
+[`<v:store:discount>`](/v_store_discount/) tag to give users the ability
 to enter in "coupon codes," which you manage in Vae's Backstage (and we
 discuss later in this chapter). Once a value is inputted into You can
 then display the amount of money discounted using the
-[`<v:store:if_discount`](#v_store_if_discount) and
-[`<v:store:cart:discount />`](#v_store_cart_discount) tags. We have
+[`<v:store:if_discount`](/v_store_if_discount/) and
+[`<v:store:cart:discount />`](/v_store_cart_discount/) tags. We have
 utillized these tags in the example as well.
 
 > **Warning**
 >
 > `<v:text_field name="discount" />` must be included within the
-> [`<v:store:discount>`](#v_store_discount) tags in order for the
+> [`<v:store:discount>`](/v_store_discount/) tags in order for the
 > discount code to be submitted to Vae.
 
 ## Changing Payment / Shipping Method
 
 Use the
-[`<v:store:payment_methods_select />`](#v_store_payment_methods_select)
+[`<v:store:payment_methods_select />`](/v_store_payment_methods_select/)
 tag render a menu which will display all the payment methods that your
 site has been configured to accept. Similarly, the
-[`<v:store:shipping_methods_select`](#v_store_shipping_methods_select)
+[`<v:store:shipping_methods_select`](/v_store_shipping_methods_select/)
 tag will render a menu for selecting the appropriate shipping method.

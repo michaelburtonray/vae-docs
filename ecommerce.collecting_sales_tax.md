@@ -26,7 +26,7 @@ just applied a special tax to all sweaters. You could markup the price
 of all sweaters to accomodate for this special case, or just use a Tax
 Class. Tax Classes are a way to define a group items that needs a
 special tax rule. In your markup, just add the `tax_rate` attribute to
-your [`<v:store:add_to_cart>`](#v_store_add_to_cart), and use that value
+your [`<v:store:add_to_cart>`](/v_store_add_to_cart/), and use that value
 when creating a new tax rule. So, if our Tax Class were to be called
 "sweaters", our tag would look like:
 `<v:store:add_to_cart tax_rate="sweaters">`. In the Backstage, you'd

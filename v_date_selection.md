@@ -10,7 +10,7 @@ with a set of entries. This is commonly used to build archive sections
 for blogs that show posts by year, month, or day. The CSS class for the
 currently selected date range is set to `current`.
 
-You may nest a [`<v:divider>`](#v_divider) tag inside this tag to
+You may nest a [`<v:divider>`](/v_divider/) tag inside this tag to
 specify a divider that is shown after each date link or after a certain
 number of date links. Dividers can also wrap the each dater link.
 

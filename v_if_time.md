@@ -24,7 +24,7 @@ your site, which can be set in the Site tab.
 You may use both attributes to specify that the content will be rendered
 if the time is between two times.
 
-You may provide a [`<v:else>`](#v_else) tag after this tag to specify
+You may provide a [`<v:else>`](/v_else/) tag after this tag to specify
 HTML to render if the time is outside the specified range.
 
 ## Sample Usage

@@ -8,7 +8,7 @@ title: "<v:pagination>"
 Renders a set of page links for a `<v:collection>` tag that is being
 paginated. The CSS class for the current page is set to `current`.
 
-You may nest a [`<v:divider>`](#v_divider) tag inside this tag to
+You may nest a [`<v:divider>`](/v_divider/) tag inside this tag to
 specify a divider that is shown after each page number link or after a
 certain number of page number links. Dividers can also wrap the each
 page number link.

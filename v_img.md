@@ -6,12 +6,12 @@ title: "<v:img>"
 # `<v:img>`
 
 Outputs an HTML `<img>` tag that will display the image uploaded to a
-Vae [Image structure](#structure.image).
+Vae [Image structure](/structure.image/).
 
 ## Required Attributes
 
 -   `path` - the path to the image structure that you would like
-    to render. Uses [VaeQL](#vaeql) syntax.
+    to render. Uses [VaeQL](/vaeql/) syntax.
 
 ## Optional Attributes
 

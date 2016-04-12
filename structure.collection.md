@@ -16,11 +16,11 @@ create an `Artists` collection with child structures called `Name`,
 
 ---|---
 Common Use Examples:|News Posts, Items, Links, Press Entries, Stockists
-Supported [Validations](#validations):|None.
-Related [VaeML](#vaeml) Tags:|The `<v:collection>` tag allows iterating through each entry in the collection.
+Supported [Validations](/validations/):|None.
+Related [VaeML](/vaeml/) Tags:|The `<v:collection>` tag allows iterating through each entry in the collection.
 
 In the backstage, collections are generally displayed in a [List
-View](#backstage.content.list). In this screenshot, we are viewing the
+View](/backstage.content.list/). In this screenshot, we are viewing the
 `Artists` collection:
 
 ![](/images/screenshots/content_management/collection_list_view.png)
@@ -43,13 +43,13 @@ example.
 
 To create a nested collection, check the box Allow nested structures?
 when creating a collection in the [Site &gt; Content
-Management](#backstage.site.content_management) tab:
+Management](/backstage.site.content_management/) tab:
 
 ![](/images/screenshots/content_management/add_new_collection.png)
 
 In the backstage, Nested Collections operate very similarly to
 collections. Entries that are children of other entries will be indented
-in the [List View](#backstage.content.list) and the reordering screen.
+in the [List View](/backstage.content.list/) and the reordering screen.
 On the reordering screen, you may move entire branches of the tree into
 different locations, and easily move an entry from one level or parent
 to another.

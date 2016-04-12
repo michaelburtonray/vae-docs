@@ -6,8 +6,8 @@ title: eCommerce
 # eCommerce
 
 When we set out to create an eCommerce engine, we built on the rest of
-the Vae platform. Actions are initiated through [VaeML](#vaeml) tags and
-items are just entries in a [Collection](#structure.collection). You can
+the Vae platform. Actions are initiated through [VaeML](/vaeml/) tags and
+items are just entries in a [Collection](/structure.collection/). You can
 even statically define items in your VaeML. If you're already familiar
 with creating websites using Vae, setting up the eCommerce portion of
 your site should be easy. In fact, there are not any special eCommerce
@@ -45,7 +45,7 @@ the Items Structure in a store:
 >
 > With any field that necessitates a numeric value be entered, such as
 > price, weight, or inventory (described below), it is best practice to
-> check the Require a Numeric Value? [Checkbox](#structure.checkbox)
+> check the Require a Numeric Value? [Checkbox](/structure.checkbox/)
 > when creating the Structure. This will prevent future bugs that you
 > might find puzzling.
 >
@@ -68,7 +68,7 @@ have to account for different sizes or colors. One option would be to
 create each possible configuration as an entry in the Items Collection.
 However, this might be confusing to maintain. A more organized method of
 dealing with this situation is by making a Styles Structure. Styles (you
-can call it whatever you want) is a [Collection](#structure.collection)
+can call it whatever you want) is a [Collection](/structure.collection/)
 under the Item Structure that holds possible configurations for an item.
 
 ![](/images/screenshots/ecommerce/styles.png)

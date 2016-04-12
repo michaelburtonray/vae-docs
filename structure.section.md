@@ -18,5 +18,5 @@ that matches.
 
 ---|---
 Common Use Examples:|Homepage, Contact Page, Thought of the Day, Overall Settings
-Supported [Validations](#validations):|None.
-Related [VaeML](#vaeml) Tags:|The `<v:section>` tag renders contained code in the context of the specified Section.
+Supported [Validations](/validations/):|None.
+Related [VaeML](/vaeml/) Tags:|The `<v:section>` tag renders contained code in the context of the specified Section.

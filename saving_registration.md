@@ -9,7 +9,7 @@ Notice at the bottom of our example markup in the previous section,
 we've provided an option for unregistered users to create an account.
 The Register For An Account link points the user to an account
 registration page, where they can sign up. This page uses the
-[`<v:store:register>`](#v_store_register) tag and redirects to an
+[`<v:store:register>`](/v_store_register/) tag and redirects to an
 account management page upon user submission. Here is some example
 markup:
 

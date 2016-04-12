@@ -6,7 +6,7 @@ title: vae\_register\_tag()
 # vae\_register\_tag()
 
 Use the `vae_register_tag()` function to register your own
-[VaeML](#vaeml) tag. You define a function that will render your tag and
+[VaeML](/vaeml/) tag. You define a function that will render your tag and
 we will call it when needed by a page.
 
 ## Usage
@@ -70,7 +70,7 @@ named as follows:
     -   `tags` - array of tags nested inside this tag
 
 -   `$context` - the current VaeQL context. Should be used in any calls
-    to [`vae()`](#php_vae) or [`vae_find()`](#php_vae) that you make.
+    to [`vae()`](/php_vae/) or [`vae_find()`](/php_vae/) that you make.
 
 -   `$callback` - array that you can use to save data that will be made
     available to your callback function.
@@ -79,7 +79,7 @@ named as follows:
     rendering context. This should be passed to vae\_render\_tags() if
     you need to call that function.
 
-Use the [vae\_render\_tags()](#php_vae_render_tags) function to render
+Use the [vae\_render\_tags()](/php_vae_render_tags/) function to render
 inner tags.
 
 The return value of this handler function will be used as the rendered
@@ -93,7 +93,7 @@ contains the values stored in `$callback` in the handler function. The
 handler function is always run on callbacks, before the callback tag is
 invoked.
 
-Generally, you will call [vae\_redirect()](#php_vae_redirect) in your
+Generally, you will call [vae\_redirect()](/php_vae_redirect/) in your
 callbacks to direct the visitor somewhere. A common convention is to
 `return vae_redirect($tag['attrs']['redirect']);` at the end of your
 callback. If you return any other value, it will be sent to the browser.

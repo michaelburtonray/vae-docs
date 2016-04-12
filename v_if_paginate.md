@@ -18,7 +18,7 @@ allow you to specify all the other options that are specified in
 `<v:collection>`:
 
 -   `path` - the path to the Vae collection you are paginating. Uses
-    [VaeQL](#vaeql) syntax.
+    [VaeQL](/vaeql/) syntax.
 
 -   `paginate` - number of items to show on one page.
 
@@ -26,7 +26,7 @@ allow you to specify all the other options that are specified in
 
 -   None.
 
-You may provide a [`<v:else>`](#v_else) tag after this tag to specify
+You may provide a [`<v:else>`](/v_else/) tag after this tag to specify
 HTML to render if there is no value set for that path.
 
 ## Sample Usage

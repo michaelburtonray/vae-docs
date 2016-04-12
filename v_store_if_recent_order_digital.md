@@ -16,7 +16,7 @@ None.
 
 None.
 
-You may provide a [`<v:else>`](#v_else) tag after this tag to specify
+You may provide a [`<v:else>`](/v_else/) tag after this tag to specify
 HTML to render if the recent order did not contain digital downloads.
 
 ## Sample Usage

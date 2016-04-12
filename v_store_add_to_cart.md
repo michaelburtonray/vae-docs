@@ -8,7 +8,7 @@ title: "<v:store:add_to_cart>"
 Outputs an HTML form (`<form>` tag) that will add an item to the
 customer's shopping cart.
 
-You may use the [form validation tools](#vaeml_form_validation) provided
+You may use the [form validation tools](/vaeml_form_validation/) provided
 by the Vae form tags to make certain fields required.
 
 ## Required Attributes

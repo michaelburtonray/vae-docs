@@ -15,7 +15,7 @@ stored in a Rich Text structure.
 ## Required Arguments
 
 This function requires the path to a [Rich Text Area
-Structure](#structure.richtext) as its first argument.
+Structure](/structure.richtext/) as its first argument.
 
 ## Optional Arguments
 

@@ -14,7 +14,7 @@ user.
 Everything between the opening and closing tag that is not in another
 Vae tag is used as the body of the link.
 
-Put [`<v:file>`](#v_file) tags inside this tag to include files in the
+Put [`<v:file>`](/v_file/) tags inside this tag to include files in the
 ZIP. Any other interior Vae tags will not be rendered.
 
 ## Required Attributes

@@ -6,13 +6,13 @@ title: "<v:text>"
 # `<v:text>`
 
 Outputs the text associated with a Vae [text
-structure](#structure.text), [text area structure](#structure.textarea),
-or [rich text area](#structure.richtext) structure.
+structure](/structure.text/), [text area structure](/structure.textarea/),
+or [rich text area](/structure.richtext/) structure.
 
 ## Required Attributes
 
 -   `path` - the path to the Vae text structure you wish to output. Uses
-    [VaeQL](#vaeql) syntax.
+    [VaeQL](/vaeql/) syntax.
 
     OR:
 

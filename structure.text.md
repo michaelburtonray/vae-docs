@@ -14,8 +14,8 @@ commonly used.
 
 ---|---
 Common Use Examples:|Title, name, price, weight, E-Mail address, phone number, SKU \#, caption, URL.
-Supported [Validations](#validations):|Presence, numericality, uniqueness, and length.
-Related [VaeML](#vaeml) Tags:|The `<v:text>` tag is commonly used to render data stored in a Text structure.
+Supported [Validations](/validations/):|Presence, numericality, uniqueness, and length.
+Related [VaeML](/vaeml/) Tags:|The `<v:text>` tag is commonly used to render data stored in a Text structure.
 
 ## Backstage Look and Feel
 

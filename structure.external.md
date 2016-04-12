@@ -17,5 +17,5 @@ websites is part of our solution to this challenge.
 
 ---|---
 Common Use Examples:|WordPress login, Merchant Account link
-Supported [Validations](#validations):|None.
-Related [VaeML](#vaeml) Tags:|None.
+Supported [Validations](/validations/):|None.
+Related [VaeML](/vaeml/) Tags:|None.

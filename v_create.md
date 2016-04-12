@@ -13,13 +13,13 @@ to post content, such as comments.
 ## Required Attributes
 
 -   `path` - the path to the Vae collection to insert an entry into.
-    Uses [VaeQL](#vaeql) syntax.
+    Uses [VaeQL](/vaeql/) syntax.
 
 ## Optional Attributes
 
 -   `formmail` - set to an E-Mail address and all the data from the form
     will be E-Mail address specified. This uses the same mechanism as
-    the [`<v:formmail>`](#v_formmail) tag.
+    the [`<v:formmail>`](/v_formmail/) tag.
 
 -   `from` - if using the `formmail` attribute, specify a value here and
     we will make the E-Mail that is sent come from this address.
@@ -30,7 +30,7 @@ to post content, such as comments.
     it came from the person who sent the form.
 
 -   `newsletter` - supply a [newsletter
-    code](#backstage.newsletter.list) here and the user will
+    code](/backstage.newsletter.list/) here and the user will
     automatically be subscribed to that newsletter when submitting
     the form. This assumes that the form asks for the user's E-Mail
     address in the parameter named `e_mail_address`. To change this, set
@@ -48,7 +48,7 @@ to post content, such as comments.
     once the create form is submitted.
 
 -   You may use any attributes that are accepted by the
-    [`<v:form>`](#v_form) tag.
+    [`<v:form>`](/v_form/) tag.
 
 ## Sample Usage
 

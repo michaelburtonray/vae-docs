@@ -9,8 +9,8 @@ Creates a HTML form that will send an E-Mail when the form is submitted.
 The E-Mail will contain all of the information posted to the form. The
 `<v:formmail>` will take the place of a `<form>` tag in your HTML.
 Inside the opening and closing `<v:formmail>` tags, you should put at
-least one [`<v:text_field>`](#v_text_field) or
-[`<v:text_area>`](#v_text_area) tag and a submit button.
+least one [`<v:text_field>`](/v_text_field/) or
+[`<v:text_area>`](/v_text_area/) tag and a submit button.
 
 ## Required Attributes
 
@@ -37,7 +37,7 @@ least one [`<v:text_field>`](#v_text_field) or
     the E-Mail look like it came from the person who sent the form.
 
 -   `newsletter` - supply a [newsletter
-    code](#backstage.newsletter.list) here and the user will
+    code](/backstage.newsletter.list/) here and the user will
     automatically be subscribed to that newsletter when submitting
     the form. This assumes that the form asks for the user's E-Mail
     address in the parameter named `e_mail_address`. To change this, set
@@ -57,7 +57,7 @@ least one [`<v:text_field>`](#v_text_field) or
     specified `<div>` container.
 
 -   You may use any attributes that are accepted by the
-    [`<v:form>`](#v_form) tag.
+    [`<v:form>`](/v_form/) tag.
 
 If you want to build a form that is E-Mailed to different addresses
 based on the selection of a radio button or select box, simply name that

@@ -12,7 +12,7 @@ page. A sign in page will most likely provide a couple of options: sign
 into their account and retrieve their saved information, or continue
 through the checkout process as a "Guest." Here is an example of the
 markup for a page which accomplishes this. The main tag to notice is
-Vae's [`<v:store:login>`](#v_store_login) tag, which handles all the
+Vae's [`<v:store:login>`](/v_store_login/) tag, which handles all the
 work of verifying a user's login information.
 
 {% highlight html %}
@@ -51,7 +51,7 @@ work of verifying a user's login information.
  <a href='/forgot'>I Forgot My Password</a>
 {% endhighlight %}
 
-Creating [`<v:text_field>`](#v_text_field) tags with path values
+Creating [`<v:text_field>`](/v_text_field/) tags with path values
 `"password"` and `"e_mail_address"` is necessary to create a functional
 login. Vae always keys off of the user's email address; there is no need
 for them to remember a username.

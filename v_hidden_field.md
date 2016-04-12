@@ -15,7 +15,7 @@ input.
 ## Required Attributes
 
 -   `path` - the path to the Vae item this input pertains to. Uses
-    [VaeQL](#vaeql) syntax. If provided, the `name` parameter will be
+    [VaeQL](/vaeql/) syntax. If provided, the `name` parameter will be
     set to this as well, and the value will be retrieved from this path.
 
 OR:

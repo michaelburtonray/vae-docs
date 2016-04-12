@@ -5,7 +5,7 @@ title: Adding Products to the Shopping Cart
 
 # Adding Products to the Shopping Cart
 
-Using the [`<v:store:add_to_cart>`](#v_store_add_to_cart) tag in your
+Using the [`<v:store:add_to_cart>`](/v_store_add_to_cart/) tag in your
 website will allow you to display an item to the customer that they will
 then be able to add to their shopping cart. Let's look at an example
 snippet of code that utilizes this tag.
@@ -24,9 +24,9 @@ $<v:text path="price" />
 This assumes we are in the context of an "Items" Collection (or "Things"
 Collection, or whatever it might be called), meaning we would use this
 code either on a page that displays an Item, or within
-[`<v:collection>`](#v_collection) tags that loop through the Items
+[`<v:collection>`](/v_collection/) tags that loop through the Items
 Collection. As you can see, by specifying the values of the
-[`<v:store:add_to_cart>`](#) attributes (such as `name_field`) to the
+[`<v:store:add_to_cart>`](//) attributes (such as `name_field`) to the
 appropriate Substructures in our Item Structure, Vae sends the necessary
 information about an Item to the user's Cart. In this example, our Cart
 page is called Cart.html (or .haml, or .php), so we are redirecting to
@@ -35,7 +35,7 @@ page is called Cart.html (or .haml, or .php), so we are redirecting to
 But what if we want to integrate "styles", as we discussed previously?
 To do so, render a select menu with the options for your styles, and add
 `options_collection="`\[name of "style" Collection name.\]`"` to your
-[`<v:store:add_to_cart>`](#v_store_add_to_cart) tag. Let's do an example
+[`<v:store:add_to_cart>`](/v_store_add_to_cart/) tag. Let's do an example
 with a style Collection called "sizes".
 
 {% highlight html %}

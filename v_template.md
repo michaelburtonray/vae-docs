@@ -10,7 +10,7 @@ current page. Useful for breaking repeated code segments, such as
 layouts, headers, and footers, off into their own own file(s).
 
 The template file being included may include one or more
-[`<v:yield>`](#v_yield) tags. You may nest zero or more `<v:fragment>`
+[`<v:yield>`](/v_yield/) tags. You may nest zero or more `<v:fragment>`
 tags inside this tag to create named fragments of HTML code that will be
 rendered at difference places in the template.
 

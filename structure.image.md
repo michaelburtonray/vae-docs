@@ -11,8 +11,8 @@ specifications that you need.
 
 ---|---
 Common Use Examples:|Photos, Backgrounds
-Supported [Validations](#validations):|None.
-Related [VaeML](#vaeml) Tags:|The `<v:img>` tag is used to render an image stored in an Image structure.
+Supported [Validations](/validations/):|None.
+Related [VaeML](/vaeml/) Tags:|The `<v:img>` tag is used to render an image stored in an Image structure.
 
 ## Backstage Look and Feel
 

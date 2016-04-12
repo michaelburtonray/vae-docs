@@ -33,7 +33,7 @@ readfile("image.jpg");
 {% endhighlight %}
 
 If our file contained some combination of characters that happen to form
-some VaeML—for example, [`<v->`](#v_shortcuts)—we'd be in trouble. Using
+some VaeML—for example, [`<v->`](/v_shortcuts/)—we'd be in trouble. Using
 `vae_disable_vaeml()` in this situation would save you from any
 unexpected errors:
 

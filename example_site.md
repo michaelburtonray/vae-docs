@@ -86,15 +86,15 @@ ever forget your FTP info, you can find it the Vae / FTP tab.
 #### Adding VaeML
 
 One of the most important tags to get acquainted with Vae is the
-[`<v:collection>`](#v_collection) tag. It allows you to iterate through
+[`<v:collection>`](/v_collection/) tag. It allows you to iterate through
 an entire collection, rendering the requested contents of every entry in
-the Collection. Once you are within a [`<v:collection>`](#v_collection)
+the Collection. Once you are within a [`<v:collection>`](/v_collection/)
 tag, you can operate in that context. For example, in the picture, we
 are iterating through the Artists collection. For each Artist, we will
 print out that Artist's Name and Biography.
 
 Additionally, we will link to that Artist's individual Artist page using
-the [`<v:a>`](#v_a) tag. Setting the [`<v:a>`](#v_a) tag's href value to
+the [`<v:a>`](/v_a/) tag. Setting the [`<v:a>`](/v_a/) tag's href value to
 "artist" will actually render a hyperlink with the href value of
 "artist" and the current item's ID and title appended to it. Through the
 magic of Vae, we can then create one single `artist.html` page, which
@@ -198,13 +198,13 @@ along with a cart and checkout page. No problem! To the bottom of our
 
 So now our CD listings sport a nice Add to Basket button, which will
 take us to the `cart.html` page, once we create it. We're utilizing the
-the [`<v:store:add_to_cart>`](#v_store_add_to_cart) tag to create the
+the [`<v:store:add_to_cart>`](/v_store_add_to_cart/) tag to create the
 add to cart form. The attributes we specified -- `inventory_field`,
 `name_field`, `price_field`, and `weight_field` -- are Child Structures
 we setup in the Backstage under the CD Structure. An explanation for
 each can be found in the
-[`<v:store:add_to_cart>`](#v_store_add_to_cart)documented. They are all
-[Text](#structure.text) Structures. Here's the rendered page:
+[`<v:store:add_to_cart>`](/v_store_add_to_cart/)documented. They are all
+[Text](/structure.text/) Structures. Here's the rendered page:
 
 ![](/images/screenshots/example_site/vaeml_output_cdhtml_addtocart.png)
 
@@ -248,8 +248,8 @@ code for us to view all the items in our cart.
  </v:store:cart>
 {% endhighlight %}
 
-We're making use of the [`<v:store:cart>`](#v_store_cart) and
-[`<v:store:cart:items>`](#v_store_cart_items) in this example, to
+We're making use of the [`<v:store:cart>`](/v_store_cart/) and
+[`<v:store:cart:items>`](/v_store_cart_items/) in this example, to
 display all the items we've added to our cart, and allow the user to
 modify the contents of their cart:
 
@@ -359,7 +359,7 @@ information.
  </v:store:register>
 {% endhighlight %}
 
-Here we're making use of the [`<v:store:register>`](#v_store_register)
+Here we're making use of the [`<v:store:register>`](/v_store_register/)
 tag to create our registration form:
 
 ![](/images/screenshots/example_site/vaeml_output_registerhtml.png)
@@ -367,7 +367,7 @@ tag to create our registration form:
 After registering their information, we'll then take the user to a
 standard checkout page. Here's the code for the top of the page, where
 we'll list out the items that the user is purchasing, using the
-[`<v:store:cart:items>`](#v_store_cart_items) tag.
+[`<v:store:cart:items>`](/v_store_cart_items/) tag.
 
 {% highlight html %}
 <h2>Checkout:</h2>
@@ -416,7 +416,7 @@ we'll list out the items that the user is purchasing, using the
 {% endhighlight %}
 
 Next we'll display the shipping select menu, using the
-[`<v:store:shipping_methods_select>`](#v_store_shipping_methods_select)
+[`<v:store:shipping_methods_select>`](/v_store_shipping_methods_select/)
 tag.
 
 {% highlight html %}
@@ -438,7 +438,7 @@ tag.
 {% endhighlight %}
 
 Next we'll have the user confirm their shipping/billing information.
-We'll use the [`<v:store:user>`](#v_store_user) tag to do this.
+We'll use the [`<v:store:user>`](/v_store_user/) tag to do this.
 
 {% highlight html %}
  <h3>Review Shipping and Billing Information: <a href="register.html">(edit)</a></h3>
@@ -535,8 +535,8 @@ We'll use the [`<v:store:user>`](#v_store_user) tag to do this.
   </table>
 {% endhighlight %}
 
-Finally, we'll utilize [`<v:store:checkout>`](#v_store_checkout) and
-[`<v:store:if_credit_card>`](#v_store_if_credit_card) to provide an
+Finally, we'll utilize [`<v:store:checkout>`](/v_store_checkout/) and
+[`<v:store:if_credit_card>`](/v_store_if_credit_card/) to provide an
 entry form for users to input their credit card information.
 
 {% highlight html %}

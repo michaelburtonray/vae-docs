@@ -6,7 +6,7 @@ title: "<v:store:payment_methods_select>"
 # `<v:store:payment_methods_select>`
 
 Outputs an HTML select input field (`<select>` tag) prepopulated with a
-list of acceptable [payment methods](#ecommerce.merchant_account) as
+list of acceptable [payment methods](/ecommerce.merchant_account/) as
 options. The current payment method will be selected.
 
 This tag will automatically refresh the current page `onchange`. It does

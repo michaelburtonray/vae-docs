@@ -14,7 +14,7 @@ None.
 
 ## Optional Attributes
 
-You may provide a [`<v:else>`](#v_else) tag after this tag to specify
+You may provide a [`<v:else>`](/v_else/) tag after this tag to specify
 HTML to render if there is no tax due.
 
 ## Sample Usage

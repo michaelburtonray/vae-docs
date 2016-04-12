@@ -12,7 +12,7 @@ link or prompt a user to download a file.
 ## Required Attributes
 
 -   `path` - the path to the Vae file or image. Uses
-    [VaeQL](#vaeql) syntax.
+    [VaeQL](/vaeql/) syntax.
 
 ## Optional Attributes
 

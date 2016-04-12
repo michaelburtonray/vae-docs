@@ -12,7 +12,7 @@ prompt a user to download a processed image.
 ## Required Attributes
 
 -   `path` - the path to the Vae image structure you wish to render.
-    Uses [VaeQL](#vaeql) syntax.
+    Uses [VaeQL](/vaeql/) syntax.
 
 ## Optional Attributes
 

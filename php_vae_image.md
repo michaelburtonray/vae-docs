@@ -9,7 +9,7 @@ Use the `vae_image()` or `vae_sizedimage()` function to generate a URL
 for an image uploaded through Vae. The value returned by these functions
 is typically used within the `src=` attribute of an `<img>` tag. The URL
 is returned relative to the Vae data URL, which you can retrieve using
-the [`vae_data_url()`](#php_vae_data_url) function.
+the [`vae_data_url()`](/php_vae_data_url/) function.
 
 Currently, returned URLs do not contain slashes, however, this is not
 guaranteed, and may change in the future.

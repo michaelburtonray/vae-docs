@@ -31,7 +31,7 @@ section called `Homepage Gallery` would be `homepage_gallery`. And the
 default VaeQL name for a root-level collection called `Projects` would
 simply be `projects`.
 
-For example, this chunk of [VaeML](#vaeml) would display the names of
+For example, this chunk of [VaeML](/vaeml/) would display the names of
 all the projects:
 
 {% highlight html %}
@@ -93,7 +93,7 @@ bit):
 
 Generally, the default context is the top level of your data hierarchy.
 However, if the request parameter `$id` is set, the page was accessed
-via a [Permalink](#permalinks), or if an ID is provided in the path to
+via a [Permalink](/permalinks/), or if an ID is provided in the path to
 the page, the default context will be set to the item with that ID.
 Linking with `<v:a>` automatically generates links in this form. So for
 example, this code in `projects.html` would generate links that have the
@@ -280,8 +280,8 @@ association to the current agent – which is the case here.
 
 ## VaeQL Notes
 
-Although we use [VaeML](#vaeml) for all these examples, the syntax is
-the same in our [PHP integration API](#php). The only difference is that
+Although we use [VaeML](/vaeml/) for all these examples, the syntax is
+the same in our [PHP integration API](/php/). The only difference is that
 `vae()` or `vae_find()` are not aware of context.
 
 ### Differences from XPath 1.0

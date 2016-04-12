@@ -11,8 +11,8 @@ to allow association with.
 
 ---|---
 Common Use Examples:|Author Name (references an Authors collection), Category (references a Categories collection)
-Supported [Validations](#validations):|None.
-Related [VaeML](#vaeml) Tags:|None.
+Supported [Validations](/validations/):|None.
+Related [VaeML](/vaeml/) Tags:|None.
 
 When accessing the value in VaeML, you can use VaeQL to obtain the
 values of child structures of the associated entry, as if it were an

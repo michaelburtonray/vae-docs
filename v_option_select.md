@@ -28,7 +28,7 @@ This is commonly used to implement item options on stores.
     with `<v:store:add_to_cart>`, this should be set to `options`.
 
 -   `path` - path to the collection holding the entries to use to
-    populate the select boxes. Uses [VaeQL](#vaeql) syntax.
+    populate the select boxes. Uses [VaeQL](/vaeql/) syntax.
 
 ## Optional Attributes
 

@@ -13,7 +13,7 @@ to change passwords or edit content.
 ## Required Attributes
 
 -   `path` - the path to the Vae entry being modified. Uses
-    [VaeQL](#vaeql) syntax.
+    [VaeQL](/vaeql/) syntax.
 
 ## Optional Attributes
 
@@ -21,7 +21,7 @@ to change passwords or edit content.
     once the update form is submitted.
 
 -   You may use any attributes that are accepted by the
-    [`<v:form>`](#v_form) tag.
+    [`<v:form>`](/v_form/) tag.
 
 ## Sample Usage
 

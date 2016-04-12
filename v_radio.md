@@ -10,13 +10,13 @@ Outputs an HTML radio input field (`<input type="radio">` tag).
 When used in conjunction with other Vae tags that generate HTML forms,
 the field will intelligently populate itself with data if data exists in
 the current working path that matches the `path` attribute for this
-input. Additionally, [form validation](#vaeml_form_validation) can be
+input. Additionally, [form validation](/vaeml_form_validation/) can be
 run on the client and server end.
 
 ## Required Attributes
 
 -   `path` - the path to the Vae item this input pertains to. Uses
-    [VaeQL](#vaeql) syntax. If provided, the `name` parameter will be
+    [VaeQL](/vaeql/) syntax. If provided, the `name` parameter will be
     set to this as well, and the value will be retrieved from this path.
 
 OR:

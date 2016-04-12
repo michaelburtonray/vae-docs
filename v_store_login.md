@@ -7,7 +7,7 @@ title: "<v:store:login>"
 
 Outputs an HTML form (`<form>` tag) that when submitted will log
 customers into your website using the registration database maintained
-in the [Customers tab](#backstage.customers). Customes can register
+in the [Customers tab](/backstage.customers/). Customes can register
 using the `<v:store:register>` tag.
 
 ## Required Attributes

@@ -14,7 +14,7 @@ follow these SEO best-practices.
 
 An important thing for SEO is to have clean looking URLs that contain
 the relevant keywords for a given page. Vae makes this very easy to
-accomplish through its [Permalink](#permalinks) mechanism. However, Vae
+accomplish through its [Permalink](/permalinks/) mechanism. However, Vae
 also offers some features that allow even non-permalink URLs to be made
 clean.
 

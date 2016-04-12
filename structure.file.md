@@ -11,8 +11,8 @@ disk usage amount.
 
 ---|---
 Common Use Examples:|Attachments (PDF, high res photo, etc)
-Supported [Validations](#validations):|None.
-Related [VaeML](#vaeml) Tags:|The `<v:file>` tag allows downloading files stored in a File structure.
+Supported [Validations](/validations/):|None.
+Related [VaeML](/vaeml/) Tags:|The `<v:file>` tag allows downloading files stored in a File structure.
 
 ## Backstage Look and Feel
 

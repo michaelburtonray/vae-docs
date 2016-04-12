@@ -7,7 +7,7 @@ title: "<v:store:item:price>"
 
 Displays the price of an item, factoring in discounts that are applied
 via the Vae Discounts tab or locally to the item by a discount
-structure. If a [display currency](#v_store_currency_select) has been
+structure. If a [display currency](/v_store_currency_select/) has been
 set, this tag will also convert the price to the display currency.
 
 ## Required Attributes

@@ -15,7 +15,7 @@ idea of flashing a message at the user, and it is not at all related to
 Adobe Flash (although Adobe Flash works great on Vae too).
 
 If you do not include this tag on a page, these messages will be
-displayed before any [Vae forms](#v_form).
+displayed before any [Vae forms](/v_form/).
 
 ## Required Attributes
 

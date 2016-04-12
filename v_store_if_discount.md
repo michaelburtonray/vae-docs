@@ -19,7 +19,7 @@ None.
     value provided. This is useful for providing copy or instructions
     related to certain types of discounts.
 
-You may provide a [`<v:else>`](#v_else) tag after this tag to specify
+You may provide a [`<v:else>`](/v_else/) tag after this tag to specify
 HTML to render if the user is not receiving a discount.
 
 ## Sample Usage

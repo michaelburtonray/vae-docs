@@ -6,7 +6,7 @@ title: "<v:nested_divider>"
 # `<v:nested_divider>`
 
 This tag is used to insert HTML code between or around the hierarchy
-levels in the [`<v:nested_collection>`](#v_nested_collection) tag. There
+levels in the [`<v:nested_collection>`](/v_nested_collection/) tag. There
 are 2 ways to use this tag. If the tag contains a `<v:yield>` tag, the
 contents of this tag will wrap each level in the tree, with the
 `<v:yield>` tag denoting where the rendered HTML from each entry will
@@ -19,14 +19,14 @@ pass in the `every` attribute to specify how often the divider should be
 displayed.
 
 Note that you may include multiple `<v:nested_divider>` within a
-[`<v:nested_collection>`](#v_nested_collection) tag The individual
+[`<v:nested_collection>`](/v_nested_collection/) tag The individual
 `<v:nested_divider>` tags may have different values for the `every`
 attribute.
 
 > **Warning**
 >
 > This tag only works inside of a
-> [`<v:nested_collection>`](#v_nested_collection) tag.
+> [`<v:nested_collection>`](/v_nested_collection/) tag.
 
 ## Required Attributes
 

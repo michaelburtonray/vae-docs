@@ -10,11 +10,11 @@ context at render-time.
 
 The variable `$context` will be set to a PHP array containing the
 contents of the current context. This is the same array that you would
-have gotten back if you had called [`vae_find()`](#) on the current
+have gotten back if you had called [`vae_find()`](//) on the current
 context's ID. The variable `$id` will be set to the ID of the current
 context.
 
-The [VaeML shortcut](#v_shortcuts) `<v? ?>` provides a shorter way of
+The [VaeML shortcut](/v_shortcuts/) `<v? ?>` provides a shorter way of
 writing this tag.
 
 To write output to the page, you should `return` whatever you want

@@ -26,7 +26,7 @@ tab or locally to the item by a discount structure.
 
 None.
 
-You may provide a [`<v:else>`](#v_else) tag after this tag to specify
+You may provide a [`<v:else>`](/v_else/) tag after this tag to specify
 HTML to render if the user has not elected to display the prices on the
 site in a different currency.
 

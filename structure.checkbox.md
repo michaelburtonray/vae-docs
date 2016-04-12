@@ -20,8 +20,8 @@ elements, or anywhere else where a yes or no choice makes sense.
 
 ---|---
 Common Use Examples:|Any yes-or-no option.
-Supported [Validations](#validations):|None.
-Related [VaeML](#vaeml) Tags:|The `<v:if>` tag is commonly used to selectively render a page fragment if an option is enabled.
+Supported [Validations](/validations/):|None.
+Related [VaeML](/vaeml/) Tags:|The `<v:if>` tag is commonly used to selectively render a page fragment if an option is enabled.
 
 ## Backstage Look and Feel
 

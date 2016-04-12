@@ -47,7 +47,7 @@ One of the following:
     must be equal to this value for the condition to be considered true
     and the contents rendered.
 
-You may provide a [`<v:else>`](#v_else) tag after this tag to specify
+You may provide a [`<v:else>`](/v_else/) tag after this tag to specify
 HTML to render if there is no value set for that path.
 
 ## Sample Usage

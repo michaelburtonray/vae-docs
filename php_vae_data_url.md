@@ -7,8 +7,8 @@ title: vae\_data\_url()
 
 Use the `vae_data_url()` function to retrieve the URL prefix for images,
 files and videos uploaded to Vae and accessed via the
-[`vae_file()`](#php_vae_file), [`vae_image()`](#php_vae_image), or
-[`vae_video() functions`](#php_vae_video).
+[`vae_file()`](/php_vae_file/), [`vae_image()`](/php_vae_image/), or
+[`vae_video() functions`](/php_vae_video/).
 
 ## Usage
 

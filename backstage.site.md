@@ -15,7 +15,7 @@ content is published.
 The Content Management tab is the place where you create and manage the
 Structures that hold content on your website. To get a better
 understanding of what structures are, and how they work, please see
-[Content Management](#content_management) section of the Vae Guide for
+[Content Management](/content_management/) section of the Vae Guide for
 Developers.
 
 ### Structures
@@ -48,9 +48,9 @@ Clicking a superstructure will reload the Structures navigation box to
 show that structure's child structures, while hiding other structures.
 It will also load the Structure Properties form for that structure onto
 the right side of the screen. From there, you can [make changes to the
-structure](#backstage.site.content_management.properties), [run
+structure](/backstage.site.content_management.properties/), [run
 operations on the
-structure](#backstage.site.content_management.operations), remove the
+structure](/backstage.site.content_management.operations/), remove the
 structure. Clicking Website will bring you back to the root-level
 display.
 
@@ -76,13 +76,13 @@ This will bring up a form titled Select a Structure to Add.
 > be brought up automatically when you navigate to the Content
 > Management subtab.
 
-At root-level, you may only create [superstructures](#superstructures)
-(including the [External](#structure.external) structure). To create a
+At root-level, you may only create [superstructures](/superstructures/)
+(including the [External](/structure.external/) structure). To create a
 Collection, Section, or External structure, simply click the button on
 the left of the form that says Collection, Section, or External. This
 will load the Structure Properties box. Then proceed with the steps
 under the [Structure
-Properties](#backstage.site.content_management.properties) section of
+Properties](/backstage.site.content_management.properties/) section of
 the guide.
 
 #### Prefab Structures
@@ -112,7 +112,7 @@ Structure Properties box:
 ![](/images/screenshots/content_management/newsletter_prefab.png)
 
 Then proceed with the steps under the [Structure
-Properties](#backstage.site.content_management.properties) section of
+Properties](/backstage.site.content_management.properties/) section of
 the guide.
 
 ### Creating Child Structures
@@ -132,7 +132,7 @@ Collections can be nested an arbitrary number of levels deep.
 To add a structure simply click the button on the form that corresponds
 to the structure you wish to add. This will load the Structure
 Properties box. Then proceed with the steps under the [Structure
-Properties](#backstage.site.content_management.properties) section of
+Properties](/backstage.site.content_management.properties/) section of
 the guide.
 
 ### Structure Properties
@@ -275,7 +275,7 @@ they are not available in all situations:
     creating collections that will only be interacted with
     programatically, or for collections that will be used with the
     [Newsletter VaeML integration
-    method](#backstage.newsletter.templates).
+    method](/backstage.newsletter.templates/).
 
 -   Hint - A Hint is a reminder that will appear next to the field when
     adding or editing content in the Backstage's Content tab. Often used
@@ -292,19 +292,19 @@ they are not available in all situations:
     collection in the Content tab.
 
 -   Require a value? - If checked, a require a value
-    [validation](#validations) will be created for this field.
+    [validation](/validations/) will be created for this field.
 
 -   Require a numeric value? - If checked, a require numeric
-    [validation](#validations) will be created for this field.
+    [validation](/validations/) will be created for this field.
 
 -   Require a unique value? - If checked, a require uniqueness
-    [validation](#validations) will be created for this field.
+    [validation](/validations/) will be created for this field.
 
 -   Minimum length - If specified, a minimum length
-    [validation](#validations) will be created for this field.
+    [validation](/validations/) will be created for this field.
 
 -   Maximum length - If specified, a maximum length
-    [validation](#validations) will be created for this field.
+    [validation](/validations/) will be created for this field.
 
 -   Associated Collections \[Association (single) and
     Association (multi) only \] - For Association structures, this
