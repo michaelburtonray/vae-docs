@@ -37,7 +37,7 @@ least one [`<v:text_field>`](/v_text_field/) or
     the E-Mail look like it came from the person who sent the form.
 
 -   `newsletter` - supply a [newsletter
-    code](/backstage.newsletter.list/) here and the user will
+    code](/backstage.newsletter/) here and the user will
     automatically be subscribed to that newsletter when submitting
     the form. This assumes that the form asks for the user's E-Mail
     address in the parameter named `e_mail_address`. To change this, set

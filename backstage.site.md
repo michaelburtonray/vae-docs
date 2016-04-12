@@ -275,7 +275,7 @@ they are not available in all situations:
     creating collections that will only be interacted with
     programatically, or for collections that will be used with the
     [Newsletter VaeML integration
-    method](/backstage.newsletter.templates/).
+    method](/backstage.newsletter/).
 
 -   Hint - A Hint is a reminder that will appear next to the field when
     adding or editing content in the Backstage's Content tab. Often used

@@ -31,7 +31,7 @@ by the Vae form tags to make certain fields required.
     it came from the person who sent the form.
 
 -   `newsletter` - supply a [newsletter
-    code](/backstage.newsletter.list/) here and the user will
+    code](/backstage.newsletter/) here and the user will
     automatically be subscribed to that newsletter when registering.
 
 -   `newsletter_confirm` - if specified, the user will only be

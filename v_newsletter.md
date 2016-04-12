@@ -6,14 +6,14 @@ title: "<v:newsletter>"
 # `<v:newsletter>`
 
 Creates a HTML form to subscribe a visitor to one of your Vae
-[newsletter lists](/backstage.newsletter.list/).
+[newsletter lists](/backstage.newsletter/).
 
 Inside the opening and closing `<v:newsletter>` tags, you should put a
 `<v:text_field path="e_mail_address" />`.
 
 ## Required Attributes
 
--   `code` - code for the [newsletter list](/backstage.newsletter.list/)
+-   `code` - code for the [newsletter list](/backstage.newsletter/)
     to send the submission to.
 
 ## Optional Attributes
