@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:facebook_like>"
+title: "&lt;v:facebook_like&gt;"
 ---
 
 # `<v:facebook_like>`

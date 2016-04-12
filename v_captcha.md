@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:captcha>"
+title: "&lt;v:captcha&gt;"
 ---
 
 # `<v:captcha>`

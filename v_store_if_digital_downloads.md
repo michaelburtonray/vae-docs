@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:if_digital_downloads>"
+title: "&lt;v:store:if_digital_downloads&gt;"
 ---
 
 # `<v:store:if_digital_downloads>`

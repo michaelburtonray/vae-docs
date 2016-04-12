@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:address_delete>"
+title: "&lt;v:store:address_delete&gt;"
 ---
 
 # `<v:store:address_delete>`

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:text>"
+title: "&lt;v:text&gt;"
 ---
 
 # `<v:text>`

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:repeat>"
+title: "&lt;v:repeat&gt;"
 ---
 
 # `<v:repeat>`

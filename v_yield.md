@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:yield>"
+title: "&lt;v:yield&gt;"
 ---
 
 # `<v:yield>`

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:site_seal>"
+title: "&lt;v:site_seal&gt;"
 ---
 
 # `<v:site_seal>`

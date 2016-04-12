@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:else>"
+title: "&lt;v:else&gt;"
 ---
 
 # `<v:else>`

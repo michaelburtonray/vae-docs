@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:country_select>"
+title: "&lt;v:country_select&gt;"
 ---
 
 # `<v:country_select>`

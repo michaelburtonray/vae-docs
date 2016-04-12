@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:cart:items>"
+title: "&lt;v:store:cart:items&gt;"
 ---
 
 # `<v:store:cart:items>`

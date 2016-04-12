@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:update>"
+title: "&lt;v:update&gt;"
 ---
 
 # `<v:update>`

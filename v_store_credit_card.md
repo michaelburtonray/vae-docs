@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:credit_card>"
+title: "&lt;v:store:credit_card&gt;"
 ---
 
 # `<v:store:credit_card>`

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:formmail>"
+title: "&lt;v:formmail&gt;"
 ---
 
 # `<v:formmail>`

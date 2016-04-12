@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:if_time>"
+title: "&lt;v:if_time&gt;"
 ---
 
 # `<v:if_time>`

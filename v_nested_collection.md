@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:nested_collection>"
+title: "&lt;v:nested_collection&gt;"
 ---
 
 # `<v:nested_collection>`

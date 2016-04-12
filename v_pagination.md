@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:pagination>"
+title: "&lt;v:pagination&gt;"
 ---
 
 # `<v:pagination>`

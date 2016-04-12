@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:create>"
+title: "&lt;v:create&gt;"
 ---
 
 # `<v:create>`

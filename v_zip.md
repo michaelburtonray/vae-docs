@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:zip>"
+title: "&lt;v:zip&gt;"
 ---
 
 # `<v:zip>`

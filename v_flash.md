@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:flash>"
+title: "&lt;v:flash&gt;"
 ---
 
 # `<v:flash>`

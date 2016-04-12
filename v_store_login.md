@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:login>"
+title: "&lt;v:store:login&gt;"
 ---
 
 # `<v:store:login>`

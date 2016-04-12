@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:if_shippable>"
+title: "&lt;v:store:if_shippable&gt;"
 ---
 
 # `<v:store:if_shippable>`

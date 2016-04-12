@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:cdn>"
+title: "&lt;v:cdn&gt;"
 ---
 
 # `<v:cdn>`

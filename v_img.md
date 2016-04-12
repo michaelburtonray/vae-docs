@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:img>"
+title: "&lt;v:img&gt;"
 ---
 
 # `<v:img>`

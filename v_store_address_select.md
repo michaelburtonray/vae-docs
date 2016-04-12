@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:address_select>"
+title: "&lt;v:store:address_select&gt;"
 ---
 
 # `<v:store:address_select>`

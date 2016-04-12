@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:shipping_methods_select>"
+title: "&lt;v:store:shipping_methods_select&gt;"
 ---
 
 # `<v:store:shipping_methods_select>`

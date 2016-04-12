@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:debug>"
+title: "&lt;v:debug&gt;"
 ---
 
 # `<v:debug>`

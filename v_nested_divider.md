@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:nested_divider>"
+title: "&lt;v:nested_divider&gt;"
 ---
 
 # `<v:nested_divider>`

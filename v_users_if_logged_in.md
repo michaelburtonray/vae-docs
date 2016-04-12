@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:users:if_logged_in>"
+title: "&lt;v:users:if_logged_in&gt;"
 ---
 
 # `<v:users:if_logged_in>`

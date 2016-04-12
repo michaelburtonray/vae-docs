@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:paypal_express_checkout>"
+title: "&lt;v:store:paypal_express_checkout&gt;"
 ---
 
 # `<v:store:paypal_express_checkout>`

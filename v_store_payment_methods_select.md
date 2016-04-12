@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:payment_methods_select>"
+title: "&lt;v:store:payment_methods_select&gt;"
 ---
 
 # `<v:store:payment_methods_select>`

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:if_tax>"
+title: "&lt;v:store:if_tax&gt;"
 ---
 
 # `<v:store:if_tax>`

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:users:register>"
+title: "&lt;v:users:register&gt;"
 ---
 
 # `<v:users:register>`

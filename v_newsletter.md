@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:newsletter>"
+title: "&lt;v:newsletter&gt;"
 ---
 
 # `<v:newsletter>`

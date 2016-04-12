@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:if_logged_in>"
+title: "&lt;v:store:if_logged_in&gt;"
 ---
 
 # `<v:store:if_logged_in>`

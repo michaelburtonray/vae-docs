@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:recent_order_items>"
+title: "&lt;v:store:recent_order_items&gt;"
 ---
 
 # `<v:store:recent_order_items>`

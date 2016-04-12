@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:template>"
+title: "&lt;v:template&gt;"
 ---
 
 # `<v:template>`

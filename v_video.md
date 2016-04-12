@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:video>"
+title: "&lt;v:video&gt;"
 ---
 
 # `<v:video>`

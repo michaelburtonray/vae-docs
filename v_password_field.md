@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:password_field>"
+title: "&lt;v:password_field&gt;"
 ---
 
 # `<v:password_field>`

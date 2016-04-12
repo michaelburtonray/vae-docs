@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:hidden_field>"
+title: "&lt;v:hidden_field&gt;"
 ---
 
 # `<v:hidden_field>`

@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:session_dump>"
+title: "&lt;v:session_dump&gt;"
 ---
 
 # `<v:session_dump>`

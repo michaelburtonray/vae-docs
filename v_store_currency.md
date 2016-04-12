@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "<v:store:currency>"
+title: "&lt;v:store:currency&gt;"
 ---
 
 # `<v:store:currency>`
