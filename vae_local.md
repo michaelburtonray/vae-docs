@@ -123,10 +123,10 @@ Environment, please see the section below for more detailed commands.
 Make sure that you have checked in all local files before running this
 command. If you are using branching folders inside your Subversion
 repository, make sure that you have properly set the active branch in
-the [Site &gt; FTP/Subversion tab](/backstage.site.ftp/).
+the [Site &gt; FTP/Subversion tab](/backstage.site/).
 
 You can also deploy from Subversion to your webspace directly on the
-[Site &gt; FTP/Subversion tab](/backstage.site.ftp/).
+[Site &gt; FTP/Subversion tab](/backstage.site/).
 
 ### Vae Production Environment
 

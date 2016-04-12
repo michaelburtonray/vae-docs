@@ -48,9 +48,9 @@ Clicking a superstructure will reload the Structures navigation box to
 show that structure's child structures, while hiding other structures.
 It will also load the Structure Properties form for that structure onto
 the right side of the screen. From there, you can [make changes to the
-structure](/backstage.site.content_management.properties/), [run
+structure](/backstage.site/), [run
 operations on the
-structure](/backstage.site.content_management.operations/), remove the
+structure](/backstage.site/), remove the
 structure. Clicking Website will bring you back to the root-level
 display.
 
@@ -82,7 +82,7 @@ Collection, Section, or External structure, simply click the button on
 the left of the form that says Collection, Section, or External. This
 will load the Structure Properties box. Then proceed with the steps
 under the [Structure
-Properties](/backstage.site.content_management.properties/) section of
+Properties](/backstage.site/) section of
 the guide.
 
 #### Prefab Structures
@@ -112,7 +112,7 @@ Structure Properties box:
 ![](/images/screenshots/content_management/newsletter_prefab.png)
 
 Then proceed with the steps under the [Structure
-Properties](/backstage.site.content_management.properties/) section of
+Properties](/backstage.site/) section of
 the guide.
 
 ### Creating Child Structures
@@ -132,7 +132,7 @@ Collections can be nested an arbitrary number of levels deep.
 To add a structure simply click the button on the form that corresponds
 to the structure you wish to add. This will load the Structure
 Properties box. Then proceed with the steps under the [Structure
-Properties](/backstage.site.content_management.properties/) section of
+Properties](/backstage.site/) section of
 the guide.
 
 ### Structure Properties

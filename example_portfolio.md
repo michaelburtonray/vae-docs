@@ -189,7 +189,7 @@ Lastly, we've filled-out our `Contact Information` Section:
 
 The next step for us is creating a website using this content. Using the
 FTP information obtained from when we first logged in (or from the [FTP
-Subtab](/backstage.site.ftp/)), we'll code up an index page. We'll make
+Subtab](/backstage.site/)), we'll code up an index page. We'll make
 the index page minimalist, and link to Erin's Landscape and Architecture
 photos. Here's our code:
 

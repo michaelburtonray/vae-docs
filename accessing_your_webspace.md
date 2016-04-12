@@ -7,7 +7,7 @@ title: Accessing Your Webspace
 
 Every Vae account comes with webspace. By default, your website will be
 made available at `http://<accountname>.vaesite.com/`. You may also
-[point a domain name to your webspace](/backstage.site.domains/).
+[point a domain name to your webspace](/backstage.site/).
 
 To publish files to your webspace, you may use Git, Subversion, or FTP. We do not
 support any other method of direct access, such as SFTP, WebDav,
@@ -58,7 +58,7 @@ responsibility to commit these files to Subversion.
 
 If you plan to use branching in Subversion, please check out the
 documentation for the [Site &gt; FTP/Subversion
-tab](/backstage.site.ftp/) for information on how to tell Vae which
+tab](/backstage.site/) for information on how to tell Vae which
 branch is the active branch that should be deployed.
 
 For more information on Subversion, please see the [Subversion
