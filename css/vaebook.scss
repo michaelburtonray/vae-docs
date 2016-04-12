@@ -35,8 +35,88 @@
 
 @import 'highlight';
 
-
 /****/
+
+#documentation {
+	background:#f7f7f7 url(http://www.vaeplatform.com/images-o/bg-document.png) repeat-x 0 0;
+	padding-top:40px;
+	padding-bottom: 40px;
+}
+
+.sidebar {
+	float:left;
+	width:264px;
+}
+
+.sidebar h3 {
+  background: url(http://www.vaeplatform.com/images-o/doc-sidebar-top.png) no-repeat 0 0;
+	width:264px;
+	height:53px;
+	line-height:52px;
+	padding-left:15px;
+	font-size:1.6em;
+	color:#fff;
+	font-family:'DR';
+	text-shadow: 1px 2px 0px rgba(0,0,0,0.3);
+	filter: dropshadow(color=#333333, offx=0, offy=1);
+}
+
+.sidebar h4 {
+	line-height:40px;
+	padding-left:20px;
+	font-size:1.4em;
+	color:#3c383c;
+	font-family:'DM';
+	background:#edeced;
+}
+
+.sidebar .box {
+	background: url(http://www.vaeplatform.com/images-o/doc-sidebar-bg.png) repeat-y 0 0;
+}
+
+.sidebar .btm {
+	background: url(http://www.vaeplatform.com/images-o/doc-sidebar-btm.png) no-repeat 0 100%;
+	padding:0 4px 5px 0;
+}
+
+.sidebar li {
+	font-family:'DR';
+	font-size:1.25em;
+	border-bottom:1px solid #e4e4e4;
+}
+
+.sidebar li:hover, .sidebar li.active {
+	background: url(http://www.vaeplatform.com/images-o/doc-sidebar-active.png) repeat-x 0 100%;
+}
+
+.sidebar li a {
+	background: url(http://www.vaeplatform.com/images-o/icons/icon-doc-sidebar.png) no-repeat 18px -86px;
+	padding-left:42px;
+	padding-top: 1px;
+	line-height: 36px;
+	color:#817d88;
+	text-decoration:none;
+	display:block;
+}
+
+.sidebar li a:hover, .sidebar li.active a {
+	color:#fff;
+	text-decoration:none;
+	background-position: 18px -128px ;
+}
+
+.sidebar li a span {
+	display:block;
+	padding-right:42px;
+}
+
+.sidebar li.plus a span {
+	background: url(http://www.vaeplatform.com/images-o/icons/icon-doc-sidebar.png) no-repeat 95% 11px;
+}
+
+.sidebar .content-text {
+  padding: 15px;
+}
 
 .sidebar {
   margin-bottom: 25px;
@@ -49,13 +129,13 @@
   font-family:'DSReg';
 }
 
+.sidebar li a:hover, .sidebar li.active a {
+  background-color: #201f23;
+}
+
 .sidebar li.parent a {
   background-color: #f8f8f8;
   font-size: 0.95em;
-}
-
-.sidebar li a:hover, .sidebar li.active a {
-  background-color: #201f23;
 }
 
 .sidebar li.up a {
@@ -77,8 +157,27 @@
 #documentation {
   padding-bottom: 0px;
 }
+
 #doc-content {
+	float:right;
+	width:640px;
   padding-bottom: 0px;
+}
+
+#doc-content h2 {
+	background: url(http://www.vaeplatform.com/images-o/icons/icon-guide.png) no-repeat 0 50%;
+	line-height:48px;
+	padding-left:34px;
+	color:#000;
+	font-family:'DM';
+	font-size:1.8em;
+	margin-bottom:20px;
+	text-shadow:0 1px 0 #fff;
+}
+
+#doc-content h2 strong {
+	font-family:'DB';
+	font-size:1.1em;
 }
 
 #main {
@@ -122,60 +221,6 @@
 }
 .pagenav .next {
   float: right;
-}
-
-.toc {
-  background-color: #555;
-  color: #fff;
-  overflow: hidden;
-  width: 200px;
-}
-.toc .tocinside {
-  border-bottom: 1px solid #111;
-  padding-bottom: 8px;
-}
-.toc a {
-  background-color: #555;
-  color: #fff;
-  display: block;
-  font-size: 0.9em;
-  line-height: 1.1em;
-  padding: 5px 10px 5px 20px;
-  text-decoration: none;
-}
-.toc a.haschildren {
-  background-image: url(/include/images/arrow_white_down.gif);
-  background-position: 174px 52%;
-  background-repeat: no-repeat;
-  padding-right: 36px;
-}
-.toc a.haschildren:hover {
-  background-image: url(/include/images/arrow_black_down.gif);
-}
-.toc a.next {
-  background: #dbdbdb;
-  color: #666;
-  font-size: 0.8em;
-  padding: 8px 10px;
-}
-.toc a.parent {
-  background-color: #757779;
-  font-size: 1.0em;
-  padding: 10px 10px;
-}
-.toc a.up, .toc div.up {
-  background-color: #303234;
-  font-size: 1.1em;
-  margin-bottom: 6px;
-  padding: 10px 10px;
-}
-.toc a:hover {
-  background-color: #faec31;
-  color: #000;
-}
-.toc a.current {
-  background-color: #37393a;
-  color: #fff;
 }
 
 /* Stylize the actual text */
