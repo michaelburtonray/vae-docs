@@ -48,7 +48,3 @@ We used to support another function called `vae_register_func()` to
 register a function that could be used in VaeQL, but it is no longer
 necessary. All PHP functions are now made available to VaeQL
 automatically.
-
-We list a few other functions here that are useful when building Vae
-extensions: `vae_flash()`, which displays a message on the next page,
-and `vae_render_tags()`, which renders the tags inside your VaeML tag.

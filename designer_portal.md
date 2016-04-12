@@ -27,7 +27,7 @@ progran, please call our sales department at (800) ATN-VERB, extension
 > Portal welcome E-Mail. You can also contact our designer support
 > department at (800) ATN-VERB, extension 2.
 
-# Websites
+## Websites
 
 The Websites tab is the area of the Designer Portal where you can
 provision websites and log in to your existing websites.
@@ -83,7 +83,7 @@ already be showing on your page. The fields are as follows:
     We have plans in the future to expand the power of this feature to
     allow designers to select which aspects of a website will be cloned.
 
-# Account
+## Account
 
 The Account tab is the area of the Designer Portal where you can edit
 your Designer Portal account details. On this screen you can change your
