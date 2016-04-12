@@ -10,6 +10,7 @@ jQuery.fn.swapWith = function(to) {
 
 $(function() {
   $("tr:even").addClass("stripe");
+
   $('img').each(function() {
     if ($(this).attr("src").match(/screenshot/)) {
       prev = $(this).parent().prev();
@@ -25,4 +26,15 @@ $(function() {
     img = $(this).find("img");
     $(this).attr("href", img.attr("src"));
   }).lightBox();
+
+  var activeChild = $('.child-link.active').closest('li');
+  if (activeChild.length) {
+    var prevLink = activeChild.prev('.child-item');
+    var nextLink = activeChild.next('.child-item');
+
+    if (prevLink.length) $('.pagenav .prev').attr('href', prevLink.find('a').attr('href')).show().find('span').text(prevLink.find('a').text().substr(2));
+    if (nextLink.length) $('.pagenav .next').attr('href', nextLink.find('a').attr('href')).show().find('span').text(nextLink.find('a').text().substr(2));
+
+    $('.pagenav').show();
+  }
 });
