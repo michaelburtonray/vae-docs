@@ -3,8 +3,6 @@ sections:
 - title: About Vae
   slug: ''
   child_items:
-  - title: Getting Started
-    slug: ''
   - title: "No Assumptions, No Hacking"
     slug: no_hacking
   - title: Separation of Content and Layout
@@ -29,7 +27,7 @@ sections:
   - title: Validations
     slug: validations
 - title: Structure Type Reference
-  slug: structures
+  slug: structure.collection
   child_items:
   - title: Collection
     slug: structure.collection
@@ -604,18 +602,16 @@ sections:
               <h3>Vae Guide</h3>
               <ul>
                 {% for section in page.sections %}
-                <li>
-                  <a href="/{{ section.slug }}{% if section.slug != '' %}/{% endif %}">
-                    {{ section.title }}
-                  </a>
+                  <li class="parent">
+                    <a href="/{{ section.slug }}{% if section.slug != '' %}/{% endif %}">
+                      {{ section.title }}
+                    </a>
+                  </li>
                   {% if section.child_items %}
-                  <ul>
                     {% for child in section.child_items %}
-                    <li><a href="/{{ child.slug }}{% if child.slug != '' %}/{% endif %}">{{ child.title }}</a></li>
+                    <li class="child"><a href="/{{ child.slug }}{% if child.slug != '' %}/{% endif %}">{{ child.title }}</a></li>
                     {% endfor %}
-                  </ul>
                   {% endif %}
-                </li>
                 {% endfor %}
               </ul>
             </div>

@@ -83,6 +83,13 @@
 	font-family:'DR';
 	font-size:1.25em;
 	border-bottom:1px solid #e4e4e4;
+  background: #f8f8f8;
+}
+
+.sidebar li.child {
+  display: none;
+  font-size: 1.05em;
+  background: #fff;
 }
 
 .sidebar li:hover, .sidebar li.active {
@@ -129,23 +136,13 @@
   font-family:'DSReg';
 }
 
-.sidebar li a:hover, .sidebar li.active a {
-  background-color: #201f23;
-}
-
-.sidebar li.parent a {
-  background-color: #f8f8f8;
-  font-size: 0.95em;
-}
-
-.sidebar li.up a {
+.sidebar li.up {
   background: #666 !important;
   border-bottom: 3px solid #e0c300;
-  color: #fff;
+  color: #fff !important;
 }
-
-.sidebar li li {
-  font-size: 0.9em;
+.sidebar li.up a {
+  color: #fff;
 }
 
 .content-text {
