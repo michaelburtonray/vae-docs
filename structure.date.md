@@ -12,13 +12,10 @@ selection.
 By default, the Date Structure will be pre-populated with the current
 date when adding a new entry.
 
-  ---------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Common Use Examples:                     Blog Post date, News Entry date, Date of an Event
-  Supported [Validations](#validations):   Presence.
-  Related [VaeML](#vaeml) Tags:            The `<v:text>` tag is commonly used to render data stored in a Date structure. The `strftime=` attribute on `<v:text>` allows you to customize the date formatting.
-  ---------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-  : Fast Facts About the Date structure
+---|---
+Common Use Examples:|Blog Post date, News Entry date, Date of an Event
+Supported [Validations](#validations):|Presence.
+Related [VaeML](#vaeml) Tags:|The `<v:text>` tag is commonly used to render data stored in a Date structure. The `strftime=` attribute on `<v:text>` allows you to customize the date formatting.
 
 ## Backstage Look and Feel
 

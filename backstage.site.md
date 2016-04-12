@@ -92,39 +92,18 @@ these prefab structures is just a shortcut—they are no different from
 what you would get if you created these structures manually yourself—but
 using these premade structures might save you from some tedium.
 
-  ------- ----------------------------------------------------------------
-  Blog    A Collection containing Text structure `Title`, Date structure
-          `Date`, and Rich Text structure `Body`.
+Here are the available Prefab structures:
 
-  Calenda A Collection containing Date structure `Event Date`, Text
-  r       structure `Event Name`, and Text Area structure `Description`.
-  Dates   
-
-  Content A Collection containing Text structure `Title` and Rich Text
-  Pages   structure `Content`.
-
-  Links   A Collection containing Text structure `Link Name` and Text
-  Page    structure `URL`.
-
-  Login   A Collection containing Text structure `Username` and Password
-  Area    structure `Password`.
-
-  Photo   A Collection containing Image structure `Photo` and Text
-  Gallery structure `Caption`.
-
-  Press/R A Collection containing Textstructure `Publication Name`, Text
-  eviews  structure `Publication Date`, Image structure `Cover Image`,
-          Image structure `Inside Image`, and Text Area structure `Text`.
-
-  Store   A Collection containing Text structure `Name`, Text structure
-          `Price`, Text structure `Inventory`, Text structure `Weight`,
-          and Image structure `Image`.
-
-  Video   A Collection containing Video structure `Video` and Text
-  Gallery structure `Text`.
-  ------- ----------------------------------------------------------------
-
-  : The Available Prefab Structures
+---|---
+Blog|A Collection containing Text structure `Title`, Date structure `Date`, and Rich Text structure `Body`.
+Calendar Dates|A Collection containing Date structure `Event Date`, Text structure `Event Name`, and Text Area structure `Description`.
+Content Pages|A Collection containing Text structure `Title` and Rich Text structure `Content`.
+Links Page|A Collection containing Text structure `Link Name` and Text structure `URL`.
+Login Area|A Collection containing Text structure `Username` and Password structure `Password`.
+Photo Gallery|A Collection containing Image structure `Photo` and Text structure `Caption`.
+Press/Reviews|A Collection containing Textstructure `Publication Name`, Text structure `Publication Date`, Image structure `Cover Image`, Image structure `Inside Image`, and Text Area structure `Text`.
+Store|A Collection containing Text structure `Name`, Text structure `Price`, Text structure `Inventory`, Text structure `Weight`, and Image structure `Image`.
+Video Gallery|A Collection containing Video structure `Video` and Text structure `Text`.
 
 To create a Prefab structure, simply click the button that says the name
 of the prefab structure you would like to create. This will load the

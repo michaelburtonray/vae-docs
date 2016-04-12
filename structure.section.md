@@ -16,12 +16,7 @@ a color structure called `Text             Color`. You could have your
 users upload a background image for their website and set a text color
 that matches.
 
-  ---------------------------------------- ---------------------------------------------------------------------------------------
-  Common Use Examples:                     Homepage, Contact Page, Thought of the Day, Overall Settings
-  Supported [Validations](#validations):   None.
-  Related [VaeML](#vaeml) Tags:            The `<v:section>` tag renders contained code in the context of the specified Section.
-  ---------------------------------------- ---------------------------------------------------------------------------------------
-
-  : Fast Facts About the Section superstructure
-
-
+---|---
+Common Use Examples:|Homepage, Contact Page, Thought of the Day, Overall Settings
+Supported [Validations](#validations):|None.
+Related [VaeML](#vaeml) Tags:|The `<v:section>` tag renders contained code in the context of the specified Section.

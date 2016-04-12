@@ -14,13 +14,10 @@ have information about each artist signed to the label. In Vae, we'd
 create an `Artists` collection with child structures called `Name`,
 `Bio`, and `Photo`.
 
-  ---------------------------------------- ---------------------------------------------------------------------------------
-  Common Use Examples:                     News Posts, Items, Links, Press Entries, Stockists
-  Supported [Validations](#validations):   None.
-  Related [VaeML](#vaeml) Tags:            The `<v:collection>` tag allows iterating through each entry in the collection.
-  ---------------------------------------- ---------------------------------------------------------------------------------
-
-  : Fast Facts About the Collection superstructure
+---|---
+Common Use Examples:|News Posts, Items, Links, Press Entries, Stockists
+Supported [Validations](#validations):|None.
+Related [VaeML](#vaeml) Tags:|The `<v:collection>` tag allows iterating through each entry in the collection.
 
 In the backstage, collections are generally displayed in a [List
 View](#backstage.content.list). In this screenshot, we are viewing the
@@ -41,7 +38,7 @@ Imagine a guitar store -- they might have categories `Guitars`,
 `Basses`, and `Drums`, but want to subdivide `Guitars` into `Acoustic`
 and `Electric`. With a nested collection, this is possible and
 intuitive. They would also be able to go in and further subdivide
-`electric                 guitars` to `6-string` and `12-string`, for
+`electric guitars` to `6-string` and `12-string`, for
 example.
 
 To create a nested collection, check the box Allow nested structures?

@@ -15,12 +15,7 @@ access any non-Vae website. Vae strives to be a system that is simple to
 handoff to any client; allowing designers to store references to other
 websites is part of our solution to this challenge.
 
-  ---------------------------------------- ----------------------------------------
-  Common Use Examples:                     WordPress login, Merchant Account link
-  Supported [Validations](#validations):   None.
-  Related [VaeML](#vaeml) Tags:            None.
-  ---------------------------------------- ----------------------------------------
-
-  : Fast Facts About the External superstructure
-
-
+---|---
+Common Use Examples:|WordPress login, Merchant Account link
+Supported [Validations](#validations):|None.
+Related [VaeML](#vaeml) Tags:|None.

@@ -9,13 +9,10 @@ The Image Structure allows users to upload images in virtually any image
 format. Vae will automatically crop and resize images to the exact
 specifications that you need.
 
-  ---------------------------------------- ----------------------------------------------------------------------------
-  Common Use Examples:                     Photos, Backgrounds
-  Supported [Validations](#validations):   None.
-  Related [VaeML](#vaeml) Tags:            The `<v:img>` tag is used to render an image stored in an Image structure.
-  ---------------------------------------- ----------------------------------------------------------------------------
-
-  : Fast Facts About the Image structure
+---|---
+Common Use Examples:|Photos, Backgrounds
+Supported [Validations](#validations):|None.
+Related [VaeML](#vaeml) Tags:|The `<v:img>` tag is used to render an image stored in an Image structure.
 
 ## Backstage Look and Feel
 
