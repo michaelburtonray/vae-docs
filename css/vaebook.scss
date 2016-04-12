@@ -49,23 +49,29 @@
   font-family:'DSReg';
 }
 
-.sidebar li.parent {
+.sidebar li.parent a {
   background-color: #f8f8f8;
   font-size: 0.95em;
 }
 
-.sidebar li:hover, .sidebar li.active {
+.sidebar li a:hover, .sidebar li.active a {
   background-color: #201f23;
+}
+
+.sidebar li.up a {
+  background: #666 !important;
+  border-bottom: 3px solid #e0c300;
+  color: #fff;
+}
+
+.sidebar li li {
+  font-size: 0.9em;
 }
 
 .content-text {
   font-family:'DSReg';
   font-size:1.2em;
   line-height:1.2em;
-}
-
-.sidebar .child-menu {
-  display: none;
 }
 
 #documentation {
@@ -195,7 +201,7 @@
   margin: 0px 0px 1.25em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p, pre {
   clear: right;
 }
 
