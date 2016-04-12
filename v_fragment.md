@@ -83,6 +83,8 @@ Would render:
 
 In multiple files (or a template file):
 
-    <v:fragment cache="menu">
-     Put your menu here
-    </v:fragment>
+{% highlight html %}
+<v:fragment cache="menu">
+ Put your menu here
+</v:fragment>
+{% endhighlight %}

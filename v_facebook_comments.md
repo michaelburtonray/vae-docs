@@ -37,4 +37,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:facebook_comments appid="12345" paginate="15" width="450" />
+{% highlight html %}
+<v:facebook_comments appid="12345" paginate="15" width="450" />
+{% endhighlight %}

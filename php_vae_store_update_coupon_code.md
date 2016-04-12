@@ -33,15 +33,17 @@ Returns `false` on failure, or `true` on success.
 
 ## Sample Usage
 
-    <?php
-    // Add 10 to the number available of this coupon code
-    $coupon = vae_store_find_coupon_code($code);
-    $return_value = vae_store_update_coupon_code($coupon['id'], array(
-      'number_available' => $coupon['number_available'] + 10
-    ));
-    if ($return_value == false) {
-      echo "FAILURE";
-    } else {
-      echo "SUCCESS";
-    }
-    ?>
+{% highlight php %}
+<?php
+// Add 10 to the number available of this coupon code
+$coupon = vae_store_find_coupon_code($code);
+$return_value = vae_store_update_coupon_code($coupon['id'], array(
+  'number_available' => $coupon['number_available'] + 10
+));
+if ($return_value == false) {
+  echo "FAILURE";
+} else {
+  echo "SUCCESS";
+}
+?>
+{% endhighlight %}

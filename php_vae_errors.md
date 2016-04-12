@@ -20,19 +20,21 @@ can produce errors.
 
 ## Sample Usage
 
-    <?php
-    // Update number of downloads
-    $item = vae_find($_REQUEST['id']);
-    vae_update(
-      $_REQUEST['id'], 
-      array('number_of_downloads' => ($item['number_of_downloads'] + 1))
-    );
-    if ($ret == true) {
-      echo "Success";
-    } else {
-      echo "There were some errors:\n";
-      foreach(vae_errors() as $error) {
-        echo $error . "\n";
-      }
-    }
-    ?>
+{% highlight php %}
+<?php
+// Update number of downloads
+$item = vae_find($_REQUEST['id']);
+vae_update(
+  $_REQUEST['id'], 
+  array('number_of_downloads' => ($item['number_of_downloads'] + 1))
+);
+if ($ret == true) {
+  echo "Success";
+} else {
+  echo "There were some errors:\n";
+  foreach(vae_errors() as $error) {
+    echo $error . "\n";
+  }
+}
+?>
+{% endhighlight %}

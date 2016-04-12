@@ -46,8 +46,10 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:store:add_to_cart redirect="/cart" name_field="name" price_field="price" option_field="size,color" options_collection="sizes" weight_field="weight">
-     Quantity: <v:text_field name="quantity" value="1" />
-     <v:option_select name="options" path="sizes" fields="size,color" />
-     <input type="submit" value="Add to Cart" />
-    </v:store:add_to_cart>
+{% highlight html %}
+<v:store:add_to_cart redirect="/cart" name_field="name" price_field="price" option_field="size,color" options_collection="sizes" weight_field="weight">
+ Quantity: <v:text_field name="quantity" value="1" />
+ <v:option_select name="options" path="sizes" fields="size,color" />
+ <input type="submit" value="Add to Cart" />
+</v:store:add_to_cart>
+{% endhighlight %}

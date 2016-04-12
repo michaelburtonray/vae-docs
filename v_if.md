@@ -82,6 +82,8 @@ Switch based on user input:
 
 Promote special offers:
 
-    <v:if total_items="2">
-     Buy both albums together and use discount code DOUBLE to save 25%!
-    </v:if>
+{% highlight html %}
+<v:if total_items="2">
+ Buy both albums together and use discount code DOUBLE to save 25%!
+</v:if>
+{% endhighlight %}

@@ -77,13 +77,15 @@ the form:
 
 ## Sample Usage
 
-    <v:store:checkout redirect="/order_placed" register_page="/register" shop_page="/">
-     <v:store:credit_card>
-      Please input your credit card information:
-      Credit Card Type: <v:store:credit_card_select name="cc_type" required="true" />
-      Credit Card Number (no spaces or dashes): <v:text_field name="cc_number" maxlength="16" />
-      Expiration Date (mm/yyyy): <v:text_field name="cc_month" maxlength="2" /> / <v:text_field name="cc_year" maxlength="4" />
-      CVV: <v:text_field name="cc_cvv" maxlength="4" />
-     </v:store:credit_card>
-     <input type="submit" value="Checkout" />
-    </v:store:checkout>
+{% highlight html %}
+<v:store:checkout redirect="/order_placed" register_page="/register" shop_page="/">
+ <v:store:credit_card>
+  Please input your credit card information:
+  Credit Card Type: <v:store:credit_card_select name="cc_type" required="true" />
+  Credit Card Number (no spaces or dashes): <v:text_field name="cc_number" maxlength="16" />
+  Expiration Date (mm/yyyy): <v:text_field name="cc_month" maxlength="2" /> / <v:text_field name="cc_year" maxlength="4" />
+  CVV: <v:text_field name="cc_cvv" maxlength="4" />
+ </v:store:credit_card>
+ <input type="submit" value="Checkout" />
+</v:store:checkout>
+{% endhighlight %}

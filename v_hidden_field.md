@@ -37,7 +37,9 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:formmail to="test@domain.org">
-      <v:hidden_field name="from" value="Contact Page" />
-      <input type="submit" />
-    </v:formmail>
+{% highlight html %}
+<v:formmail to="test@domain.org">
+  <v:hidden_field name="from" value="Contact Page" />
+  <input type="submit" />
+</v:formmail>
+{% endhighlight %}

@@ -67,8 +67,10 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <h1>Join Us</h1>
-    <v:form action="/signup.php" ajax="signupArea">
-      Your Name: <v:text_field name="Name" />
-      <input type="submit" />
-    </v:form>
+{% highlight html %}
+<h1>Join Us</h1>
+<v:form action="/signup.php" ajax="signupArea">
+  Your Name: <v:text_field name="Name" />
+  <input type="submit" />
+</v:form>
+{% endhighlight %}

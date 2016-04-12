@@ -61,11 +61,13 @@ Returns `true` on success and `false` on failure.
 
 ## Sample Usage
 
-    <?php 
-    // checkout a user          
-    vae_store_checkout(array(
-      'billing_name' => "Test Tester",
-      'billing_company' => "Action Verb",
-      'e_mail_address' => "test@actionverb.com"
-    ));
-    ?>
+{% highlight php %}
+<?php 
+// checkout a user          
+vae_store_checkout(array(
+  'billing_name' => "Test Tester",
+  'billing_company' => "Action Verb",
+  'e_mail_address' => "test@actionverb.com"
+));
+?>
+{% endhighlight %}

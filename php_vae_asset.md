@@ -27,11 +27,13 @@ cache path.
 
 ## Sample Usage
 
-    <?php
-    // Render the first image in the Biography
-    $bio = vae("bio");
-    preg_match("/<img([^>]*)\/VAE_HOSTED_IMAGE\/([0-9]*)([^>]*)>/", $bio, $matches);
-    $asset_id = $matches[2];
-    $image = vae_asset($asset_id, 320, 240);
-    echo '<img src="' . vae_data_url() . $image . '" alt="First Image Asset from Bio" />';
-    ?>
+{% highlight php %}
+<?php
+// Render the first image in the Biography
+$bio = vae("bio");
+preg_match("/<img([^>]*)\/VAE_HOSTED_IMAGE\/([0-9]*)([^>]*)>/", $bio, $matches);
+$asset_id = $matches[2];
+$image = vae_asset($asset_id, 320, 240);
+echo '<img src="' . vae_data_url() . $image . '" alt="First Image Asset from Bio" />';
+?>
+{% endhighlight %}

@@ -22,9 +22,11 @@ site in a different currency.
 
 ## Sample Usage
 
-    <v:store:if_currency>
-     Although you have been viewing prices in your home currency (<v:store:currency />), 
-     be aware that we process all charges in United States Dollars and the currency 
-     conversion will be handled by your credit card issuing bank.  There may be a 
-     conversion fee or surcharge.
-    </v:store:if_currency>
+{% highlight html %}
+<v:store:if_currency>
+ Although you have been viewing prices in your home currency (<v:store:currency />), 
+ be aware that we process all charges in United States Dollars and the currency 
+ conversion will be handled by your credit card issuing bank.  There may be a 
+ conversion fee or surcharge.
+</v:store:if_currency>
+{% endhighlight %}

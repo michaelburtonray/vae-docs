@@ -22,16 +22,18 @@ None.
 
 ## Sample Usage
 
-    <v:store:addresses>
-     <v:text path="address_type" />
-     <v:text path="name" />
-     <v:text path="company" />
-     <v:text path="address" />
-     <v:text path="address_2" />
-     <v:text path="city" />
-     <v:text path="state" />
-     <v:text path="zip " />
-     <v:text path="country" />
-     <v:text path="phone" />
-     <v:store:address_delete>Delete</v:store:address_delete>
-    </v:store:addresses>
+{% highlight html %}
+<v:store:addresses>
+ <v:text path="address_type" />
+ <v:text path="name" />
+ <v:text path="company" />
+ <v:text path="address" />
+ <v:text path="address_2" />
+ <v:text path="city" />
+ <v:text path="state" />
+ <v:text path="zip " />
+ <v:text path="country" />
+ <v:text path="phone" />
+ <v:store:address_delete>Delete</v:store:address_delete>
+</v:store:addresses>
+{% endhighlight %}

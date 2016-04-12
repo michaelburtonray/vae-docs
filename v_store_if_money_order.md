@@ -21,7 +21,9 @@ HTML to render if the currently selected method is not Money Order.
 
 ## Sample Usage
 
-    <v:store:if_money_order>
-     Your order will not be processed until we receive your Money Order.  
-     We will give you further instructions once you complete the checkout process.
-     </v:store:if_money_order>
+{% highlight html %}
+<v:store:if_money_order>
+ Your order will not be processed until we receive your Money Order.  
+ We will give you further instructions once you complete the checkout process.
+ </v:store:if_money_order>
+{% endhighlight %}

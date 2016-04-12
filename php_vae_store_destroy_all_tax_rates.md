@@ -18,12 +18,14 @@ Returns `false` on failure, or `true` on success.
 
 ## Sample Usage
 
-    <?php
-    // Remove all tax rates
-    $return_value = vae_store_destroy_all_tax_rates();
-    if ($return_value == false) {
-      echo "FAILURE";
-    } else {
-      echo "SUCCESS";
-    }
-    ?>
+{% highlight php %}
+<?php
+// Remove all tax rates
+$return_value = vae_store_destroy_all_tax_rates();
+if ($return_value == false) {
+  echo "FAILURE";
+} else {
+  echo "SUCCESS";
+}
+?>
+{% endhighlight %}

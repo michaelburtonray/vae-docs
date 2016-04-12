@@ -179,8 +179,10 @@ Samples with pagination:
 <v:pagination collection="locations_collection"  />
 {% endhighlight %}
 
-    <v:collection path="locations" paginate="10" previous="previous_link" next="next_link" wrap="true">
-     <p><v:text path="name" /></p>
-    </v:collection>
-    <v:a id="previous_link">Previous Page</v:a>
-    <v:a id="next_link">Next Page</v:a>
+{% highlight html %}
+<v:collection path="locations" paginate="10" previous="previous_link" next="next_link" wrap="true">
+ <p><v:text path="name" /></p>
+</v:collection>
+<v:a id="previous_link">Previous Page</v:a>
+<v:a id="next_link">Next Page</v:a>
+{% endhighlight %}

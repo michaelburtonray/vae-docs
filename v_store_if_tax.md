@@ -19,6 +19,8 @@ HTML to render if there is no tax due.
 
 ## Sample Usage
 
-    <v:store:if_tax>
-     Tax due: $<v:store:cart:tax />
-    </v:store:if_tax>
+{% highlight html %}
+<v:store:if_tax>
+ Tax due: $<v:store:cart:tax />
+</v:store:if_tax>
+{% endhighlight %}

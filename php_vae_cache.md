@@ -43,11 +43,13 @@ your function, depending on whether a cached copy exists.
 
 ## Sample Usage
 
-    <?php
-    // Display Tweets matching this artist's hashtag
-    function tweets() {
-      $artist = vae_find($_REQUEST['id']);
-      return twitter_search($artist['hashtag']);
-    }
-    echo vae_cache("tweets");
-    ?>
+{% highlight php %}
+<?php
+// Display Tweets matching this artist's hashtag
+function tweets() {
+  $artist = vae_find($_REQUEST['id']);
+  return twitter_search($artist['hashtag']);
+}
+echo vae_cache("tweets");
+?>
+{% endhighlight %}

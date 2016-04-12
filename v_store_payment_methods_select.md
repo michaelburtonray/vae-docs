@@ -30,4 +30,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    Current Payment Method: <v:store:payment_methods_select />
+{% highlight html %}
+Current Payment Method: <v:store:payment_methods_select />
+{% endhighlight %}

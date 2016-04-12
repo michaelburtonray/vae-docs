@@ -20,7 +20,9 @@ HTML to render if the currently selected method is not Check.
 
 ## Sample Usage
 
-    <v:store:if_check>
-     Your order will not be processed until we receive your check.  
-     We will give you further instructions once you complete the checkout process.
-    </v:store:if_check>
+{% highlight html %}
+<v:store:if_check>
+ Your order will not be processed until we receive your check.  
+ We will give you further instructions once you complete the checkout process.
+</v:store:if_check>
+{% endhighlight %}

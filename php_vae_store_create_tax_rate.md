@@ -27,17 +27,19 @@ Returns `false` on failure, or `true` on success.
 
 ## Sample Usage
 
-    <?php
-    // Create tax rate
-    $return_value = vae_store_create_tax_rate(array(
-      'description' => "NY 8.375% Tax", 
-      'rate' => "8.375",
-      'include_shipping' => '1',
-      'state' => "NY"
-    )); 
-    if ($return_value == false) {
-      echo "FAILURE";
-    } else {
-      echo "SUCCESS";
-    }
-    ?>
+{% highlight php %}
+<?php
+// Create tax rate
+$return_value = vae_store_create_tax_rate(array(
+  'description' => "NY 8.375% Tax", 
+  'rate' => "8.375",
+  'include_shipping' => '1',
+  'state' => "NY"
+)); 
+if ($return_value == false) {
+  echo "FAILURE";
+} else {
+  echo "SUCCESS";
+}
+?>
+{% endhighlight %}

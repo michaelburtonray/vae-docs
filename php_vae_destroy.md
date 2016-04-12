@@ -21,10 +21,12 @@ you should call `vae_errors()` to return an array of the error messages.
 
 ## Sample Usage
 
-    <?php
-    // destroy specified item
-    $ret = vae_destroy($_REQUEST['id_to_destroy']);
-    if ($ret == true) {
-      echo "Success";
-    }
-    ?>
+{% highlight php %}
+<?php
+// destroy specified item
+$ret = vae_destroy($_REQUEST['id_to_destroy']);
+if ($ret == true) {
+  echo "Success";
+}
+?>
+{% endhighlight %}

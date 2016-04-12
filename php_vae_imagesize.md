@@ -38,6 +38,8 @@ $image_size = vae_imagesize($image_filename);
 echo '<img src="' . $image_filename . '" alt="My Image" />';
 {% endhighlight %}
 
-    // Create a <div> the same size as our image
-    echo '<div style="width: ' . $image_size[0] . '; height: ' . $image_size[1] . ';">My Div</div>';
-    ?>
+{% highlight html %}
+// Create a <div> the same size as our image
+echo '<div style="width: ' . $image_size[0] . '; height: ' . $image_size[1] . ';">My Div</div>';
+?>
+{% endhighlight %}

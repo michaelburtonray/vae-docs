@@ -22,6 +22,8 @@ cart.
 
 ## Sample Usage
 
-    <v:store:if_digital_downloads>
-     Your downloads will be made available once you complete the checkout process.
-    </v:store:if_digital_downloads>
+{% highlight html %}
+<v:store:if_digital_downloads>
+ Your downloads will be made available once you complete the checkout process.
+</v:store:if_digital_downloads>
+{% endhighlight %}

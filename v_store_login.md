@@ -37,8 +37,10 @@ the form:
 
 ## Sample Usage
 
-    <v:store:login redirect="/account" invalid="Login information incorrect.">
-     E-Mail Address: <v:text_field path="e_mail_address" />
-     Password: <v:password_field path="password" />
-    <input type="submit" value="Login" />
-    </v:store:login>
+{% highlight html %}
+<v:store:login redirect="/account" invalid="Login information incorrect.">
+ E-Mail Address: <v:text_field path="e_mail_address" />
+ Password: <v:password_field path="password" />
+<input type="submit" value="Login" />
+</v:store:login>
+{% endhighlight %}

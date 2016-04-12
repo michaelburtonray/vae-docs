@@ -22,9 +22,11 @@ None.
 This code will render the word Meters if the `display_in_metric`
 checkbox is set and the word Feet otherwise.
 
-    <v:if path="display_in_metric">
-     Meters
-    </v:if>
-    <v:else>
-     Feet
-    </v:else>
+{% highlight html %}
+<v:if path="display_in_metric">
+ Meters
+</v:if>
+<v:else>
+ Feet
+</v:else>
+{% endhighlight %}

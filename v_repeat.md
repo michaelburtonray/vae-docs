@@ -33,15 +33,17 @@ this:
 
 It would render as follows:
 
-    <div class="column">
-     <!-- show my links -->
-     <!-- show my links -->
-    </div> 
-    <div class="column">
-     <!-- show my links -->
-     <!-- show my links -->
-    </div>
-    <div class="column">
-     <!-- show my links -->
-     <!-- show my links -->
-    </div>
+{% highlight html %}
+<div class="column">
+ <!-- show my links -->
+ <!-- show my links -->
+</div> 
+<div class="column">
+ <!-- show my links -->
+ <!-- show my links -->
+</div>
+<div class="column">
+ <!-- show my links -->
+ <!-- show my links -->
+</div>
+{% endhighlight %}

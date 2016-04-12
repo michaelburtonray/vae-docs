@@ -31,4 +31,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:gravatar email="<v=email>" default="wavatar" rating="pg" size="128" />
+{% highlight html %}
+<v:gravatar email="<v=email>" default="wavatar" rating="pg" size="128" />
+{% endhighlight %}

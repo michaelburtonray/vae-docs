@@ -30,6 +30,8 @@ render if the user is not logged in.
 
 This will redirect the user to `/login` if they are not logged in.
 
-    <v:users:if_logged_in redirect="/login">
-      You are logged in.
-    </v:users:if_logged_in>
+{% highlight html %}
+<v:users:if_logged_in redirect="/login">
+  You are logged in.
+</v:users:if_logged_in>
+{% endhighlight %}

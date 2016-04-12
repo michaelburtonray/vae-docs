@@ -32,10 +32,12 @@ Filename of the newly generated image with a reflection.
 
 ## Sample Usage
 
-    <?php
-    // Display press photo with reflection effect
-    $bio = vae_find("bio");
-    $image_filename = vae_image($bio['press_photo']);
-    $reflected_image = vae_image_reflect($image_filename, 30, 35);
-    echo '<img src="' . vae_data_url() . $reflected_image . '" alt="My Reflected Image" />';
-    ?>
+{% highlight php %}
+<?php
+// Display press photo with reflection effect
+$bio = vae_find("bio");
+$image_filename = vae_image($bio['press_photo']);
+$reflected_image = vae_image_reflect($image_filename, 30, 35);
+echo '<img src="' . vae_data_url() . $reflected_image . '" alt="My Reflected Image" />';
+?>
+{% endhighlight %}

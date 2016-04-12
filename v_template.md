@@ -97,12 +97,14 @@ In your content file (for example `index.html`):
 
 Would render:
 
-    <html>
-     <head>
-      <title>Features | My Website</title>
-     </head>
-     <body>
-      <h1>My Website</h1>
-      <p>These are the features.</p>
-     </body>
-    </html>
+{% highlight html %}
+<html>
+ <head>
+  <title>Features | My Website</title>
+ </head>
+ <body>
+  <h1>My Website</h1>
+  <p>These are the features.</p>
+ </body>
+</html>
+{% endhighlight %}

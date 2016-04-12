@@ -20,10 +20,12 @@ Returns `true`.
 
 ## Sample Usage
 
-    <?php
-    foreach (vae_store_cart_items() as $cart_id => $item) {
-      if ($item['digital']) {
-        vae_store_remove_from_cart($cart_id);    
-      }
-    }
-    ?>
+{% highlight php %}
+<?php
+foreach (vae_store_cart_items() as $cart_id => $item) {
+  if ($item['digital']) {
+    vae_store_remove_from_cart($cart_id);    
+  }
+}
+?>
+{% endhighlight %}

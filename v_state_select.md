@@ -51,9 +51,11 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:formmail to="test@domain.org">
-      Which state are you from?
-      <v:state_select name="from_state" />
-      <v:country_select name="from_country" />
-      <input type="submit" />
-    </v:formmail>
+{% highlight html %}
+<v:formmail to="test@domain.org">
+  Which state are you from?
+  <v:state_select name="from_state" />
+  <v:country_select name="from_country" />
+  <input type="submit" />
+</v:formmail>
+{% endhighlight %}

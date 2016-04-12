@@ -50,8 +50,10 @@ inside the tag will be part of the generated `<select>` tag.
 
 ## Sample Usage
 
-    <v:formmail to="test@domain.org">
-      How did you hear about us?
-      <v:select name="howhear" options="Internet,Advertisement,Friend,Other" />
-      <input type="submit" />
-    </v:formmail>
+{% highlight html %}
+<v:formmail to="test@domain.org">
+  How did you hear about us?
+  <v:select name="howhear" options="Internet,Advertisement,Friend,Other" />
+  <input type="submit" />
+</v:formmail>
+{% endhighlight %}

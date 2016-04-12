@@ -44,11 +44,13 @@ Returns an associative array of orders that match your finder criteria.
 
 ## Sample Usage
 
-    <?php
-    // Process all unprocessed orders
-    $orders = vae_store_orders(array('status' => 'Ordered', 'fulfilled' => 0));
-    foreach ($orders as $id => $order) {
-      // Process order, then call ...
-      vae_store_update_order($id, array('status' => 'Processing', 'fulfilled' => 1));
-    }
-    ?>
+{% highlight php %}
+<?php
+// Process all unprocessed orders
+$orders = vae_store_orders(array('status' => 'Ordered', 'fulfilled' => 0));
+foreach ($orders as $id => $order) {
+  // Process order, then call ...
+  vae_store_update_order($id, array('status' => 'Processing', 'fulfilled' => 1));
+}
+?>
+{% endhighlight %}

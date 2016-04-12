@@ -18,7 +18,9 @@ This function does not return anything.
 
 ## Sample Usage
 
-    <?php
-    // Remove the currently applied discount code
-    vae_store_clear_discount_code();
-    ?>
+{% highlight php %}
+<?php
+// Remove the currently applied discount code
+vae_store_clear_discount_code();
+?>
+{% endhighlight %}

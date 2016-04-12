@@ -39,17 +39,19 @@ item.
 
 ## Sample Usage
 
-    <?php 
-    // Add the submitted item to the shopping cart
-    vae_store_add_item_to_cart(
-      $_REQUEST['id'], 
-      $_REQUEST['option'], 
-      $_REQUEST['quantity'], 
-      array(
-       'inventory_field' => 'inventory',
-       'name_field' => 'name',
-       'price_field' => 'price',
-       'weight_field' => 'weight'
-      ),
-      $_REQUEST['notes']);
-    ?>
+{% highlight php %}
+<?php 
+// Add the submitted item to the shopping cart
+vae_store_add_item_to_cart(
+  $_REQUEST['id'], 
+  $_REQUEST['option'], 
+  $_REQUEST['quantity'], 
+  array(
+   'inventory_field' => 'inventory',
+   'name_field' => 'name',
+   'price_field' => 'price',
+   'weight_field' => 'weight'
+  ),
+  $_REQUEST['notes']);
+?>
+{% endhighlight %}

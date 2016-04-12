@@ -24,10 +24,12 @@ by the Vae form tags to make certain fields required.
 
 ## Sample Usage
 
-    Register for our website:
-    <v:users:register path="users" redirect="/welcome">
-     Choose a username: <v:text_field path="username" />
-     Choose a password: <v:password_field path="password" />
-     Confirm password: <v:password_field path="confirm_password" />
-     <input type="submit" value="Register" />
-    </v:users:register>
+{% highlight html %}
+Register for our website:
+<v:users:register path="users" redirect="/welcome">
+ Choose a username: <v:text_field path="username" />
+ Choose a password: <v:password_field path="password" />
+ Confirm password: <v:password_field path="confirm_password" />
+ <input type="submit" value="Register" />
+</v:users:register>
+{% endhighlight %}

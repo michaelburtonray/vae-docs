@@ -48,8 +48,10 @@ be passed through unchanged into the generated tag.
 
 ## Sample Usage
 
-    <p>Forgot your password?  Enter your E-Mail address below to reset it:</p>
-    <v:users:forgot email_field="email" path="users" redirect="myaccount.html" required="email">
-      <p>Your E-Mail Address: <v:text_field path="email" /></p>
-      <input type="submit" />
-    </v:users:forgot>
+{% highlight html %}
+<p>Forgot your password?  Enter your E-Mail address below to reset it:</p>
+<v:users:forgot email_field="email" path="users" redirect="myaccount.html" required="email">
+  <p>Your E-Mail Address: <v:text_field path="email" /></p>
+  <input type="submit" />
+</v:users:forgot>
+{% endhighlight %}

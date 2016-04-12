@@ -21,8 +21,10 @@ customer.
 
 ## Sample Usage
 
-    <?php
-    // Fetch a customer by ID
-    $customer = vae_customer($_REQUEST['customer_id']);
-    echo $customer['name']; 
-    ?>
+{% highlight php %}
+<?php
+// Fetch a customer by ID
+$customer = vae_customer($_REQUEST['customer_id']);
+echo $customer['name']; 
+?>
+{% endhighlight %}

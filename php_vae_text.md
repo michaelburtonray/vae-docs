@@ -40,7 +40,9 @@ Filename of the generated image.
 
 ## Sample Usage
 
-    <?php
-    // Render text in the Tahoma font
-    echo '<img src="' . vae_data_url() . vae_text("This text is in Tahoma", "Tahoma", "18", "#FF0000") . '" />';
-    ?>
+{% highlight php %}
+<?php
+// Render text in the Tahoma font
+echo '<img src="' . vae_data_url() . vae_text("This text is in Tahoma", "Tahoma", "18", "#FF0000") . '" />';
+?>
+{% endhighlight %}

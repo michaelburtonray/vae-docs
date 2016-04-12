@@ -42,8 +42,10 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:store:register>
-      Enter your birthdate:
-      <v:date_select name="dob" />
-      <input type="submit" />
-    </v:store:register>
+{% highlight html %}
+<v:store:register>
+  Enter your birthdate:
+  <v:date_select name="dob" />
+  <input type="submit" />
+</v:store:register>
+{% endhighlight %}

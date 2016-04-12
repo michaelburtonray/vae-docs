@@ -219,8 +219,10 @@ function better_formmail_callback($tag) {
 
 Now in your HTML files, you can use:
 
-    <v:better_formmail to="me@email.com" redirect="thanks.html">
-      Enter your name to join our newsletter: 
-      <v:text_field path="name" />
-      <input type="submit" value="Join Newsletter" />
-    </v:better_formmail>
+{% highlight html %}
+<v:better_formmail to="me@email.com" redirect="thanks.html">
+  Enter your name to join our newsletter: 
+  <v:text_field path="name" />
+  <input type="submit" value="Join Newsletter" />
+</v:better_formmail>
+{% endhighlight %}

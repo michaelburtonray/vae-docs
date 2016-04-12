@@ -28,7 +28,9 @@ You may use any attributes that are accepted by the
 
 ## Sample Usage
 
-    <v:newsletter code="12345678" redirect="thanks.html">
-     Your E-Mail Address: <v:text_field path="e_mail_address" />
-     <input type="submit" />
-    </v:newsletter>
+{% highlight html %}
+<v:newsletter code="12345678" redirect="thanks.html">
+ Your E-Mail Address: <v:text_field path="e_mail_address" />
+ <input type="submit" />
+</v:newsletter>
+{% endhighlight %}

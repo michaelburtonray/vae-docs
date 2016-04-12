@@ -23,4 +23,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    Your coupon codes saved you $<v:store:cart:discount />.
+{% highlight html %}
+Your coupon codes saved you $<v:store:cart:discount />.
+{% endhighlight %}

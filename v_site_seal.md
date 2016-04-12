@@ -17,4 +17,6 @@ None.
 
 ## Sample Usage
 
-    <v:site_seal />
+{% highlight html %}
+<v:site_seal />
+{% endhighlight %}

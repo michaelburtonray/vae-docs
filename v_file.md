@@ -32,6 +32,8 @@ passed through unchanged into the generated tag.
 
 ## Sample Usage
 
-    <v:file path="about_us/photo_of_employees" filename="PhotoOfEmployees">
-     Click to download our Photo
-    </v:file>
+{% highlight html %}
+<v:file path="about_us/photo_of_employees" filename="PhotoOfEmployees">
+ Click to download our Photo
+</v:file>
+{% endhighlight %}

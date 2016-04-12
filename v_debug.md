@@ -24,7 +24,9 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:collection path="artists">
-     <!-- display the information in the current artist entry -->
-     <v:debug />
-    </v:collection>
+{% highlight html %}
+<v:collection path="artists">
+ <!-- display the information in the current artist entry -->
+ <v:debug />
+</v:collection>
+{% endhighlight %}

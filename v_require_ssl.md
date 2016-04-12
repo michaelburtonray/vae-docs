@@ -32,4 +32,6 @@ This tag is usually self-closed.
 To ensure that a page is accessed via an SSL connection, add this to the
 source:
 
-    <v:require_ssl />
+{% highlight html %}
+<v:require_ssl />
+{% endhighlight %}

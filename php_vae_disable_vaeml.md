@@ -37,8 +37,10 @@ some VaeML—for example, [`<v->`](/v_shortcuts/)—we'd be in trouble. Using
 `vae_disable_vaeml()` in this situation would save you from any
 unexpected errors:
 
-    <?php 
-    vae_disable_vaeml();
-    Header("Content-type: image/jpeg");
-    readfile("image.jpg");
-    ?>
+{% highlight php %}
+<?php 
+vae_disable_vaeml();
+Header("Content-type: image/jpeg");
+readfile("image.jpg");
+?>
+{% endhighlight %}

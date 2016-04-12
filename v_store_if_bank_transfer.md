@@ -21,7 +21,9 @@ HTML to render if the currently selected method is not Bank Transfer.
 
 ## Sample Usage
 
-    <v:store:if_bank_transfer>
-     Your order will not be processed until we receive your bank transfer.  
-     We will give you further instructions once you complete the checkout process.
-    </v:store:if_bank_transfer>
+{% highlight html %}
+<v:store:if_bank_transfer>
+ Your order will not be processed until we receive your bank transfer.  
+ We will give you further instructions once you complete the checkout process.
+</v:store:if_bank_transfer>
+{% endhighlight %}

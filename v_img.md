@@ -95,4 +95,6 @@ Watermarked:
 
 Filtered:
 
-    <v:img path="about_us/photo_of_employees" image_size="Square" filter="reflect(10%)" />
+{% highlight html %}
+<v:img path="about_us/photo_of_employees" image_size="Square" filter="reflect(10%)" />
+{% endhighlight %}

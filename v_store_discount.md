@@ -38,8 +38,10 @@ the discount code.
 
 ## Sample Usage
 
-    <v:store:discount>
-     If you have a Special Offer Code, enter it here and click Apply:
-     <v:text_field name="discount" />
-     <input type="submit" value="Apply" />
-    </v:store:discount>
+{% highlight html %}
+<v:store:discount>
+ If you have a Special Offer Code, enter it here and click Apply:
+ <v:text_field name="discount" />
+ <input type="submit" value="Apply" />
+</v:store:discount>
+{% endhighlight %}

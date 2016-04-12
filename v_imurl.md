@@ -24,5 +24,7 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    The URL of our Employee Photo is:
-    <v:imurl path="about_us/photo_of_employees" width="320" height="240" />
+{% highlight html %}
+The URL of our Employee Photo is:
+<v:imurl path="about_us/photo_of_employees" width="320" height="240" />
+{% endhighlight %}

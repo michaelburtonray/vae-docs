@@ -45,10 +45,12 @@ Filename of the newly generated watermarked image.
 
 ## Sample Usage
 
-    <?php
-    // Display watermarked version of press photo
-    $bio = vae_find("bio");
-    $image_filename = vae_image($bio['press_photo']);
-    $watermarked_image = vae_watermark($image_filename, "watermarks/my_logo.png", "bottom", "right", 5, 5);
-    echo '<img src=" . vae_data_url() . $watermarked_image . '" alt="My Watermarked Image" />';
-    ?>
+{% highlight php %}
+<?php
+// Display watermarked version of press photo
+$bio = vae_find("bio");
+$image_filename = vae_image($bio['press_photo']);
+$watermarked_image = vae_watermark($image_filename, "watermarks/my_logo.png", "bottom", "right", 5, 5);
+echo '<img src=" . vae_data_url() . $watermarked_image . '" alt="My Watermarked Image" />';
+?>
+{% endhighlight %}

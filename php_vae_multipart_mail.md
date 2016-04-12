@@ -31,9 +31,11 @@ Returns `true`.
 
 ## Sample Usage
 
-    <?php
-    // Send Welcome E-Mail
-    $text = "Hello, thanks for becoming a customer!";
-    $html = "Hello, <b>thanks</b> for becoming a customer!";
-    vae_multipart_mail("My Website <mywebsite@vaeplatform.test>", $email_address, "Welcome to My Website", $text, $html);
-    ?>
+{% highlight php %}
+<?php
+// Send Welcome E-Mail
+$text = "Hello, thanks for becoming a customer!";
+$html = "Hello, <b>thanks</b> for becoming a customer!";
+vae_multipart_mail("My Website <mywebsite@vaeplatform.test>", $email_address, "Welcome to My Website", $text, $html);
+?>
+{% endhighlight %}

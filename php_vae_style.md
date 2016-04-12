@@ -21,8 +21,10 @@ Returns sanitized and processed text.
 
 ## Sample Usage
 
-    <?php
-    // Display cleaned version of Biography
-    $content = vae_find("homepage");
-    echo vae_style($content['bio']); 
-    ?>
+{% highlight php %}
+<?php
+// Display cleaned version of Biography
+$content = vae_find("homepage");
+echo vae_style($content['bio']); 
+?>
+{% endhighlight %}

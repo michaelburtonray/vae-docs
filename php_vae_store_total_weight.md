@@ -25,19 +25,21 @@ Returns `false` on failure, or `true` on success.
 
 ## Sample Usage
 
-    <?php
-    // In __vae.php:
-    // Calculate the exact weight based on what gets ordered
-    vae_register_hook("store:cart:updated", "configure_weights");
-    function configure_weights() {
-      // ...
-      // some magic calculations
-      // ...
-      $return_value = vae_store_total_weight($array_of_box_weights); 
-      if ($return_value == false) {
-        echo "FAILURE";
-      } else {
-        echo "SUCCESS";
-      }
-    }
-    ?>
+{% highlight php %}
+<?php
+// In __vae.php:
+// Calculate the exact weight based on what gets ordered
+vae_register_hook("store:cart:updated", "configure_weights");
+function configure_weights() {
+  // ...
+  // some magic calculations
+  // ...
+  $return_value = vae_store_total_weight($array_of_box_weights); 
+  if ($return_value == false) {
+    echo "FAILURE";
+  } else {
+    echo "SUCCESS";
+  }
+}
+?>
+{% endhighlight %}

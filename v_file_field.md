@@ -38,7 +38,9 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:formmail to="test@domain.org">
-      Upload your resume: <v:file_field name="Resume" />
-      <input type="submit" />
-    </v:formmail>
+{% highlight html %}
+<v:formmail to="test@domain.org">
+  Upload your resume: <v:file_field name="Resume" />
+  <input type="submit" />
+</v:formmail>
+{% endhighlight %}

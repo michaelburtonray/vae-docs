@@ -26,10 +26,12 @@ page for creating coupon codes.
 
 ## Sample Usage
 
-    <?php
-    // Get info about a coupon code
-    $coupon = vae_store_find_coupon_code($code);
-    if ($coupon['fixed_amount']) {
-      echo "This coupon provides a fixed discount of " . $coupon['fixed_amount'];
-    }
-    ?>
+{% highlight php %}
+<?php
+// Get info about a coupon code
+$coupon = vae_store_find_coupon_code($code);
+if ($coupon['fixed_amount']) {
+  echo "This coupon provides a fixed discount of " . $coupon['fixed_amount'];
+}
+?>
+{% endhighlight %}

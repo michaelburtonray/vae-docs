@@ -33,9 +33,11 @@ cache path.
 
 ## Sample Usage
 
-    <?php
-    // Display our bio video in a Flash Player
-    $bio = vae_find("bio");
-    $video_filename = vae_video($bio['video'], "Big");
-    echo '<embed src="video.swf?video=' . vae_data_url() . $video_filename . '" quality="high" bgcolor="#ffffff" width="460" height="345" name="video" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />';
-    ?>        
+{% highlight php %}
+<?php
+// Display our bio video in a Flash Player
+$bio = vae_find("bio");
+$video_filename = vae_video($bio['video'], "Big");
+echo '<embed src="video.swf?video=' . vae_data_url() . $video_filename . '" quality="high" bgcolor="#ffffff" width="460" height="345" name="video" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />';
+?>        
+{% endhighlight %}

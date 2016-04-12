@@ -20,7 +20,9 @@ Returns `true`.
 
 ## Sample Usage
 
-    <?php
-    // Send user back to shop page
-    return vae_redirect("/shop"); 
-    ?>
+{% highlight php %}
+<?php
+// Send user back to shop page
+return vae_redirect("/shop"); 
+?>
+{% endhighlight %}

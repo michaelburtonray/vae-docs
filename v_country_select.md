@@ -48,8 +48,10 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:update>
-      Where are you from?
-      <v:country_select name="country" />
-      <input type="submit" />
-    </v:update>
+{% highlight html %}
+<v:update>
+  Where are you from?
+  <v:country_select name="country" />
+  <input type="submit" />
+</v:update>
+{% endhighlight %}

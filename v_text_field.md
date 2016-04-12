@@ -41,8 +41,10 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:formmail to="test@domain.org">
-      Enter your E-Mail address: 
-      <v:text_field name="email" required="email" />
-      <input type="submit" />
-    </v:formmail>
+{% highlight html %}
+<v:formmail to="test@domain.org">
+  Enter your E-Mail address: 
+  <v:text_field name="email" required="email" />
+  <input type="submit" />
+</v:formmail>
+{% endhighlight %}

@@ -63,11 +63,13 @@ divider that will be shown after a certain number of elements.
 
 ## Sample Usage
 
-    We got your order.  You purchased:
-    <v:store:recent_order_items>
-     Name  : <v:text path="name" />
-     Size  : <v:text path="option_value" />
-     Qty   : <v:text path="qty" />
-     Price : <v:store:item:price />
-     Total : <v:store:item:price price_field="total" />
-    </v:store:recent_order_items>
+{% highlight html %}
+We got your order.  You purchased:
+<v:store:recent_order_items>
+ Name  : <v:text path="name" />
+ Size  : <v:text path="option_value" />
+ Qty   : <v:text path="qty" />
+ Price : <v:store:item:price />
+ Total : <v:store:item:price price_field="total" />
+</v:store:recent_order_items>
+{% endhighlight %}

@@ -45,7 +45,9 @@ This will also work, but this syntax is deprecated as it doesn't allow
 you to specify all the other options that are specified in
 `<v:collection>`:
 
-    <v:if_paginate path="events" paginate="10">
-     Be sure to look on the other pages for more events!
-    </v:if_paginate>
-    <v:else>There are no more events.</v:else>
+{% highlight html %}
+<v:if_paginate path="events" paginate="10">
+ Be sure to look on the other pages for more events!
+</v:if_paginate>
+<v:else>There are no more events.</v:else>
+{% endhighlight %}

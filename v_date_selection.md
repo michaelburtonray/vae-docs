@@ -57,5 +57,7 @@ Would render something like:
 
 Here's how you would then display the post from the selected date range:
 
-    <v:collection path="posts[date=DATE($date)]">
-    </v:collection>
+{% highlight html %}
+<v:collection path="posts[date=DATE($date)]">
+</v:collection>
+{% endhighlight %}

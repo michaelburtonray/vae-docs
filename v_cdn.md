@@ -25,4 +25,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <img src="<v:cdn src="/images/my_image.jpg" />" />
+{% highlight html %}
+<img src="<v:cdn src="/images/my_image.jpg" />" />
+{% endhighlight %}

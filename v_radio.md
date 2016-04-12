@@ -38,9 +38,11 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:formmail to="test@domain.org">
-      What is your inquiry about?
-      <v:radio name="about" value="Sales" />
-      <v:radio name="about" value="Support" />
-      <input type="submit" />
-    </v:formmail>
+{% highlight html %}
+<v:formmail to="test@domain.org">
+  What is your inquiry about?
+  <v:radio name="about" value="Sales" />
+  <v:radio name="about" value="Support" />
+  <input type="submit" />
+</v:formmail>
+{% endhighlight %}

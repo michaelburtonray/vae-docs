@@ -20,11 +20,13 @@ None.
 
 ## Sample Usage
 
-    <v:store:user>
-     Please review your shipping information:
-     Name: <v:text path="shipping_name" /><br />
-     Address: <v:text path="shipping_address" /><v:text path="shipping_address_2" /><br />
-     City: <v:text path="shipping_city" /><br />
-     State: <v:text path="shipping_state" /><br />
-     ZIP: <v:text path="shipping_zip" /><br />
-    </v:store:user>
+{% highlight html %}
+<v:store:user>
+ Please review your shipping information:
+ Name: <v:text path="shipping_name" /><br />
+ Address: <v:text path="shipping_address" /><v:text path="shipping_address_2" /><br />
+ City: <v:text path="shipping_city" /><br />
+ State: <v:text path="shipping_state" /><br />
+ ZIP: <v:text path="shipping_zip" /><br />
+</v:store:user>
+{% endhighlight %}

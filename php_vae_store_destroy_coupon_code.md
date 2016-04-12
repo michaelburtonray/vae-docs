@@ -21,13 +21,15 @@ Returns `false` on failure, or `true` on success.
 
 ## Sample Usage
 
-    <?php
-    // Remove a coupon code
-    $coupon = vae_store_find_coupon_code($code);
-    $return_value = vae_store_destroy_coupon_code($coupon['id']);
-    if ($return_value == false) {
-      echo "FAILURE";
-    } else {
-      echo "SUCCESS";
-    }
-    ?>
+{% highlight php %}
+<?php
+// Remove a coupon code
+$coupon = vae_store_find_coupon_code($code);
+$return_value = vae_store_destroy_coupon_code($coupon['id']);
+if ($return_value == false) {
+  echo "FAILURE";
+} else {
+  echo "SUCCESS";
+}
+?>
+{% endhighlight %}

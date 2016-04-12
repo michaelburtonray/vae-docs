@@ -21,4 +21,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    This order will be shipped via <v:store:shipping_method />.
+{% highlight html %}
+This order will be shipped via <v:store:shipping_method />.
+{% endhighlight %}

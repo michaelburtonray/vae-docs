@@ -19,11 +19,13 @@ shopping cart.
 
 ## Sample Usage
 
-    <?php
-    // Remove all digital items from the cart
-    foreach (vae_store_cart_items() as $cart_id => $item) {
-      if ($item['digital']) {
-        vae_store_remove_from_cart($cart_id);    
-      }
-    }
-    ?>
+{% highlight php %}
+<?php
+// Remove all digital items from the cart
+foreach (vae_store_cart_items() as $cart_id => $item) {
+  if ($item['digital']) {
+    vae_store_remove_from_cart($cart_id);    
+  }
+}
+?>
+{% endhighlight %}

@@ -24,4 +24,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    Your total including shipping, tax, and discounts for all the items in this cart is $<v:store:cart:total />.
+{% highlight html %}
+Your total including shipping, tax, and discounts for all the items in this cart is $<v:store:cart:total />.
+{% endhighlight %}

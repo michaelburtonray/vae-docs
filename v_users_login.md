@@ -35,8 +35,10 @@ be passed through unchanged into the generated tag.
 
 ## Sample Usage
 
-    <v:users:login path="users" redirect-"membersonly.html" required="username,password" invalid="Login information incorrect.">
-     Username: <v:text_field path="username" />
-     Password: <v:password_field path="password" />
-     <input type="submit" value="Login" />
-    </v:users:login>
+{% highlight html %}
+<v:users:login path="users" redirect-"membersonly.html" required="username,password" invalid="Login information incorrect.">
+ Username: <v:text_field path="username" />
+ Password: <v:password_field path="password" />
+ <input type="submit" value="Login" />
+</v:users:login>
+{% endhighlight %}

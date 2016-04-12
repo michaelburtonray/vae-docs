@@ -35,11 +35,13 @@ set, this tag will also convert the price to the display currency.
 
 ## Sample Usage
 
-    <v:store:add_to_cart discount_field="discount" name_field="name" price_field="price">
-     <v:store:item:if_discount>
-      Original Price: 
-      <v:store:item:price before_discount="true" />
-     </v:store:item:if_discount>
-     Price:
-     <v:store:item:price />
-    </v:store:add_to_cart>
+{% highlight html %}
+<v:store:add_to_cart discount_field="discount" name_field="name" price_field="price">
+ <v:store:item:if_discount>
+  Original Price: 
+  <v:store:item:price before_discount="true" />
+ </v:store:item:if_discount>
+ Price:
+ <v:store:item:price />
+</v:store:add_to_cart>
+{% endhighlight %}

@@ -45,8 +45,10 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:update>
-      Do you want to subscribe to our newsletter?
-      <v:checkbox path="newsletter" />
-      <input type="submit" />
-    </v:update>
+{% highlight html %}
+<v:update>
+  Do you want to subscribe to our newsletter?
+  <v:checkbox path="newsletter" />
+  <input type="submit" />
+</v:update>
+{% endhighlight %}

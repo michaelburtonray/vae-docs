@@ -21,6 +21,8 @@ HTML to render if the currently selected method is not Credit Card.
 
 ## Sample Usage
 
-    <v:store:if_credit_card>
-     Please note: We take credit card fraud very seriously and manually inspect all orders.
-    </v:store:if_credit_card>
+{% highlight html %}
+<v:store:if_credit_card>
+ Please note: We take credit card fraud very seriously and manually inspect all orders.
+</v:store:if_credit_card>
+{% endhighlight %}

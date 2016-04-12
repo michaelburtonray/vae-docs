@@ -26,11 +26,13 @@ Returns `false` on failure, otherwise returns `true`.
 
 ## Sample Usage
 
-    <?php 
-    // Set the price of all items in the cart to a random price between $2 and $5.
-    $items = vae_store_cart_items();
-    foreach ($items as $cart_id => $data) {
-      $price = rand(2, 5);
-      vae_store_update_cart_item($cart_id, array('price' => $price, 'total' => $data['qty'] * $price));
-    }
-    ?>
+{% highlight php %}
+<?php 
+// Set the price of all items in the cart to a random price between $2 and $5.
+$items = vae_store_cart_items();
+foreach ($items as $cart_id => $data) {
+  $price = rand(2, 5);
+  vae_store_update_cart_item($cart_id, array('price' => $price, 'total' => $data['qty'] * $price));
+}
+?>
+{% endhighlight %}

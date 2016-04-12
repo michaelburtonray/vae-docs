@@ -21,7 +21,9 @@ HTML to render if the method was not not Check.
 
 ## Sample Usage
 
-    <v:store:if_recent_order_check>
-     Your order will not be processed until we receive your check.  
-     Please mail your check to: 123 Main Street, Anytown, USA.
-    </v:store:if_recent_order_check>
+{% highlight html %}
+<v:store:if_recent_order_check>
+ Your order will not be processed until we receive your check.  
+ Please mail your check to: 123 Main Street, Anytown, USA.
+</v:store:if_recent_order_check>
+{% endhighlight %}

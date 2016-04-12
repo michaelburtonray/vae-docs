@@ -24,9 +24,11 @@ divider that will be shown after a certain number of elements.
 
 ## Sample Usage
 
-    <h1>Your previous orders:</h1>
-    <v:store:previous_orders>
-     <a href="/order?order=<v->">
-      <v:text path="date" /> - $<v:text path="total" />
-     </a>
-    </v:store:previous_orders>
+{% highlight html %}
+<h1>Your previous orders:</h1>
+<v:store:previous_orders>
+ <a href="/order?order=<v->">
+  <v:text path="date" /> - $<v:text path="total" />
+ </a>
+</v:store:previous_orders>
+{% endhighlight %}

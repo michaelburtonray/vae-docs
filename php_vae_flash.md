@@ -31,9 +31,11 @@ Returns `true`.
 
 ## Sample Usage
 
-    <?php
-    if (!my_available_func($_REQUEST['id'])) {
-      vae_flash("Sorry, this item is not available for the time period you requested.", 'err');
-      return false;
-    }
-    ?>
+{% highlight php %}
+<?php
+if (!my_available_func($_REQUEST['id'])) {
+  vae_flash("Sorry, this item is not available for the time period you requested.", 'err');
+  return false;
+}
+?>
+{% endhighlight %}

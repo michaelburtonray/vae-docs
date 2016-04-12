@@ -83,11 +83,13 @@ Returns `true` on success and `false` on failure.
 
 ## Sample Usage
 
-    <?php 
-    // Register a user          
-    vae_store_register(array(
-      'billing_name' => "Test Tester",
-      'billing_company' => "Action Verb",
-      'e_mail_address' => "test@actionverb.com"
-    ));
-    ?>
+{% highlight php %}
+<?php 
+// Register a user          
+vae_store_register(array(
+  'billing_name' => "Test Tester",
+  'billing_company' => "Action Verb",
+  'e_mail_address' => "test@actionverb.com"
+));
+?>
+{% endhighlight %}

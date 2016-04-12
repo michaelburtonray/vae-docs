@@ -63,7 +63,9 @@ page number link.
 
 Would render something like:
 
-    ...
-    <a href="?items_page=1" class="current">1</a> 
-    <a href="?items_page=2">2</a> 
-    <a href="?items_page=3">3</a>
+{% highlight html %}
+...
+<a href="?items_page=1" class="current">1</a> 
+<a href="?items_page=2">2</a> 
+<a href="?items_page=3">3</a>
+{% endhighlight %}

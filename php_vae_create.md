@@ -52,15 +52,17 @@ array of the error messages.
 
 ## Sample Usage
 
-    <?php
-    // Create new comment
-    $ret = vae_create(1001, $_REQUEST['id'], array('comment' => $_REQUEST['comment']));
-    if ($ret == true) {
-      echo "Success";
-    } else {
-      echo "There were some errors:\n";
-      foreach(vae_errors() as $error) {
-        echo $error . "\n";
-      }
-    }
-    ?>
+{% highlight php %}
+<?php
+// Create new comment
+$ret = vae_create(1001, $_REQUEST['id'], array('comment' => $_REQUEST['comment']));
+if ($ret == true) {
+  echo "Success";
+} else {
+  echo "There were some errors:\n";
+  foreach(vae_errors() as $error) {
+    echo $error . "\n";
+  }
+}
+?>
+{% endhighlight %}

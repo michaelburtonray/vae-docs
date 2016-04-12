@@ -34,4 +34,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:flash />
+{% highlight html %}
+<v:flash />
+{% endhighlight %}

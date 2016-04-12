@@ -27,7 +27,9 @@ HTML to render if the method was not not PayPal Express Checkout.
 
 ## Sample Usage
 
-    <v:store:if_recent_order_paypal_express_checkout>
-     Please note: your order is being processed by PayPal.
-     You will receive 2 receipts via E-Mail, one from us and one from PayPal.
-    </v:store:if_recent_order_paypal_express_checkout>
+{% highlight html %}
+<v:store:if_recent_order_paypal_express_checkout>
+ Please note: your order is being processed by PayPal.
+ You will receive 2 receipts via E-Mail, one from us and one from PayPal.
+</v:store:if_recent_order_paypal_express_checkout>
+{% endhighlight %}

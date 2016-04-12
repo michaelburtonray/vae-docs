@@ -54,9 +54,11 @@ to post content, such as comments.
 
 This will render a form that adds a comment to the comments structure:
 
-    <v:create path="comments">
-     Name:    <v:text_field path="name" />
-     E-Mail:  <v:text_field path="email" />
-     Comment: <v:text_area path="comment" />
-     <input type="submit" />
-    </v:create>
+{% highlight html %}
+<v:create path="comments">
+ Name:    <v:text_field path="name" />
+ E-Mail:  <v:text_field path="email" />
+ Comment: <v:text_area path="comment" />
+ <input type="submit" />
+</v:create>
+{% endhighlight %}

@@ -37,4 +37,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    Display prices in this currency: <v:store:currency_select />
+{% highlight html %}
+Display prices in this currency: <v:store:currency_select />
+{% endhighlight %}

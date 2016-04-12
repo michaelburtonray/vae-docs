@@ -23,4 +23,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    Tax due: $<v:store:cart:tax />.
+{% highlight html %}
+Tax due: $<v:store:cart:tax />.
+{% endhighlight %}

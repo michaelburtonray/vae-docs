@@ -57,8 +57,10 @@ List all categories (including children) without hierarchy:
 
 List all categories in a hierarchical list:
 
-    <v:nested_collection path="categories">
-     <v:text path="name" />
-     <v:divider><li><v:yield /></li></v:divider>
-     <v:nested_divider><ul><v:yield /></ul></v:nested_divider>
-    </v:collection>
+{% highlight html %}
+<v:nested_collection path="categories">
+ <v:text path="name" />
+ <v:divider><li><v:yield /></li></v:divider>
+ <v:nested_divider><ul><v:yield /></ul></v:nested_divider>
+</v:collection>
+{% endhighlight %}

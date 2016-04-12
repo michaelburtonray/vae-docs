@@ -29,7 +29,9 @@ HTML to render if the time is outside the specified range.
 
 ## Sample Usage
 
-    <v:if_time before="4/12/2010 23:59:59">
-     It is 4/12 or earlier!
-    </v:if_time>
-    <v:else>It is 4/13 or after!/v:else>
+{% highlight html %}
+<v:if_time before="4/12/2010 23:59:59">
+ It is 4/12 or earlier!
+</v:if_time>
+<v:else>It is 4/13 or after!/v:else>
+{% endhighlight %}

@@ -174,6 +174,8 @@ Loading pages in via AJAX:
 </v:collection>
 {% endhighlight %}
 
-    <div id="location_area" style="display: none;">
-     <!-- pages will load here -->
-    </div>
+{% highlight html %}
+<div id="location_area" style="display: none;">
+ <!-- pages will load here -->
+</div>
+{% endhighlight %}

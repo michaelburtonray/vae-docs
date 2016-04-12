@@ -28,4 +28,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:store:paypal_express_checkout redirect="/checkout" />
+{% highlight html %}
+<v:store:paypal_express_checkout redirect="/checkout" />
+{% endhighlight %}

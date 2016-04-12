@@ -30,5 +30,7 @@ ID passed in via the request parameter `id`. If that parameter is not
 provided, it will output the text in the `name` structure of the item
 with ID `75`:
 
-    <v:set_default name="id" value="75" />
-    <v:text path="$id/name" />
+{% highlight html %}
+<v:set_default name="id" value="75" />
+<v:text path="$id/name" />
+{% endhighlight %}

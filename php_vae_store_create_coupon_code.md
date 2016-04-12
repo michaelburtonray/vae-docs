@@ -29,17 +29,19 @@ Returns `false` on failure, or `true` on success.
 
 ## Sample Usage
 
-    <?php
-    // Create coupon code
-    $return_value = vae_store_create_coupon_code(array(
-      'code' => $voucher_code, 
-      'description' => "$" . $amount . " Voucher, " . $order['billing_name'], 
-      'number_available' => 1, 
-      'fixed_amount' => $amount
-    )); 
-    if ($return_value == false) {
-      echo "FAILURE";
-    } else {
-      echo "SUCCESS";
-    }
-    ?>
+{% highlight php %}
+<?php
+// Create coupon code
+$return_value = vae_store_create_coupon_code(array(
+  'code' => $voucher_code, 
+  'description' => "$" . $amount . " Voucher, " . $order['billing_name'], 
+  'number_available' => 1, 
+  'fixed_amount' => $amount
+)); 
+if ($return_value == false) {
+  echo "FAILURE";
+} else {
+  echo "SUCCESS";
+}
+?>
+{% endhighlight %}

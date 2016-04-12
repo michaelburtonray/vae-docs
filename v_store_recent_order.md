@@ -78,44 +78,46 @@ None.
 
 ## Sample Usage
 
-    We got your order.  Here is the final set of information:
-    <v:store:recent_order>
-     Order ID         : <v=id>
-     Your E-Mail      : <v=email>
-     Your IP          : <v=remote_addr>
-     
-     <v:if path="shipping">
-      S&H             : <v=shipping>
-       (<v=shipping_method>)
-       (<v=weight> pounds)
-     </v:if>
-     <v:if path="tax">
-      Tax             : <v=tax>
-       (<v=tax_rate>)
-     </v:if>
-     <v:if path="discount">
-      Discount        : (<v=discount>)
-       (<v=discount_code>)
-     </v:if>
-     Total            : <v=total>
-       (paid via <v=payment_method>)
-     
-     Billing Address  : <v=billing_name>
-                        <v=billing_company>
-                        <v=billing_address>
-                        <v=billing_city>
-                        <v=billing_state>
-                        <v=billing_country>
-                        <v=billing_zip>
-                        <v=billing_phone>
-                         
-     Shipping Address : <v=shipping_name>
-                        <v=shipping_company>
-                        <v=shipping_address>
-                        <v=shipping_address_2>
-                        <v=shipping_city>
-                        <v=shipping_state>
-                        <v=shipping_zip>
-                        <v=shipping_country>
-                        <v=shipping_phone>
-    </v:store:recent_order>
+{% highlight html %}
+We got your order.  Here is the final set of information:
+<v:store:recent_order>
+ Order ID         : <v=id>
+ Your E-Mail      : <v=email>
+ Your IP          : <v=remote_addr>
+ 
+ <v:if path="shipping">
+  S&H             : <v=shipping>
+   (<v=shipping_method>)
+   (<v=weight> pounds)
+ </v:if>
+ <v:if path="tax">
+  Tax             : <v=tax>
+   (<v=tax_rate>)
+ </v:if>
+ <v:if path="discount">
+  Discount        : (<v=discount>)
+   (<v=discount_code>)
+ </v:if>
+ Total            : <v=total>
+   (paid via <v=payment_method>)
+ 
+ Billing Address  : <v=billing_name>
+                    <v=billing_company>
+                    <v=billing_address>
+                    <v=billing_city>
+                    <v=billing_state>
+                    <v=billing_country>
+                    <v=billing_zip>
+                    <v=billing_phone>
+                     
+ Shipping Address : <v=shipping_name>
+                    <v=shipping_company>
+                    <v=shipping_address>
+                    <v=shipping_address_2>
+                    <v=shipping_city>
+                    <v=shipping_state>
+                    <v=shipping_zip>
+                    <v=shipping_country>
+                    <v=shipping_phone>
+</v:store:recent_order>
+{% endhighlight %}

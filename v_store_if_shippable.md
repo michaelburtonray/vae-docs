@@ -19,9 +19,11 @@ HTML to to render if the order will not be shipped.
 
 ## Sample Usage
 
-    <v:store:if_shippable>
-     We support the following shipping methods ...
-    </v:store:if_shippable>
-    <v:else>
-     Your order is digital only, no shipping will occur.
-    </v:else>
+{% highlight html %}
+<v:store:if_shippable>
+ We support the following shipping methods ...
+</v:store:if_shippable>
+<v:else>
+ Your order is digital only, no shipping will occur.
+</v:else>
+{% endhighlight %}

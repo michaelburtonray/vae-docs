@@ -27,4 +27,6 @@ generated).
 
 ## Sample Usage
 
-    <v:store:logout redirect="/">Click here to logout.</v:store:logout>
+{% highlight html %}
+<v:store:logout redirect="/">Click here to logout.</v:store:logout>
+{% endhighlight %}

@@ -30,4 +30,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    Current Shipping Method: <v:store:shipping_methods_select />
+{% highlight html %}
+Current Shipping Method: <v:store:shipping_methods_select />
+{% endhighlight %}

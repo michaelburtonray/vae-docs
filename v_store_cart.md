@@ -38,16 +38,18 @@ HTML to render if there are no items in the cart.
 
 ## Sample Usage
 
-    <v:store:cart>
-     <v:store:cart:items>
-      Name  : <v:text path="name" />
-      Size  : <v:text path="option_value" />
-      Price : <v:store:item:price />
-      Qty   : <v:text_field path="qty" />
-      Remove? <v:checkbox name="remove" />
-     </v:store:cart:items>
-     <input type="submit" value="Update Cart" />
-    </v:store:cart>
-    <v:else>
-     Your cart is empty!
-    </v:else>
+{% highlight html %}
+<v:store:cart>
+ <v:store:cart:items>
+  Name  : <v:text path="name" />
+  Size  : <v:text path="option_value" />
+  Price : <v:store:item:price />
+  Qty   : <v:text_field path="qty" />
+  Remove? <v:checkbox name="remove" />
+ </v:store:cart:items>
+ <input type="submit" value="Update Cart" />
+</v:store:cart>
+<v:else>
+ Your cart is empty!
+</v:else>
+{% endhighlight %}

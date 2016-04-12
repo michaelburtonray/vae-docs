@@ -21,8 +21,10 @@ the shopping cart.
 
 ## Sample Usage
 
-    <?php
-    // Get barcode of selected item
-    $item = vae_store_cart_item($id);
-    $barcode = $item['barcode'];
-    ?>
+{% highlight php %}
+<?php
+// Get barcode of selected item
+$item = vae_store_cart_item($id);
+$barcode = $item['barcode'];
+?>
+{% endhighlight %}

@@ -48,12 +48,14 @@ Returns `false` on failure, or `true` on success.
 
 ## Sample Usage
 
-    <?php
-    // Apply discount code 'WELCOME'
-    $return_value = vae_store_discount_code("WELCOME");
-    if ($return_value == false) {
-      echo "FAILURE";
-    } else {
-      echo "SUCCESS";
-    }
-    ?>
+{% highlight php %}
+<?php
+// Apply discount code 'WELCOME'
+$return_value = vae_store_discount_code("WELCOME");
+if ($return_value == false) {
+  echo "FAILURE";
+} else {
+  echo "SUCCESS";
+}
+?>
+{% endhighlight %}

@@ -33,4 +33,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:store:paypal_checkout />
+{% highlight html %}
+<v:store:paypal_checkout />
+{% endhighlight %}

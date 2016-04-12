@@ -18,7 +18,9 @@ Returns `true` if user is logged in, `false` otherwise.
 
 ## Sample Usage
 
-    <?php
-    // Only proceed if user is logged in
-    if (!vae_loggedin()) return vae_redirect("/");
-    ?>
+{% highlight php %}
+<?php
+// Only proceed if user is logged in
+if (!vae_loggedin()) return vae_redirect("/");
+?>
+{% endhighlight %}

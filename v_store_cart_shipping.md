@@ -23,4 +23,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    The shipping cost for this order will be $<v:store:cart:shipping />.
+{% highlight html %}
+The shipping cost for this order will be $<v:store:cart:shipping />.
+{% endhighlight %}

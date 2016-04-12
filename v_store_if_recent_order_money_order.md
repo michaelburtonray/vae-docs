@@ -21,7 +21,9 @@ HTML to render if the method was not not Money Order.
 
 ## Sample Usage
 
-    <v:store:if_recent_order_money_order>
-     Your order will not be processed until we receive your money order.  
-     Please mail your money order to: 123 Main Street, Anytown, USA.
-    </v:store:if_recent_order_money_order>
+{% highlight html %}
+<v:store:if_recent_order_money_order>
+ Your order will not be processed until we receive your money order.  
+ Please mail your money order to: 123 Main Street, Anytown, USA.
+</v:store:if_recent_order_money_order>
+{% endhighlight %}

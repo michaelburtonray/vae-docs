@@ -28,5 +28,7 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    Comment on this article:
-    <v:disqus shortname="vaeplatform" />
+{% highlight html %}
+Comment on this article:
+<v:disqus shortname="vaeplatform" />
+{% endhighlight %}

@@ -52,4 +52,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:facebook_like width="450" />
+{% highlight html %}
+<v:facebook_like width="450" />
+{% endhighlight %}

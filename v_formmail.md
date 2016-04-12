@@ -67,9 +67,11 @@ attribute.
 
 ## Sample Usage
 
-    <h1>Contact Us</h1>
-    <v:formmail to="you@yourdomain.com" redirect="thanks.html">
-     Your Name: <v:text_field name="Name" />
-     Your Comments: <v:text_area name="Comments" />
-     <input type="submit" />
-    </v:formmail>
+{% highlight html %}
+<h1>Contact Us</h1>
+<v:formmail to="you@yourdomain.com" redirect="thanks.html">
+ Your Name: <v:text_field name="Name" />
+ Your Comments: <v:text_area name="Comments" />
+ <input type="submit" />
+</v:formmail>
+{% endhighlight %}

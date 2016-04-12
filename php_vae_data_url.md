@@ -22,8 +22,10 @@ files, and videos, or a URL on the local domain.
 
 ## Sample Usage
 
-    <?php
-    $image = vae_image(vae_find("home/image"));
-    $full_url = vae_data_url() . $image;
-    echo "<img src='$full_url' />";
-    ?>
+{% highlight php %}
+<?php
+$image = vae_image(vae_find("home/image"));
+$full_url = vae_data_url() . $image;
+echo "<img src='$full_url' />";
+?>
+{% endhighlight %}

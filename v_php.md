@@ -70,6 +70,8 @@ Increment and display global counter:
 </v:collection>
 {% endhighlight %}
 
-    <v:collection path="posts">
-     <v?=$i++?>
-    </v:collection>
+{% highlight html %}
+<v:collection path="posts">
+ <v?=$i++?>
+</v:collection>
+{% endhighlight %}

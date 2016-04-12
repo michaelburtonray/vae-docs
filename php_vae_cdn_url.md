@@ -32,7 +32,9 @@ with one or more CDNs, this will return the URL prefix of your domain.
 
 ## Sample Usage
 
-    <?php
-    // Serve this large file faster from the CDN
-    echo "<a href='" . vae_cdn_url() . "/assets/my_big_file.zip'>Download File</a>";
-    ?>
+{% highlight php %}
+<?php
+// Serve this large file faster from the CDN
+echo "<a href='" . vae_cdn_url() . "/assets/my_big_file.zip'>Download File</a>";
+?>
+{% endhighlight %}

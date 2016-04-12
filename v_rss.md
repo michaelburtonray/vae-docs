@@ -55,16 +55,18 @@ Simple example, feeding the posts from a Blog:
 
 Creating a feed in Google Base format for submitting products to Google:
 
-    <v:rss title="My Site" description="My products." path="products" title_field="name" description_field="description">
-     <g:brand>My Brand</g:brand>
-     <g:color><v=color></g:color>
-     <g:condition>new</g:condition>
-     <g:id><v-></g:id>
-     <g:image_link><v=image></g:image_link>
-     <g:payment_accepted>Visa</g:payment_accepted>
-     <g:payment_accepted>MasterCard</g:payment_accepted>
-     <g:payment_accepted>AmericanExpress</g:payment_accepted>
-     <g:payment_accepted>Discover</g:payment_accepted>
-     <g:price><v=price></g:price>
-     <g:weight><v=weight></g:weight>
-    </v:rss>
+{% highlight html %}
+<v:rss title="My Site" description="My products." path="products" title_field="name" description_field="description">
+ <g:brand>My Brand</g:brand>
+ <g:color><v=color></g:color>
+ <g:condition>new</g:condition>
+ <g:id><v-></g:id>
+ <g:image_link><v=image></g:image_link>
+ <g:payment_accepted>Visa</g:payment_accepted>
+ <g:payment_accepted>MasterCard</g:payment_accepted>
+ <g:payment_accepted>AmericanExpress</g:payment_accepted>
+ <g:payment_accepted>Discover</g:payment_accepted>
+ <g:price><v=price></g:price>
+ <g:weight><v=weight></g:weight>
+</v:rss>
+{% endhighlight %}

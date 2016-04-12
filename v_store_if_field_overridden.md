@@ -23,12 +23,14 @@ HTML to render if the field is not overridden.
 
 ## Sample Usage
 
-    <v:store:if_field_overridden field="price" options_collection="sizes">
-     Price varies by item size.
-     <v:collection path="sizes">
-      Price for size <v:text path="size" />: $<v:text path="price" />
-     </v:collection> 
-    </v:store:if_field_overridden>
-    <v:else>
-     Price for all sizes: $<v:text path="price" />
-    </v:else>
+{% highlight html %}
+<v:store:if_field_overridden field="price" options_collection="sizes">
+ Price varies by item size.
+ <v:collection path="sizes">
+  Price for size <v:text path="size" />: $<v:text path="price" />
+ </v:collection> 
+</v:store:if_field_overridden>
+<v:else>
+ Price for all sizes: $<v:text path="price" />
+</v:else>
+{% endhighlight %}

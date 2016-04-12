@@ -29,14 +29,16 @@ Returns `false` on failure, or `true` on success.
 
 ## Sample Usage
 
-    <?php
-    // Change tax rate to apply to shipping charges
-    $return_value = vae_store_update_tax_rate($id, array(
-      'include_shipping' => '1'
-    ));
-    if ($return_value == false) {
-      echo "FAILURE";
-    } else {
-      echo "SUCCESS";
-    }
-    ?>
+{% highlight php %}
+<?php
+// Change tax rate to apply to shipping charges
+$return_value = vae_store_update_tax_rate($id, array(
+  'include_shipping' => '1'
+));
+if ($return_value == false) {
+  echo "FAILURE";
+} else {
+  echo "SUCCESS";
+}
+?>
+{% endhighlight %}

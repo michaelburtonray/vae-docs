@@ -59,14 +59,16 @@ cache path.
 
 ## Sample Usage
 
-    <?php
-    // Display our press photo as a scaled image, a cropped image, 
-    // and a cropped image that has been scaled down
-    $bio = vae("bio");
-    $scaled_image = vae_image($bio['press_photo'], 320, 240);
-    $cropped_image = vae_sizedimage($bio['press_photo'], "Square");
-    $cropped_and_scaled_image = vae_image($bio['press_photo'], 50, 50, "Square");
-    echo '<img src="' . vae_data_url() . $scaled_image . '" alt="Scaled Press Photo" />';
-    echo '<img src="' . vae_data_url() . $cropped_image . '" alt="Cropped Press Photo" />';
-    echo '<img src="' . vae_data_url() . $cropped_and_scaled_image . '" alt="Cropped and Scaled Press Photo" />';
-    ?>
+{% highlight php %}
+<?php
+// Display our press photo as a scaled image, a cropped image, 
+// and a cropped image that has been scaled down
+$bio = vae("bio");
+$scaled_image = vae_image($bio['press_photo'], 320, 240);
+$cropped_image = vae_sizedimage($bio['press_photo'], "Square");
+$cropped_and_scaled_image = vae_image($bio['press_photo'], 50, 50, "Square");
+echo '<img src="' . vae_data_url() . $scaled_image . '" alt="Scaled Press Photo" />';
+echo '<img src="' . vae_data_url() . $cropped_image . '" alt="Cropped Press Photo" />';
+echo '<img src="' . vae_data_url() . $cropped_and_scaled_image . '" alt="Cropped and Scaled Press Photo" />';
+?>
+{% endhighlight %}

@@ -34,9 +34,11 @@ cache path.
 
 ## Sample Usage
 
-    <?php
-    // Render a link to download press packet
-    $bio = vae_find("bio");
-    $filename = vae_file($bio['press_packet']);
-    echo '<a href="' . vae_data_url() . $filename . '">Download our Press Packet</a>';
-    ?>
+{% highlight php %}
+<?php
+// Render a link to download press packet
+$bio = vae_find("bio");
+$filename = vae_file($bio['press_packet']);
+echo '<a href="' . vae_data_url() . $filename . '">Download our Press Packet</a>';
+?>
+{% endhighlight %}

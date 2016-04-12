@@ -99,7 +99,9 @@ function. This works just like the native PHP `<?= ?>` shortcut tag.
 
 ### Sample Code
 
-    <v:collection path="items">
-     <!-- show the first 20 characters of the name -->
-     <v?=substr($context['name'], 0, 20)?>
-    </v:collection>
+{% highlight html %}
+<v:collection path="items">
+ <!-- show the first 20 characters of the name -->
+ <v?=substr($context['name'], 0, 20)?>
+</v:collection>
+{% endhighlight %}

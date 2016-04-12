@@ -23,4 +23,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    Your subtotal for all the items in this cart is $<v:store:cart:subtotal />.
+{% highlight html %}
+Your subtotal for all the items in this cart is $<v:store:cart:subtotal />.
+{% endhighlight %}

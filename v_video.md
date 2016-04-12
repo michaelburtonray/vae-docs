@@ -32,4 +32,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:video path="about_us/our_video" width="640" height="495" />
+{% highlight html %}
+<v:video path="about_us/our_video" width="640" height="495" />
+{% endhighlight %}

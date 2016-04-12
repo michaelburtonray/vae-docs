@@ -21,7 +21,9 @@ HTML to render if the method was not not Bank Transfer.
 
 ## Sample Usage
 
-    <v:store:if_recent_order_bank_transfer>
-     Your order will not be processed until we receive your bank transfer.  
-     Please submit your bank transfer to:  Bank of America NA, Account Number 1234567890, ABA Routing 012345678.
-    </v:store:if_recent_order_bank_transfer>
+{% highlight html %}
+<v:store:if_recent_order_bank_transfer>
+ Your order will not be processed until we receive your bank transfer.  
+ Please submit your bank transfer to:  Bank of America NA, Account Number 1234567890, ABA Routing 012345678.
+</v:store:if_recent_order_bank_transfer>
+{% endhighlight %}

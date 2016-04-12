@@ -32,6 +32,8 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:store:if_logged_in>
-     Load a Saved Address: <v:store:address_select type="billing" />
-    </v:store:if_logged_in>
+{% highlight html %}
+<v:store:if_logged_in>
+ Load a Saved Address: <v:store:address_select type="billing" />
+</v:store:if_logged_in>
+{% endhighlight %}

@@ -23,12 +23,14 @@ Returns `true`.
 
 ## Sample Usage
 
-    <?php
-    // Process all unprocessed orders
-    foreach ($orders as $id => $order) {
-      if ($order['status'] == "Ordered") {
-        // Process order
-        vae_store_update_order_status($id, "Processing");
-      }
-    }
-    ?>
+{% highlight php %}
+<?php
+// Process all unprocessed orders
+foreach ($orders as $id => $order) {
+  if ($order['status'] == "Ordered") {
+    // Process order
+    vae_store_update_order_status($id, "Processing");
+  }
+}
+?>
+{% endhighlight %}

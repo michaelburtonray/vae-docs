@@ -23,8 +23,10 @@ None.
 This code would render a CAPTCHA to protect the comments entry from
 spam.
 
-    <v:create path="comments">
-     ...
-     <v:captcha />
-     ...
-    </v:create>
+{% highlight html %}
+<v:create path="comments">
+ ...
+ <v:captcha />
+ ...
+</v:create>
+{% endhighlight %}

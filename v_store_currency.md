@@ -25,5 +25,7 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    Although we are displaying prices in <v:store:currency />, 
-    we will always charge your credit card in US Dollars.
+{% highlight html %}
+Although we are displaying prices in <v:store:currency />, 
+we will always charge your credit card in US Dollars.
+{% endhighlight %}

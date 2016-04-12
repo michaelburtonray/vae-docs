@@ -24,10 +24,12 @@ Filename of the newly generated image.
 
 ## Sample Usage
 
-    <?php
-    // Display press photo in greyscale
-    $bio = vae_find("bio");
-    $image_filename = vae_image($bio['press_photo']);
-    $grey_image = vae_image_grey($image_filename);
-    echo '<img src="' . vae_data_url() . $grey_image . '" alt="My Grey Image" />';
-    ?>
+{% highlight php %}
+<?php
+// Display press photo in greyscale
+$bio = vae_find("bio");
+$image_filename = vae_image($bio['press_photo']);
+$grey_image = vae_image_grey($image_filename);
+echo '<img src="' . vae_data_url() . $grey_image . '" alt="My Grey Image" />';
+?>
+{% endhighlight %}

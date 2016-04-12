@@ -84,14 +84,16 @@ vae_register_hook("store:add_to_cart", 'check_add');
 
 In your \_\_vae.php file:
 
-    <?php
-    // Send welcome E-Mail to new customers
-    function customer_created($user_id) {
-      $c = vae_customer($user_id);
-      $text = "Hello, thanks for becoming a customer!";
-      $html = "Hello, <b>thanks</b> for becoming a customer!";
-      vae_multipart_mail("My Website <mywebsite@vaeplatform.test>", $c['e_mail_address'], "Welcome to My Website", $text, $html);
-      return true;
-    }
-    vae_register_hook("customer:created", array('callback' => 'customer_created'));
-    ?>
+{% highlight php %}
+<?php
+// Send welcome E-Mail to new customers
+function customer_created($user_id) {
+  $c = vae_customer($user_id);
+  $text = "Hello, thanks for becoming a customer!";
+  $html = "Hello, <b>thanks</b> for becoming a customer!";
+  vae_multipart_mail("My Website <mywebsite@vaeplatform.test>", $c['e_mail_address'], "Welcome to My Website", $text, $html);
+  return true;
+}
+vae_register_hook("customer:created", array('callback' => 'customer_created'));
+?>
+{% endhighlight %}

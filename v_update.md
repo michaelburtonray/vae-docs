@@ -28,8 +28,10 @@ to change passwords or edit content.
 This will render a form that allows the currently logged in user to
 change their password:
 
-    <v:update path="loggedin()" redirect="/account">
-     Set a new password : <v:password_field path="password" />
-     Confirm password   : <v:password_field path="confirm_password" />
-     <input type="submit" />
-    </v:update>
+{% highlight html %}
+<v:update path="loggedin()" redirect="/account">
+ Set a new password : <v:password_field path="password" />
+ Confirm password   : <v:password_field path="confirm_password" />
+ <input type="submit" />
+</v:update>
+{% endhighlight %}

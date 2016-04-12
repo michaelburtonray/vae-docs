@@ -40,9 +40,11 @@ Then, this code:
 
 Might render:
 
-    <p>
-     <a href="/location/1-new-york">New York</a>
-    </p>
-    <p>
-     London
-    </p>
+{% highlight html %}
+<p>
+ <a href="/location/1-new-york">New York</a>
+</p>
+<p>
+ London
+</p>
+{% endhighlight %}

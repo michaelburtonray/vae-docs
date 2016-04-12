@@ -37,10 +37,12 @@ None.
 
 ## Sample Usage
 
-    <v:store:cart:items>
-     Name  : <v:text path="name" />
-     Size  : <v:text path="option_value" />
-     Qty   : <v:text path="qty" />
-     Price : <v:store:item:price />
-     Total : <v:store:item:price price_field="total" />
-    </v:store:cart:items>
+{% highlight html %}
+<v:store:cart:items>
+ Name  : <v:text path="name" />
+ Size  : <v:text path="option_value" />
+ Qty   : <v:text path="qty" />
+ Price : <v:store:item:price />
+ Total : <v:store:item:price price_field="total" />
+</v:store:cart:items>
+{% endhighlight %}

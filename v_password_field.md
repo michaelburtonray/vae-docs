@@ -38,8 +38,10 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:users:login>
-      Enter your E-Mail address: <v:text_field name="email" />
-      Enter your password: <v:password_field name="password" />
-      <input type="submit" />
-    </v:users:login>
+{% highlight html %}
+<v:users:login>
+  Enter your E-Mail address: <v:text_field name="email" />
+  Enter your password: <v:password_field name="password" />
+  <input type="submit" />
+</v:users:login>
+{% endhighlight %}

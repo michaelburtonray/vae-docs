@@ -20,7 +20,9 @@ None.
 
 ## Sample Usage
 
-    <v:store:previous_order>
-     Order #<v:text path="id" /><br />
-     Total Spent: $<v:text path="total" />
-    </v:store:previous_order>
+{% highlight html %}
+<v:store:previous_order>
+ Order #<v:text path="id" /><br />
+ Total Spent: $<v:text path="total" />
+</v:store:previous_order>
+{% endhighlight %}

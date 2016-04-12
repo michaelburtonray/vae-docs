@@ -21,7 +21,9 @@ HTML to render if the recent order did not contain digital downloads.
 
 ## Sample Usage
 
-    <v:store:if_recent_order_digital>
-     Your recent order contained digital downloads.
-     To claim them click here ...
-    </v:store:if_recent_order_digital>
+{% highlight html %}
+<v:store:if_recent_order_digital>
+ Your recent order contained digital downloads.
+ To claim them click here ...
+</v:store:if_recent_order_digital>
+{% endhighlight %}

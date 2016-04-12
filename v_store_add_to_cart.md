@@ -210,19 +210,21 @@ Donation box:
 
 Multiple items:
 
-    <v:store:add_to_cart multiple="id" name_field="name" price_field="price" notes_input="notes" redirect="/cart">
-     <?php for ($i = 0; $i < 6; $i++) { ?>
-      Item: 
-      <select name="id[<?=$i?>]">
-       <option value="">--select item--</option>
-       <v:collection path="/items">
-        <option value="<v->">
-         <v:text path="name" /> ($<v:text path="price" number_format="2" />)
-        </option>
-       </v:collection>
-      </select>
-      Monogram text:
-      <v:text_field name="notes[<?=$i?>]" validate="true" />
-     <? } ?>
-     <input type="submit" value="Add Items to Cart" />
-    </v:store:add_to_cart>
+{% highlight php %}
+<v:store:add_to_cart multiple="id" name_field="name" price_field="price" notes_input="notes" redirect="/cart">
+ <?php for ($i = 0; $i < 6; $i++) { ?>
+  Item: 
+  <select name="id[<?=$i?>]">
+   <option value="">--select item--</option>
+   <v:collection path="/items">
+    <option value="<v->">
+     <v:text path="name" /> ($<v:text path="price" number_format="2" />)
+    </option>
+   </v:collection>
+  </select>
+  Monogram text:
+  <v:text_field name="notes[<?=$i?>]" validate="true" />
+ <? } ?>
+ <input type="submit" value="Add Items to Cart" />
+</v:store:add_to_cart>
+{% endhighlight %}

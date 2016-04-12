@@ -19,13 +19,15 @@ HTML to render if the user is not logged in.
 
 ## Sample Usage
 
-    <v:store:if_logged_in>
-     You are logged in.  
-     <a href="/account">My Account</a>
-    </v:store:if_logged_in>
-    <v:else>
-     Log in: 
-     <v:store:login>
-      ...
-     </v:store:login>
-    </v:else>
+{% highlight html %}
+<v:store:if_logged_in>
+ You are logged in.  
+ <a href="/account">My Account</a>
+</v:store:if_logged_in>
+<v:else>
+ Log in: 
+ <v:store:login>
+  ...
+ </v:store:login>
+</v:else>
+{% endhighlight %}

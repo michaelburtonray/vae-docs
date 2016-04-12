@@ -18,8 +18,10 @@ Returns an array containing the information about the current user.
 
 ## Sample Usage
 
-    <?php 
-    $user = vae_store_current_user();
-    echo $user['billing_name'];
-    // etc
-    ?>
+{% highlight php %}
+<?php 
+$user = vae_store_current_user();
+echo $user['billing_name'];
+// etc
+?>
+{% endhighlight %}

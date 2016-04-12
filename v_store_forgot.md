@@ -46,8 +46,10 @@ be passed through unchanged into the generated tag.
 
 ## Sample Usage
 
-    Forgot your password?  Enter your E-Mail address below and we will send you a new password:
-    <v:store:forgot redirect="/myaccount">
-     Your E-Mail Address: <v:text_field path="e_mail_address" />
-     <input type="submit" />
-    </v:users:forgot>
+{% highlight html %}
+Forgot your password?  Enter your E-Mail address below and we will send you a new password:
+<v:store:forgot redirect="/myaccount">
+ Your E-Mail Address: <v:text_field path="e_mail_address" />
+ <input type="submit" />
+</v:users:forgot>
+{% endhighlight %}

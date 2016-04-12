@@ -24,6 +24,8 @@ HTML to render if the user is not receiving a discount.
 
 ## Sample Usage
 
-    <v:store:if_discount>
-     Your discount code has been applied.  The total has been updated to reflect the discount.
-    </v:store:if_discount>
+{% highlight html %}
+<v:store:if_discount>
+ Your discount code has been applied.  The total has been updated to reflect the discount.
+</v:store:if_discount>
+{% endhighlight %}

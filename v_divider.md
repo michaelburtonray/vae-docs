@@ -53,10 +53,12 @@ None.
 
 ## Sample Usage - As a Wrapper
 
-    <v:collection path="locations">
-     <p><v:text path="name" /></p>
-     <!-- wrap every location name in a div -->
-     <v:divider >
-      <div><yield /></div>
-     </v:divider>
-    </v:collection>
+{% highlight html %}
+<v:collection path="locations">
+ <p><v:text path="name" /></p>
+ <!-- wrap every location name in a div -->
+ <v:divider >
+  <div><yield /></div>
+ </v:divider>
+</v:collection>
+{% endhighlight %}

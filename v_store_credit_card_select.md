@@ -38,10 +38,12 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:store:checkout>
-     ...
-     What kind of credit card would you like to use?
-     <v:store:credit_card_select name="cc_type" />
-     ... 
-     <input type="submit" />
-    </v:store:checkout>
+{% highlight html %}
+<v:store:checkout>
+ ...
+ What kind of credit card would you like to use?
+ <v:store:credit_card_select name="cc_type" />
+ ... 
+ <input type="submit" />
+</v:store:checkout>
+{% endhighlight %}

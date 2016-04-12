@@ -24,5 +24,7 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    Here is the URL of our business plan: 
-    <v:fileurl path="about_us/business_plan" />
+{% highlight html %}
+Here is the URL of our business plan: 
+<v:fileurl path="about_us/business_plan" />
+{% endhighlight %}

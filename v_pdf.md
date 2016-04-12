@@ -48,10 +48,12 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <html>
-     <body>
-      <v:pdf filename="HelloWorld" orientation="landscape" paper="legal" />
-      <p>This will render inside a PDF file called HelloWorld!</p>
-      <p>It will be landscape and legal sized paper!</p>
-     </body>
-    </html>
+{% highlight html %}
+<html>
+ <body>
+  <v:pdf filename="HelloWorld" orientation="landscape" paper="legal" />
+  <p>This will render inside a PDF file called HelloWorld!</p>
+  <p>It will be landscape and legal sized paper!</p>
+ </body>
+</html>
+{% endhighlight %}

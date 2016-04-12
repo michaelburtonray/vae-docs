@@ -21,8 +21,10 @@ returns an empty string.
 
 ## Sample Usage
 
-    <?php
-    // Link user to Article's permalink
-    $permalink = vae_permalink($article_id);
-    echo "<a href='$permalink'>Permalink</a>"; 
-    ?>
+{% highlight php %}
+<?php
+// Link user to Article's permalink
+$permalink = vae_permalink($article_id);
+echo "<a href='$permalink'>Permalink</a>"; 
+?>
+{% endhighlight %}

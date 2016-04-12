@@ -31,4 +31,6 @@ This tag is usually self-closed.
 
 ## Sample Usage
 
-    <v:store:google_checkout />
+{% highlight html %}
+<v:store:google_checkout />
+{% endhighlight %}

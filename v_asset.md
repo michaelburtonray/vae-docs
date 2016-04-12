@@ -73,11 +73,13 @@ This code:
 
 Would render something like:
 
-    <html>
-     <head>
-      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-      <script type="text/javascript" src="/__data/combined.js"></script>
-      <link type="text/css" rel="stylesheet" href="/__data/combined.css" />
-     </head>
-     ...
-    </html>
+{% highlight html %}
+<html>
+ <head>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript" src="/__data/combined.js"></script>
+  <link type="text/css" rel="stylesheet" href="/__data/combined.css" />
+ </head>
+ ...
+</html>
+{% endhighlight %}

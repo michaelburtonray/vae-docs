@@ -103,29 +103,31 @@ Not required.
 
 ## Sample Usage
 
-    <v:store:register redirect="checkout.html">
-     - Billing Information: -
-     Name:            <v:text_field path="billing_name" required="name" />
-     Company:         <v:text_field path="billing_company" />
-     Address:         <v:text_field path="billing_address" required="true" />
-     Address 2:       <v:text_field path="billing_address_2" />
-     Country:         <v:country_select path="billing_country" required="true" />
-     City:            <v:text_field path="billing_city" required="true" />
-     State/Province:  <v:state_select path="billing_state" required="uscanada" />
-     Zip/Postal Code: <v:text_field path="billing_zip" required="uscanada" />
-     Phone:           <v:text_field path="billing_phone" required="true" />
-     - Shipping Information: -
-     Name:            <v:text_field path="shipping_name" required="name" />
-     Company:         <v:text_field path="shipping_company" />
-     Address:         <v:text_field path="shipping_address" required="true" />
-     Address 2:       <v:text_field path="shipping_address_2" />
-     Country:         <v:country_select path="shipping_country" required="true" />
-     City:            <v:text_field path="shipping_city" required="true" />
-     State/Province:  <v:state_select path="shipping_state" required="uscanada" />
-     Zip/Postal Code: <v:text_field path="shipping_zip" required="uscanada" />
-     Phone:           <v:text_field path="shipping_phone" required="true" />
-     - Contact Information: -
-     E-Mail Address:  <v:text_field path="e_mail_address" required="email" />
-     Confirm E-Mail:  <v:text_field path="confirm_e_mail_address" required="email" />
-     <input type="submit" value="Register" />
-    </v:store:register>
+{% highlight html %}
+<v:store:register redirect="checkout.html">
+ - Billing Information: -
+ Name:            <v:text_field path="billing_name" required="name" />
+ Company:         <v:text_field path="billing_company" />
+ Address:         <v:text_field path="billing_address" required="true" />
+ Address 2:       <v:text_field path="billing_address_2" />
+ Country:         <v:country_select path="billing_country" required="true" />
+ City:            <v:text_field path="billing_city" required="true" />
+ State/Province:  <v:state_select path="billing_state" required="uscanada" />
+ Zip/Postal Code: <v:text_field path="billing_zip" required="uscanada" />
+ Phone:           <v:text_field path="billing_phone" required="true" />
+ - Shipping Information: -
+ Name:            <v:text_field path="shipping_name" required="name" />
+ Company:         <v:text_field path="shipping_company" />
+ Address:         <v:text_field path="shipping_address" required="true" />
+ Address 2:       <v:text_field path="shipping_address_2" />
+ Country:         <v:country_select path="shipping_country" required="true" />
+ City:            <v:text_field path="shipping_city" required="true" />
+ State/Province:  <v:state_select path="shipping_state" required="uscanada" />
+ Zip/Postal Code: <v:text_field path="shipping_zip" required="uscanada" />
+ Phone:           <v:text_field path="shipping_phone" required="true" />
+ - Contact Information: -
+ E-Mail Address:  <v:text_field path="e_mail_address" required="email" />
+ Confirm E-Mail:  <v:text_field path="confirm_e_mail_address" required="email" />
+ <input type="submit" value="Register" />
+</v:store:register>
+{% endhighlight %}
