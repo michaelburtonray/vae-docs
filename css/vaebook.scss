@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5, h6, p, pre {
   line-height: 1.35em;
 }
 
-h1 code, p code, p code a, .literal, .literal a {
+h1 code, p code, li code, p code a, .literal, .literal a {
   color: #ee4432;
 }
 
@@ -264,6 +264,10 @@ h1 code, p code, p code a, .literal, .literal a {
 	color: #151515;
 	text-decoration: none;
 	border-bottom:1px solid #e0c300 ;
+}
+
+#doc-content ul {
+  margin-bottom: 15px;
 }
 
 #doc-content li {

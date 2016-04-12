@@ -79,7 +79,7 @@ under the Items Structure, if you are using styles.
 
 ## The Shopping Flow in VaeML
 
-### Shopping Cart {#shopping_cart}
+### Shopping Cart
 
 The Vae shopping Cart is rendered using the
 [`<v:store:cart>`](#v_store_cart) tag. As with every other Vae
@@ -89,7 +89,7 @@ In this section, you will be walked through the process of how to solve
 a couple of common problems designers need to solve when implimenting a
 shopping cart page.
 
-### Collecting Registration (Billing and Shipping) Info {#store_registering}
+### Collecting Registration (Billing and Shipping) Info
 
 Vae's [`<v:store:register>`](#v_store_register) allows designers to
 create a registration form that takes very little time to fill out.
@@ -98,7 +98,7 @@ where their personal information will be stored. However, if you do have
 a website with lots of repeat customers, your users might value the
 ability to sign in and checkout quickly.
 
-### Order Confirmation {#order_confirmation}
+### Order Confirmation
 
 After submitting the order, most designers redirect users to an "order
 placed" page. In our example, we set

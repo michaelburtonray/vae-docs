@@ -11,7 +11,7 @@ the Usage / Billing display invoices, account activity, and resource
 usage information, as well as allow you to change your plan and update
 billing information.
 
-## Your Plan Tab {#backstage.usage.plan}
+## Your Plan Tab
 
 The Your Plan subtab displays your current plan and its monthly cost. It
 also allows you to switch plans by upgrading to a higher available plan
@@ -65,7 +65,7 @@ downgraded.
 To complete the plan change, click the Confirm Plan Change button. The
 change takes effect immediately.
 
-## Usage Tab {#backstage.usage.usage}
+## Usage Tab
 
 The Usage subtab displays the amount of resources you are using on your
 account. Currently, we only track and charge for six resources: data
@@ -109,7 +109,7 @@ By default this tab shows the current billing cycle. You may view usage
 from a previous billing cycle by selecting it from the dropdown menu at
 the top right of the Usage Snapshot table.
 
-## Invoices Tab {#backstage.usage.invoices}
+## Invoices Tab
 
 The Invoices subtab displays all invoices that were issued for your
 account, newest first. You may click on an invoice number to view the
@@ -127,7 +127,7 @@ apply advance payments to invoices automatically
 Vae does not provide paper or fax invoices. We do, however, email
 invoices to the billing contact on file on your account.
 
-## Activity Tab {#backstage.usage.activity}
+## Activity Tab
 
 The activity subtab displays all accounting activity on your account,
 including invoices and payments, newest first. You may click on an
@@ -150,7 +150,7 @@ comes.
 > websites. A list of included websites will be displayed on the right
 > side of the screen.
 
-## Billing Tab {#backstage.usage.billing}
+## Billing Tab
 
 The Billing subtab allows you to view or change the current billing
 contact, as well as credit card on file for your account.

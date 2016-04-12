@@ -10,7 +10,7 @@ Users is where you can manage users (which provide access to the
 backstage and an E-Mail address), while Mail Forwarders is where you can
 manage E-Mail forwarding accounts.
 
-## Vae Users Tab {#backstage.users.vae_users}
+## Vae Users Tab
 
 The Vae Users tab is where you can add, edit, and delete Users on this
 Vae account. User accounts on Vae provide login access to the backstage
@@ -106,7 +106,7 @@ kicked out of their current session.
 
 ![](/images/screenshots/content_management/users_tab_delete_user.png)
 
-## Mail Forwarders Tab {#backstage.users.mail_forwarders}
+## Mail Forwarders Tab
 
 Mail Forwarders are E-Mail addresses at your website's domain that
 forward mail to another address. You may add an unlimited number of mail

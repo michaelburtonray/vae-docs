@@ -13,7 +13,7 @@ inside any VaeML page inside the `<v:php>` VaeML tag. The API is
 available in all pages automatically and you do not need to include any
 special tags or include any libraries.
 
-## PHP Integration API {#php_integration_api}
+## PHP Integration API
 
 The PHP Integration API is a collection of PHP functions that allow you
 to access and update your Vae data. Vae's PHP integration provides
@@ -29,7 +29,7 @@ skimming through each function to see all the things that are possible
 in the PHP Integration API. Beyond that, it is mostly useful as a
 reference.
 
-## Building Vae Extensions with PHP {#php_vae_extensions}
+## Building Vae Extensions with PHP
 
 The Vae PHP Integration API also provides some functions that enable you
 to build extensions to the VaeML parser. You can actually create your

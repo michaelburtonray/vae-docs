@@ -3,7 +3,7 @@ layout: docs
 title: Validating Forms
 ---
 
-# Validating Forms {#vaeml_form_validation}
+# Validating Forms
 
 When Vae tags that generate an HTML form (such as `<v:formmail>`) are
 combined with Vae form input tags (such as `<v:text_field>`), Vae can

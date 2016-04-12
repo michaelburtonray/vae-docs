@@ -17,7 +17,7 @@ functions that are aware of the environment, support for associations
 and reverse associations, and the ability to extend the syntax with
 additional functions.
 
-## VaeQL Introduction {#vaeql.introduction}
+## VaeQL Introduction
 
 VaeQL expressions are similar to the paths that you use when working
 with a computer file system. You can move up and down your hierarchy of
@@ -44,7 +44,7 @@ In the above code sample, `projects` and `name` are paths expressed with
 VaeQL. These paths very simple, but VaeQL allows incredible flexibility.
 Read on.
 
-## Contexts and Traversal {#vaeql.contexts}
+## Contexts and Traversal
 
 Unless your specify otherwise, paths are interpreted relative to the
 current context. So in the previous example, where we were inside a
@@ -89,7 +89,7 @@ bit):
 </v:collection>
 ```
 
-## Default Context {#vaeql.default_context}
+## Default Context
 
 Generally, the default context is the top level of your data hierarchy.
 However, if the request parameter `$id` is set, the page was accessed
@@ -126,7 +126,7 @@ Because there will be different default contexts on different pages, we
 generally recommend using a leading slash on all path expressions used
 in template files.
 
-## Finding items by ID {#vaeql.finding_by_id}
+## Finding items by ID
 
 VaeQL provides a shortcut that allows you to locate any item by its ID
 (which is globally unique across Vae). Simply pass in that ID as the
@@ -155,7 +155,7 @@ only if that entry is part of the `locations` collection:
 <v:text path="/locations/$location_id/name" />
 ```
 
-## Searching: Predicate expressions {#vaeql.predicates}
+## Searching: Predicate expressions
 
 Predicate expressions are the real powerhouse of VaeQL. You can search
 and filter to only return results that match specific requirements.
@@ -187,7 +187,7 @@ You may also use request parameters inside predicate expressions:
 </v:collection>
 ```
 
-## Predicate Functions {#vaeql.predicate_functions}
+## Predicate Functions
 
 In addition to all the normal functions provided by XPath, VaeQL also
 provides a few functions of our own that are useful for searching:
@@ -219,7 +219,7 @@ Here is an example of searching for events that are upcoming:
 </v:collection>
 ```
 
-## Associations {#vaeql.associations}
+## Associations
 
 VaeQL automatically wires up Association fields (single or multi) for
 ease of use. You can traverse into and up from an association just as
@@ -278,7 +278,7 @@ Note that in this case, there is no structure `properties` defined on
 to see if there is another collection called `properties` with an
 association to the current agent – which is the case here.
 
-## VaeQL Notes {#vaeql.notes}
+## VaeQL Notes
 
 Although we use [VaeML](#vaeml) for all these examples, the syntax is
 the same in our [PHP integration API](#php). The only difference is that

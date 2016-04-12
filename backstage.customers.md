@@ -9,7 +9,7 @@ The Customers tab allows you to view, edit, and search customers of your
 online store. It is useful for looking up the order history of a
 specific customer.
 
-## All Customers (list view) {#vae.customers.list}
+## All Customers (list view)
 
 By default, the Customers tab will show you a list of all customers:
 
@@ -70,7 +70,7 @@ customer, they will no longer be able to log in on your website. If the
 customer is currently logged in, they will **not** be kicked out of
 their current session.
 
-## Search Customers {#vae.customers.search}
+## Search Customers
 
 To search customers, hover over the Search Customers subtab. This subtab
 is located on the right side of the secondary tab menu. Enter the
@@ -83,7 +83,7 @@ Within the Search Results subtab, you may click on a customer's name to
 view that customer, or click on the Edit or Delete icons to edit or
 remove the customer, as described in the previous section.
 
-## View Customer {#vae.customers.view}
+## View Customer
 
 After clicking on a customer name in the All Customers or Search Results
 subtab, you are brought to the Customer subtab. This is the customer

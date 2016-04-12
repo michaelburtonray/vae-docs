@@ -18,7 +18,7 @@ created in the Site &gt; Content Management tab. Before that, it just
 contains welcome information and a link to the Site &gt; Content
 Management tab.
 
-## Root-level (Website subtab) {#backstage.content.root}
+## Root-level (Website subtab)
 
 When you first navigate to the Content tab, you will see the Website
 subtab. On this tab is a list of the root-level superstructures on your
@@ -31,7 +31,7 @@ click on an External structure, the external page will be loaded (either
 in an IFRAME or new window, depending on how the structure is
 configured.)
 
-## List View {#backstage.content.list}
+## List View
 
 The list view displays all entries in a collection in a tabular list:
 
@@ -123,7 +123,7 @@ a few tries.
 If the Reorder link does not appear, it means that this collection is
 being sorted according to a sort field.
 
-## Adding Content {#backstage.content.adding}
+## Adding Content
 
 To add a new entry to the current collection, click the Create New link
 at the top right corner of the [List View](#backstage.content.list):
@@ -157,7 +157,7 @@ and Crop Image. Simply drag and use the resize handles on the crop frame
 to select the area of your image you would like to highlight. Then click
 the Use These Dimensions button to save your cropping selection.
 
-## Editing and Deleting Content {#backstage.content.editing}
+## Editing and Deleting Content
 
 To edit am entry, simply click the Edit icon at the right of that entry
 on the [List View](#backstage.content.list). This will open an Edit form
@@ -219,7 +219,7 @@ entry on the [List View](#backstage.content.list):
 
 The content will be deleted instantly.
 
-## Searching Content {#backstage.content.searching}
+## Searching Content
 
 Vae has a powerful search engine that lets you easily search your
 content. Access the search engine by hovering over the Search tab at the

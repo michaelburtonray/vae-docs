@@ -17,7 +17,7 @@ conceptualize the newsletter process by starting with the
 [Lists](#backstage.newsletter.lists) subtab, so that is how we proceed
 in this manual.
 
-## Lists {#backstage.newsletter.lists}
+## Lists
 
 The Lists subtab allows you to manage Newsletter Lists. Clicking the
 Lists tab brings you to a list of all of your Newsletter lists. You can
@@ -72,7 +72,7 @@ The list will be deactivated immediately. All subscriber information,
 view/click tracking data, and past campaigns will be deleted and cannot
 be recovered.
 
-## List Dashboard {#backstage.newsletter.list}
+## List Dashboard
 
 Clicking the name of a list on the [Lists
 tab](#backstage.newsletter.lists) or [All
@@ -98,7 +98,7 @@ that URL on your website. The end part of this URL also makes up the
 code necessary if you want to enable subscribing to this list via the
 `<v:newsletter>` tag.
 
-## Subscribers {#backstage.newsletter.subscribers}
+## Subscribers
 
 Clicking the Manage Subscribers link on the [List
 Dashboard](#backstage.newsletter.list) opens the Subscribers tab. It
@@ -166,7 +166,7 @@ the list.
 
 ![](/images/screenshots/content_management/newsletter_list_delete_button.png)
 
-## Campaigns {#backstage.newsletter.campaigns}
+## Campaigns
 
 The Campaigns tab is the core of the Vae newsletter system. A campaign
 is one newsletter that is sent out to a list or group of targeted
@@ -376,7 +376,7 @@ From the Campaign Impact page, you may go back to the list by clicking
 the back button on your browser or by clicking the Campaignstab in the
 tab navigation bar.
 
-## Templates {#backstage.newsletter.templates}
+## Templates
 
 Newsletter templates are HTML-based templates that are used to style
 newsletters. Generally these templates are created by the same designer

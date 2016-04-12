@@ -10,7 +10,7 @@ website designer. The subtabs of the Site tab control how content is
 organized into structures, the Vae interface looks and feels, and how
 content is published.
 
-## Content Management Tab {#backstage.site.content_management}
+## Content Management Tab
 
 The Content Management tab is the place where you create and manage the
 Structures that hold content on your website. To get a better
@@ -18,7 +18,7 @@ understanding of what structures are, and how they work, please see
 [Content Management](#content_management) section of the Vae Guide for
 Developers.
 
-### Structures {#backstage.site.content_management.structures}
+### Structures
 
 The Content Management tab follows a slightly different layout from the
 other tabs. On the left is a navigation box called Structures that lets
@@ -61,7 +61,7 @@ Simply drag the structures up and down by holding clicking and dragging
 your mouse on the three grey horizontal lines at the right of the
 structure name.
 
-### Creating Root-Level Structures {#backstage.site.content_management.creating_rootlevel}
+### Creating Root-Level Structures
 
 To add a structure to the root-level of your website, click the Add
 button under the Structures navigation box while viewing the root-level:
@@ -115,7 +115,7 @@ Then proceed with the steps under the [Structure
 Properties](#backstage.site.content_management.properties) section of
 the guide.
 
-### Creating Child Structures {#backstage.site.content_management.creating_children}
+### Creating Child Structures
 
 To add a child structure to a Collection or Section, click the Add
 button under the Structures navigation box while viewing the Collection
@@ -135,7 +135,7 @@ Properties box. Then proceed with the steps under the [Structure
 Properties](#backstage.site.content_management.properties) section of
 the guide.
 
-### Structure Properties {#backstage.site.content_management.properties}
+### Structure Properties
 
 The Structure Properties box is displayed when you click on a structure
 in the Structures navigation box or when you select a new structure to
@@ -346,7 +346,7 @@ they are not available in all situations:
     structure is opened. If not checked, the external page will be
     opened in a new window.
 
-### Operations {#backstage.site.content_management.operations}
+### Operations
 
 Operations are one-time actions that you can perform on the entries in a
 Collection. They are useful for performing migrations or clearing out
@@ -378,7 +378,7 @@ This is useful for clearing out test data.
 To navigate back to the Structure Properties page, click the Edit link
 at the top right corner of the Operations.
 
-## Interface Tab {#backstage.site.interface}
+## Interface Tab
 
 The Interface tab is the place where you can customize the Vae backstage
 interface. You can change the website name, upload a logo, set colors,
@@ -464,7 +464,7 @@ There are three checkboxes on the Interface tab that control whether
 other top-level tabs are shown in the backstage. Toggle these checkboxes
 on and off to show or hide the Customers, Newsletter, or Store tabs.
 
-## Domains Tab {#backstage.site.domains}
+## Domains Tab
 
 The Domains Tab is where you can configure Vae to serve your website on
 one or more domain names or subdomains.
@@ -558,7 +558,7 @@ Apps button to complete the process.
 > We are not able to provide any technical support for Google Apps
 > beyond the enable/disable tools provided in the Vae backstage.
 
-## FTP/Subversion Tab {#backstage.site.ftp}
+## FTP/Subversion Tab
 
 The FTP/Subversion Tab shows you the FTP and Subversion information for
 your website. From this page, you may also change your FTP password and
@@ -588,7 +588,7 @@ which branch is the active branch to deploy from. To do that, click the
 path into the box. Click Save Subversion Settings to make the change
 permanent.
 
-## MySQL Tab {#backstage.site.mysql}
+## MySQL Tab
 
 MySQL is a server-side database system that is used by third-party
 applications such as WordPress and custom applications. They are an
@@ -624,7 +624,7 @@ database will be deactivated immediately. After you delete a database,
 all data will be deleted and any attempts to access that database will
 result in an error.
 
-## Optimization Tab {#backstage.site.optimization}
+## Optimization Tab
 
 The Optimization Tab contains settings that control how your image
 content is optimized for the web. The page displays a Optimization
