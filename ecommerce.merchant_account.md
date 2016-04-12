@@ -3,7 +3,7 @@ layout: docs
 title: "Accepting Real Money: Integrating an Internet Merchant Account"
 ---
 
-# Accepting Real Money: Integrating an Internet Merchant Account
+# Integrating an Internet Merchant Account
 
 ## Supported Services
 
