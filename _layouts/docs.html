@@ -1,8 +1,10 @@
 ---
 sections:
-- title: Getting Started
+- title: About Vae
   slug: ''
   child_items:
+  - title: Getting Started
+    slug: ''
   - title: "No Assumptions, No Hacking"
     slug: no_hacking
   - title: Separation of Content and Layout
@@ -590,21 +592,16 @@ sections:
           <div class="box">
             <div class="btm">
               <h3>Vae Guide</h3>
-              <ul class="parent-menu collapse">
+              <ul>
                 {% for section in page.sections %}
-                {% capture parent_slug %}/{{ section.slug }}{% if section.slug != '' %}/{% endif %}{% endcapture %}
-                <li class="parent-item collapse {% if page.url == '/' and section.slug == '' %}active{% else %}{% if section.slug != '' and page.url contains parent_slug %}active{% endif %}{% endif %}">
-                  {% if section.slug != 'support' %}
-                  <a class="parent-link" href="/{{ section.slug }}{% if section.slug != '' %}/{% endif %}">
-                  {% else %}
-                  <a class="parent-link" href="/contact/">
-                  {% endif %}
-                  {{ section.title }}</a>
+                <li>
+                  <a href="/{{ section.slug }}{% if section.slug != '' %}/{% endif %}">
+                    {{ section.title }}
+                  </a>
                   {% if section.child_items %}
-                  <ul class="child-menu collapse" style="{% if section.slug != '' and page.url contains parent_slug %}display: block;{% endif %}">
+                  <ul>
                     {% for child in section.child_items %}
-                    {% capture child_slug %}/{{ child.slug }}{% if child.slug != '' %}/{% endif %}{% endcapture %}
-                    <li class="child-item"><a class="child-link {% if page.url == child_slug %}active{% endif %}" href="/{{ child.slug }}{% if child.slug != '' %}/{% endif %}"><span>&#10095;</span> {{ child.title }}</a></li>
+                    <li><a href="/{{ child.slug }}{% if child.slug != '' %}/{% endif %}">{{ child.title }}</a></li>
                     {% endfor %}
                   </ul>
                   {% endif %}
