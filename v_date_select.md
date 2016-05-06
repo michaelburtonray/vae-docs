@@ -32,6 +32,10 @@ OR:
     Please see the [Validating Forms](/vaeml_form_validation/) page for
     more information.
 
+-   `years_future` - if set to an integer greater than 0, we will display
+    that number of future years as available for selection.  If omitted,
+    the current year will be the maximum year available for selection.
+
 Since this tag generates some HTML `<select>` tags, you may also use any
 standard HTML attributes that are valid in the `<select>` tag. These
 will be passed through unchanged into the generated tags.
