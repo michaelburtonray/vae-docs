@@ -1,6 +1,11 @@
 # Vae Docs
 
-This is the Jekyll version of Vae documentation.
+This is the documentation for Vae Platform.
+
+
+## License
+
+Copyright (c) 2009-2016 Action Verb, LLC.  All rights reserved.
 
 
 ## Previewing Documentation Locally
@@ -16,6 +21,9 @@ Start Jekyll server using local config
 You can now access the site at [http://localhost:4000](http://localhost:4000/).
 
 
-## Reference
+## Submitting Pull Requests and Issues
 
-* [Liquid commands](https://github.com/shopify/liquid/wiki/liquid-for-designers)
+Issues and pull requests are welcome, but we much prefer pull requests.
+Now that vae_remote is open source, we are particularly interested in
+folks helping us ensure that the VaeML and PHP function documentation is
+complete.
