@@ -137,6 +137,12 @@ structure of entry number `12345`:
 <v:text path="12345/name" />
 {% endhighlight %}
 
+You can also pull in a collection of IDs:
+
+{% highlight html %}
+<v:text path=“/locations[@id=1 or @id=2 or @id=3]” />
+{% endhighlight %}
+
 You can pull in data from request (GET or POST) parameters by simply
 using a dollar sign (`$`) and the name of the parameter in your path
 expression. This will be useful in cases involving finding a specific
